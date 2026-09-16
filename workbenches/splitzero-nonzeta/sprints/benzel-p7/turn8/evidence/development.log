@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "counts": {
+    "original_receiving_generator_checks": 8946,
+    "positive_core_partitions": 16,
+    "core_new_bone_placements": 2982,
+    "signed_class_left_inverses": 16,
+    "shared_family_comparisons": 36,
+    "independent_region_enumerations": 24,
+    "full_tilings_with_reflections": 48,
+    "full_tile_placements_with_reflections": 104952,
+    "dual_cell_coefficients": 7848,
+    "exact_kernel_duals": 1086,
+    "kernel_comparisons": 8,
+    "augmented_transition_checks": 64,
+    "split_scalar_cochain_checks": 64,
+    "positive_augmented_cycles": 8,
+    "rejection_tests": 10
+  },
+  "seconds": 3.344
+}

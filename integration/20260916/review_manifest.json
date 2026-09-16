@@ -1,0 +1,14 @@
+[
+  {
+    "path": "integration/20260916/reviews/benzel/AUDIT.md",
+    "original_sha256": "b1de10540876bb61a83b45b908a32c490fb6a12e3556855fcd6fe89ef9abcad5",
+    "public_sha256": "b1de10540876bb61a83b45b908a32c490fb6a12e3556855fcd6fe89ef9abcad5",
+    "privacy_substitution": false
+  },
+  {
+    "path": "integration/20260916/reviews/benzel/independent-checks.json",
+    "original_sha256": "9a4d84dac89206b48e73eea4ddbc4d2a695bc552c90bec38abe10eb248d1eff8",
+    "public_sha256": "9a4d84dac89206b48e73eea4ddbc4d2a695bc552c90bec38abe10eb248d1eff8",
+    "privacy_substitution": false
+  }
+]

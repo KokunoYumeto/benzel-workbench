@@ -1,0 +1,121 @@
+{
+  "status": "PASS",
+  "date": "2026-09-16",
+  "repository": "KokunoYumeto/mathematics-commons-pilot",
+  "parent_commit": "6fe012fd1facd564e07e1fa052ad219debdd8278",
+  "commit": "20cb022dcfda7f37b3adec13b5619be8f13be3e8",
+  "root_tree": "95eb8e58535ac7641cce4109948df6dac93393e6",
+  "source_subtree": "624e67c9a650ade859c0b4a18a79dad93e196119",
+  "readback_endpoint": "https://api.github.com/repos/KokunoYumeto/mathematics-commons-pilot/git/trees/624e67c9a650ade859c0b4a18a79dad93e196119?recursive=1",
+  "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn8",
+  "truncated": false,
+  "file_count": 16,
+  "files": [
+    {
+      "path": "EXPLORATION.md",
+      "sha256": "9678bf848f5f89a4f197bada869bb3956054929b39ca5611ad95e4749c5a1eb7",
+      "git_blob": "0ca32ff350a7b5c126d740bb00c677753dcb81b4",
+      "bytes": 2810
+    },
+    {
+      "path": "PROOF.md",
+      "sha256": "f8662d8f26971accf8c27e377b2ba77b72a25018402ba70f52703869158d6ed9",
+      "git_blob": "660add60eeb556a423ce05be0f8c053549ca0100",
+      "bytes": 26395
+    },
+    {
+      "path": "README.md",
+      "sha256": "88b69a4ac99d5e36f6cbc013353e30c2b50f33ffbcbec473c18ce4a67bbfb377",
+      "git_blob": "c2cd00bb9631738f6ca4a6afdd9d95631efbcdb2",
+      "bytes": 2987
+    },
+    {
+      "path": "SOURCES.json",
+      "sha256": "610ae993d876b8722c2138d8aa252b77bc61a2b649be4574bc1e5484d5c6ead1",
+      "git_blob": "f23253deb87688f49f920cd26e673b6d328d9794",
+      "bytes": 2346
+    },
+    {
+      "path": "STATE.json",
+      "sha256": "842c4ba6943db7cf210c6a283369daaf2e25238a1c7c007ae775ae78fce8f4a6",
+      "git_blob": "821e60aa6840b28224423fdc7a96c614b9602246",
+      "bytes": 1725
+    },
+    {
+      "path": "bivariate_certificate.py",
+      "sha256": "d4582ca9bd261e30d77a199c59c19b20161c0c619c21aaf1e5bb16523955fb72",
+      "git_blob": "e02e2db76436d954ab78ace8b363c9bc64ec3ccd",
+      "bytes": 7019
+    },
+    {
+      "path": "cohomology.py",
+      "sha256": "023b155faa886bfcd794864da1e8bc51ff1c77455f020c63a322366dadac94db",
+      "git_blob": "d98282d1b22a200541b2749aadf9b2e9a768a1f5",
+      "bytes": 8124
+    },
+    {
+      "path": "construction.py",
+      "sha256": "58c2260a2e96690e58eb3ded86251158329160514ca17ee664c6390d3969d7e4",
+      "git_blob": "92b5012670e464404c039db753350d45fc2fd1ac",
+      "bytes": 3592
+    },
+    {
+      "path": "families.json",
+      "sha256": "7032c6fc5e4e3be9542f5b5712d5eb071f452d5348d5b045597c24bae806488a",
+      "git_blob": "e6c995adb7e070d1e2d06f11afac90d3002c6968",
+      "bytes": 7057
+    },
+    {
+      "path": "families.py",
+      "sha256": "7b224c838997d1aaf78505e51a132249f1dddc699a6149ebe122a96ae7dd793f",
+      "git_blob": "b845d5a65ecaa4cb2817ab13c0d46c18c66bb3d1",
+      "bytes": 1712
+    },
+    {
+      "path": "geometry.py",
+      "sha256": "3db084d34b97704f9c45cb4193137d127f8f0399345e19e5411af7afc0fe6eed",
+      "git_blob": "3c9fb7926d2a0784cf1d6c72b3ba059479f1adce",
+      "bytes": 4995
+    },
+    {
+      "path": "packing.py",
+      "sha256": "d02b67bb20dac716b2d134978e3b0283a0d72613c32324eef3cced4da0063458",
+      "git_blob": "924cd9ff7ef205845805e3451f6442f8f9a74b41",
+      "bytes": 4937
+    },
+    {
+      "path": "recorded-checks.json",
+      "sha256": "35e49b9ed60597542a37b50634c3857be88b49ee08b95bb1c5df2c2f745ddc0a",
+      "git_blob": "5ebe46bf83621a6401363c6a0af4f1a99bd66e37",
+      "bytes": 4400
+    },
+    {
+      "path": "sources/turn6-PROOF.md",
+      "sha256": "271a3bc14d627c37f5d8e7933f6d6c13a757bcc22b6b3e0913d8078232228a8c",
+      "git_blob": "d91b9b0a15a7a3e6845fe846fa53f16e0a06b1f3",
+      "bytes": 22947
+    },
+    {
+      "path": "transports.py",
+      "sha256": "be770ea9228df54b2e0b8e7e576d31ae29901a4281d55315aefe6de8b66405ae",
+      "git_blob": "5693114ee1286b5733f0048c5b97faaaced5bdf2",
+      "bytes": 1870
+    },
+    {
+      "path": "verify.py",
+      "sha256": "c49b48a7c72276d8002663243aec9f4f1d6d556fda76ab7cf5efaa2ff627d8e4",
+      "git_blob": "62fcbc87d84f72c93da74f65fa3d45dc629d72b4",
+      "bytes": 11508
+    }
+  ],
+  "pr": 26,
+  "url": "https://github.com/KokunoYumeto/mathematics-commons-pilot/pull/26",
+  "draft": true,
+  "merged": false,
+  "changed_files": 16,
+  "additions": 3060,
+  "deletions": 0,
+  "method": "GitHub connector recursive subtree readback, original SHA-1 blob identities independently recalculated from exact tested local bytes; compare-commits confirms additive scope.",
+  "parent_progress_comment_id": 5702931441,
+  "morphism_addendum_comment_id": 5702984100
+}

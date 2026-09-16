@@ -1,0 +1,377 @@
+{
+  "status": "PASS",
+  "main": {
+    "rational_terms": 222,
+    "denominator_factors": [
+      [
+        [
+          0,
+          3
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          -2
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          -4
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          -1
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          2
+        ],
+        1
+      ],
+      [
+        [
+          3,
+          -3
+        ],
+        1
+      ],
+      [
+        [
+          3,
+          0
+        ],
+        1
+      ],
+      [
+        [
+          4,
+          -2
+        ],
+        1
+      ]
+    ],
+    "expanded_terms_before_addition": 28128,
+    "remaining_numerator_terms": 0,
+    "proof_domain": "k>=2, m>=3*k+2, both integers; formal identity verified before specialization"
+  },
+  "k1": {
+    "rational_terms": 39,
+    "denominator_factors": [
+      [
+        [
+          1,
+          -2
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          -1
+        ],
+        1
+      ]
+    ],
+    "expanded_terms_before_addition": 510,
+    "remaining_numerator_terms": 0,
+    "proof_domain": "k=1, every integer m>=5; no negative index length"
+  },
+  "exact_index_bounds": [
+    {
+      "group": "source",
+      "index": 0,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        1
+      ],
+      "J_lower_bound_in_M_K_constant": [
+        0,
+        2,
+        6
+      ]
+    },
+    {
+      "group": "source",
+      "index": 1,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        1
+      ],
+      "J_lower_bound_in_M_K_constant": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "group": "source",
+      "index": 2,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        1
+      ],
+      "J_lower_bound_in_M_K_constant": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "group": "source",
+      "index": 3,
+      "I_in_M_K_constant": [
+        0,
+        2,
+        5
+      ]
+    },
+    {
+      "group": "source",
+      "index": 4,
+      "I_in_M_K_constant": [
+        1,
+        3,
+        6
+      ]
+    },
+    {
+      "group": "source",
+      "index": 5,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        1
+      ],
+      "J_lower_bound_in_M_K_constant": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "group": "corner",
+      "index": 0,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "group": "corner",
+      "index": 1,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        0
+      ],
+      "J_lower_bound_in_M_K_constant": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "group": "corner",
+      "index": 2,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        1
+      ],
+      "J_lower_bound_in_M_K_constant": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "group": "corner",
+      "index": 3,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "group": "corner",
+      "index": 4,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        1
+      ],
+      "J_lower_bound_in_M_K_constant": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "group": "corner",
+      "index": 5,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        1
+      ],
+      "J_lower_bound_in_M_K_constant": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "group": "corner",
+      "index": 6,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        2
+      ],
+      "J_lower_bound_in_M_K_constant": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "group": "corner",
+      "index": 7,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "group": "corner",
+      "index": 8,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        1
+      ],
+      "J_lower_bound_in_M_K_constant": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "group": "corner",
+      "index": 9,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "group": "corner",
+      "index": 10,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "group": "corner",
+      "index": 11,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "group": "corner",
+      "index": 12,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        0
+      ],
+      "J_lower_bound_in_M_K_constant": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "group": "corner",
+      "index": 13,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        0
+      ],
+      "J_lower_bound_in_M_K_constant": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "group": "corner",
+      "index": 14,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "group": "long",
+      "index": 0,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        2
+      ],
+      "J_lower_bound_in_M_K_constant": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "group": "deleted",
+      "index": 0,
+      "I_in_M_K_constant": [
+        0,
+        1,
+        2
+      ]
+    }
+  ]
+}

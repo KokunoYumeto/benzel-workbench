@@ -1,0 +1,391 @@
+{
+  "status": "PASS",
+  "date": "2026-09-16",
+  "turn": 8,
+  "python_optimized": false,
+  "symbolic_certificate": {
+    "status": "PASS",
+    "main": {
+      "rational_terms": 222,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -4
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            4,
+            -2
+          ],
+          1
+        ]
+      ],
+      "expanded_terms_before_addition": 28128,
+      "remaining_numerator_terms": 0,
+      "proof_domain": "k>=2, m>=3*k+2, both integers; formal identity verified before specialization"
+    },
+    "k1": {
+      "rational_terms": 39,
+      "denominator_factors": [
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ]
+      ],
+      "expanded_terms_before_addition": 510,
+      "remaining_numerator_terms": 0,
+      "proof_domain": "k=1, every integer m>=5; no negative index length"
+    }
+  },
+  "finite_core_window": {
+    "k_min": 1,
+    "k_max": 4,
+    "m_values": "distinct values 3k+2,3k+3,4k+7,8k+11"
+  },
+  "counts": {
+    "original_receiving_generator_checks": 8946,
+    "positive_core_partitions": 16,
+    "core_new_bone_placements": 2982,
+    "signed_class_left_inverses": 16,
+    "shared_family_comparisons": 36,
+    "independent_region_enumerations": 24,
+    "full_tilings_with_reflections": 48,
+    "full_tile_placements_with_reflections": 104952,
+    "dual_cell_coefficients": 7848,
+    "exact_kernel_duals": 1086,
+    "kernel_comparisons": 8,
+    "augmented_transition_checks": 64,
+    "split_scalar_cochain_checks": 64,
+    "positive_augmented_cycles": 8,
+    "rejection_tests": 10
+  },
+  "kernel_comparisons": [
+    {
+      "m": 5,
+      "k": 1,
+      "old_bones": 18,
+      "new_bones": 18,
+      "closed_components": 0,
+      "kernel_rank": 18
+    },
+    {
+      "m": 8,
+      "k": 1,
+      "old_bones": 27,
+      "new_bones": 27,
+      "closed_components": 0,
+      "kernel_rank": 27
+    },
+    {
+      "m": 8,
+      "k": 2,
+      "old_bones": 69,
+      "new_bones": 69,
+      "closed_components": 0,
+      "kernel_rank": 69
+    },
+    {
+      "m": 11,
+      "k": 2,
+      "old_bones": 87,
+      "new_bones": 87,
+      "closed_components": 0,
+      "kernel_rank": 87
+    },
+    {
+      "m": 11,
+      "k": 3,
+      "old_bones": 150,
+      "new_bones": 150,
+      "closed_components": 0,
+      "kernel_rank": 150
+    },
+    {
+      "m": 14,
+      "k": 3,
+      "old_bones": 177,
+      "new_bones": 177,
+      "closed_components": 0,
+      "kernel_rank": 177
+    },
+    {
+      "m": 14,
+      "k": 4,
+      "old_bones": 261,
+      "new_bones": 261,
+      "closed_components": 0,
+      "kernel_rank": 261
+    },
+    {
+      "m": 17,
+      "k": 4,
+      "old_bones": 297,
+      "new_bones": 297,
+      "closed_components": 0,
+      "kernel_rank": 297
+    }
+  ],
+  "original_regions": [
+    {
+      "k": 1,
+      "m": 5,
+      "d": 5,
+      "h": 3,
+      "cells": 237
+    },
+    {
+      "k": 1,
+      "m": 5,
+      "d": 6,
+      "h": 8,
+      "cells": 1029
+    },
+    {
+      "k": 1,
+      "m": 5,
+      "d": 7,
+      "h": 14,
+      "cells": 2667
+    },
+    {
+      "k": 1,
+      "m": 7,
+      "d": 7,
+      "h": 3,
+      "cells": 324
+    },
+    {
+      "k": 1,
+      "m": 7,
+      "d": 8,
+      "h": 10,
+      "cells": 1674
+    },
+    {
+      "k": 1,
+      "m": 7,
+      "d": 9,
+      "h": 18,
+      "cells": 4428
+    },
+    {
+      "k": 2,
+      "m": 8,
+      "d": 8,
+      "h": 6,
+      "cells": 822
+    },
+    {
+      "k": 2,
+      "m": 8,
+      "d": 9,
+      "h": 14,
+      "cells": 2964
+    },
+    {
+      "k": 2,
+      "m": 8,
+      "d": 10,
+      "h": 23,
+      "cells": 6897
+    },
+    {
+      "k": 2,
+      "m": 10,
+      "d": 10,
+      "h": 6,
+      "cells": 981
+    },
+    {
+      "k": 2,
+      "m": 10,
+      "d": 11,
+      "h": 16,
+      "cells": 4005
+    },
+    {
+      "k": 2,
+      "m": 10,
+      "d": 12,
+      "h": 27,
+      "cells": 9594
+    },
+    {
+      "k": 3,
+      "m": 11,
+      "d": 11,
+      "h": 9,
+      "cells": 1758
+    },
+    {
+      "k": 3,
+      "m": 11,
+      "d": 12,
+      "h": 20,
+      "cells": 5898
+    },
+    {
+      "k": 3,
+      "m": 11,
+      "d": 13,
+      "h": 32,
+      "cells": 13098
+    },
+    {
+      "k": 3,
+      "m": 13,
+      "d": 13,
+      "h": 9,
+      "cells": 1989
+    },
+    {
+      "k": 3,
+      "m": 13,
+      "d": 14,
+      "h": 22,
+      "cells": 7335
+    },
+    {
+      "k": 3,
+      "m": 13,
+      "d": 15,
+      "h": 36,
+      "cells": 16731
+    },
+    {
+      "k": 4,
+      "m": 14,
+      "d": 14,
+      "h": 12,
+      "cells": 3045
+    },
+    {
+      "k": 4,
+      "m": 14,
+      "d": 15,
+      "h": 26,
+      "cells": 9831
+    },
+    {
+      "k": 4,
+      "m": 14,
+      "d": 16,
+      "h": 41,
+      "cells": 21270
+    },
+    {
+      "k": 4,
+      "m": 16,
+      "d": 16,
+      "h": 12,
+      "cells": 3348
+    },
+    {
+      "k": 4,
+      "m": 16,
+      "d": 17,
+      "h": 28,
+      "cells": 11664
+    },
+    {
+      "k": 4,
+      "m": 16,
+      "d": 18,
+      "h": 45,
+      "cells": 25839
+    }
+  ],
+  "rejection_tests": [
+    "invalid k",
+    "original parameter too small",
+    "nonintegral original parameter",
+    "absent scalar with amplitude",
+    "duplicate matching generator",
+    "missing replacement bone",
+    "nonzero original cell in claimed identity",
+    "changed parameter-family anchor",
+    "tile outside its support",
+    "charge at absence"
+  ],
+  "input_sha256": {
+    "bivariate_certificate.py": "aa727694d58c22d4551637b84d8099e64e24c80f43b6400e87484165fc17b144",
+    "cohomology.py": "023b155faa886bfcd794864da1e8bc51ff1c77455f020c63a322366dadac94db",
+    "packing.py": "d02b67bb20dac716b2d134978e3b0283a0d72613c32324eef3cced4da0063458",
+    "verify.py": "eb4bbaff78a7b32bf1df375128b782f7ce75b4708e4dc971c01e4a7f621dd346",
+    "geometry.py": "3db084d34b97704f9c45cb4193137d127f8f0399345e19e5411af7afc0fe6eed",
+    "families.json": "7032c6fc5e4e3be9542f5b5712d5eb071f452d5348d5b045597c24bae806488a",
+    "construction.py": "58c2260a2e96690e58eb3ded86251158329160514ca17ee664c6390d3969d7e4",
+    "families.py": "7b224c838997d1aaf78505e51a132249f1dddc699a6149ebe122a96ae7dd793f"
+  },
+  "seconds": 3.344,
+  "scope": "Exact formal Laurent identity for unbounded integer k>=1,m>=3k+2, together with finite positive, original-region, integer-kernel and Split-Zero replays. Full P7, other two deletion residues, novelty and independent review are not claimed."
+}

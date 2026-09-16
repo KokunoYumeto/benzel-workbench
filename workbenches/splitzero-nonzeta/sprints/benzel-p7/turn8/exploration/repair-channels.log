@@ -1,0 +1,30 @@
+1 1 0 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 486, 'cells': 219, 'changed': 7, 'positive': True}
+1 1 2 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 563, 'cells': 243, 'changed': 13, 'positive': True}
+1 2 0 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 596, 'cells': 261, 'changed': 10, 'positive': True}
+1 2 1 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 666, 'cells': 285, 'changed': 4, 'positive': True}
+1 2 2 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 739, 'cells': 309, 'changed': 13, 'positive': True}
+2 1 0 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 1473, 'cells': 585, 'changed': 11, 'positive': True}
+2 1 2 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 1586, 'cells': 621, 'changed': 21, 'positive': True}
+2 2 0 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 1640, 'cells': 645, 'changed': 20, 'positive': True}
+2 2 1 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 1747, 'cells': 681, 'changed': 10, 'positive': True}
+2 2 2 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 1855, 'cells': 717, 'changed': 23, 'positive': True}
+3 1 0 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 2971, 'cells': 1122, 'changed': 15, 'positive': True}
+3 1 2 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 3120, 'cells': 1170, 'changed': 30, 'positive': True}
+3 2 0 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 3201, 'cells': 1203, 'changed': 31, 'positive': True}
+3 2 1 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 3344, 'cells': 1251, 'changed': 15, 'positive': True}
+3 2 2 {'status': 1, 'message': 'Time limit reached. (HiGHS Status 13: Time limit reached)', 'variables': 3488, 'cells': 1299, 'changed': 34, 'positive': True}
+4 1 0 {'status': 1, 'message': 'Time limit reached. (HiGHS Status 13: Time limit reached)', 'variables': 4984, 'cells': 1830, 'changed': 19, 'positive': True}
+4 1 2 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 5169, 'cells': 1890, 'changed': 39, 'positive': True}
+4 2 0 {'status': 1, 'message': 'Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)', 'variables': 5270, 'cells': 1929}
+4 2 1 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 5449, 'cells': 1989, 'changed': 19, 'positive': True}
+4 2 2 {'status': 1, 'message': 'Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)', 'variables': 5629, 'cells': 2049}
+5 1 0 {'status': 1, 'message': 'Time limit reached. (HiGHS Status 13: Time limit reached)', 'variables': 7504, 'cells': 2706, 'changed': 23, 'positive': True}
+5 1 2 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 7725, 'cells': 2778, 'changed': 47, 'positive': True}
+5 2 0 {'status': 1, 'message': 'Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)', 'variables': 7844, 'cells': 2823}
+5 2 1 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 8059, 'cells': 2895, 'changed': 23, 'positive': True}
+5 2 2 {'status': 1, 'message': 'Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)', 'variables': 8275, 'cells': 2967}
+6 1 0 {'status': 1, 'message': 'Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)', 'variables': 10541, 'cells': 3756}
+6 1 2 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 10798, 'cells': 3840, 'changed': 55, 'positive': True}
+6 2 0 {'status': 1, 'message': 'Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)', 'variables': 10935, 'cells': 3891}
+6 2 1 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 11186, 'cells': 3975, 'changed': 27, 'positive': True}
+6 2 2 {'status': 1, 'message': 'Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)', 'variables': 11438, 'cells': 4059}

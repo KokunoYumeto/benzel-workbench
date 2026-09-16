@@ -1,0 +1,8 @@
+1 1 25 {'status': 1, 'message': 'Time limit reached. (HiGHS Status 13: Time limit reached)', 'variables': 2325, 'cells': 990, 'changed': 58, 'positive': True}
+1 2 25 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 3117, 'cells': 1260, 'changed': 66, 'positive': True}
+2 1 40 {'status': 1, 'message': 'Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)', 'variables': 7257, 'cells': 2772}
+2 2 40 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'variables': 8535, 'cells': 3204, 'changed': 117, 'positive': True}
+3 1 55 {'status': 1, 'message': 'Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)', 'variables': 14862, 'cells': 5445}
+3 2 55 {'status': 1, 'message': 'Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)', 'variables': 16626, 'cells': 6039}
+4 1 70 {'status': 1, 'message': 'Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)', 'variables': 25140, 'cells': 9009}
+4 2 70 {'status': 1, 'message': 'Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)', 'variables': 27390, 'cells': 9765}

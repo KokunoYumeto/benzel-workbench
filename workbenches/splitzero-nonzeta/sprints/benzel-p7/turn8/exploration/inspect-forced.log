@@ -1,0 +1,12 @@
+1 9 components [(9, 3, 3)]
+exact POSITIVE 3
+2 45 components [(45, 10, 10)]
+exact POSITIVE 15
+3 87 components [(87, 14, 16)]
+exact POSITIVE 29
+4 144 components [(144, 18, 22)]
+exact POSITIVE 48
+5 216 components [(216, 22, 28)]
+exact POSITIVE 72
+6 303 components [(303, 26, 34)]
+exact POSITIVE 101
