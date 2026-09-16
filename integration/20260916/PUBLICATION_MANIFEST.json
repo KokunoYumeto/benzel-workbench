@@ -6,6 +6,10 @@
       "sha256": "9c0acd7927c63955fe792f1eb1468e9b9f6dd1e1aa89f40f2132d2199c559825",
       "bytes": 2893
     },
+    "integration/20260916/HISTORICAL_LINK_REPAIR.md": {
+      "sha256": "82a003c482f1141d9707020c8de1234210bb6b61cdd61325edce241445b752f7",
+      "bytes": 573
+    },
     "integration/20260916/README.md": {
       "sha256": "736cb412a6d115dd4a7a242458453d2470dd5eebba865a02c6ba3b5febfbc33b",
       "bytes": 1078
@@ -67,8 +71,8 @@
       "bytes": 1953
     },
     "workbenches/splitzero-nonzeta/sprints/benzel-p7/history/turn2-incoming-README.md": {
-      "sha256": "d297acbb8a9e8122d2ecaf22a20f585d3dc16af8d83d9f4201c94e27cef96d14",
-      "bytes": 6445
+      "sha256": "a8802d8188e30051653fe9352b57a9138b97f0ebfd8088239ecdbf25be9193f6",
+      "bytes": 6460
     },
     "workbenches/splitzero-nonzeta/sprints/benzel-p7/history/turn2-incoming-STATE.json": {
       "sha256": "5baff4727d3923a779703d9802589953a0128e6ac9c98b1e551bfec324de2d9f",
