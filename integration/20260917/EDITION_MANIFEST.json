@@ -1,0 +1,279 @@
+{
+  "edition": "Benzel cumulative research through turn 9",
+  "date": "2026-09-17",
+  "canonical_repository": "https://github.com/KokunoYumeto/benzel-workbench",
+  "supplied_archive": {
+    "path": "archives/20260917/benzel-p7-cumulative-through-turn9.zip",
+    "bytes": 4763509,
+    "sha256": "7f26445b2c3df7bf29080ea1d0ea93b69d69dffcda72addff1c5e5e94dcd94f8",
+    "git_blob_sha1": "e6c082014c3ce660b62e06103cfcc138a4011d48"
+  },
+  "research_status": {
+    "turn9": "Research proof pending independent mathematical review",
+    "claimed_domain": "q=3k+1, k>=4, m>=3k+3, d>=m",
+    "full_problem7_resolved": false,
+    "new_lean_certificate": false,
+    "independent_review_completed": false,
+    "novelty_established": false
+  },
+  "integrity": {
+    "supplied_manifest_files": 1047,
+    "sha256_matched": 1047,
+    "missing": 0,
+    "extra": 0,
+    "note": "Windows separator-portable comparison; original supplied verifier preserved."
+  },
+  "reader": {
+    "pages": 100,
+    "source_pdf_present_in_supplied_zip": false,
+    "derivation": "Local LuaLaTeX typesetting repair; original source bytes preserved separately."
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6447,
+      "sha256": "ab9f1b06c6140b406c855b94ff05779aefc8b159d0f07365fb390f1841b0d3d7",
+      "git_blob_sha1": "fc0f6cfc4822aeddfb51bb8c2c4fa63456dfce71"
+    },
+    {
+      "path": "archives/20260917/benzel-p7-cumulative-through-turn9.zip",
+      "bytes": 4763509,
+      "sha256": "7f26445b2c3df7bf29080ea1d0ea93b69d69dffcda72addff1c5e5e94dcd94f8",
+      "git_blob_sha1": "e6c082014c3ce660b62e06103cfcc138a4011d48"
+    },
+    {
+      "path": "integration/20260917/README.md",
+      "bytes": 4673,
+      "sha256": "1963894880821dcb9164fd812809b329d22b49970a752f4e076cb98fd545dac3",
+      "git_blob_sha1": "f3445b64543a2f6ce029225fa282757a4d45d5eb"
+    },
+    {
+      "path": "integration/20260917/SUPPLIED_MANIFEST.sha256",
+      "bytes": 158229,
+      "sha256": "93bdbed54d111c124ee731558a025388031e3511cb11ddc40bd7142c780c3bd9",
+      "git_blob_sha1": "70fa953fa4e3e96d7129c21bdc7e4ba64afa28ba"
+    },
+    {
+      "path": "integration/20260917/SUPPLIED_README.md",
+      "bytes": 5509,
+      "sha256": "bdcd0ea459648c80a3c4307297bf88d1b42461107a6943feeffdfb54178cbd5a",
+      "git_blob_sha1": "acd8b0a41e5c6db5cf81635b77856f2d2e096b29"
+    },
+    {
+      "path": "integration/20260917/catalog/archives.json",
+      "bytes": 183301,
+      "sha256": "68359122f1729bfd18815219c94d44be8bc45fd79ee6f8720cd39bc171cfe314",
+      "git_blob_sha1": "1695ae91bee8951ed3220665d1fe5099eb19c7cf"
+    },
+    {
+      "path": "integration/20260917/catalog/proof-editions.json",
+      "bytes": 2814,
+      "sha256": "1b9de71eaca4156fe102d3ebf01384479fb813254dad90fb104baea11c1459a9",
+      "git_blob_sha1": "37b6012ff1bf7b10cd3caa35743e93bf4a815d8f"
+    },
+    {
+      "path": "integration/20260917/reader-verification.json",
+      "bytes": 751,
+      "sha256": "6fb4047c7d911fcc75b97273f0eb05cb863bdbff98a3144b757d1ba2a6908608",
+      "git_blob_sha1": "03f9fdfc053891a50146cb334b6917f1944af647"
+    },
+    {
+      "path": "integration/20260917/supplied-latex/Cumulative_Research_Record.tex",
+      "bytes": 260934,
+      "sha256": "caa19736e53da920ed0ae53bb6409a5053cedac93f6068f53bd4bb7012e40849",
+      "git_blob_sha1": "3c9e9b06e012924c7dccd55451fc9134f23737a6"
+    },
+    {
+      "path": "integration/20260917/supplied-latex/turn9.tex",
+      "bytes": 22778,
+      "sha256": "1b11d1cdf866948b37b1a39ac17e5413b121013311e50f307f5091a11a5bfda7",
+      "git_blob_sha1": "b6db01c7f3c561066e74f9004ae30dec9ca12c45"
+    },
+    {
+      "path": "readers/20260917/Cumulative_Research_Record.pdf",
+      "bytes": 498245,
+      "sha256": "537ad64f1fa735c5d8275cc124473c65f712625397137fe3f1d00b4e8231bfd7",
+      "git_blob_sha1": "0d23cf27f22e2381c4457dd14660243d76715dc5"
+    },
+    {
+      "path": "readers/20260917/Historical_Through_Turn8_Reader.pdf",
+      "bytes": 389438,
+      "sha256": "41f49c7e9fb9ef224c7fcbea44b34e86a1967c46b8cf09f14c39b8be2091790e",
+      "git_blob_sha1": "42c026cc0959524f3dd99babf3f9d564d67fe983"
+    },
+    {
+      "path": "readers/20260917/latex/Cumulative_Research_Record.tex",
+      "bytes": 262220,
+      "sha256": "10b7a9bad85e3025ae44ac4f0b3451a33f4562657a9457d2f887d3e56e9a7666",
+      "git_blob_sha1": "a8524bc77381dc725cccc44c95aeac3b267ba74d"
+    },
+    {
+      "path": "readers/20260917/latex/README.md",
+      "bytes": 786,
+      "sha256": "7d116728638dc423f085ebd6810acc8750ce207c97eb8e3c08af588e53998913",
+      "git_blob_sha1": "6d181ab87808ad6bcf29d92f38332a33d09e7ff7"
+    },
+    {
+      "path": "readers/20260917/latex/turn9.tex",
+      "bytes": 22764,
+      "sha256": "e6df378db16f823aa61d25238719ba721030c7860ee1b5336b44989138a66bfc",
+      "git_blob_sha1": "ac0ebfe065440bd81eb1bf3e6ea2aa842470d3a7"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/PROOF.md",
+      "bytes": 20695,
+      "sha256": "dc6a2a8502b60cb533599c0cebf13a6cca73569113a769a70f7eacbd32e6fea1",
+      "git_blob_sha1": "573b615d04928248be03570d5f8596d2a600473e"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/PROOF.tex",
+      "bytes": 25589,
+      "sha256": "bd370ddde8804e483b40d3eb2a312135e9b1b29db086765303cc096952bd9fc0",
+      "git_blob_sha1": "abd02596ff597dccd6b13fa8b9d049d210916074"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/README.md",
+      "bytes": 1719,
+      "sha256": "59755e4add64d8c7719ef68f998247b2fb8555ef996cc926baca3d5bca25b124",
+      "git_blob_sha1": "ee314b77ba25f7099215c5caff94a5f0bb6d536b"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/SOURCES.json",
+      "bytes": 1862,
+      "sha256": "96f7e7b2d481867ac21819e3060905cebc63bbb19d0e79832a627611978723dd",
+      "git_blob_sha1": "e6c7ef85b2e7044cd09b08f57fadfe42b0135e28"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/STATE.json",
+      "bytes": 556,
+      "sha256": "6aa21e32e540b2d8eefc8a208027791a19bea483f8751f7c7449f9507a645147",
+      "git_blob_sha1": "b4a68e3b405293871fa583745df52874a711cc5e"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/build_tables.py",
+      "bytes": 2603,
+      "sha256": "b63c871885542b148282223d4d4c986b1ef4549a2f65cd2e4d835d45f3a33ff0",
+      "git_blob_sha1": "e74323e3d4263790dbf860a10bc7ef80f54f71b7"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/core.py",
+      "bytes": 4240,
+      "sha256": "390eabe28ccd00432bc27f5e220ead8d8edc904054228485ebfa2e88ba5fa617",
+      "git_blob_sha1": "8ec48de89ab19fa5c6523a57f3ad81e8f44c1472"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/edits.json",
+      "bytes": 22338,
+      "sha256": "2094b76eb6cf9a52a9d7ddd5b34810dafc579bf11cd9613e220a563eb027c1cc",
+      "git_blob_sha1": "b7eff7584fbb1cb4683b5e7b7d7ed2be79221a54"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/evidence/certificate-generation.log",
+      "bytes": 103,
+      "sha256": "6249fb2ae876686fd8e091afe23204ecedbb6ddf1bd06f343a4e4ef611a23ff7",
+      "git_blob_sha1": "b45f452a37c6b00ff00ee91c7222d3f399928687"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/evidence/final-small-replay.json",
+      "bytes": 4647,
+      "sha256": "7b8ce08caa6a9a244ba8a26830c61f6e460b806aa185e3025990f71e45aabc3e",
+      "git_blob_sha1": "977b1d25ff9eeafb39453de5bb0dfb5cb3d5bba7"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/evidence/final-small-replay.log",
+      "bytes": 2697,
+      "sha256": "f2e81f352e4e5a08730b657a7fc39cdc593c7b3e0180205d9dc247ce8e7baf8b",
+      "git_blob_sha1": "9ea13f0c4ac4ffc05c2e86bbff90a464fab61091"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/evidence/normal.json",
+      "bytes": 10097,
+      "sha256": "aa852ab1eeede63e6eda53339e5337dfe89c9fdce92dd261e14087fc9d993555",
+      "git_blob_sha1": "051520f1654e7412a4de0c0c2d990c88b4b5128d"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/evidence/normal.log",
+      "bytes": 2702,
+      "sha256": "b72a5511715007654744251d83530dca9f88ebe701d9c85a6c642d4e9057bdc9",
+      "git_blob_sha1": "711c85598f441207c6b8a139a77eef9e6a579f5a"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/evidence/optimized.json",
+      "bytes": 10096,
+      "sha256": "882418af627df06a47e1d13b8fb2a030a56071da457199979fb9cfe07d8dd16e",
+      "git_blob_sha1": "9f885e130addac35d4fef6eb0ef666fa0bf97913"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/evidence/optimized.log",
+      "bytes": 2701,
+      "sha256": "9b263c59e2fa22fe9b1403153a9adfc16dbf5bdbbdf92d26c0c4d22a23feab88",
+      "git_blob_sha1": "d24f678032dd332629c757322cbdbb78d435a0fa"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/evidence/ownership-errors.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/evidence/ownership.json",
+      "bytes": 113,
+      "sha256": "ee68364a5f5fbf7241af0de67b4e0c8430ae617378d41d3cb1f3c14fe69073b1",
+      "git_blob_sha1": "ad6ca14aa295fa5aa51b80a328af25624836490d"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/evidence/symbolic-errors.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/evidence/symbolic.json",
+      "bytes": 1712,
+      "sha256": "3bf9250b789bad2005d72e8b8469dce648097262467eb311834425a0ae2f8bfe",
+      "git_blob_sha1": "a487c8b3894b946cbf68d0979849fff88c82f4cd"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/generate_ownership_certificates.py",
+      "bytes": 1095,
+      "sha256": "2f5f6ccaeee6a5f577912a6f74a4b6983c5278a93c2be103521457e640fc9bd3",
+      "git_blob_sha1": "bf8245fd05d336432614e4326d8e7e5a464dd06e"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/ownership-certificates.json",
+      "bytes": 57211,
+      "sha256": "dc0cca78eb3b72d3aeb13bbaa1a6720f2498e7d361a69d746e93305ca977c9b4",
+      "git_blob_sha1": "a75d90c2c34f4822b14d414ff870f184dca170d2"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/ownership.py",
+      "bytes": 5423,
+      "sha256": "cbaea53b902341a622471811ae1c275af87ca380df43e3b31ea67b6c208bcefe",
+      "git_blob_sha1": "88eb103f16d64360721b861ff3c85cba78c6527a"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/recorded-checks.json",
+      "bytes": 6732,
+      "sha256": "f52d2d825145b719376c0a8231899aa92cf62d8afac76f7eaf087696994a9c85",
+      "git_blob_sha1": "44eb1182de06d1ddc9e4afe46237e19bbc255521"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/source_table.py",
+      "bytes": 3454,
+      "sha256": "f998227f5a62151ddcf839ecb5c84e5a2e74141cdcc4c55c74f5202eb699a4e2",
+      "git_blob_sha1": "312ff37b90b5d43db505c2ae07f34b512fb9805c"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/symbolic_certificate.py",
+      "bytes": 1202,
+      "sha256": "eb4a063ef2ccd787be10bc84085ae302ad1e5d812531eb1cea74152f0751aa4c",
+      "git_blob_sha1": "4042a021d40791224178fb7b313ce9e1d2dfce5e"
+    },
+    {
+      "path": "workbenches/splitzero-nonzeta/sprints/benzel-p7/turn9/verify.py",
+      "bytes": 4309,
+      "sha256": "650990f3000a54098de28cd5bf8e54d5918713904f51ceccede1425b4a1bfbc6",
+      "git_blob_sha1": "41dc95916de6afdd50335c794993b007fa66cd2d"
+    }
+  ]
+}

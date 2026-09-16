@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-17",
+  "sprint_turn": 9,
+  "parent_commit": "20cb022dcfda7f37b3adec13b5619be8f13be3e8",
+  "target": "Original Propp Problem 7",
+  "full_target_status": "NOT_RESOLVED_BY_THIS_WORK",
+  "claimed_constructed_domain": "k>=4,m>=3k+3,d>=m,q=3k+1",
+  "scope": "Original type-103 tiling of V(d+3h,2d+3h), Delta=binom(m,2)-q, h=binom(d,2)-Delta",
+  "independent_review": false,
+  "lean_build": false,
+  "novelty_established": false,
+  "next_calculation": "The unbounded q=3k+2 positive endpoint, retaining all original sources and asymmetry."
+}

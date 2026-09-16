@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-17",
+  "artifact": "readers/20260917/Cumulative_Research_Record.pdf",
+  "sha256": "537ad64f1fa735c5d8275cc124473c65f712625397137fe3f1d00b4e8231bfd7",
+  "bytes": 498245,
+  "pages": 100,
+  "extracted_words": 35786,
+  "engine": "LuaLaTeX, installed MiKTeX",
+  "all_page_text_bounds": "PASS",
+  "replacement_or_black_square_glyphs": 0,
+  "visually_inspected_pages": [1, 2, 3, 93, 94, 95, 96, 97, 98, 99, 100],
+  "chapter_and_contents_numbering": "PASS: turn 9 is chapter 14",
+  "source_table_continuation": "PASS: repeated header and complete rows",
+  "clipping_overlap_or_missing_content_on_inspected_pages": false,
+  "scope": "Typesetting and layout check only. The turn-9 mathematical independent-review status remains pending."
+}

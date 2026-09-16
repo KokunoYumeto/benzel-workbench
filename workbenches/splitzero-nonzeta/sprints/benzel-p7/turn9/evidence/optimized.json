@@ -1,0 +1,568 @@
+{
+  "status": "PASS",
+  "python_optimized": true,
+  "domain": "k>=4,m>=3k+3,d>=m; q=3k+1",
+  "symbolic": {
+    "status": "PASS",
+    "domain": "All integers k>=4, m>=3k+3; no finite cutoff",
+    "scaffold_identity": {
+      "rational_terms": 259,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -4
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            4,
+            -2
+          ],
+          1
+        ]
+      ],
+      "expanded_terms_before_addition": 31242,
+      "remaining_numerator_terms": 0,
+      "proof_domain": "k>=2, m>=3*k+2, both integers; formal identity verified before specialization"
+    },
+    "endpoint_transport_identity": {
+      "rational_terms": 115,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ]
+      ],
+      "expanded_terms_before_addition": 1896,
+      "remaining_numerator_terms": 0,
+      "proof_domain": "k>=2, m>=3*k+2, both integers; formal identity verified before specialization"
+    },
+    "residual_cells": 18,
+    "edit_groups": 11,
+    "logical_receipt": "Original cell Laurent coefficients vanish before m or k is specialized. Exact affine source certificates supply positivity."
+  },
+  "source_ownership": {
+    "original_generator_identities": 33,
+    "atomic_old_families": 33,
+    "obligations": 677,
+    "status": "PASS"
+  },
+  "seconds": 9.444,
+  "counts": {
+    "positive_cores": 21,
+    "old_generator_receivers": 2016,
+    "edit_groups_expanded": 777,
+    "full_tilings_with_reflections": 84,
+    "full_tile_placements_with_reflections": 716016,
+    "local_homotopy_identities": 12,
+    "rejection_tests": 4
+  },
+  "finite_k_range": [
+    4,
+    10
+  ],
+  "cases": [
+    {
+      "k": 4,
+      "m": 15,
+      "d": 15,
+      "h": 13,
+      "a": 54,
+      "b": 69,
+      "right_stones": 92,
+      "bones": 1092
+    },
+    {
+      "k": 4,
+      "m": 15,
+      "d": 16,
+      "h": 28,
+      "a": 100,
+      "b": 116,
+      "right_stones": 92,
+      "bones": 3696
+    },
+    {
+      "k": 4,
+      "m": 16,
+      "d": 16,
+      "h": 13,
+      "a": 55,
+      "b": 71,
+      "right_stones": 107,
+      "bones": 1131
+    },
+    {
+      "k": 4,
+      "m": 16,
+      "d": 17,
+      "h": 29,
+      "a": 104,
+      "b": 121,
+      "right_stones": 107,
+      "bones": 4002
+    },
+    {
+      "k": 4,
+      "m": 23,
+      "d": 23,
+      "h": 13,
+      "a": 62,
+      "b": 85,
+      "right_stones": 240,
+      "bones": 1404
+    },
+    {
+      "k": 4,
+      "m": 23,
+      "d": 24,
+      "h": 36,
+      "a": 132,
+      "b": 156,
+      "right_stones": 240,
+      "bones": 6480
+    },
+    {
+      "k": 5,
+      "m": 18,
+      "d": 18,
+      "h": 16,
+      "a": 66,
+      "b": 84,
+      "right_stones": 137,
+      "bones": 1632
+    },
+    {
+      "k": 5,
+      "m": 18,
+      "d": 19,
+      "h": 34,
+      "a": 121,
+      "b": 140,
+      "right_stones": 137,
+      "bones": 5406
+    },
+    {
+      "k": 5,
+      "m": 19,
+      "d": 19,
+      "h": 16,
+      "a": 67,
+      "b": 86,
+      "right_stones": 155,
+      "bones": 1680
+    },
+    {
+      "k": 5,
+      "m": 19,
+      "d": 20,
+      "h": 35,
+      "a": 125,
+      "b": 145,
+      "right_stones": 155,
+      "bones": 5775
+    },
+    {
+      "k": 5,
+      "m": 27,
+      "d": 27,
+      "h": 16,
+      "a": 75,
+      "b": 102,
+      "right_stones": 335,
+      "bones": 2064
+    },
+    {
+      "k": 5,
+      "m": 27,
+      "d": 28,
+      "h": 43,
+      "a": 157,
+      "b": 185,
+      "right_stones": 335,
+      "bones": 9159
+    },
+    {
+      "k": 6,
+      "m": 21,
+      "d": 21,
+      "h": 19,
+      "a": 78,
+      "b": 99,
+      "right_stones": 191,
+      "bones": 2280
+    },
+    {
+      "k": 6,
+      "m": 21,
+      "d": 22,
+      "h": 40,
+      "a": 142,
+      "b": 164,
+      "right_stones": 191,
+      "bones": 7440
+    },
+    {
+      "k": 6,
+      "m": 22,
+      "d": 22,
+      "h": 19,
+      "a": 79,
+      "b": 101,
+      "right_stones": 212,
+      "bones": 2337
+    },
+    {
+      "k": 6,
+      "m": 22,
+      "d": 23,
+      "h": 41,
+      "a": 146,
+      "b": 169,
+      "right_stones": 212,
+      "bones": 7872
+    },
+    {
+      "k": 6,
+      "m": 31,
+      "d": 31,
+      "h": 19,
+      "a": 88,
+      "b": 119,
+      "right_stones": 446,
+      "bones": 2850
+    },
+    {
+      "k": 6,
+      "m": 31,
+      "d": 32,
+      "h": 50,
+      "a": 182,
+      "b": 214,
+      "right_stones": 446,
+      "bones": 12300
+    },
+    {
+      "k": 7,
+      "m": 24,
+      "d": 24,
+      "h": 22,
+      "a": 90,
+      "b": 114,
+      "right_stones": 254,
+      "bones": 3036
+    },
+    {
+      "k": 7,
+      "m": 24,
+      "d": 25,
+      "h": 46,
+      "a": 163,
+      "b": 188,
+      "right_stones": 254,
+      "bones": 9798
+    },
+    {
+      "k": 7,
+      "m": 25,
+      "d": 25,
+      "h": 22,
+      "a": 91,
+      "b": 116,
+      "right_stones": 278,
+      "bones": 3102
+    },
+    {
+      "k": 7,
+      "m": 25,
+      "d": 26,
+      "h": 47,
+      "a": 167,
+      "b": 193,
+      "right_stones": 278,
+      "bones": 10293
+    },
+    {
+      "k": 7,
+      "m": 35,
+      "d": 35,
+      "h": 22,
+      "a": 101,
+      "b": 136,
+      "right_stones": 573,
+      "bones": 3762
+    },
+    {
+      "k": 7,
+      "m": 35,
+      "d": 36,
+      "h": 57,
+      "a": 207,
+      "b": 243,
+      "right_stones": 573,
+      "bones": 15903
+    },
+    {
+      "k": 8,
+      "m": 27,
+      "d": 27,
+      "h": 25,
+      "a": 102,
+      "b": 129,
+      "right_stones": 326,
+      "bones": 3900
+    },
+    {
+      "k": 8,
+      "m": 27,
+      "d": 28,
+      "h": 52,
+      "a": 184,
+      "b": 212,
+      "right_stones": 326,
+      "bones": 12480
+    },
+    {
+      "k": 8,
+      "m": 28,
+      "d": 28,
+      "h": 25,
+      "a": 103,
+      "b": 131,
+      "right_stones": 353,
+      "bones": 3975
+    },
+    {
+      "k": 8,
+      "m": 28,
+      "d": 29,
+      "h": 53,
+      "a": 188,
+      "b": 217,
+      "right_stones": 353,
+      "bones": 13038
+    },
+    {
+      "k": 8,
+      "m": 39,
+      "d": 39,
+      "h": 25,
+      "a": 114,
+      "b": 153,
+      "right_stones": 716,
+      "bones": 4800
+    },
+    {
+      "k": 8,
+      "m": 39,
+      "d": 40,
+      "h": 64,
+      "a": 232,
+      "b": 272,
+      "right_stones": 716,
+      "bones": 19968
+    },
+    {
+      "k": 9,
+      "m": 30,
+      "d": 30,
+      "h": 28,
+      "a": 114,
+      "b": 144,
+      "right_stones": 407,
+      "bones": 4872
+    },
+    {
+      "k": 9,
+      "m": 30,
+      "d": 31,
+      "h": 58,
+      "a": 205,
+      "b": 236,
+      "right_stones": 407,
+      "bones": 15486
+    },
+    {
+      "k": 9,
+      "m": 31,
+      "d": 31,
+      "h": 28,
+      "a": 115,
+      "b": 146,
+      "right_stones": 437,
+      "bones": 4956
+    },
+    {
+      "k": 9,
+      "m": 31,
+      "d": 32,
+      "h": 59,
+      "a": 209,
+      "b": 241,
+      "right_stones": 437,
+      "bones": 16107
+    },
+    {
+      "k": 9,
+      "m": 43,
+      "d": 43,
+      "h": 28,
+      "a": 127,
+      "b": 170,
+      "right_stones": 875,
+      "bones": 5964
+    },
+    {
+      "k": 9,
+      "m": 43,
+      "d": 44,
+      "h": 71,
+      "a": 257,
+      "b": 301,
+      "right_stones": 875,
+      "bones": 24495
+    },
+    {
+      "k": 10,
+      "m": 33,
+      "d": 33,
+      "h": 31,
+      "a": 126,
+      "b": 159,
+      "right_stones": 497,
+      "bones": 5952
+    },
+    {
+      "k": 10,
+      "m": 33,
+      "d": 34,
+      "h": 64,
+      "a": 226,
+      "b": 260,
+      "right_stones": 497,
+      "bones": 18816
+    },
+    {
+      "k": 10,
+      "m": 34,
+      "d": 34,
+      "h": 31,
+      "a": 127,
+      "b": 161,
+      "right_stones": 530,
+      "bones": 6045
+    },
+    {
+      "k": 10,
+      "m": 34,
+      "d": 35,
+      "h": 65,
+      "a": 230,
+      "b": 265,
+      "right_stones": 530,
+      "bones": 19500
+    },
+    {
+      "k": 10,
+      "m": 47,
+      "d": 47,
+      "h": 31,
+      "a": 140,
+      "b": 187,
+      "right_stones": 1050,
+      "bones": 7254
+    },
+    {
+      "k": 10,
+      "m": 47,
+      "d": 48,
+      "h": 78,
+      "a": 282,
+      "b": 330,
+      "right_stones": 1050,
+      "bones": 29484
+    }
+  ],
+  "mathematical_scope": "Unbounded Laurent and affine-certificate proof plus separately bounded original-cell replay. Not a full P7 resolution or an independent specialist/Lean certificate.",
+  "source_sha256": {
+    "SOURCES.json": "96f7e7b2d481867ac21819e3060905cebc63bbb19d0e79832a627611978723dd",
+    "STATE.json": "6aa21e32e540b2d8eefc8a208027791a19bea483f8751f7c7449f9507a645147",
+    "build_tables.py": "b63c871885542b148282223d4d4c986b1ef4549a2f65cd2e4d835d45f3a33ff0",
+    "core.py": "390eabe28ccd00432bc27f5e220ead8d8edc904054228485ebfa2e88ba5fa617",
+    "edits.json": "2094b76eb6cf9a52a9d7ddd5b34810dafc579bf11cd9613e220a563eb027c1cc",
+    "generate_ownership_certificates.py": "2f5f6ccaeee6a5f577912a6f74a4b6983c5278a93c2be103521457e640fc9bd3",
+    "ownership-certificates.json": "dc0cca78eb3b72d3aeb13bbaa1a6720f2498e7d361a69d746e93305ca977c9b4",
+    "ownership.py": "cbaea53b902341a622471811ae1c275af87ca380df43e3b31ea67b6c208bcefe",
+    "source_table.py": "f998227f5a62151ddcf839ecb5c84e5a2e74141cdcc4c55c74f5202eb699a4e2",
+    "symbolic_certificate.py": "eb4a063ef2ccd787be10bc84085ae302ad1e5d812531eb1cea74152f0751aa4c",
+    "verify.py": "650990f3000a54098de28cd5bf8e54d5918713904f51ceccede1425b4a1bfbc6"
+  }
+}

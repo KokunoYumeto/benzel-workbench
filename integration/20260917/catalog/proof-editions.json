@@ -1,0 +1,74 @@
+[
+  {
+    "number": 1,
+    "title": "Methodology",
+    "path": "sources/splitzero-nonzeta-workbench/splitzero-nonzeta-workbench/METHODOLOGY.md",
+    "sha256": "4a59947eba9669708d904a89169e83f0a03650a5d6bb3947431f4b903745686b"
+  },
+  {
+    "number": 2,
+    "title": "Initial exact interface proofs",
+    "path": "sources/splitzero-nonzeta-workbench/splitzero-nonzeta-workbench/notes/verified-interfaces.md",
+    "sha256": "97742cd29d95eb933df723d7d90d20a5bc3e3b4fa8e05ca5b3b24300ede93f8d"
+  },
+  {
+    "number": 3,
+    "title": "Reviewed A-tier continuation",
+    "path": "sources/splitzero-nonzeta-reviewed-20260914/splitzero-nonzeta-reviewed-20260914/review/notes/proofs.md",
+    "sha256": "9d81eb801f1f1adf1bfefec7678010632e6b251c0c2b8fdfec6b84c9b3831136"
+  },
+  {
+    "number": 4,
+    "title": "Turn 1: first and second collars",
+    "path": "sources/benzel-p7-turn1/benzel-p7/PROOF.md",
+    "sha256": "c0655d3122ce84f3e6cebcd417ba6ca17fdcbc0ec5b908246ef9cff07c1a58b7"
+  },
+  {
+    "number": 5,
+    "title": "Turn 2: concurrent third-collar edition",
+    "path": "supplements/benzel-p7-turn2-package/turn2/PROOF.md",
+    "sha256": "53063a773775affef03e85f0ddde1185a8a7e5d9e5edce2b1bf22d9caea48560"
+  },
+  {
+    "number": 6,
+    "title": "Turn 2: later third/fourth-collar edition",
+    "path": "sources/benzel-p7-turn2/benzel-p7/turn2/PROOF.md",
+    "sha256": "d7337a59db163251955e867973215914617d7730b08afe186767e66bfabf1f35"
+  },
+  {
+    "number": 7,
+    "title": "Turn 3: fifth collar and polygon maps",
+    "path": "sources/benzel-p7-turn3/benzel-p7-turn3/PROOF.md",
+    "sha256": "1145b57c01c6da29ecb3154ac831896ded42db4116d0245f061cb0e7e50f6924"
+  },
+  {
+    "number": 8,
+    "title": "Turn 4: actual Split-Zero complexes",
+    "path": "sources/benzel-p7-turn4/benzel-p7-turn4/turn4/PROOF.md",
+    "sha256": "b35395dcecf2d5d60739bd8c41e3a9fbda0dcff506a007dcba9997f197034bbe"
+  },
+  {
+    "number": 9,
+    "title": "Turn 5: variable-parameter packing",
+    "path": "sources/benzel-p7-turn5/benzel-p7-turn5/turn5/PROOF.md",
+    "sha256": "60d6e9338fa71b6a7bae539d7eee249b26db44377ac8a661cb58ee0402b9d689"
+  },
+  {
+    "number": 10,
+    "title": "Turn 6: stable residual and invariant families",
+    "path": "sources/benzel-p7-turn6/benzel-p7-turn6/turn6/PROOF.md",
+    "sha256": "271a3bc14d627c37f5d8e7933f6d6c13a757bcc22b6b3e0913d8078232228a8c"
+  },
+  {
+    "number": 11,
+    "title": "Turn 8: unbounded deletion count",
+    "path": "sources/benzel-p7-turn8/benzel-p7-turn8/turn8/PROOF.md",
+    "sha256": "f8662d8f26971accf8c27e377b2ba77b72a25018402ba70f52703869158d6ed9"
+  },
+  {
+    "number": 12,
+    "title": "Receiving-morphism addendum",
+    "path": "sources/benzel-p7-turn8/benzel-p7-turn8/MORPHISM_ADDENDUM.md",
+    "sha256": "14b3afc66ef0d453f7ef845396223099d19649c929c6946e557810ea5a571255"
+  }
+]
