@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-18",
+  "result": "PASSED_REIMPLEMENTATION_AUDIT",
+  "mathematical_assessment": "No defect identified in the frozen complete residue-zero construction, direct residue-one construction, or exact matching of the residue-two published input. The unbounded deductions were reviewed in addition to the finite replays.",
+  "source_zip_sha256": "467427065b6d2612e105511b5350b6b6c15e7639dafda45e468c8670a3ae6e1f",
+  "source_manifest_entries_checked": 131,
+  "source_modifications": [],
+  "independence": {
+    "new_verifier_implementation": true,
+    "producer_geometry_or_acceptance_used_by_new_cell_checker": false,
+    "producer_symbolic_or_source_verifier_imported_by_new_symbolic_source_checkers": false,
+    "same_assistant_as_research": true,
+    "external_specialist_acceptance": false,
+    "lean_full_proof_checked": false,
+    "sharma_full_proof_audited": false
+  },
+  "claim_scopes": [
+    {
+      "id": "residue-zero",
+      "statement": "d>=2 and 0<=h<=d(d-1)/2: W_h(d)=V(d+3h,2d+3h) has a type-103 tiling with d(d-1)/2-h right stones and 3h(h+d) bones",
+      "assessment": "Written deduction and rebuilt exact certificates pass; finite output checks also pass."
+    },
+    {
+      "id": "residue-one",
+      "statement": "Admissible a,b with a+b=1 mod 3 have the explicit all-right-stone tiling",
+      "assessment": "Original anchor/offset inverse argument checked; independent finite output checks pass."
+    },
+    {
+      "id": "full-P7",
+      "statement": "Admissible V(a,b) with nonnegative Conway-Lagarias invariant is type-103 tileable",
+      "assessment": "Assembly checked using the exact stated input of Defant-Foster-Li-Propp-Young Theorem 1.1 for a+b=2 mod3. That paper was not re-proved in this audit."
+    }
+  ],
+  "new_counts": {
+    "tiling_certificates": 3372,
+    "tile_placements": 59403188,
+    "original_cell_occurrences": 178209564,
+    "all_h_through_d": 20,
+    "all_h_original_parameter_pairs": 1349,
+    "separately_assembled_Laurent_identities": 18,
+    "formal_table_identifications": 3,
+    "independent_original_tile_owner_identities": 274,
+    "exact_affine_certificates": 6559,
+    "parent_nonnegative_index_bounds": 36,
+    "integer_kernel_duals": 1026,
+    "local_positive_endpoint_partitions": 5,
+    "integer_inverse_controls": 100021,
+    "dispatcher_controls": 100001
+  },
+  "mutation_controls": {
+    "invalid_tilings": 8,
+    "altered_symbolic_cell": 1,
+    "invalid_exported_polynomial_equations": 2,
+    "invalid_linear_receipts": 3,
+    "malformed_or_out_of_domain_constructor_inputs": 10
+  },
+  "run_modes": {
+    "new_algebra_source_pipeline": [
+      "normal",
+      "optimized"
+    ],
+    "full_3372_tiling_sweep_runs": 1,
+    "fresh_copied_source_pipeline_passed": true,
+    "fresh_copied_tiling_sample_certificates": 24,
+    "fresh_copied_tiling_sample_placements": 269470
+  },
+  "no_first_priority_claim": true,
+  "remote_writes": false,
+  "environment": {
+    "python": "3.13.5",
+    "sympy": "1.14.0"
+  },
+  "report": "report/AUDIT_REPORT.pdf",
+  "report_pages": 10,
+  "evidence": {
+    "local-and-parameters.json": "evidence/local-and-parameters.json",
+    "independent-symbolic.json": "evidence/independent-symbolic.json",
+    "fresh-checker-replay.json": "evidence/fresh-checker-replay.json",
+    "original-cells.json": "evidence/original-cells.json",
+    "polynomial-receipt-check.json": "evidence/polynomial-receipt-check.json",
+    "independent-kernel.json": "evidence/independent-kernel.json",
+    "frozen-source-identity.json": "evidence/frozen-source-identity.json",
+    "independent-sources.json": "evidence/independent-sources.json",
+    "table-semantics.json": "evidence/table-semantics.json",
+    "linear-receipt-check.json": "evidence/linear-receipt-check.json"
+  }
+}

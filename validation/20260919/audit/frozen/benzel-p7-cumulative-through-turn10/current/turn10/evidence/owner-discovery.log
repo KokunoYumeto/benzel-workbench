@@ -1,0 +1,72 @@
+first/channel-low 0 {'type': 'common', 'p': 1, 'row': [0, 3, 1, 3], 'depth': [0, 1, 0, 1], 'branch': 'tail'}
+first/channel-high 0 {'type': 'common', 'p': 1, 'row': [0, 3, 1, 3], 'depth': [0, 1, 0, 0], 'branch': 'tail'}
+first/p0D 0 {'type': 'common', 'p': 1, 'row': [0, 2, 1, 0], 'depth': [0, 2, 0, -1], 'branch': 'prefix'}
+first/p0D 1 {'type': 'common', 'p': 1, 'row': [0, 2, 1, 1], 'depth': [0, 2, 0, 0], 'branch': 'prefix'}
+first/p0U 0 {'type': 'common', 'p': 1, 'row': [0, 3, 0, -2], 'depth': [0, 2, -1, -2], 'branch': 'prefix'}
+first/p0U 1 {'type': 'common', 'p': 1, 'row': [0, 3, 0, -1], 'depth': [0, 2, -1, -1], 'branch': 'prefix'}
+first/p0T 0 {'type': 'common', 'p': 1, 'row': [0, 3, 0, -1], 'depth': [0, 1, 0, 0], 'branch': 'prefix'}
+first/p0T 1 {'type': 'common', 'p': 1, 'row': [0, 3, 0, 0], 'depth': [0, 1, 0, 1], 'branch': 'prefix'}
+first/p0T 2 {'type': 'common', 'p': 1, 'row': [0, 3, 0, 1], 'depth': [0, 1, 0, 1], 'branch': 'prefix'}
+first/p0T 3 {'type': 'common', 'p': 1, 'row': [0, 3, 0, 2], 'depth': [0, 1, 0, 1], 'branch': 'prefix'}
+first/p2D 0 {'type': 'common', 'p': 1, 'row': [1, 0, 1, 0], 'depth': [0, 1, 0, 0], 'branch': 'tail'}
+first/p2D 1 {'type': 'common', 'p': 1, 'row': [1, 0, 1, 1], 'depth': [0, 1, 0, 1], 'branch': 'tail'}
+first/p2R 0 {'type': 'parent', 'part': 'corner', 'family': 6, 'p': 2, 'i': [0, 1, 0, -1], 'j': [0, 1, -1, -1]}
+first/p2R 1 {'type': 'parent', 'part': 'corner', 'family': 7, 'p': 2, 'i': [0, 1, -1, -2], 'j': [0, 0, 0, 0]}
+first/lower 0 {'type': 'parent', 'part': 'corner', 'family': 6, 'p': 2, 'i': [0, 1, 0, -1], 'j': [0, 0, 0, 0]}
+first/lower 1 {'type': 'parent', 'part': 'corner', 'family': 9, 'p': 2, 'i': [0, 0, 0, 2], 'j': [0, 0, 0, 0]}
+first/lower 2 {'type': 'parent', 'part': 'corner', 'family': 3, 'p': 2, 'i': [0, 0, 0, 0], 'j': [0, 0, 0, 0]}
+first/lower 3 {'type': 'common', 'p': 1, 'row': [1, 2, 0, -4], 'depth': [0, 1, 0, -2], 'branch': 'tail'}
+first/lower 4 {'type': 'common', 'p': 1, 'row': [1, 2, 0, -4], 'depth': [0, 1, 0, -3], 'branch': 'tail'}
+first/lower 5 {'type': 'common', 'p': 1, 'row': [1, 2, 0, -3], 'depth': [0, 1, 0, -2], 'branch': 'tail'}
+first/lower 6 {'type': 'common', 'p': 1, 'row': [1, 2, 0, -3], 'depth': [0, 1, 0, -3], 'branch': 'tail'}
+first/lower 7 {'type': 'common', 'p': 1, 'row': [1, 2, 0, -2], 'depth': [0, 1, 0, 0], 'branch': 'tail'}
+first/lower 8 {'type': 'common', 'p': 1, 'row': [1, 2, 0, -2], 'depth': [0, 1, 0, -2], 'branch': 'tail'}
+first/lower 9 {'type': 'common', 'p': 1, 'row': [1, 2, 0, -1], 'depth': [0, 1, 0, 1], 'branch': 'tail'}
+first/lower 10 {'type': 'common', 'p': 1, 'row': [1, 2, 0, -1], 'depth': [0, 1, 0, 0], 'branch': 'tail'}
+first/lower 11 {'type': 'common', 'p': 1, 'row': [1, 2, 0, 0], 'depth': [0, 1, 0, 1], 'branch': 'tail'}
+first/lower 12 {'type': 'common', 'p': 1, 'row': [1, 2, 0, 1], 'depth': [0, 1, 0, 1], 'branch': 'tail'}
+first/lower 13 {'type': 'common', 'p': 1, 'row': [1, 2, 0, 1], 'depth': [0, 1, 0, 0], 'branch': 'tail'}
+first/beta 0 {'type': 'common', 'p': 1, 'row': [1, 2, 0, -4], 'depth': [0, 1, -1, -4], 'branch': 'tail'}
+first/beta 1 {'type': 'common', 'p': 1, 'row': [1, 2, 0, -3], 'depth': [0, 1, -1, -4], 'branch': 'tail'}
+bridge6 0 {'type': 'parent', 'part': 'corner', 'family': 10, 'p': 2, 'i': [0, 1, 0, -1], 'j': [0, 0, 0, 0]}
+bridge6 1 {'type': 'parent', 'part': 'corner', 'family': 11, 'p': 2, 'i': [0, 1, 0, -1], 'j': [0, 0, 0, 0]}
+bridge6 2 {'type': 'common', 'p': 2, 'row': [0, 2, 0, -1], 'depth': [0, 2, 0, -2], 'branch': 'prefix'}
+bridge6 3 {'type': 'parent', 'part': 'corner', 'family': 10, 'p': 2, 'i': [0, 1, 0, -2], 'j': [0, 0, 0, 0]}
+bridge6 4 {'type': 'parent', 'part': 'corner', 'family': 11, 'p': 2, 'i': [0, 1, 0, -2], 'j': [0, 0, 0, 0]}
+bridge6 5 {'type': 'common', 'p': 2, 'row': [0, 2, 0, 0], 'depth': [0, 2, 0, -1], 'branch': 'prefix'}
+bridge6 6 {'type': 'common', 'p': 1, 'row': [1, 2, 0, -4], 'depth': [0, 0, 0, 0], 'branch': 'tail'}
+bridge6 7 {'type': 'common', 'p': 1, 'row': [1, 2, 0, -1], 'depth': [0, 0, 0, 0], 'branch': 'tail'}
+second/channel-low 0 {'type': 'common', 'p': 2, 'row': [0, 3, 1, 3], 'depth': [0, 1, 0, 0], 'branch': 'tail'}
+second/channel-high 0 {'type': 'common', 'p': 2, 'row': [0, 3, 1, 3], 'depth': [0, 1, 0, -1], 'branch': 'tail'}
+second/p0D 0 {'type': 'common', 'p': 2, 'row': [0, 2, 1, 0], 'depth': [0, 2, 0, -2], 'branch': 'prefix'}
+second/p0D 1 {'type': 'common', 'p': 2, 'row': [0, 2, 1, 1], 'depth': [0, 2, 0, -1], 'branch': 'prefix'}
+second/p0U 0 {'type': 'common', 'p': 2, 'row': [0, 3, 0, -2], 'depth': [0, 2, -1, -3], 'branch': 'prefix'}
+second/p0U 1 {'type': 'common', 'p': 2, 'row': [0, 3, 0, -1], 'depth': [0, 2, -1, -2], 'branch': 'prefix'}
+second/p0T 0 {'type': 'common', 'p': 2, 'row': [0, 3, 0, -1], 'depth': [0, 1, 0, -1], 'branch': 'prefix'}
+second/p0T 1 {'type': 'common', 'p': 2, 'row': [0, 3, 0, 0], 'depth': [0, 1, 0, 0], 'branch': 'prefix'}
+second/p0T 2 {'type': 'common', 'p': 2, 'row': [0, 3, 0, 1], 'depth': [0, 1, 0, 0], 'branch': 'prefix'}
+second/p0T 3 {'type': 'common', 'p': 2, 'row': [0, 3, 0, 2], 'depth': [0, 1, 0, 0], 'branch': 'prefix'}
+second/p2D 0 {'type': 'common', 'p': 2, 'row': [1, 0, 1, 0], 'depth': [0, 1, 0, -1], 'branch': 'tail'}
+second/p2D 1 {'type': 'common', 'p': 2, 'row': [1, 0, 1, 1], 'depth': [0, 1, 0, 0], 'branch': 'tail'}
+second/p2R 0 {'type': 'parent', 'part': 'corner', 'family': 6, 'p': 1, 'i': [0, 1, 0, -1], 'j': [0, 1, -1, -1]}
+second/p2R 1 {'type': 'parent', 'part': 'corner', 'family': 7, 'p': 1, 'i': [0, 1, -1, -2], 'j': [0, 0, 0, 0]}
+second/lower 0 {'type': 'parent', 'part': 'corner', 'family': 6, 'p': 1, 'i': [0, 1, 0, -1], 'j': [0, 0, 0, 0]}
+second/lower 1 {'type': 'parent', 'part': 'corner', 'family': 9, 'p': 1, 'i': [0, 0, 0, 2], 'j': [0, 0, 0, 0]}
+second/lower 2 {'type': 'parent', 'part': 'corner', 'family': 3, 'p': 1, 'i': [0, 0, 0, 0], 'j': [0, 0, 0, 0]}
+second/lower 3 {'type': 'common', 'p': 2, 'row': [1, 2, 0, -4], 'depth': [0, 1, 0, -3], 'branch': 'tail'}
+second/lower 4 {'type': 'common', 'p': 2, 'row': [1, 2, 0, -4], 'depth': [0, 1, 0, -4], 'branch': 'tail'}
+second/lower 5 {'type': 'common', 'p': 2, 'row': [1, 2, 0, -3], 'depth': [0, 1, 0, -3], 'branch': 'tail'}
+second/lower 6 {'type': 'common', 'p': 2, 'row': [1, 2, 0, -3], 'depth': [0, 1, 0, -4], 'branch': 'tail'}
+second/lower 7 {'type': 'common', 'p': 2, 'row': [1, 2, 0, -2], 'depth': [0, 1, 0, -1], 'branch': 'tail'}
+second/lower 8 {'type': 'common', 'p': 2, 'row': [1, 2, 0, -2], 'depth': [0, 1, 0, -3], 'branch': 'tail'}
+second/lower 9 {'type': 'common', 'p': 2, 'row': [1, 2, 0, -1], 'depth': [0, 1, 0, 0], 'branch': 'tail'}
+second/lower 10 {'type': 'common', 'p': 2, 'row': [1, 2, 0, -1], 'depth': [0, 1, 0, -1], 'branch': 'tail'}
+second/lower 11 {'type': 'common', 'p': 2, 'row': [1, 2, 0, 0], 'depth': [0, 1, 0, 0], 'branch': 'tail'}
+second/lower 12 {'type': 'common', 'p': 2, 'row': [1, 2, 0, 1], 'depth': [0, 1, 0, 0], 'branch': 'tail'}
+second/lower 13 {'type': 'common', 'p': 2, 'row': [1, 2, 0, 1], 'depth': [0, 1, 0, -1], 'branch': 'tail'}
+second/beta 0 {'type': 'common', 'p': 2, 'row': [1, 2, 0, -4], 'depth': [0, 1, -1, -5], 'branch': 'tail'}
+second/beta 1 {'type': 'common', 'p': 2, 'row': [1, 2, 0, -3], 'depth': [0, 1, -1, -5], 'branch': 'tail'}
+second/upper 0 {'type': 'parent', 'part': 'corner', 'family': 10, 'p': 1, 'i': [0, 1, 0, -2], 'j': [0, 0, 0, 0]}
+second/upper 1 {'type': 'parent', 'part': 'corner', 'family': 11, 'p': 1, 'i': [0, 1, 0, -2], 'j': [0, 0, 0, 0]}
+second/upper 2 {'type': 'common', 'p': 2, 'row': [1, 2, 0, 0], 'depth': [0, 0, 0, 0], 'branch': 'tail'}
+FAILS []

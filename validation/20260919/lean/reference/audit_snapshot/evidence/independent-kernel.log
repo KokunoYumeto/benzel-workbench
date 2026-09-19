@@ -1,0 +1,160 @@
+{
+  "status": "PASS",
+  "seconds": 0.364,
+  "records": [
+    {
+      "old_bones": 26,
+      "new_bones": 32,
+      "closed_components": 0,
+      "kernel_rank": 32,
+      "integer_duals": 32,
+      "dual_cell_coefficients": 84,
+      "vacancy_cells": 18,
+      "status": "PASS",
+      "k": 2,
+      "r": 1,
+      "m": 9
+    },
+    {
+      "old_bones": 61,
+      "new_bones": 70,
+      "closed_components": 0,
+      "kernel_rank": 70,
+      "integer_duals": 70,
+      "dual_cell_coefficients": 282,
+      "vacancy_cells": 27,
+      "status": "PASS",
+      "k": 2,
+      "r": 2,
+      "m": 10
+    },
+    {
+      "old_bones": 39,
+      "new_bones": 45,
+      "closed_components": 0,
+      "kernel_rank": 45,
+      "integer_duals": 45,
+      "dual_cell_coefficients": 191,
+      "vacancy_cells": 18,
+      "status": "PASS",
+      "k": 3,
+      "r": 1,
+      "m": 12
+    },
+    {
+      "old_bones": 88,
+      "new_bones": 97,
+      "closed_components": 0,
+      "kernel_rank": 97,
+      "integer_duals": 97,
+      "dual_cell_coefficients": 561,
+      "vacancy_cells": 27,
+      "status": "PASS",
+      "k": 3,
+      "r": 2,
+      "m": 13
+    },
+    {
+      "old_bones": 52,
+      "new_bones": 58,
+      "closed_components": 0,
+      "kernel_rank": 58,
+      "integer_duals": 58,
+      "dual_cell_coefficients": 300,
+      "vacancy_cells": 18,
+      "status": "PASS",
+      "k": 4,
+      "r": 1,
+      "m": 15
+    },
+    {
+      "old_bones": 113,
+      "new_bones": 122,
+      "closed_components": 0,
+      "kernel_rank": 122,
+      "integer_duals": 122,
+      "dual_cell_coefficients": 892,
+      "vacancy_cells": 27,
+      "status": "PASS",
+      "k": 4,
+      "r": 2,
+      "m": 16
+    },
+    {
+      "old_bones": 72,
+      "new_bones": 78,
+      "closed_components": 0,
+      "kernel_rank": 78,
+      "integer_duals": 78,
+      "dual_cell_coefficients": 598,
+      "vacancy_cells": 18,
+      "status": "PASS",
+      "k": 5,
+      "r": 1,
+      "m": 22
+    },
+    {
+      "old_bones": 153,
+      "new_bones": 162,
+      "closed_components": 0,
+      "kernel_rank": 162,
+      "integer_duals": 162,
+      "dual_cell_coefficients": 1608,
+      "vacancy_cells": 27,
+      "status": "PASS",
+      "k": 5,
+      "r": 2,
+      "m": 23
+    },
+    {
+      "old_bones": 112,
+      "new_bones": 118,
+      "closed_components": 0,
+      "kernel_rank": 118,
+      "integer_duals": 118,
+      "dual_cell_coefficients": 1350,
+      "vacancy_cells": 18,
+      "status": "PASS",
+      "k": 9,
+      "r": 1,
+      "m": 30
+    },
+    {
+      "old_bones": 233,
+      "new_bones": 242,
+      "closed_components": 0,
+      "kernel_rank": 242,
+      "integer_duals": 242,
+      "dual_cell_coefficients": 3672,
+      "vacancy_cells": 27,
+      "status": "PASS",
+      "k": 9,
+      "r": 2,
+      "m": 31
+    }
+  ],
+  "closed_component_controls": [
+    {
+      "old_bones": 1,
+      "new_bones": 1,
+      "closed_components": 1,
+      "kernel_rank": 0,
+      "integer_duals": 0,
+      "dual_cell_coefficients": 0,
+      "vacancy_cells": 0,
+      "status": "PASS"
+    },
+    {
+      "old_bones": 3,
+      "new_bones": 3,
+      "closed_components": 1,
+      "kernel_rank": 2,
+      "integer_duals": 2,
+      "dual_cell_coefficients": 4,
+      "vacancy_cells": 0,
+      "status": "PASS"
+    }
+  ],
+  "exact_original_cell_duals": 1026,
+  "producer_cohomology_module_used": false
+}

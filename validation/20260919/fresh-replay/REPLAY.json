@@ -1,0 +1,121 @@
+{
+  "counts": {
+    "affine_mutations_rejected": 3,
+    "exact_affine_identities": 6559,
+    "manifest_entries": 209,
+    "original_cell_mutations_rejected": 8,
+    "original_parameter_pairs": 12,
+    "placements": 269470,
+    "polynomial_identities": 18,
+    "polynomial_mutations_rejected": 2,
+    "tiling_certificates_with_reflections": 24
+  },
+  "date": "2026-09-19",
+  "final_resource_receipt": "kernel_limits.json",
+  "guard_sha256": "b6b2a0a176f7c34b7f06f0612573f555885601a293d681d71fcb8c629529042d",
+  "intake_files": 210,
+  "intake_unchanged": true,
+  "launch_from_workspace": "python -B private_review/ym_quartic_20260917/replay_review/bounded_worker.py private_review/benzel_validation_20260919/replay_audit/kernel_limits.json private_review/benzel_validation_20260919/replay_audit/run_replay.py",
+  "python_optimization_level": 0,
+  "python_version": "3.13.9",
+  "read_code_closure_sha256": {
+    "audit/check_linear_receipts.py": "dd65e37259a3c04d06f36a3e20499f6b9d3244a0958ec36ae3affeedfc931c4f",
+    "audit/check_polynomial_receipts.py": "e437cd7a49dba566ed5b0a5bad7fa2377a9019dbdb0b707f5a6d9037413f6cc5",
+    "audit/original_cell_check.py": "cf92720d69eac518b83a9bfd71f2f69fb8df74b6d6b6ddbddf7914a00add6416",
+    "audit/quick_output_check.py": "1fc935abd8f461aafb4a050d76b61b15a8bd647475156c62ff418974125bb1c2",
+    "audit/verify_bundle.py": "57aa08186a998e943a82dd658bf428c62a9c0506347a726e4ccb62f85ce76518",
+    "frozen/benzel-p7-cumulative-through-turn10/current/turn10/complete_theorem.py": "98a4f876b93ab1b49062a18602a5456a3f0a0fdb88924555b1d878fc492f88dc",
+    "frozen/benzel-p7-cumulative-through-turn10/current/turn10/source10.py": "a45d4268a8f860a1730d126ca90bdc7bd960bcebdf9f068843cbf90ce70f9e62",
+    "frozen/benzel-p7-cumulative-through-turn10/current/turn7/construction.py": "39826875070e72f360963f5c1a862bc3e7e161d4e922d3efe702df1af5e1cc7d",
+    "frozen/benzel-p7-cumulative-through-turn10/current/turn7/parent_construction.py": "d02b67bb20dac716b2d134978e3b0283a0d72613c32324eef3cced4da0063458",
+    "frozen/benzel-p7-cumulative-through-turn10/current/turn8/bivariate_certificate.py": "d4582ca9bd261e30d77a199c59c19b20161c0c619c21aaf1e5bb16523955fb72",
+    "frozen/benzel-p7-cumulative-through-turn10/current/turn8/construction.py": "58c2260a2e96690e58eb3ded86251158329160514ca17ee664c6390d3969d7e4",
+    "frozen/benzel-p7-cumulative-through-turn10/current/turn8/families.py": "7b224c838997d1aaf78505e51a132249f1dddc699a6149ebe122a96ae7dd793f",
+    "frozen/benzel-p7-cumulative-through-turn10/current/turn8/geometry.py": "3db084d34b97704f9c45cb4193137d127f8f0399345e19e5411af7afc0fe6eed",
+    "frozen/benzel-p7-cumulative-through-turn10/current/turn8/packing.py": "d02b67bb20dac716b2d134978e3b0283a0d72613c32324eef3cced4da0063458",
+    "frozen/benzel-p7-cumulative-through-turn10/current/turn9/source_table.py": "f998227f5a62151ddcf839ecb5c84e5a2e74141cdcc4c55c74f5202eb699a4e2"
+  },
+  "reproduction_note": "Requires a fresh byte-identical bundle copy. For a second run, make a new review directory with this runner and a new bundle copied from intact intake; do not overwrite the original intake.",
+  "resource_limits": {
+    "active_process_limit": 1,
+    "cpu_affinity_mask": 1,
+    "job_memory_limit_bytes": 2147483648,
+    "limit_flags": 8968,
+    "logical_cores": 1,
+    "mechanism": "Windows kernel Job Object, verified before executing supplied code",
+    "pid": 3876,
+    "process_memory_limit_bytes": 2147483648,
+    "python_optimization_level": 0
+  },
+  "runner_sha256": "15ae710a57a88012d159d7c73276f618ecc4edf055043b57cf4d1611ad6571b0",
+  "runs": [
+    {
+      "exit_status": 0,
+      "name": "manifest",
+      "receipt": "runs/manifest.stdout.json",
+      "receipt_sha256": "188c7bfd308ecf5058d8dea97a34fa9b808d6ec1bc2af056491e59698ac7f755",
+      "script": "bundle/audit/verify_bundle.py",
+      "script_sha256": "57aa08186a998e943a82dd658bf428c62a9c0506347a726e4ccb62f85ce76518",
+      "seconds_this_replay": 0.142854
+    },
+    {
+      "excluded_comparison_fields": [
+        "seconds"
+      ],
+      "exit_status": 0,
+      "matches_supplied_except_seconds": true,
+      "name": "polynomial",
+      "raw_bytes_match_supplied": false,
+      "receipt": "runs/polynomial.stdout.json",
+      "receipt_sha256": "c8a377db6de522c500b7208563beb95d601966fa4a341983487d877ab5f9c67e",
+      "script": "bundle/audit/check_polynomial_receipts.py",
+      "script_sha256": "e437cd7a49dba566ed5b0a5bad7fa2377a9019dbdb0b707f5a6d9037413f6cc5",
+      "seconds_this_replay": 1.205798,
+      "supplied_receipt": "evidence/polynomial-receipt-check.json",
+      "supplied_receipt_sha256": "5b09518e45aea4909a9c0f8e555ccf9817a6a940c5186c9a66d228913e706d4c"
+    },
+    {
+      "excluded_comparison_fields": [],
+      "exit_status": 0,
+      "matches_supplied_except_seconds": true,
+      "name": "affine",
+      "raw_bytes_match_supplied": false,
+      "receipt": "runs/affine.stdout.json",
+      "receipt_sha256": "203060f80bec1e2e5be21f5ee307756b7bc7164fd7eda0e7a874eebfe2bd5175",
+      "script": "bundle/audit/check_linear_receipts.py",
+      "script_sha256": "dd65e37259a3c04d06f36a3e20499f6b9d3244a0958ec36ae3affeedfc931c4f",
+      "seconds_this_replay": 1.631742,
+      "supplied_receipt": "evidence/linear-receipt-check.json",
+      "supplied_receipt_sha256": "a7e57ec446b84fd3a55d6871bd0f3288aef25a2f375bea8d42c070482c55112e"
+    },
+    {
+      "excluded_comparison_fields": [
+        "seconds"
+      ],
+      "exit_status": 0,
+      "matches_supplied_except_seconds": true,
+      "name": "quick-output",
+      "raw_bytes_match_supplied": false,
+      "receipt": "runs/quick-output.stdout.json",
+      "receipt_sha256": "e94fafb9fe9811468872172d34444e214ad17e735c639857d25c2d4f363b7a9c",
+      "script": "bundle/audit/quick_output_check.py",
+      "script_sha256": "1fc935abd8f461aafb4a050d76b61b15a8bd647475156c62ff418974125bb1c2",
+      "seconds_this_replay": 13.612773,
+      "supplied_receipt": "evidence/fresh-copy-output.log",
+      "supplied_receipt_sha256": "fcad04e5937e1d7b9d23b920afb48436746fd0086c929afd005be1bc33e707c6"
+    }
+  ],
+  "schema": "benzel-selected-bounded-replay-v1",
+  "scope": "Supplied exported polynomial and affine equations replayed; 24 independently accepted original/reflected tiling certificates. The full reconstruction pipeline, full 3372-certificate sweep, unbounded-parameter theorem, external compression theorem, and Lean formalization were not replayed by this process.",
+  "source_manifest_sha256": "70f80f98cd0f0e891c448b16cc4b7b343ebd0b588f1925e8234ba5df16b8517e",
+  "status": "PASS",
+  "supplied_file_hashes": "runs/supplied_file_hashes.json",
+  "working_copy_added_files": [
+    "evidence/quick-output.json"
+  ],
+  "working_copy_changed_files": [
+    "evidence/linear-receipt-check.json",
+    "evidence/polynomial-receipt-check.json"
+  ],
+  "working_copy_initially_byte_identical": true
+}

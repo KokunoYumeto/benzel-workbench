@@ -1,0 +1,8 @@
+{
+  "original_generator_identities": 71,
+  "source_atoms": 71,
+  "source_distinctness_comparisons": 733,
+  "affine_certificates": 1479,
+  "status": "PASS",
+  "domain": "integers k>=4,m>=3k+4; final verification uses no optimizer"
+}

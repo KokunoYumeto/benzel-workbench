@@ -1,0 +1,2802 @@
+[
+  {
+    "path": ".gitattributes",
+    "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "bytes": 8
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "fd93f028cb0090dcc25e6ffbcfa1c1cb0ff29f6882ae7d5c68378b12f4686cdc",
+    "bytes": 47
+  },
+  {
+    "path": "audit/audit/check_linear_receipts.py",
+    "sha256": "dd65e37259a3c04d06f36a3e20499f6b9d3244a0958ec36ae3affeedfc931c4f",
+    "bytes": 1719
+  },
+  {
+    "path": "audit/audit/check_polynomial_receipts.py",
+    "sha256": "e437cd7a49dba566ed5b0a5bad7fa2377a9019dbdb0b707f5a6d9037413f6cc5",
+    "bytes": 2973
+  },
+  {
+    "path": "audit/audit/independent_kernel.py",
+    "sha256": "5e70dbdba2db16c180814c7fff2371163bcff2240e05b251745d7b92864442f2",
+    "bytes": 4384
+  },
+  {
+    "path": "audit/audit/independent_sources.py",
+    "sha256": "ab89b79ddcb9a30aab588fda90c2b9dc6021383adb668cf3ff2f37972069648d",
+    "bytes": 10411
+  },
+  {
+    "path": "audit/audit/independent_symbolic.py",
+    "sha256": "453e3b11a96f8760682fee1862c0fce876fc5aba5370e7eaf2d4b9137d65a150",
+    "bytes": 10114
+  },
+  {
+    "path": "audit/audit/local_and_parameters.py",
+    "sha256": "973b93163578e7a9a0cadae5dab1150993beca65ce97283e7528ee2e41277291",
+    "bytes": 4388
+  },
+  {
+    "path": "audit/audit/original_cell_check.py",
+    "sha256": "cf92720d69eac518b83a9bfd71f2f69fb8df74b6d6b6ddbddf7914a00add6416",
+    "bytes": 7272
+  },
+  {
+    "path": "audit/audit/quick_output_check.py",
+    "sha256": "1fc935abd8f461aafb4a050d76b61b15a8bd647475156c62ff418974125bb1c2",
+    "bytes": 863
+  },
+  {
+    "path": "audit/audit/run_algebra_checks.py",
+    "sha256": "87f7d8f76aee18b06701bab66c7580e9e4958d93bc1a3514c5822e96eecca439",
+    "bytes": 2054
+  },
+  {
+    "path": "audit/audit/table_semantics.py",
+    "sha256": "d09172a84b9468a71c6c1816c6b004d3437cf38552b14814691e25c0a25a45b4",
+    "bytes": 3225
+  },
+  {
+    "path": "audit/audit/verify_bundle.py",
+    "sha256": "57aa08186a998e943a82dd658bf428c62a9c0506347a726e4ccb62f85ce76518",
+    "bytes": 811
+  },
+  {
+    "path": "audit/AUDIT_SUMMARY.json",
+    "sha256": "6d543d7b5999cae6f6a5cab1b7acb5e0a97e6e55c5f24f6b6afdd1d4dccba2bc",
+    "bytes": 3793
+  },
+  {
+    "path": "audit/evidence/algebra-normal.log",
+    "sha256": "b1527faf5357e2ca80bf9a30c8291d9f1f81135b698f46a524487e1bb1a312a9",
+    "bytes": 250
+  },
+  {
+    "path": "audit/evidence/algebra-optimized.log",
+    "sha256": "6a42e5d3b004ebd131e9aba1617361e950d9b287b10ca921f0c98336aaedf4c2",
+    "bytes": 271
+  },
+  {
+    "path": "audit/evidence/audit-development-error.log",
+    "sha256": "87e461414b386c4721e7bf51fa4604ac684f6d2acbcfce3584aa988f26ab32ab",
+    "bytes": 1258
+  },
+  {
+    "path": "audit/evidence/fresh-checker-replay.json",
+    "sha256": "a9ad66f6f2e89e1819100bfc9b86a7f375cab565a92ad24beee349e590a354ef",
+    "bytes": 5362
+  },
+  {
+    "path": "audit/evidence/fresh-copy-algebra.log",
+    "sha256": "b1527faf5357e2ca80bf9a30c8291d9f1f81135b698f46a524487e1bb1a312a9",
+    "bytes": 250
+  },
+  {
+    "path": "audit/evidence/fresh-copy-output.log",
+    "sha256": "fcad04e5937e1d7b9d23b920afb48436746fd0086c929afd005be1bc33e707c6",
+    "bytes": 1639
+  },
+  {
+    "path": "audit/evidence/frozen-source-identity.json",
+    "sha256": "b0f3e0734a7ef6b764015b4f7c5336bb0d50155a17b83644373fc9ae07f35c76",
+    "bytes": 13875
+  },
+  {
+    "path": "audit/evidence/independent-kernel.json",
+    "sha256": "d0dd7c2ecbbf2f9598445d6193613ae11014ff04d6d495d6cd2f9774eebf0def",
+    "bytes": 3349
+  },
+  {
+    "path": "audit/evidence/independent-kernel.log",
+    "sha256": "3496bd50b94400b421d3f9b80d181d4da7d7024f28cb929160a18d78747dc6e1",
+    "bytes": 3349
+  },
+  {
+    "path": "audit/evidence/independent-sources.json",
+    "sha256": "d536e7680cfe95740ed397f70671e56a90fc98ddd8129c64383c5484785eac1d",
+    "bytes": 5209
+  },
+  {
+    "path": "audit/evidence/independent-sources.log",
+    "sha256": "00a5e54af54bc263ad51de2440c40558e9a8b1cd5666a16db1ff45bd66028c15",
+    "bytes": 718
+  },
+  {
+    "path": "audit/evidence/independent-symbolic.json",
+    "sha256": "57275f1574ca72e5983f43510a37a2d025e99dae1bf9b4bd08e0bf014d86e630",
+    "bytes": 13113
+  },
+  {
+    "path": "audit/evidence/independent-symbolic.log",
+    "sha256": "19766d5bdf0f4a4407f979fae45063057208f877daa1d06d42a0a77aadac9af6",
+    "bytes": 1062
+  },
+  {
+    "path": "audit/evidence/linear-receipt-check.json",
+    "sha256": "a7e57ec446b84fd3a55d6871bd0f3288aef25a2f375bea8d42c070482c55112e",
+    "bytes": 117
+  },
+  {
+    "path": "audit/evidence/local-and-parameters.json",
+    "sha256": "cd76771418d48f8e72bab5978526ca28e99d5419b2cf0dea45d8409f0c181463",
+    "bytes": 757
+  },
+  {
+    "path": "audit/evidence/normal/check_linear_receipts.py.log",
+    "sha256": "a7e57ec446b84fd3a55d6871bd0f3288aef25a2f375bea8d42c070482c55112e",
+    "bytes": 117
+  },
+  {
+    "path": "audit/evidence/normal/check_polynomial_receipts.py.log",
+    "sha256": "e5803ebbf7d14323c1f7a73a2f778e58cff15675efd6ab897d289213854ba91b",
+    "bytes": 2646
+  },
+  {
+    "path": "audit/evidence/normal/independent-kernel.json",
+    "sha256": "414aa2f6ce65b88fa8bd069bd37793697568daf1dde4ef579b3491d402e7d1b7",
+    "bytes": 3349
+  },
+  {
+    "path": "audit/evidence/normal/independent-sources.json",
+    "sha256": "44a0cbec003b912d6981b0a295b71668183a1edbedc5c51d27cb95690b521a3e",
+    "bytes": 5209
+  },
+  {
+    "path": "audit/evidence/normal/independent-symbolic.json",
+    "sha256": "a41cc1f4ec5e40066bae5fa674dc31fdd99d8cd7e2b0a31898a1266f3583514f",
+    "bytes": 13113
+  },
+  {
+    "path": "audit/evidence/normal/independent_kernel.py.log",
+    "sha256": "414aa2f6ce65b88fa8bd069bd37793697568daf1dde4ef579b3491d402e7d1b7",
+    "bytes": 3349
+  },
+  {
+    "path": "audit/evidence/normal/independent_sources.py.log",
+    "sha256": "00a5e54af54bc263ad51de2440c40558e9a8b1cd5666a16db1ff45bd66028c15",
+    "bytes": 718
+  },
+  {
+    "path": "audit/evidence/normal/independent_symbolic.py.log",
+    "sha256": "19766d5bdf0f4a4407f979fae45063057208f877daa1d06d42a0a77aadac9af6",
+    "bytes": 1062
+  },
+  {
+    "path": "audit/evidence/normal/linear-receipt-check.json",
+    "sha256": "a7e57ec446b84fd3a55d6871bd0f3288aef25a2f375bea8d42c070482c55112e",
+    "bytes": 117
+  },
+  {
+    "path": "audit/evidence/normal/local-and-parameters.json",
+    "sha256": "cd76771418d48f8e72bab5978526ca28e99d5419b2cf0dea45d8409f0c181463",
+    "bytes": 757
+  },
+  {
+    "path": "audit/evidence/normal/local_and_parameters.py.log",
+    "sha256": "cd76771418d48f8e72bab5978526ca28e99d5419b2cf0dea45d8409f0c181463",
+    "bytes": 757
+  },
+  {
+    "path": "audit/evidence/normal/polynomial-receipt-check.json",
+    "sha256": "e5803ebbf7d14323c1f7a73a2f778e58cff15675efd6ab897d289213854ba91b",
+    "bytes": 2646
+  },
+  {
+    "path": "audit/evidence/normal/run-ledger.json",
+    "sha256": "7467e40efac73fbb93ad67259d7077252b00dbe8eea829a7aa0b6b1d5904e505",
+    "bytes": 2685
+  },
+  {
+    "path": "audit/evidence/normal/table-semantics.json",
+    "sha256": "8e9c07440197d76e1ab81a6ab70b84817cac29eb46471d8f32d694be90513863",
+    "bytes": 1525
+  },
+  {
+    "path": "audit/evidence/normal/table_semantics.py.log",
+    "sha256": "126eb85094bfaca845b01c35e5eb9d2fa12665ac50af7321a71328fee7908596",
+    "bytes": 340
+  },
+  {
+    "path": "audit/evidence/optimized/check_linear_receipts.py.log",
+    "sha256": "a7e57ec446b84fd3a55d6871bd0f3288aef25a2f375bea8d42c070482c55112e",
+    "bytes": 117
+  },
+  {
+    "path": "audit/evidence/optimized/check_polynomial_receipts.py.log",
+    "sha256": "5b09518e45aea4909a9c0f8e555ccf9817a6a940c5186c9a66d228913e706d4c",
+    "bytes": 2646
+  },
+  {
+    "path": "audit/evidence/optimized/independent-kernel.json",
+    "sha256": "d0dd7c2ecbbf2f9598445d6193613ae11014ff04d6d495d6cd2f9774eebf0def",
+    "bytes": 3349
+  },
+  {
+    "path": "audit/evidence/optimized/independent-sources.json",
+    "sha256": "d536e7680cfe95740ed397f70671e56a90fc98ddd8129c64383c5484785eac1d",
+    "bytes": 5209
+  },
+  {
+    "path": "audit/evidence/optimized/independent-symbolic.json",
+    "sha256": "57275f1574ca72e5983f43510a37a2d025e99dae1bf9b4bd08e0bf014d86e630",
+    "bytes": 13113
+  },
+  {
+    "path": "audit/evidence/optimized/independent_kernel.py.log",
+    "sha256": "d0dd7c2ecbbf2f9598445d6193613ae11014ff04d6d495d6cd2f9774eebf0def",
+    "bytes": 3349
+  },
+  {
+    "path": "audit/evidence/optimized/independent_sources.py.log",
+    "sha256": "00a5e54af54bc263ad51de2440c40558e9a8b1cd5666a16db1ff45bd66028c15",
+    "bytes": 718
+  },
+  {
+    "path": "audit/evidence/optimized/independent_symbolic.py.log",
+    "sha256": "19766d5bdf0f4a4407f979fae45063057208f877daa1d06d42a0a77aadac9af6",
+    "bytes": 1062
+  },
+  {
+    "path": "audit/evidence/optimized/linear-receipt-check.json",
+    "sha256": "a7e57ec446b84fd3a55d6871bd0f3288aef25a2f375bea8d42c070482c55112e",
+    "bytes": 117
+  },
+  {
+    "path": "audit/evidence/optimized/local-and-parameters.json",
+    "sha256": "cd76771418d48f8e72bab5978526ca28e99d5419b2cf0dea45d8409f0c181463",
+    "bytes": 757
+  },
+  {
+    "path": "audit/evidence/optimized/local_and_parameters.py.log",
+    "sha256": "cd76771418d48f8e72bab5978526ca28e99d5419b2cf0dea45d8409f0c181463",
+    "bytes": 757
+  },
+  {
+    "path": "audit/evidence/optimized/pipeline.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "audit/evidence/optimized/polynomial-receipt-check.json",
+    "sha256": "5b09518e45aea4909a9c0f8e555ccf9817a6a940c5186c9a66d228913e706d4c",
+    "bytes": 2646
+  },
+  {
+    "path": "audit/evidence/optimized/run-ledger.json",
+    "sha256": "29f46fca38fb15641a9994c816c0ad82638f4cb3e38461b98336a2453dc43a37",
+    "bytes": 2702
+  },
+  {
+    "path": "audit/evidence/optimized/sources.json",
+    "sha256": "54207fb691c0305234b0abf9b0d707c7973139d38ddf14535cb01d96e4e681d7",
+    "bytes": 5209
+  },
+  {
+    "path": "audit/evidence/optimized/sources.log",
+    "sha256": "00a5e54af54bc263ad51de2440c40558e9a8b1cd5666a16db1ff45bd66028c15",
+    "bytes": 718
+  },
+  {
+    "path": "audit/evidence/optimized/symbolic.json",
+    "sha256": "4333443599439cfadb1eef2c62e98b60c0cef00e9acac4006923eca99aa75300",
+    "bytes": 13112
+  },
+  {
+    "path": "audit/evidence/optimized/symbolic.log",
+    "sha256": "19766d5bdf0f4a4407f979fae45063057208f877daa1d06d42a0a77aadac9af6",
+    "bytes": 1062
+  },
+  {
+    "path": "audit/evidence/optimized/table-semantics.json",
+    "sha256": "8e9c07440197d76e1ab81a6ab70b84817cac29eb46471d8f32d694be90513863",
+    "bytes": 1525
+  },
+  {
+    "path": "audit/evidence/optimized/table_semantics.py.log",
+    "sha256": "126eb85094bfaca845b01c35e5eb9d2fa12665ac50af7321a71328fee7908596",
+    "bytes": 340
+  },
+  {
+    "path": "audit/evidence/original-cells.json",
+    "sha256": "8ed02f1ace0034d9ebec805ef9219c3cb5a8e2baabb7668c009a8fe49dad5ec0",
+    "bytes": 258530
+  },
+  {
+    "path": "audit/evidence/original-cells.log",
+    "sha256": "b379f8b1eb9d35f744e507e1661afd3928acb2a74f7221e00ec3b03ee56417c9",
+    "bytes": 1708
+  },
+  {
+    "path": "audit/evidence/pdf-review.json",
+    "sha256": "41416c7f8191f8ead40bb745e673dd6e849420108c80d1a1db5e35d7f36007e7",
+    "bytes": 395
+  },
+  {
+    "path": "audit/evidence/polynomial-receipt-check.json",
+    "sha256": "5b09518e45aea4909a9c0f8e555ccf9817a6a940c5186c9a66d228913e706d4c",
+    "bytes": 2646
+  },
+  {
+    "path": "audit/evidence/reconstructed-linear-identities.jsonl",
+    "sha256": "52c97d21f9e77a6c7bed80b7da734099123b4dade1efb26bc089b2527e377021",
+    "bytes": 1939892
+  },
+  {
+    "path": "audit/evidence/reconstructed-polynomial-identities.jsonl",
+    "sha256": "11b103eab740e05bb522c0c299089f53a4cec1b0b4901dd8f128d53835c25f80",
+    "bytes": 247870
+  },
+  {
+    "path": "audit/evidence/table-semantics.json",
+    "sha256": "8e9c07440197d76e1ab81a6ab70b84817cac29eb46471d8f32d694be90513863",
+    "bytes": 1525
+  },
+  {
+    "path": "audit/evidence/table-semantics.log",
+    "sha256": "126eb85094bfaca845b01c35e5eb9d2fa12665ac50af7321a71328fee7908596",
+    "bytes": 340
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/DEPENDENCIES.json",
+    "sha256": "8f4cc047db7e414f469be6946e90eae87319cc9708024e66175c1fdf55826dc9",
+    "bytes": 4809
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/integration.patch",
+    "sha256": "1cd7ce8baa627d30303791b3e484d2bc6feb435f11390e9f410472fb3a0d72c0",
+    "bytes": 2369472
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/PATCH_CHECK.json",
+    "sha256": "ad6f9859a23598000b4dd6b471db3dab106362ea432effc87c0d146951a247c8",
+    "bytes": 628
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/PR_BODY.md",
+    "sha256": "fa04977cb47061782c49951a6debc090f9f285dd795fd871710efb1f9b984cf5",
+    "bytes": 2407
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/README.md",
+    "sha256": "c069aded59fbbe87899dfc4a681885f41f806a0d4795a31d6de5dad44e4b0818",
+    "bytes": 2397
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/reference-earlier-proofs.md",
+    "sha256": "9d81eb801f1f1adf1bfefec7678010632e6b251c0c2b8fdfec6b84c9b3831136",
+    "bytes": 20053
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/build_edits.py",
+    "sha256": "277a098a51b4e995811ec84c113160d73f3911b19fac011bfc991b9e8ff5cb02",
+    "bytes": 1826
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/build_small.py",
+    "sha256": "84aa315f2506324ab0504b3e6058c2bed1dc08f31b974287a1e2c6fcc7f720e8",
+    "bytes": 1532
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/complete_theorem.py",
+    "sha256": "98a4f876b93ab1b49062a18602a5456a3f0a0fdb88924555b1d878fc492f88dc",
+    "bytes": 6824
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/core10.py",
+    "sha256": "aa303fb085103dbe66490a2f92aedf1e1f768d5feb8443a9fc668c2b6bf8ece9",
+    "bytes": 2662
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/build_document.py",
+    "sha256": "00455b55c8efd0e47076181b6852647702bcf9b00be2c496ab4b378af48fd716",
+    "bytes": 1827
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/direct_beta.py",
+    "sha256": "2b140d10cf75276ff2efd8a49cd6c512ca83fabcc199f548f0d59dfaaa718a1f",
+    "bytes": 4181
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/discover_owners.py",
+    "sha256": "1fa00ef30929cff9b3ea74af851c1e319d639d9a4487f9b8b2d644e35be3c293",
+    "bytes": 6118
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/discover_uniform.py",
+    "sha256": "4ffed8854663faa18f4e4263a130f5da8dfa851e317421c46c0039ab14fec169",
+    "bytes": 5444
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/edits-k2-r1-with-owners.json",
+    "sha256": "8037a803875f466accdf3194e92b14a92ba00321ad8ec3a62e4381140d420dc5",
+    "bytes": 17396
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/edits-k2-r2-with-owners.json",
+    "sha256": "8641a900567a06ba510a296c6a45e770f6ccffa63c59a696671c5e462cef7bc5",
+    "bytes": 37383
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/edits-k3-r1-with-owners.json",
+    "sha256": "b03d038a5aacefdd46f7a6502f2be4bb70b49d07bb5172fd04867e21e5d09be2",
+    "bytes": 19151
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/edits-k3-r2-with-owners.json",
+    "sha256": "20207862007b1fa3b35f87dc95437e8c156eee5f01b479d30795e4e6c2943548",
+    "bytes": 41591
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/edits-with-owners.json",
+    "sha256": "f5795633261efe717b154081fa79a9ab2e2700777d3bde136bd3d0c561214705",
+    "bytes": 47726
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/generate_ownership.py",
+    "sha256": "5969a765488ac4b97d763dc9b544c760add62982656891bcf09a391a14b7d400",
+    "bytes": 1144
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/owner-bounds-k2-r1.json",
+    "sha256": "8247e179fd596e7cb04cd2bc16c6905f70b223c1c9102e9cbb64e86c147a703c",
+    "bytes": 19255
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/owner-bounds-k2-r2.json",
+    "sha256": "77c828ad0e97acc5ac1034c53185f73f4c9e7a6789a98ba8c54f590d0db6bced",
+    "bytes": 45731
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/owner-bounds-k3-r1.json",
+    "sha256": "d57066904aa45de0e116e252b4b9f16a1736adc1f2dc544ae4e1d41b91a1dac6",
+    "bytes": 24012
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/owner-bounds-k3-r2.json",
+    "sha256": "2aa0516b6224ace0da6e35c59f37eb56f16f3f9b464b0431ed50a3cb22c29d53",
+    "bytes": 52519
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/owner-bounds.json",
+    "sha256": "ff7f3383552fc21d17771c72e04f71c8da58739d346d3ecd3d35158b9e6bb4d0",
+    "bytes": 56634
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/ownership_uniform.py",
+    "sha256": "d92d50e431faa30c4f70e976a38fecf733cd855ca9f445177ed525df9964753e",
+    "bytes": 4853
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/residue2_search.py",
+    "sha256": "ba5ade007260ec1097a32aec68df371fcb5f09f16b292e8840907a9026fb504b",
+    "bytes": 1262
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/small-beta-2.json",
+    "sha256": "5f9931c937a7a32532d57b82707a2edf4ffed344bcb70b3c92c432dcaf424b1e",
+    "bytes": 2155
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/small-q2-full-2.json",
+    "sha256": "92d54c0d5424541e7c6cd18a279451f99a9de2493e906b9e9d2b50cd224630c0",
+    "bytes": 6760
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/small_endpoints.py",
+    "sha256": "1699b464a15dd9c968bfcb95601c9218ad6479d4e0e3c7376292cc4640d93a28",
+    "bytes": 4181
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/small_full.py",
+    "sha256": "c812cdf9b96a0c45d79ef2c05fcca777833ea740d2040e18fe3f6b60061febf8",
+    "bytes": 1428
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/test_small.py",
+    "sha256": "86339f9f2847ce8e6dd5489e100a123f90a2f4e8ab0dc3686a9224acbdd5d568",
+    "bytes": 958
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/edits-k2-r1.json",
+    "sha256": "8037a803875f466accdf3194e92b14a92ba00321ad8ec3a62e4381140d420dc5",
+    "bytes": 17396
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/edits-k2-r2.json",
+    "sha256": "8641a900567a06ba510a296c6a45e770f6ccffa63c59a696671c5e462cef7bc5",
+    "bytes": 37383
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/edits-k3-r1.json",
+    "sha256": "b03d038a5aacefdd46f7a6502f2be4bb70b49d07bb5172fd04867e21e5d09be2",
+    "bytes": 19151
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/edits-k3-r2.json",
+    "sha256": "20207862007b1fa3b35f87dc95437e8c156eee5f01b479d30795e4e6c2943548",
+    "bytes": 41591
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/edits.json",
+    "sha256": "f5795633261efe717b154081fa79a9ab2e2700777d3bde136bd3d0c561214705",
+    "bytes": 47726
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/cold-replay.json",
+    "sha256": "d2ef5944c112c3fa87a56ddcdedf35421065c74b7624e16e03d922a37a18b1f8",
+    "bytes": 28746
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/cold-replay.log",
+    "sha256": "754fdc4c41438a2e0410267f9df25d3aa0e6e6d8716e3d6d8e9fc516690245f5",
+    "bytes": 1467
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/discover-k2-r1.log",
+    "sha256": "3c1e39a8b3eca396c1be1cc8a0f63baaddb410637bb8a5b8d02bc58213cf0560",
+    "bytes": 2595
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/discover-k2-r2.log",
+    "sha256": "18535feb3a716ee41b02ea07dedddef03c99acfa44be5a5fd99deeae3d45f0d2",
+    "bytes": 5884
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/discover-k3-r1.log",
+    "sha256": "fed72f7647ea12c48832ed1e49f1256f5a5d9e23b568f7b2300ea9353aaa970c",
+    "bytes": 2904
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/discover-k3-r2.log",
+    "sha256": "6e63faf9f9f89024b244548d841718a1012b6dd69df08415748a4b4d52035f64",
+    "bytes": 6645
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/example-58-74.json",
+    "sha256": "0bd6d2bfd253190fee48b63027bf9875bcd13030027cc228677993d0d1e4e0de",
+    "bytes": 17040
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/legacy-four-identities.json",
+    "sha256": "825a6c353eae19f266622ced758514c6d85b9032c25a7f8b1d360b2e81e2b46b",
+    "bytes": 3082
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/normal.json",
+    "sha256": "b31205ad1e8d5d02f965de0c548e134f14c7b4f61b0881897ff45b89bc083060",
+    "bytes": 28746
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/normal.log",
+    "sha256": "abcea5d55db21091c838339ab6849ff09d9565e19381091b82868cbf198a6c05",
+    "bytes": 1467
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/optimized.json",
+    "sha256": "02574d07fb678b825f98b1acbc1c5826eaff376eaac0b7a6d02222ceaf2bfed2",
+    "bytes": 28745
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/optimized.log",
+    "sha256": "bb749316cae409f07fa970f5528b410dc46776857f806d5fd4f395eebea81e7e",
+    "bytes": 1467
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/owner-discovery.log",
+    "sha256": "667b236c89bd1b0884879bf278cf93c432552c9064516b2428373e67135c0a3c",
+    "bytes": 7543
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/ownership-k2-r1.json",
+    "sha256": "d7830d7245fd85916fe5cb8d9f3b331d27058ad8e63758b1c021bab7c9932989",
+    "bytes": 229
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/ownership-k2-r2.json",
+    "sha256": "16b8175d02ace310c9e8b5c3b529e592658deeaf8b9b3d400021072ba9fdc08b",
+    "bytes": 230
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/ownership-k3-r1.json",
+    "sha256": "38d6585512ecbe344ba8499b30277cbd873dd392a5c8a77fba18ed452f6e050d",
+    "bytes": 230
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/ownership-k3-r2.json",
+    "sha256": "b16eed4af6d06a8d25f1de56e42cc0a4fd94ced1203d9d3b73d86335efd8efb6",
+    "bytes": 231
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/ownership.json",
+    "sha256": "5dad7a54bdd1d1a8dd9e4fbb079b60cc9054ba9851203c26fd550e48d47d6a51",
+    "bytes": 232
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/pdf-build.json",
+    "sha256": "5576d2787438add761ca6f4e29470ce6d6d594ebf466d141d8ab797485e6e3d4",
+    "bytes": 627
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/small-symbolic.json",
+    "sha256": "196ea9d0b04f9ccac49191cfc624d252aab264bd8617a0f6acc817c8e1f63b71",
+    "bytes": 5910
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/symbolic.json",
+    "sha256": "4622dc293a9376ba2d1084768f413f9c57168e2d7bdbe9fc3f865c8163b4c836",
+    "bytes": 1658
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/EXPLORATION.md",
+    "sha256": "718e9a150bef78c73e82214558588242c64e1c7d71fc1ece2d0f47ec705a3f2e",
+    "bytes": 2664
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/ownership-certificates-k2-r1.json",
+    "sha256": "56554eedba2b17bec4fd61e9297cfadf81114f4c574d7bd9f8798d8a9251ea01",
+    "bytes": 36211
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/ownership-certificates-k2-r2.json",
+    "sha256": "eab3d5f5c172fd08b5e1b6e41e529d2bf8402c5ad0db62c3fc894e629baaa6a4",
+    "bytes": 93512
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/ownership-certificates-k3-r1.json",
+    "sha256": "ed63f893b25fb2a886e664345cd83d55af6ae699148af79625c59a1bd602a4b6",
+    "bytes": 52688
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/ownership-certificates-k3-r2.json",
+    "sha256": "3e218088b3422823f0c8ce2060dda7cfb46fa4db58014fc31d49c0c47ff4f404",
+    "bytes": 116660
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/ownership-certificates.json",
+    "sha256": "91acd745eae6c5380944475e3053c91be38c1c73754f47b3d10038138a7d8b84",
+    "bytes": 137415
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/ownership.py",
+    "sha256": "bbecc1116114cbb5c51131936acaa02165a180817d4912e1f98b720d4eb5511c",
+    "bytes": 5831
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/PROOF.md",
+    "sha256": "c97b695cc9cb27248ee9e61780a52e8c4968f38b011990a5c62be6f047809cc5",
+    "bytes": 36733
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/PROOF.pdf",
+    "sha256": "39d5d3e7911145002e51e998839a59aed68cd93e9becbaf64a8a98ba91104ca9",
+    "bytes": 355672
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/PROOF.tex",
+    "sha256": "8d846cf6b5dd68ed47827006cb176b7633546997f83483686c471bba713b3e86",
+    "bytes": 45047
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/PROVENANCE.md",
+    "sha256": "92d123ae04f78a474d15bf5ef7327f638255cd375c5bcba72ed1b3dbb410f0c0",
+    "bytes": 3684
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/rebuild_pdf.sh",
+    "sha256": "911b78fba88044804e8488adb02b78b2644127d06e4f5a604aeb470bf03e96bb",
+    "bytes": 332
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/recorded-checks.json",
+    "sha256": "af62ff660c9b58441d6d2f8485002a74f005182a9209e3d15a9a34965cdd11f8",
+    "bytes": 1839
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/reference-earlier-proofs.md",
+    "sha256": "9d81eb801f1f1adf1bfefec7678010632e6b251c0c2b8fdfec6b84c9b3831136",
+    "bytes": 20053
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/small-direct-2.json",
+    "sha256": "ac8374691bfe42644d0fff6db68746ac6027a5a788b2ad9ae50772d36103fbd4",
+    "bytes": 1776
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/small-direct-3.json",
+    "sha256": "a457e01156adf3030058ddcf0d6a01c0e769e864c6e0d2a813bfc9a617982aa7",
+    "bytes": 2107
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/small-q1-2.json",
+    "sha256": "17ecb78696ed2bca2ec70a19613a1d6822ef2d4dcd3e4367351c7d04de79549e",
+    "bytes": 1509
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/small-q1-3.json",
+    "sha256": "ad6c665eda1054b42c7c9f263b6a5d6ffa8243afc53f79f8cf15339de3b6ccaf",
+    "bytes": 1759
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/small_symbolic.py",
+    "sha256": "04d9d5e50c53e996ab6440670ea09aa23d810d8ea94311a74a89d80e32747d47",
+    "bytes": 1338
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/source-domain-certificates.json",
+    "sha256": "6f44005a684689c18642d018aca62e9c1c76c4167aaf14c80fb7d613072c0078",
+    "bytes": 95672
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/source10.py",
+    "sha256": "a45d4268a8f860a1730d126ca90bdc7bd960bcebdf9f068843cbf90ce70f9e62",
+    "bytes": 3467
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/source_domains.py",
+    "sha256": "b2f4ecf9853ef0559ec54b41f224307b0cf5be41112a20d157910d0a752b8f7a",
+    "bytes": 5262
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/split_complex.py",
+    "sha256": "193ec68419e4f511fbd5ace80c1ca405ececb056636a26061054aded70ae8f37",
+    "bytes": 5029
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/STATE.json",
+    "sha256": "f9f7431dd8856d3599ee7f6730b526e5f03eb76a60d6bf71b9f799377e69ce38",
+    "bytes": 920
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/symbolic_certificate.py",
+    "sha256": "9f3b21f57dadae76de557c2a594f349db2d28b3eb4a353952f3b4b63e47c227a",
+    "bytes": 665
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn10/verify.py",
+    "sha256": "a03409ce9dc48fbc8a0bae554536227aa658e403f9e39619552a6ffc3acb07db",
+    "bytes": 8194
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn7/construction.py",
+    "sha256": "39826875070e72f360963f5c1a862bc3e7e161d4e922d3efe702df1af5e1cc7d",
+    "bytes": 3986
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn7/geometry.py",
+    "sha256": "3db084d34b97704f9c45cb4193137d127f8f0399345e19e5411af7afc0fe6eed",
+    "bytes": 4995
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn7/parent_construction.py",
+    "sha256": "d02b67bb20dac716b2d134978e3b0283a0d72613c32324eef3cced4da0063458",
+    "bytes": 4937
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn7/polynomial_check.py",
+    "sha256": "b9472f8c54a31bde68b0d6734312cda201743e2e69b06fe6fff7d38674494a8b",
+    "bytes": 6648
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn7/templates.json",
+    "sha256": "7f9298d33eb6b878d166411be6acc10f811bbb904304b370ef96ff0cdd2f23ed",
+    "bytes": 58910
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn8/bivariate_certificate.py",
+    "sha256": "d4582ca9bd261e30d77a199c59c19b20161c0c619c21aaf1e5bb16523955fb72",
+    "bytes": 7019
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn8/cohomology.py",
+    "sha256": "023b155faa886bfcd794864da1e8bc51ff1c77455f020c63a322366dadac94db",
+    "bytes": 8124
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn8/construction.py",
+    "sha256": "58c2260a2e96690e58eb3ded86251158329160514ca17ee664c6390d3969d7e4",
+    "bytes": 3592
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn8/families.json",
+    "sha256": "7032c6fc5e4e3be9542f5b5712d5eb071f452d5348d5b045597c24bae806488a",
+    "bytes": 7057
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn8/families.py",
+    "sha256": "7b224c838997d1aaf78505e51a132249f1dddc699a6149ebe122a96ae7dd793f",
+    "bytes": 1712
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn8/geometry.py",
+    "sha256": "3db084d34b97704f9c45cb4193137d127f8f0399345e19e5411af7afc0fe6eed",
+    "bytes": 4995
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn8/packing.py",
+    "sha256": "d02b67bb20dac716b2d134978e3b0283a0d72613c32324eef3cced4da0063458",
+    "bytes": 4937
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn8/PROOF.md",
+    "sha256": "f8662d8f26971accf8c27e377b2ba77b72a25018402ba70f52703869158d6ed9",
+    "bytes": 26395
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn8/README.md",
+    "sha256": "88b69a4ac99d5e36f6cbc013353e30c2b50f33ffbcbec473c18ce4a67bbfb377",
+    "bytes": 2987
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn8/recorded-checks.json",
+    "sha256": "35e49b9ed60597542a37b50634c3857be88b49ee08b95bb1c5df2c2f745ddc0a",
+    "bytes": 4400
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn8/sources/turn6-PROOF.md",
+    "sha256": "271a3bc14d627c37f5d8e7933f6d6c13a757bcc22b6b3e0913d8078232228a8c",
+    "bytes": 22947
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn8/SOURCES.json",
+    "sha256": "610ae993d876b8722c2138d8aa252b77bc61a2b649be4574bc1e5484d5c6ead1",
+    "bytes": 2346
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn8/STATE.json",
+    "sha256": "842c4ba6943db7cf210c6a283369daaf2e25238a1c7c007ae775ae78fce8f4a6",
+    "bytes": 1725
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn8/transports.py",
+    "sha256": "be770ea9228df54b2e0b8e7e576d31ae29901a4281d55315aefe6de8b66405ae",
+    "bytes": 1870
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn8/verify.py",
+    "sha256": "c49b48a7c72276d8002663243aec9f4f1d6d556fda76ab7cf5efaa2ff627d8e4",
+    "bytes": 11508
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/build_tables.py",
+    "sha256": "b63c871885542b148282223d4d4c986b1ef4549a2f65cd2e4d835d45f3a33ff0",
+    "bytes": 2603
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/core.py",
+    "sha256": "390eabe28ccd00432bc27f5e220ead8d8edc904054228485ebfa2e88ba5fa617",
+    "bytes": 4240
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/edits.json",
+    "sha256": "2094b76eb6cf9a52a9d7ddd5b34810dafc579bf11cd9613e220a563eb027c1cc",
+    "bytes": 22338
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/certificate-generation.log",
+    "sha256": "6249fb2ae876686fd8e091afe23204ecedbb6ddf1bd06f343a4e4ef611a23ff7",
+    "bytes": 103
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/final-small-replay.json",
+    "sha256": "7b8ce08caa6a9a244ba8a26830c61f6e460b806aa185e3025990f71e45aabc3e",
+    "bytes": 4647
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/final-small-replay.log",
+    "sha256": "f2e81f352e4e5a08730b657a7fc39cdc593c7b3e0180205d9dc247ce8e7baf8b",
+    "bytes": 2697
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/normal.json",
+    "sha256": "aa852ab1eeede63e6eda53339e5337dfe89c9fdce92dd261e14087fc9d993555",
+    "bytes": 10097
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/normal.log",
+    "sha256": "b72a5511715007654744251d83530dca9f88ebe701d9c85a6c642d4e9057bdc9",
+    "bytes": 2702
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/optimized.json",
+    "sha256": "882418af627df06a47e1d13b8fb2a030a56071da457199979fb9cfe07d8dd16e",
+    "bytes": 10096
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/optimized.log",
+    "sha256": "9b263c59e2fa22fe9b1403153a9adfc16dbf5bdbbdf92d26c0c4d22a23feab88",
+    "bytes": 2701
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/ownership-errors.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/ownership.json",
+    "sha256": "ee68364a5f5fbf7241af0de67b4e0c8430ae617378d41d3cb1f3c14fe69073b1",
+    "bytes": 113
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/prior-handback-patch-check.json",
+    "sha256": "a8d707d5abb4183f3e67bc3c564c713e18cd3a0bf5bb26af6818ab2e52c19047",
+    "bytes": 696
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/symbolic-errors.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/symbolic.json",
+    "sha256": "3bf9250b789bad2005d72e8b8469dce648097262467eb311834425a0ae2f8bfe",
+    "bytes": 1712
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/generate_ownership_certificates.py",
+    "sha256": "2f5f6ccaeee6a5f577912a6f74a4b6983c5278a93c2be103521457e640fc9bd3",
+    "bytes": 1095
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/ownership-certificates.json",
+    "sha256": "dc0cca78eb3b72d3aeb13bbaa1a6720f2498e7d361a69d746e93305ca977c9b4",
+    "bytes": 57211
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/ownership.py",
+    "sha256": "cbaea53b902341a622471811ae1c275af87ca380df43e3b31ea67b6c208bcefe",
+    "bytes": 5423
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/PROOF.md",
+    "sha256": "dc6a2a8502b60cb533599c0cebf13a6cca73569113a769a70f7eacbd32e6fea1",
+    "bytes": 20695
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/PROOF.tex",
+    "sha256": "bd370ddde8804e483b40d3eb2a312135e9b1b29db086765303cc096952bd9fc0",
+    "bytes": 25589
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/README.md",
+    "sha256": "59755e4add64d8c7719ef68f998247b2fb8555ef996cc926baca3d5bca25b124",
+    "bytes": 1719
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/recorded-checks.json",
+    "sha256": "f52d2d825145b719376c0a8231899aa92cf62d8afac76f7eaf087696994a9c85",
+    "bytes": 6732
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/source_table.py",
+    "sha256": "f998227f5a62151ddcf839ecb5c84e5a2e74141cdcc4c55c74f5202eb699a4e2",
+    "bytes": 3454
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/SOURCES.json",
+    "sha256": "96f7e7b2d481867ac21819e3060905cebc63bbb19d0e79832a627611978723dd",
+    "bytes": 1862
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/STATE.json",
+    "sha256": "6aa21e32e540b2d8eefc8a208027791a19bea483f8751f7c7449f9507a645147",
+    "bytes": 556
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/symbolic_certificate.py",
+    "sha256": "eb4a063ef2ccd787be10bc84085ae302ad1e5d812531eb1cea74152f0751aa4c",
+    "bytes": 1202
+  },
+  {
+    "path": "audit/frozen/benzel-p7-cumulative-through-turn10/current/turn9/verify.py",
+    "sha256": "650990f3000a54098de28cd5bf8e54d5918713904f51ceccede1425b4a1bfbc6",
+    "bytes": 4309
+  },
+  {
+    "path": "audit/MANIFEST.sha256",
+    "sha256": "70f80f98cd0f0e891c448b16cc4b7b343ebd0b588f1925e8234ba5df16b8517e",
+    "bytes": 26954
+  },
+  {
+    "path": "audit/README.md",
+    "sha256": "a9680c8eaa3eb17c3b2c4d389e288340919bac8339bfc10f5dc7f8b4eb67cb0d",
+    "bytes": 3510
+  },
+  {
+    "path": "audit/report/AUDIT_REPORT.md",
+    "sha256": "c132820ab0eb6144defc777a6fcd1879679ea497c55ab4d653115eae03bb3d27",
+    "bytes": 27609
+  },
+  {
+    "path": "audit/report/AUDIT_REPORT.pdf",
+    "sha256": "88ebd49a27a4e92551f6271e41738ce7028f90b6f0fa7f71b26ee62c7a8ae17a",
+    "bytes": 336001
+  },
+  {
+    "path": "audit/report/AUDIT_REPORT.tex",
+    "sha256": "b399431959059e5e04c8e336ffe3616f261493d0467334c024aa103e8048402b",
+    "bytes": 32713
+  },
+  {
+    "path": "audit/report/header.tex",
+    "sha256": "e827fe148498124b68a90ca50a9d63a920d77e8ad44bd1509b958a887eb045df",
+    "bytes": 610
+  },
+  {
+    "path": "audit/report/rebuild.sh",
+    "sha256": "6be39c3d561354d3f04fb35758257f44c25f6d69455bbbc45e0f5473150e7dbc",
+    "bytes": 505
+  },
+  {
+    "path": "audit/requirements.txt",
+    "sha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
+    "bytes": 14
+  },
+  {
+    "path": "audit/SOURCES.json",
+    "sha256": "d8248dafe2e5debed2de6c21f9fc6e3bd4527baf8fa1f34d08d5d6e973cd46fa",
+    "bytes": 1660
+  },
+  {
+    "path": "centered-example.png",
+    "sha256": "ff493e7fa8518d977058e59623a620d7716f069453d48eb50b78017921ec9047",
+    "bytes": 138475
+  },
+  {
+    "path": "centered-example.svg",
+    "sha256": "83cb0997001bb5325364aafdfeac43daabba49fe0f884ba0b3d62c9db1f97b76",
+    "bytes": 84178
+  },
+  {
+    "path": "CENTERED_ONE_STONE.md",
+    "sha256": "898080ff5d7ceeaf6b72bc22bd1e2835dc8fd210b4bdf6380f2cc88d46d3c101",
+    "bytes": 16687
+  },
+  {
+    "path": "CENTERED_ONE_STONE.pdf",
+    "sha256": "f9bec49eda96954d31b5d97e789bbc3a8f08f8881ab47ec1dbfe0f8bfd9faa62",
+    "bytes": 197355
+  },
+  {
+    "path": "CENTERED_ONE_STONE.tex",
+    "sha256": "6c605c9cff23e8a2d1d23c984b5e7dcdf6c47747ba1f7e7616f132340c6929e9",
+    "bytes": 19457
+  },
+  {
+    "path": "fresh-replay/bounded_worker.py",
+    "sha256": "b6b2a0a176f7c34b7f06f0612573f555885601a293d681d71fcb8c629529042d",
+    "bytes": 4976
+  },
+  {
+    "path": "fresh-replay/kernel_limits.json",
+    "sha256": "144572f16efc90e48642ff55051afe59f3e9b8760faf542afdae699a6bf6abbb",
+    "bytes": 414
+  },
+  {
+    "path": "fresh-replay/linear-receipt-check.json",
+    "sha256": "203060f80bec1e2e5be21f5ee307756b7bc7164fd7eda0e7a874eebfe2bd5175",
+    "bytes": 123
+  },
+  {
+    "path": "fresh-replay/polynomial-receipt-check.json",
+    "sha256": "c8a377db6de522c500b7208563beb95d601966fa4a341983487d877ab5f9c67e",
+    "bytes": 2746
+  },
+  {
+    "path": "fresh-replay/quick-output.json",
+    "sha256": "e94fafb9fe9811468872172d34444e214ad17e735c639857d25c2d4f363b7a9c",
+    "bytes": 1747
+  },
+  {
+    "path": "fresh-replay/REPLAY.json",
+    "sha256": "9da24c9363c2d7d4729ceed5f89698a16470baf8bcb17a418299bf71a2a280ca",
+    "bytes": 6988
+  },
+  {
+    "path": "fresh-replay/REPLAY.md",
+    "sha256": "09d68aa7172cc417269d066ed306fcc91edbec2d6a669eb862d398baa428640c",
+    "bytes": 6483
+  },
+  {
+    "path": "fresh-replay/run_replay.py",
+    "sha256": "7b4ce2f0b04430bf1c33c5a24940f685a2366d98701aeee55bc4547c3a5c38a7",
+    "bytes": 10207
+  },
+  {
+    "path": "fresh-replay/runs/affine.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "fresh-replay/runs/affine.stdout.json",
+    "sha256": "203060f80bec1e2e5be21f5ee307756b7bc7164fd7eda0e7a874eebfe2bd5175",
+    "bytes": 123
+  },
+  {
+    "path": "fresh-replay/runs/manifest.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "fresh-replay/runs/manifest.stdout.json",
+    "sha256": "188c7bfd308ecf5058d8dea97a34fa9b808d6ec1bc2af056491e59698ac7f755",
+    "bytes": 83
+  },
+  {
+    "path": "fresh-replay/runs/original-cell-mutations.json",
+    "sha256": "a3ad23c4cbf0f8d4dd1af66b0e4b68274266a6cd4ab6149bf287d9080ed64bf1",
+    "bytes": 54
+  },
+  {
+    "path": "fresh-replay/runs/polynomial.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "fresh-replay/runs/polynomial.stdout.json",
+    "sha256": "c8a377db6de522c500b7208563beb95d601966fa4a341983487d877ab5f9c67e",
+    "bytes": 2746
+  },
+  {
+    "path": "fresh-replay/runs/quick-output.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "fresh-replay/runs/quick-output.stdout.json",
+    "sha256": "e94fafb9fe9811468872172d34444e214ad17e735c639857d25c2d4f363b7a9c",
+    "bytes": 1747
+  },
+  {
+    "path": "fresh-replay/runs/supplied_file_hashes.json",
+    "sha256": "429cc34a85dd54af54b6c6075f8e06592d4a5c9ba2db34b6acfba4fa17855167",
+    "bytes": 28721
+  },
+  {
+    "path": "lean/AGENTS.md",
+    "sha256": "0bbfbcce92a33fece7cde67b54e849bde97805bd0de944a136665057893096b4",
+    "bytes": 1315
+  },
+  {
+    "path": "lean/CODEX_START_HERE.md",
+    "sha256": "cee61b01409a67ff5737bf3f5f54296f3b6935364189f78f81e86b67fd76c69e",
+    "bytes": 8442
+  },
+  {
+    "path": "lean/docs/FORMALIZATION_MAP.md",
+    "sha256": "1f1017855fc9b5a94d9135068219cd628166321bd9982a404592a4783ba9083d",
+    "bytes": 5376
+  },
+  {
+    "path": "lean/docs/PARALLEL_CONSTRUCTION.md",
+    "sha256": "d59ce38227b3e83fd83077b08ba0b9d4b88eb32820b5a542898d20293c04ea40",
+    "bytes": 5050
+  },
+  {
+    "path": "lean/docs/PROVENANCE.md",
+    "sha256": "9b64ae2e44d31dde4baffbd87d76510c82b0f4fd641e204c47591c516c59aae9",
+    "bytes": 1686
+  },
+  {
+    "path": "lean/docs/RIGHTS.md",
+    "sha256": "c5e79cdf373a6aae2b4a3e66f556b667b33c2e4f21e381a7f7415845b9edb084",
+    "bytes": 443
+  },
+  {
+    "path": "lean/evidence/d2-nine-bone-seed.json",
+    "sha256": "4f4bc5e54fbe4e07f7d6188afa7ec17905569fd645beb2ab9b0e3df414ef6244",
+    "bytes": 291
+  },
+  {
+    "path": "lean/evidence/final-checks/cold-check_handoff.log",
+    "sha256": "9d09f1bfe098507689efb7c9ea06613e1b1b49c067dbc50aba57617234f4b9a5",
+    "bytes": 951
+  },
+  {
+    "path": "lean/evidence/final-checks/cold-generate_lean_data.log",
+    "sha256": "aee3affb355a2506acb2af2b76f6643ed3997c9a718e52a1bf07d215bc8e6cff",
+    "bytes": 104
+  },
+  {
+    "path": "lean/evidence/final-checks/cold-test_gates.log",
+    "sha256": "fcd62857419c3a993dc2808af0d50ff6c223dc96087c2f595e34b5cee08d8003",
+    "bytes": 1005
+  },
+  {
+    "path": "lean/evidence/final-checks/data-export.log",
+    "sha256": "aee3affb355a2506acb2af2b76f6643ed3997c9a718e52a1bf07d215bc8e6cff",
+    "bytes": 104
+  },
+  {
+    "path": "lean/evidence/final-checks/data-roundtrip.log",
+    "sha256": "324dd5829599ce2a32dd6432202dd57cd788f0f35c4e4a1e3930a5ebf773b640",
+    "bytes": 179
+  },
+  {
+    "path": "lean/evidence/final-checks/full-report.log",
+    "sha256": "e8b4964e17438120a2fa89986671beb71a17d4c150f207fb91aa157c814251e6",
+    "bytes": 309
+  },
+  {
+    "path": "lean/evidence/final-checks/gates-normal.log",
+    "sha256": "7fb608b49a9b01731d9ec61ceee537d0c2bdac96439171879d1cb2f0a30d9d11",
+    "bytes": 1005
+  },
+  {
+    "path": "lean/evidence/final-checks/gates-optimized.log",
+    "sha256": "f6547f8914e4bcafb5b9174db395bbaaec0f1a4a60ac0a1be5374bf98f78daf0",
+    "bytes": 1005
+  },
+  {
+    "path": "lean/evidence/final-checks/global-report.log",
+    "sha256": "cececa73264057467d35e144d72f87bed6f855251c61969cb2c015981cbb250f",
+    "bytes": 323
+  },
+  {
+    "path": "lean/evidence/final-checks/one-stone-report.log",
+    "sha256": "260d181dab06f1db4d1501b42062a7782ea3069ff573c2aae6392efbe21fbe9c",
+    "bytes": 288
+  },
+  {
+    "path": "lean/evidence/final-checks/preflight.log",
+    "sha256": "f25f0e200de5ec04a578b38fa7b20678f8b255f040badcd3f9d3527e7a691c1d",
+    "bytes": 294
+  },
+  {
+    "path": "lean/evidence/final-checks/reference-manifest.log",
+    "sha256": "79bee497b3fcf3c5463594081817ecaf2c16d5925183a1d64845b4d84b25e5ac",
+    "bytes": 78
+  },
+  {
+    "path": "lean/evidence/final-checks/starter-report.log",
+    "sha256": "b40153815456089ecfe9fb97d77d0f8f93bb61a5248111f3b5688b7febfe8eb0",
+    "bytes": 282
+  },
+  {
+    "path": "lean/evidence/FINAL_CHECKS.json",
+    "sha256": "b38afc8c56d54d2f578dca67514b0707e17da811d477038285013187afcbcb31",
+    "bytes": 3652
+  },
+  {
+    "path": "lean/evidence/generated-data.json",
+    "sha256": "bd23b58c797cbba191ef62c6031e80f6a274f646fccaa8dffee840a29b4e51c1",
+    "bytes": 3515
+  },
+  {
+    "path": "lean/evidence/handoff-checks-optimized.json",
+    "sha256": "877950a9ed2542d17df93854098b1c5a7ef4bab94d1449076090dddbc2ae5d98",
+    "bytes": 950
+  },
+  {
+    "path": "lean/evidence/handoff-checks.json",
+    "sha256": "9d09f1bfe098507689efb7c9ea06613e1b1b49c067dbc50aba57617234f4b9a5",
+    "bytes": 951
+  },
+  {
+    "path": "lean/evidence/lean-global/receipt.json",
+    "sha256": "cececa73264057467d35e144d72f87bed6f855251c61969cb2c015981cbb250f",
+    "bytes": 323
+  },
+  {
+    "path": "lean/evidence/lean-one-stone/receipt.json",
+    "sha256": "260d181dab06f1db4d1501b42062a7782ea3069ff573c2aae6392efbe21fbe9c",
+    "bytes": 288
+  },
+  {
+    "path": "lean/evidence/lean-preflight/receipt.json",
+    "sha256": "f25f0e200de5ec04a578b38fa7b20678f8b255f040badcd3f9d3527e7a691c1d",
+    "bytes": 294
+  },
+  {
+    "path": "lean/evidence/lean-residue-zero/receipt.json",
+    "sha256": "e8b4964e17438120a2fa89986671beb71a17d4c150f207fb91aa157c814251e6",
+    "bytes": 309
+  },
+  {
+    "path": "lean/evidence/lean-starter/receipt.json",
+    "sha256": "b40153815456089ecfe9fb97d77d0f8f93bb61a5248111f3b5688b7febfe8eb0",
+    "bytes": 282
+  },
+  {
+    "path": "lean/evidence/local-patches.json",
+    "sha256": "708f7a85444c749be5afa61efef2a025e924bc3fb2cd985ce5b9cbf7274ae775",
+    "bytes": 10285
+  },
+  {
+    "path": "lean/evidence/parallel-construction.json",
+    "sha256": "de249531dba81b1360dae4daa4c91246e63453f0ee108d0a891b748e5191d4c2",
+    "bytes": 6031
+  },
+  {
+    "path": "lean/formal/.gitignore",
+    "sha256": "f639366070a32ba2bddcd7e8164cc61f9c350bc289a010b314cc51d31bf5b7b3",
+    "bytes": 91
+  },
+  {
+    "path": "lean/formal/Benzel/Certificate/Affine.lean",
+    "sha256": "1bed6380079c41c5d0b986e2b8e89ce6f812d849476053efc2c9c3bc9db95709",
+    "bytes": 1346
+  },
+  {
+    "path": "lean/formal/Benzel/Certificate/Exponents.lean",
+    "sha256": "a5d3996b0ba48e0f934a414fbe5b20ba32766fe45654ac091bef8f34202ea3ed",
+    "bytes": 902
+  },
+  {
+    "path": "lean/formal/Benzel/Comparison.lean",
+    "sha256": "ecb2d096bf3d0bd25367800aa01f9dac863edf6ff6924443acac7bd7c052644d",
+    "bytes": 1442
+  },
+  {
+    "path": "lean/formal/Benzel/Generated/ExceptionK2R1.lean",
+    "sha256": "dbbb586c6fef89193b6ffd298f424f9680bab3b75c7993777e072bdc75ec133f",
+    "bytes": 6341
+  },
+  {
+    "path": "lean/formal/Benzel/Generated/ExceptionK2R2.lean",
+    "sha256": "cc080c695958315aab43adb9295746db4da226dbc026309f78a8e5eba05ced93",
+    "bytes": 13419
+  },
+  {
+    "path": "lean/formal/Benzel/Generated/ExceptionK3R1.lean",
+    "sha256": "d7f9a8acbab1a58ee52a85be9fc4912d55e1105a3a10d21b35d61cbc5819339f",
+    "bytes": 6886
+  },
+  {
+    "path": "lean/formal/Benzel/Generated/ExceptionK3R2.lean",
+    "sha256": "13fcf8a738ab329f943e48db61fdc32ac973ef04a6bf1143cbf12c2d49445728",
+    "bytes": 14754
+  },
+  {
+    "path": "lean/formal/Benzel/Generated/LocalPatches.lean",
+    "sha256": "caef31897a6859623666533958864f485ff714a0f06487b0629f61e99fe7f289",
+    "bytes": 8189
+  },
+  {
+    "path": "lean/formal/Benzel/Generated/ResidueOne.lean",
+    "sha256": "a7e7c3258d6d792c0a05ef518ec4f608dce39f417f2f559e1b476d39a61db981",
+    "bytes": 8308
+  },
+  {
+    "path": "lean/formal/Benzel/Generated/ResidueTwo.lean",
+    "sha256": "32bf4e28963f4558aab7d1f39303083ca179a7f0d684be0bee61e15c119f284f",
+    "bytes": 17635
+  },
+  {
+    "path": "lean/formal/Benzel/Generated/Threefold.lean",
+    "sha256": "3b3f4494d7198af3b735c86abf07db8e1faf0696f4d9bf148e049829e9c78777",
+    "bytes": 2913
+  },
+  {
+    "path": "lean/formal/Benzel/Geometry.lean",
+    "sha256": "a754a5375a85aba1eb9a6a6dee5973ee3db8c3c9a9cae2f0ec06bd4bfcc11a80",
+    "bytes": 2439
+  },
+  {
+    "path": "lean/formal/Benzel/Incidence.lean",
+    "sha256": "1ad390c5daa3a564e0749b694b1dcbc516b2a519a4147f1c07a3bd4cee65776c",
+    "bytes": 2250
+  },
+  {
+    "path": "lean/formal/Benzel/IndexedTables.lean",
+    "sha256": "3b1828c3aaee6b3b274b108b0fd12cbf54a0d4c7e6b7853ab619bf77ea1a041e",
+    "bytes": 1844
+  },
+  {
+    "path": "lean/formal/Benzel/OneStone.lean",
+    "sha256": "c1917236f7c5606a36fd067d338b204d02b17aed008ebc4987e987ab71e92e4e",
+    "bytes": 2109
+  },
+  {
+    "path": "lean/formal/Benzel/Parameters.lean",
+    "sha256": "38fa602aa84478458611c6bf5228b299ec3032a4f92d68737942cdf1c7eb323b",
+    "bytes": 2467
+  },
+  {
+    "path": "lean/formal/Benzel/PatchHomotopy.lean",
+    "sha256": "ee756e531d739829af6122d284379898b3d86f5873c12247666592c153f81aa4",
+    "bytes": 1415
+  },
+  {
+    "path": "lean/formal/Benzel/SourceOwnershipExamples.lean",
+    "sha256": "b295d64c51579ade6c7fc9b40406bccff056a9f1e7ebac0c56bf3f2de34017ba",
+    "bytes": 1112
+  },
+  {
+    "path": "lean/formal/Benzel/Specification.lean",
+    "sha256": "52cc577b3faf51d44c541aedd5e64096d14f5680b34f5f31427d5b363470810d",
+    "bytes": 1578
+  },
+  {
+    "path": "lean/formal/Benzel/Tiles.lean",
+    "sha256": "2ae27d72b3f9bb9c2f4312b724dbb4f11231a9fb457bec46f5bcc41d0001d910",
+    "bytes": 2524
+  },
+  {
+    "path": "lean/formal/Benzel.lean",
+    "sha256": "e112df3c83a4814d8e9fc8df03c936c655ceadb7b58125c946adc425f426dfe6",
+    "bytes": 624
+  },
+  {
+    "path": "lean/formal/BenzelWithSplitZero.lean",
+    "sha256": "c4d112a7aa652c9d5d03e20183994a8c28e61659eabd2853d4902b7768d37670",
+    "bytes": 47
+  },
+  {
+    "path": "lean/formal/lakefile.toml",
+    "sha256": "5bc1c81e664bb3a52d47475ad17f2a741fdf54f509a0514f8fe9a412de906216",
+    "bytes": 246
+  },
+  {
+    "path": "lean/formal/lakefile.with-splitzero.toml",
+    "sha256": "b2e3be2492d734e6c60ed388517c49b3d0fc904d162f865d52932aa369fcda05",
+    "bytes": 612
+  },
+  {
+    "path": "lean/formal/lean-toolchain",
+    "sha256": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+    "bytes": 25
+  },
+  {
+    "path": "lean/formal/Optional/SplitZeroAdapter.lean",
+    "sha256": "b976a3bf391f8f3100231502b8ea0de67fa5931c65b64068c9c18c4562843b61",
+    "bytes": 3207
+  },
+  {
+    "path": "lean/MANIFEST.sha256",
+    "sha256": "65a7ec46d58ef5eeaea72f42d02ebd75ea0fef4171397568db144fd2ad5ffb42",
+    "bytes": 39117
+  },
+  {
+    "path": "lean/PINNED_INPUTS.json",
+    "sha256": "9e069cbd555ebb39e68a76097c9d3acc1ac3d9a518dbb0281d2c07f211dd71d5",
+    "bytes": 1148
+  },
+  {
+    "path": "lean/README.md",
+    "sha256": "68eac3d679c22372c8bbc2977839eae22fe7463455243cc80a0241dca9c8b2c9",
+    "bytes": 3903
+  },
+  {
+    "path": "lean/reference/audit_snapshot/audit/check_linear_receipts.py",
+    "sha256": "dd65e37259a3c04d06f36a3e20499f6b9d3244a0958ec36ae3affeedfc931c4f",
+    "bytes": 1719
+  },
+  {
+    "path": "lean/reference/audit_snapshot/audit/check_polynomial_receipts.py",
+    "sha256": "e437cd7a49dba566ed5b0a5bad7fa2377a9019dbdb0b707f5a6d9037413f6cc5",
+    "bytes": 2973
+  },
+  {
+    "path": "lean/reference/audit_snapshot/audit/independent_kernel.py",
+    "sha256": "5e70dbdba2db16c180814c7fff2371163bcff2240e05b251745d7b92864442f2",
+    "bytes": 4384
+  },
+  {
+    "path": "lean/reference/audit_snapshot/audit/independent_sources.py",
+    "sha256": "ab89b79ddcb9a30aab588fda90c2b9dc6021383adb668cf3ff2f37972069648d",
+    "bytes": 10411
+  },
+  {
+    "path": "lean/reference/audit_snapshot/audit/independent_symbolic.py",
+    "sha256": "453e3b11a96f8760682fee1862c0fce876fc5aba5370e7eaf2d4b9137d65a150",
+    "bytes": 10114
+  },
+  {
+    "path": "lean/reference/audit_snapshot/audit/local_and_parameters.py",
+    "sha256": "973b93163578e7a9a0cadae5dab1150993beca65ce97283e7528ee2e41277291",
+    "bytes": 4388
+  },
+  {
+    "path": "lean/reference/audit_snapshot/audit/original_cell_check.py",
+    "sha256": "cf92720d69eac518b83a9bfd71f2f69fb8df74b6d6b6ddbddf7914a00add6416",
+    "bytes": 7272
+  },
+  {
+    "path": "lean/reference/audit_snapshot/audit/quick_output_check.py",
+    "sha256": "1fc935abd8f461aafb4a050d76b61b15a8bd647475156c62ff418974125bb1c2",
+    "bytes": 863
+  },
+  {
+    "path": "lean/reference/audit_snapshot/audit/run_algebra_checks.py",
+    "sha256": "87f7d8f76aee18b06701bab66c7580e9e4958d93bc1a3514c5822e96eecca439",
+    "bytes": 2054
+  },
+  {
+    "path": "lean/reference/audit_snapshot/audit/table_semantics.py",
+    "sha256": "d09172a84b9468a71c6c1816c6b004d3437cf38552b14814691e25c0a25a45b4",
+    "bytes": 3225
+  },
+  {
+    "path": "lean/reference/audit_snapshot/audit/verify_bundle.py",
+    "sha256": "57aa08186a998e943a82dd658bf428c62a9c0506347a726e4ccb62f85ce76518",
+    "bytes": 811
+  },
+  {
+    "path": "lean/reference/audit_snapshot/AUDIT_SUMMARY.json",
+    "sha256": "6d543d7b5999cae6f6a5cab1b7acb5e0a97e6e55c5f24f6b6afdd1d4dccba2bc",
+    "bytes": 3793
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/algebra-normal.log",
+    "sha256": "b1527faf5357e2ca80bf9a30c8291d9f1f81135b698f46a524487e1bb1a312a9",
+    "bytes": 250
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/algebra-optimized.log",
+    "sha256": "6a42e5d3b004ebd131e9aba1617361e950d9b287b10ca921f0c98336aaedf4c2",
+    "bytes": 271
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/audit-development-error.log",
+    "sha256": "87e461414b386c4721e7bf51fa4604ac684f6d2acbcfce3584aa988f26ab32ab",
+    "bytes": 1258
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/fresh-checker-replay.json",
+    "sha256": "a9ad66f6f2e89e1819100bfc9b86a7f375cab565a92ad24beee349e590a354ef",
+    "bytes": 5362
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/fresh-copy-algebra.log",
+    "sha256": "b1527faf5357e2ca80bf9a30c8291d9f1f81135b698f46a524487e1bb1a312a9",
+    "bytes": 250
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/fresh-copy-output.log",
+    "sha256": "fcad04e5937e1d7b9d23b920afb48436746fd0086c929afd005be1bc33e707c6",
+    "bytes": 1639
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/frozen-source-identity.json",
+    "sha256": "b0f3e0734a7ef6b764015b4f7c5336bb0d50155a17b83644373fc9ae07f35c76",
+    "bytes": 13875
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/independent-kernel.json",
+    "sha256": "d0dd7c2ecbbf2f9598445d6193613ae11014ff04d6d495d6cd2f9774eebf0def",
+    "bytes": 3349
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/independent-kernel.log",
+    "sha256": "3496bd50b94400b421d3f9b80d181d4da7d7024f28cb929160a18d78747dc6e1",
+    "bytes": 3349
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/independent-sources.json",
+    "sha256": "d536e7680cfe95740ed397f70671e56a90fc98ddd8129c64383c5484785eac1d",
+    "bytes": 5209
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/independent-sources.log",
+    "sha256": "00a5e54af54bc263ad51de2440c40558e9a8b1cd5666a16db1ff45bd66028c15",
+    "bytes": 718
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/independent-symbolic.json",
+    "sha256": "57275f1574ca72e5983f43510a37a2d025e99dae1bf9b4bd08e0bf014d86e630",
+    "bytes": 13113
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/independent-symbolic.log",
+    "sha256": "19766d5bdf0f4a4407f979fae45063057208f877daa1d06d42a0a77aadac9af6",
+    "bytes": 1062
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/linear-receipt-check.json",
+    "sha256": "a7e57ec446b84fd3a55d6871bd0f3288aef25a2f375bea8d42c070482c55112e",
+    "bytes": 117
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/local-and-parameters.json",
+    "sha256": "cd76771418d48f8e72bab5978526ca28e99d5419b2cf0dea45d8409f0c181463",
+    "bytes": 757
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/normal/check_linear_receipts.py.log",
+    "sha256": "a7e57ec446b84fd3a55d6871bd0f3288aef25a2f375bea8d42c070482c55112e",
+    "bytes": 117
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/normal/check_polynomial_receipts.py.log",
+    "sha256": "e5803ebbf7d14323c1f7a73a2f778e58cff15675efd6ab897d289213854ba91b",
+    "bytes": 2646
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/normal/independent-kernel.json",
+    "sha256": "414aa2f6ce65b88fa8bd069bd37793697568daf1dde4ef579b3491d402e7d1b7",
+    "bytes": 3349
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/normal/independent-sources.json",
+    "sha256": "44a0cbec003b912d6981b0a295b71668183a1edbedc5c51d27cb95690b521a3e",
+    "bytes": 5209
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/normal/independent-symbolic.json",
+    "sha256": "a41cc1f4ec5e40066bae5fa674dc31fdd99d8cd7e2b0a31898a1266f3583514f",
+    "bytes": 13113
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/normal/independent_kernel.py.log",
+    "sha256": "414aa2f6ce65b88fa8bd069bd37793697568daf1dde4ef579b3491d402e7d1b7",
+    "bytes": 3349
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/normal/independent_sources.py.log",
+    "sha256": "00a5e54af54bc263ad51de2440c40558e9a8b1cd5666a16db1ff45bd66028c15",
+    "bytes": 718
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/normal/independent_symbolic.py.log",
+    "sha256": "19766d5bdf0f4a4407f979fae45063057208f877daa1d06d42a0a77aadac9af6",
+    "bytes": 1062
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/normal/linear-receipt-check.json",
+    "sha256": "a7e57ec446b84fd3a55d6871bd0f3288aef25a2f375bea8d42c070482c55112e",
+    "bytes": 117
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/normal/local-and-parameters.json",
+    "sha256": "cd76771418d48f8e72bab5978526ca28e99d5419b2cf0dea45d8409f0c181463",
+    "bytes": 757
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/normal/local_and_parameters.py.log",
+    "sha256": "cd76771418d48f8e72bab5978526ca28e99d5419b2cf0dea45d8409f0c181463",
+    "bytes": 757
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/normal/polynomial-receipt-check.json",
+    "sha256": "e5803ebbf7d14323c1f7a73a2f778e58cff15675efd6ab897d289213854ba91b",
+    "bytes": 2646
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/normal/run-ledger.json",
+    "sha256": "7467e40efac73fbb93ad67259d7077252b00dbe8eea829a7aa0b6b1d5904e505",
+    "bytes": 2685
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/normal/table-semantics.json",
+    "sha256": "8e9c07440197d76e1ab81a6ab70b84817cac29eb46471d8f32d694be90513863",
+    "bytes": 1525
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/normal/table_semantics.py.log",
+    "sha256": "126eb85094bfaca845b01c35e5eb9d2fa12665ac50af7321a71328fee7908596",
+    "bytes": 340
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/check_linear_receipts.py.log",
+    "sha256": "a7e57ec446b84fd3a55d6871bd0f3288aef25a2f375bea8d42c070482c55112e",
+    "bytes": 117
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/check_polynomial_receipts.py.log",
+    "sha256": "5b09518e45aea4909a9c0f8e555ccf9817a6a940c5186c9a66d228913e706d4c",
+    "bytes": 2646
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/independent-kernel.json",
+    "sha256": "d0dd7c2ecbbf2f9598445d6193613ae11014ff04d6d495d6cd2f9774eebf0def",
+    "bytes": 3349
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/independent-sources.json",
+    "sha256": "d536e7680cfe95740ed397f70671e56a90fc98ddd8129c64383c5484785eac1d",
+    "bytes": 5209
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/independent-symbolic.json",
+    "sha256": "57275f1574ca72e5983f43510a37a2d025e99dae1bf9b4bd08e0bf014d86e630",
+    "bytes": 13113
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/independent_kernel.py.log",
+    "sha256": "d0dd7c2ecbbf2f9598445d6193613ae11014ff04d6d495d6cd2f9774eebf0def",
+    "bytes": 3349
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/independent_sources.py.log",
+    "sha256": "00a5e54af54bc263ad51de2440c40558e9a8b1cd5666a16db1ff45bd66028c15",
+    "bytes": 718
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/independent_symbolic.py.log",
+    "sha256": "19766d5bdf0f4a4407f979fae45063057208f877daa1d06d42a0a77aadac9af6",
+    "bytes": 1062
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/linear-receipt-check.json",
+    "sha256": "a7e57ec446b84fd3a55d6871bd0f3288aef25a2f375bea8d42c070482c55112e",
+    "bytes": 117
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/local-and-parameters.json",
+    "sha256": "cd76771418d48f8e72bab5978526ca28e99d5419b2cf0dea45d8409f0c181463",
+    "bytes": 757
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/local_and_parameters.py.log",
+    "sha256": "cd76771418d48f8e72bab5978526ca28e99d5419b2cf0dea45d8409f0c181463",
+    "bytes": 757
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/pipeline.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/polynomial-receipt-check.json",
+    "sha256": "5b09518e45aea4909a9c0f8e555ccf9817a6a940c5186c9a66d228913e706d4c",
+    "bytes": 2646
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/run-ledger.json",
+    "sha256": "29f46fca38fb15641a9994c816c0ad82638f4cb3e38461b98336a2453dc43a37",
+    "bytes": 2702
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/sources.json",
+    "sha256": "54207fb691c0305234b0abf9b0d707c7973139d38ddf14535cb01d96e4e681d7",
+    "bytes": 5209
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/sources.log",
+    "sha256": "00a5e54af54bc263ad51de2440c40558e9a8b1cd5666a16db1ff45bd66028c15",
+    "bytes": 718
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/symbolic.json",
+    "sha256": "4333443599439cfadb1eef2c62e98b60c0cef00e9acac4006923eca99aa75300",
+    "bytes": 13112
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/symbolic.log",
+    "sha256": "19766d5bdf0f4a4407f979fae45063057208f877daa1d06d42a0a77aadac9af6",
+    "bytes": 1062
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/table-semantics.json",
+    "sha256": "8e9c07440197d76e1ab81a6ab70b84817cac29eb46471d8f32d694be90513863",
+    "bytes": 1525
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/optimized/table_semantics.py.log",
+    "sha256": "126eb85094bfaca845b01c35e5eb9d2fa12665ac50af7321a71328fee7908596",
+    "bytes": 340
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/original-cells.json",
+    "sha256": "8ed02f1ace0034d9ebec805ef9219c3cb5a8e2baabb7668c009a8fe49dad5ec0",
+    "bytes": 258530
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/original-cells.log",
+    "sha256": "b379f8b1eb9d35f744e507e1661afd3928acb2a74f7221e00ec3b03ee56417c9",
+    "bytes": 1708
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/pdf-review.json",
+    "sha256": "41416c7f8191f8ead40bb745e673dd6e849420108c80d1a1db5e35d7f36007e7",
+    "bytes": 395
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/polynomial-receipt-check.json",
+    "sha256": "5b09518e45aea4909a9c0f8e555ccf9817a6a940c5186c9a66d228913e706d4c",
+    "bytes": 2646
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/reconstructed-linear-identities.jsonl",
+    "sha256": "52c97d21f9e77a6c7bed80b7da734099123b4dade1efb26bc089b2527e377021",
+    "bytes": 1939892
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/reconstructed-polynomial-identities.jsonl",
+    "sha256": "11b103eab740e05bb522c0c299089f53a4cec1b0b4901dd8f128d53835c25f80",
+    "bytes": 247870
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/table-semantics.json",
+    "sha256": "8e9c07440197d76e1ab81a6ab70b84817cac29eb46471d8f32d694be90513863",
+    "bytes": 1525
+  },
+  {
+    "path": "lean/reference/audit_snapshot/evidence/table-semantics.log",
+    "sha256": "126eb85094bfaca845b01c35e5eb9d2fa12665ac50af7321a71328fee7908596",
+    "bytes": 340
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/DEPENDENCIES.json",
+    "sha256": "8f4cc047db7e414f469be6946e90eae87319cc9708024e66175c1fdf55826dc9",
+    "bytes": 4809
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/integration.patch",
+    "sha256": "1cd7ce8baa627d30303791b3e484d2bc6feb435f11390e9f410472fb3a0d72c0",
+    "bytes": 2369472
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/PATCH_CHECK.json",
+    "sha256": "ad6f9859a23598000b4dd6b471db3dab106362ea432effc87c0d146951a247c8",
+    "bytes": 628
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/PR_BODY.md",
+    "sha256": "fa04977cb47061782c49951a6debc090f9f285dd795fd871710efb1f9b984cf5",
+    "bytes": 2407
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/README.md",
+    "sha256": "c069aded59fbbe87899dfc4a681885f41f806a0d4795a31d6de5dad44e4b0818",
+    "bytes": 2397
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/reference-earlier-proofs.md",
+    "sha256": "9d81eb801f1f1adf1bfefec7678010632e6b251c0c2b8fdfec6b84c9b3831136",
+    "bytes": 20053
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/build_edits.py",
+    "sha256": "277a098a51b4e995811ec84c113160d73f3911b19fac011bfc991b9e8ff5cb02",
+    "bytes": 1826
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/build_small.py",
+    "sha256": "84aa315f2506324ab0504b3e6058c2bed1dc08f31b974287a1e2c6fcc7f720e8",
+    "bytes": 1532
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/complete_theorem.py",
+    "sha256": "98a4f876b93ab1b49062a18602a5456a3f0a0fdb88924555b1d878fc492f88dc",
+    "bytes": 6824
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/core10.py",
+    "sha256": "aa303fb085103dbe66490a2f92aedf1e1f768d5feb8443a9fc668c2b6bf8ece9",
+    "bytes": 2662
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/build_document.py",
+    "sha256": "00455b55c8efd0e47076181b6852647702bcf9b00be2c496ab4b378af48fd716",
+    "bytes": 1827
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/direct_beta.py",
+    "sha256": "2b140d10cf75276ff2efd8a49cd6c512ca83fabcc199f548f0d59dfaaa718a1f",
+    "bytes": 4181
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/discover_owners.py",
+    "sha256": "1fa00ef30929cff9b3ea74af851c1e319d639d9a4487f9b8b2d644e35be3c293",
+    "bytes": 6118
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/discover_uniform.py",
+    "sha256": "4ffed8854663faa18f4e4263a130f5da8dfa851e317421c46c0039ab14fec169",
+    "bytes": 5444
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/edits-k2-r1-with-owners.json",
+    "sha256": "8037a803875f466accdf3194e92b14a92ba00321ad8ec3a62e4381140d420dc5",
+    "bytes": 17396
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/edits-k2-r2-with-owners.json",
+    "sha256": "8641a900567a06ba510a296c6a45e770f6ccffa63c59a696671c5e462cef7bc5",
+    "bytes": 37383
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/edits-k3-r1-with-owners.json",
+    "sha256": "b03d038a5aacefdd46f7a6502f2be4bb70b49d07bb5172fd04867e21e5d09be2",
+    "bytes": 19151
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/edits-k3-r2-with-owners.json",
+    "sha256": "20207862007b1fa3b35f87dc95437e8c156eee5f01b479d30795e4e6c2943548",
+    "bytes": 41591
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/edits-with-owners.json",
+    "sha256": "f5795633261efe717b154081fa79a9ab2e2700777d3bde136bd3d0c561214705",
+    "bytes": 47726
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/generate_ownership.py",
+    "sha256": "5969a765488ac4b97d763dc9b544c760add62982656891bcf09a391a14b7d400",
+    "bytes": 1144
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/owner-bounds-k2-r1.json",
+    "sha256": "8247e179fd596e7cb04cd2bc16c6905f70b223c1c9102e9cbb64e86c147a703c",
+    "bytes": 19255
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/owner-bounds-k2-r2.json",
+    "sha256": "77c828ad0e97acc5ac1034c53185f73f4c9e7a6789a98ba8c54f590d0db6bced",
+    "bytes": 45731
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/owner-bounds-k3-r1.json",
+    "sha256": "d57066904aa45de0e116e252b4b9f16a1736adc1f2dc544ae4e1d41b91a1dac6",
+    "bytes": 24012
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/owner-bounds-k3-r2.json",
+    "sha256": "2aa0516b6224ace0da6e35c59f37eb56f16f3f9b464b0431ed50a3cb22c29d53",
+    "bytes": 52519
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/owner-bounds.json",
+    "sha256": "ff7f3383552fc21d17771c72e04f71c8da58739d346d3ecd3d35158b9e6bb4d0",
+    "bytes": 56634
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/ownership_uniform.py",
+    "sha256": "d92d50e431faa30c4f70e976a38fecf733cd855ca9f445177ed525df9964753e",
+    "bytes": 4853
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/residue2_search.py",
+    "sha256": "ba5ade007260ec1097a32aec68df371fcb5f09f16b292e8840907a9026fb504b",
+    "bytes": 1262
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/small-beta-2.json",
+    "sha256": "5f9931c937a7a32532d57b82707a2edf4ffed344bcb70b3c92c432dcaf424b1e",
+    "bytes": 2155
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/small-q2-full-2.json",
+    "sha256": "92d54c0d5424541e7c6cd18a279451f99a9de2493e906b9e9d2b50cd224630c0",
+    "bytes": 6760
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/small_endpoints.py",
+    "sha256": "1699b464a15dd9c968bfcb95601c9218ad6479d4e0e3c7376292cc4640d93a28",
+    "bytes": 4181
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/small_full.py",
+    "sha256": "c812cdf9b96a0c45d79ef2c05fcca777833ea740d2040e18fe3f6b60061febf8",
+    "bytes": 1428
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/development/test_small.py",
+    "sha256": "86339f9f2847ce8e6dd5489e100a123f90a2f4e8ab0dc3686a9224acbdd5d568",
+    "bytes": 958
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/edits-k2-r1.json",
+    "sha256": "8037a803875f466accdf3194e92b14a92ba00321ad8ec3a62e4381140d420dc5",
+    "bytes": 17396
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/edits-k2-r2.json",
+    "sha256": "8641a900567a06ba510a296c6a45e770f6ccffa63c59a696671c5e462cef7bc5",
+    "bytes": 37383
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/edits-k3-r1.json",
+    "sha256": "b03d038a5aacefdd46f7a6502f2be4bb70b49d07bb5172fd04867e21e5d09be2",
+    "bytes": 19151
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/edits-k3-r2.json",
+    "sha256": "20207862007b1fa3b35f87dc95437e8c156eee5f01b479d30795e4e6c2943548",
+    "bytes": 41591
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/edits.json",
+    "sha256": "f5795633261efe717b154081fa79a9ab2e2700777d3bde136bd3d0c561214705",
+    "bytes": 47726
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/cold-replay.json",
+    "sha256": "d2ef5944c112c3fa87a56ddcdedf35421065c74b7624e16e03d922a37a18b1f8",
+    "bytes": 28746
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/cold-replay.log",
+    "sha256": "754fdc4c41438a2e0410267f9df25d3aa0e6e6d8716e3d6d8e9fc516690245f5",
+    "bytes": 1467
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/discover-k2-r1.log",
+    "sha256": "3c1e39a8b3eca396c1be1cc8a0f63baaddb410637bb8a5b8d02bc58213cf0560",
+    "bytes": 2595
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/discover-k2-r2.log",
+    "sha256": "18535feb3a716ee41b02ea07dedddef03c99acfa44be5a5fd99deeae3d45f0d2",
+    "bytes": 5884
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/discover-k3-r1.log",
+    "sha256": "fed72f7647ea12c48832ed1e49f1256f5a5d9e23b568f7b2300ea9353aaa970c",
+    "bytes": 2904
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/discover-k3-r2.log",
+    "sha256": "6e63faf9f9f89024b244548d841718a1012b6dd69df08415748a4b4d52035f64",
+    "bytes": 6645
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/example-58-74.json",
+    "sha256": "0bd6d2bfd253190fee48b63027bf9875bcd13030027cc228677993d0d1e4e0de",
+    "bytes": 17040
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/legacy-four-identities.json",
+    "sha256": "825a6c353eae19f266622ced758514c6d85b9032c25a7f8b1d360b2e81e2b46b",
+    "bytes": 3082
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/normal.json",
+    "sha256": "b31205ad1e8d5d02f965de0c548e134f14c7b4f61b0881897ff45b89bc083060",
+    "bytes": 28746
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/normal.log",
+    "sha256": "abcea5d55db21091c838339ab6849ff09d9565e19381091b82868cbf198a6c05",
+    "bytes": 1467
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/optimized.json",
+    "sha256": "02574d07fb678b825f98b1acbc1c5826eaff376eaac0b7a6d02222ceaf2bfed2",
+    "bytes": 28745
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/optimized.log",
+    "sha256": "bb749316cae409f07fa970f5528b410dc46776857f806d5fd4f395eebea81e7e",
+    "bytes": 1467
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/owner-discovery.log",
+    "sha256": "667b236c89bd1b0884879bf278cf93c432552c9064516b2428373e67135c0a3c",
+    "bytes": 7543
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/ownership-k2-r1.json",
+    "sha256": "d7830d7245fd85916fe5cb8d9f3b331d27058ad8e63758b1c021bab7c9932989",
+    "bytes": 229
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/ownership-k2-r2.json",
+    "sha256": "16b8175d02ace310c9e8b5c3b529e592658deeaf8b9b3d400021072ba9fdc08b",
+    "bytes": 230
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/ownership-k3-r1.json",
+    "sha256": "38d6585512ecbe344ba8499b30277cbd873dd392a5c8a77fba18ed452f6e050d",
+    "bytes": 230
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/ownership-k3-r2.json",
+    "sha256": "b16eed4af6d06a8d25f1de56e42cc0a4fd94ced1203d9d3b73d86335efd8efb6",
+    "bytes": 231
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/ownership.json",
+    "sha256": "5dad7a54bdd1d1a8dd9e4fbb079b60cc9054ba9851203c26fd550e48d47d6a51",
+    "bytes": 232
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/pdf-build.json",
+    "sha256": "5576d2787438add761ca6f4e29470ce6d6d594ebf466d141d8ab797485e6e3d4",
+    "bytes": 627
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/small-symbolic.json",
+    "sha256": "196ea9d0b04f9ccac49191cfc624d252aab264bd8617a0f6acc817c8e1f63b71",
+    "bytes": 5910
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/evidence/symbolic.json",
+    "sha256": "4622dc293a9376ba2d1084768f413f9c57168e2d7bdbe9fc3f865c8163b4c836",
+    "bytes": 1658
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/EXPLORATION.md",
+    "sha256": "718e9a150bef78c73e82214558588242c64e1c7d71fc1ece2d0f47ec705a3f2e",
+    "bytes": 2664
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/ownership-certificates-k2-r1.json",
+    "sha256": "56554eedba2b17bec4fd61e9297cfadf81114f4c574d7bd9f8798d8a9251ea01",
+    "bytes": 36211
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/ownership-certificates-k2-r2.json",
+    "sha256": "eab3d5f5c172fd08b5e1b6e41e529d2bf8402c5ad0db62c3fc894e629baaa6a4",
+    "bytes": 93512
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/ownership-certificates-k3-r1.json",
+    "sha256": "ed63f893b25fb2a886e664345cd83d55af6ae699148af79625c59a1bd602a4b6",
+    "bytes": 52688
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/ownership-certificates-k3-r2.json",
+    "sha256": "3e218088b3422823f0c8ce2060dda7cfb46fa4db58014fc31d49c0c47ff4f404",
+    "bytes": 116660
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/ownership-certificates.json",
+    "sha256": "91acd745eae6c5380944475e3053c91be38c1c73754f47b3d10038138a7d8b84",
+    "bytes": 137415
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/ownership.py",
+    "sha256": "bbecc1116114cbb5c51131936acaa02165a180817d4912e1f98b720d4eb5511c",
+    "bytes": 5831
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/PROOF.md",
+    "sha256": "c97b695cc9cb27248ee9e61780a52e8c4968f38b011990a5c62be6f047809cc5",
+    "bytes": 36733
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/PROOF.pdf",
+    "sha256": "39d5d3e7911145002e51e998839a59aed68cd93e9becbaf64a8a98ba91104ca9",
+    "bytes": 355672
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/PROOF.tex",
+    "sha256": "8d846cf6b5dd68ed47827006cb176b7633546997f83483686c471bba713b3e86",
+    "bytes": 45047
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/PROVENANCE.md",
+    "sha256": "92d123ae04f78a474d15bf5ef7327f638255cd375c5bcba72ed1b3dbb410f0c0",
+    "bytes": 3684
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/rebuild_pdf.sh",
+    "sha256": "911b78fba88044804e8488adb02b78b2644127d06e4f5a604aeb470bf03e96bb",
+    "bytes": 332
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/recorded-checks.json",
+    "sha256": "af62ff660c9b58441d6d2f8485002a74f005182a9209e3d15a9a34965cdd11f8",
+    "bytes": 1839
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/reference-earlier-proofs.md",
+    "sha256": "9d81eb801f1f1adf1bfefec7678010632e6b251c0c2b8fdfec6b84c9b3831136",
+    "bytes": 20053
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/small-direct-2.json",
+    "sha256": "ac8374691bfe42644d0fff6db68746ac6027a5a788b2ad9ae50772d36103fbd4",
+    "bytes": 1776
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/small-direct-3.json",
+    "sha256": "a457e01156adf3030058ddcf0d6a01c0e769e864c6e0d2a813bfc9a617982aa7",
+    "bytes": 2107
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/small-q1-2.json",
+    "sha256": "17ecb78696ed2bca2ec70a19613a1d6822ef2d4dcd3e4367351c7d04de79549e",
+    "bytes": 1509
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/small-q1-3.json",
+    "sha256": "ad6c665eda1054b42c7c9f263b6a5d6ffa8243afc53f79f8cf15339de3b6ccaf",
+    "bytes": 1759
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/small_symbolic.py",
+    "sha256": "04d9d5e50c53e996ab6440670ea09aa23d810d8ea94311a74a89d80e32747d47",
+    "bytes": 1338
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/source-domain-certificates.json",
+    "sha256": "6f44005a684689c18642d018aca62e9c1c76c4167aaf14c80fb7d613072c0078",
+    "bytes": 95672
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/source10.py",
+    "sha256": "a45d4268a8f860a1730d126ca90bdc7bd960bcebdf9f068843cbf90ce70f9e62",
+    "bytes": 3467
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/source_domains.py",
+    "sha256": "b2f4ecf9853ef0559ec54b41f224307b0cf5be41112a20d157910d0a752b8f7a",
+    "bytes": 5262
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/split_complex.py",
+    "sha256": "193ec68419e4f511fbd5ace80c1ca405ececb056636a26061054aded70ae8f37",
+    "bytes": 5029
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/STATE.json",
+    "sha256": "f9f7431dd8856d3599ee7f6730b526e5f03eb76a60d6bf71b9f799377e69ce38",
+    "bytes": 920
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/symbolic_certificate.py",
+    "sha256": "9f3b21f57dadae76de557c2a594f349db2d28b3eb4a353952f3b4b63e47c227a",
+    "bytes": 665
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn10/verify.py",
+    "sha256": "a03409ce9dc48fbc8a0bae554536227aa658e403f9e39619552a6ffc3acb07db",
+    "bytes": 8194
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn7/construction.py",
+    "sha256": "39826875070e72f360963f5c1a862bc3e7e161d4e922d3efe702df1af5e1cc7d",
+    "bytes": 3986
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn7/geometry.py",
+    "sha256": "3db084d34b97704f9c45cb4193137d127f8f0399345e19e5411af7afc0fe6eed",
+    "bytes": 4995
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn7/parent_construction.py",
+    "sha256": "d02b67bb20dac716b2d134978e3b0283a0d72613c32324eef3cced4da0063458",
+    "bytes": 4937
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn7/polynomial_check.py",
+    "sha256": "b9472f8c54a31bde68b0d6734312cda201743e2e69b06fe6fff7d38674494a8b",
+    "bytes": 6648
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn7/templates.json",
+    "sha256": "7f9298d33eb6b878d166411be6acc10f811bbb904304b370ef96ff0cdd2f23ed",
+    "bytes": 58910
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn8/bivariate_certificate.py",
+    "sha256": "d4582ca9bd261e30d77a199c59c19b20161c0c619c21aaf1e5bb16523955fb72",
+    "bytes": 7019
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn8/cohomology.py",
+    "sha256": "023b155faa886bfcd794864da1e8bc51ff1c77455f020c63a322366dadac94db",
+    "bytes": 8124
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn8/construction.py",
+    "sha256": "58c2260a2e96690e58eb3ded86251158329160514ca17ee664c6390d3969d7e4",
+    "bytes": 3592
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn8/families.json",
+    "sha256": "7032c6fc5e4e3be9542f5b5712d5eb071f452d5348d5b045597c24bae806488a",
+    "bytes": 7057
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn8/families.py",
+    "sha256": "7b224c838997d1aaf78505e51a132249f1dddc699a6149ebe122a96ae7dd793f",
+    "bytes": 1712
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn8/geometry.py",
+    "sha256": "3db084d34b97704f9c45cb4193137d127f8f0399345e19e5411af7afc0fe6eed",
+    "bytes": 4995
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn8/packing.py",
+    "sha256": "d02b67bb20dac716b2d134978e3b0283a0d72613c32324eef3cced4da0063458",
+    "bytes": 4937
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn8/PROOF.md",
+    "sha256": "f8662d8f26971accf8c27e377b2ba77b72a25018402ba70f52703869158d6ed9",
+    "bytes": 26395
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn8/README.md",
+    "sha256": "88b69a4ac99d5e36f6cbc013353e30c2b50f33ffbcbec473c18ce4a67bbfb377",
+    "bytes": 2987
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn8/recorded-checks.json",
+    "sha256": "35e49b9ed60597542a37b50634c3857be88b49ee08b95bb1c5df2c2f745ddc0a",
+    "bytes": 4400
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn8/sources/turn6-PROOF.md",
+    "sha256": "271a3bc14d627c37f5d8e7933f6d6c13a757bcc22b6b3e0913d8078232228a8c",
+    "bytes": 22947
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn8/SOURCES.json",
+    "sha256": "610ae993d876b8722c2138d8aa252b77bc61a2b649be4574bc1e5484d5c6ead1",
+    "bytes": 2346
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn8/STATE.json",
+    "sha256": "842c4ba6943db7cf210c6a283369daaf2e25238a1c7c007ae775ae78fce8f4a6",
+    "bytes": 1725
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn8/transports.py",
+    "sha256": "be770ea9228df54b2e0b8e7e576d31ae29901a4281d55315aefe6de8b66405ae",
+    "bytes": 1870
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn8/verify.py",
+    "sha256": "c49b48a7c72276d8002663243aec9f4f1d6d556fda76ab7cf5efaa2ff627d8e4",
+    "bytes": 11508
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/build_tables.py",
+    "sha256": "b63c871885542b148282223d4d4c986b1ef4549a2f65cd2e4d835d45f3a33ff0",
+    "bytes": 2603
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/core.py",
+    "sha256": "390eabe28ccd00432bc27f5e220ead8d8edc904054228485ebfa2e88ba5fa617",
+    "bytes": 4240
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/edits.json",
+    "sha256": "2094b76eb6cf9a52a9d7ddd5b34810dafc579bf11cd9613e220a563eb027c1cc",
+    "bytes": 22338
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/certificate-generation.log",
+    "sha256": "6249fb2ae876686fd8e091afe23204ecedbb6ddf1bd06f343a4e4ef611a23ff7",
+    "bytes": 103
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/final-small-replay.json",
+    "sha256": "7b8ce08caa6a9a244ba8a26830c61f6e460b806aa185e3025990f71e45aabc3e",
+    "bytes": 4647
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/final-small-replay.log",
+    "sha256": "f2e81f352e4e5a08730b657a7fc39cdc593c7b3e0180205d9dc247ce8e7baf8b",
+    "bytes": 2697
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/normal.json",
+    "sha256": "aa852ab1eeede63e6eda53339e5337dfe89c9fdce92dd261e14087fc9d993555",
+    "bytes": 10097
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/normal.log",
+    "sha256": "b72a5511715007654744251d83530dca9f88ebe701d9c85a6c642d4e9057bdc9",
+    "bytes": 2702
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/optimized.json",
+    "sha256": "882418af627df06a47e1d13b8fb2a030a56071da457199979fb9cfe07d8dd16e",
+    "bytes": 10096
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/optimized.log",
+    "sha256": "9b263c59e2fa22fe9b1403153a9adfc16dbf5bdbbdf92d26c0c4d22a23feab88",
+    "bytes": 2701
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/ownership-errors.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/ownership.json",
+    "sha256": "ee68364a5f5fbf7241af0de67b4e0c8430ae617378d41d3cb1f3c14fe69073b1",
+    "bytes": 113
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/prior-handback-patch-check.json",
+    "sha256": "a8d707d5abb4183f3e67bc3c564c713e18cd3a0bf5bb26af6818ab2e52c19047",
+    "bytes": 696
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/symbolic-errors.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/evidence/symbolic.json",
+    "sha256": "3bf9250b789bad2005d72e8b8469dce648097262467eb311834425a0ae2f8bfe",
+    "bytes": 1712
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/generate_ownership_certificates.py",
+    "sha256": "2f5f6ccaeee6a5f577912a6f74a4b6983c5278a93c2be103521457e640fc9bd3",
+    "bytes": 1095
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/ownership-certificates.json",
+    "sha256": "dc0cca78eb3b72d3aeb13bbaa1a6720f2498e7d361a69d746e93305ca977c9b4",
+    "bytes": 57211
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/ownership.py",
+    "sha256": "cbaea53b902341a622471811ae1c275af87ca380df43e3b31ea67b6c208bcefe",
+    "bytes": 5423
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/PROOF.md",
+    "sha256": "dc6a2a8502b60cb533599c0cebf13a6cca73569113a769a70f7eacbd32e6fea1",
+    "bytes": 20695
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/PROOF.tex",
+    "sha256": "bd370ddde8804e483b40d3eb2a312135e9b1b29db086765303cc096952bd9fc0",
+    "bytes": 25589
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/README.md",
+    "sha256": "59755e4add64d8c7719ef68f998247b2fb8555ef996cc926baca3d5bca25b124",
+    "bytes": 1719
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/recorded-checks.json",
+    "sha256": "f52d2d825145b719376c0a8231899aa92cf62d8afac76f7eaf087696994a9c85",
+    "bytes": 6732
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/source_table.py",
+    "sha256": "f998227f5a62151ddcf839ecb5c84e5a2e74141cdcc4c55c74f5202eb699a4e2",
+    "bytes": 3454
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/SOURCES.json",
+    "sha256": "96f7e7b2d481867ac21819e3060905cebc63bbb19d0e79832a627611978723dd",
+    "bytes": 1862
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/STATE.json",
+    "sha256": "6aa21e32e540b2d8eefc8a208027791a19bea483f8751f7c7449f9507a645147",
+    "bytes": 556
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/symbolic_certificate.py",
+    "sha256": "eb4a063ef2ccd787be10bc84085ae302ad1e5d812531eb1cea74152f0751aa4c",
+    "bytes": 1202
+  },
+  {
+    "path": "lean/reference/audit_snapshot/frozen/benzel-p7-cumulative-through-turn10/current/turn9/verify.py",
+    "sha256": "650990f3000a54098de28cd5bf8e54d5918713904f51ceccede1425b4a1bfbc6",
+    "bytes": 4309
+  },
+  {
+    "path": "lean/reference/audit_snapshot/MANIFEST.sha256",
+    "sha256": "70f80f98cd0f0e891c448b16cc4b7b343ebd0b588f1925e8234ba5df16b8517e",
+    "bytes": 26954
+  },
+  {
+    "path": "lean/reference/audit_snapshot/README.md",
+    "sha256": "a9680c8eaa3eb17c3b2c4d389e288340919bac8339bfc10f5dc7f8b4eb67cb0d",
+    "bytes": 3510
+  },
+  {
+    "path": "lean/reference/audit_snapshot/report/AUDIT_REPORT.md",
+    "sha256": "c132820ab0eb6144defc777a6fcd1879679ea497c55ab4d653115eae03bb3d27",
+    "bytes": 27609
+  },
+  {
+    "path": "lean/reference/audit_snapshot/report/AUDIT_REPORT.pdf",
+    "sha256": "88ebd49a27a4e92551f6271e41738ce7028f90b6f0fa7f71b26ee62c7a8ae17a",
+    "bytes": 336001
+  },
+  {
+    "path": "lean/reference/audit_snapshot/report/AUDIT_REPORT.tex",
+    "sha256": "b399431959059e5e04c8e336ffe3616f261493d0467334c024aa103e8048402b",
+    "bytes": 32713
+  },
+  {
+    "path": "lean/reference/audit_snapshot/report/header.tex",
+    "sha256": "e827fe148498124b68a90ca50a9d63a920d77e8ad44bd1509b958a887eb045df",
+    "bytes": 610
+  },
+  {
+    "path": "lean/reference/audit_snapshot/report/rebuild.sh",
+    "sha256": "6be39c3d561354d3f04fb35758257f44c25f6d69455bbbc45e0f5473150e7dbc",
+    "bytes": 505
+  },
+  {
+    "path": "lean/reference/audit_snapshot/requirements.txt",
+    "sha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
+    "bytes": 14
+  },
+  {
+    "path": "lean/reference/audit_snapshot/SOURCES.json",
+    "sha256": "d8248dafe2e5debed2de6c21f9fc6e3bd4527baf8fa1f34d08d5d6e973cd46fa",
+    "bytes": 1660
+  },
+  {
+    "path": "lean/SPEC_LOCK.json",
+    "sha256": "456d9e94d89e4a3e054b5029e9e6e52fd1aadccd41ec2159332db3f724c7ba66",
+    "bytes": 614
+  },
+  {
+    "path": "lean/STATUS.json",
+    "sha256": "19c37328478d2bef45a6c8bfbc88d4a3fd96c0d6c7b01179687d2ca1ea668819",
+    "bytes": 954
+  },
+  {
+    "path": "lean/TASKS.json",
+    "sha256": "c741ede095c955e222f4cd48b49f3300b002090edfc829beac00bcff7a2f7c46",
+    "bytes": 7279
+  },
+  {
+    "path": "lean/tools/check_generated_data.py",
+    "sha256": "635b0c65d9fe47118ce9192b8b49536c2659f63347f666c471a3854765cb3213",
+    "bytes": 4898
+  },
+  {
+    "path": "lean/tools/check_handoff.py",
+    "sha256": "20570e96a059691b6c8813f5a15adabed35aa0c0cac984518ee9f41dcd2e2fa3",
+    "bytes": 6393
+  },
+  {
+    "path": "lean/tools/fetch_splitzero.py",
+    "sha256": "c558ae059fc0783831540c5b7456ce9b49528fd737b22b057e00c2ca83166bc2",
+    "bytes": 2165
+  },
+  {
+    "path": "lean/tools/generate_lean_data.py",
+    "sha256": "7ce75626538d6b8c18f259022a62ebc6ff95ba2dfa6e76ef246388a9b2b71ae9",
+    "bytes": 7292
+  },
+  {
+    "path": "lean/tools/lean_check.py",
+    "sha256": "362fbd6bc2451f62d284f6458c86147349f253781920c63ede34297df3997743",
+    "bytes": 7104
+  },
+  {
+    "path": "lean/tools/test_gates.py",
+    "sha256": "53eef054b6bfd4575ea4f1d12bd9f254e4ce98f2e1346711d651dc44f69eef78",
+    "bytes": 2517
+  },
+  {
+    "path": "lean/tools/verify_manifest.py",
+    "sha256": "184278be84eae4ef68fb57ffe2665087486c27ce414c219208f047b44aa8943f",
+    "bytes": 1026
+  },
+  {
+    "path": "lean-checked/Audit.lean",
+    "sha256": "096f310ff20c137dc2f54b5f2b43c95a808ea8dd5f6345e7c7fb3b4125abc581",
+    "bytes": 1966
+  },
+  {
+    "path": "lean-checked/Benzel/BandSlideProof.lean",
+    "sha256": "17d5906ccd61ee942ab92e92e338ec3b839d160a5bf64ddd5a3c17d7f4a28a42",
+    "bytes": 2283
+  },
+  {
+    "path": "lean-checked/Benzel/Comparison.lean",
+    "sha256": "ecb2d096bf3d0bd25367800aa01f9dac863edf6ff6924443acac7bd7c052644d",
+    "bytes": 1442
+  },
+  {
+    "path": "lean-checked/Benzel/Generated/LocalPatches.lean",
+    "sha256": "caef31897a6859623666533958864f485ff714a0f06487b0629f61e99fe7f289",
+    "bytes": 8189
+  },
+  {
+    "path": "lean-checked/Benzel/Geometry.lean",
+    "sha256": "3bd37aba82f56ad5d3910156e727243c458d10b72433a4fc7ce2a972b7f07314",
+    "bytes": 2612
+  },
+  {
+    "path": "lean-checked/Benzel/Incidence.lean",
+    "sha256": "26427d11cbe5b3c9a77cd2ef4cd1ec13a37e557fd0c43ec46f5f1ac1d2141443",
+    "bytes": 2339
+  },
+  {
+    "path": "lean-checked/Benzel/OneStone.lean",
+    "sha256": "1278d12442329399a65a54ea46a8e3e48e47bf44b66a279f96b7e50fdfc4c910",
+    "bytes": 2121
+  },
+  {
+    "path": "lean-checked/Benzel/Parameters.lean",
+    "sha256": "37f45601b19250cf448e65b26b4fcafc53737cad2aca85c1afb9b310323c4236",
+    "bytes": 2542
+  },
+  {
+    "path": "lean-checked/Benzel/PatchHomotopy.lean",
+    "sha256": "ee756e531d739829af6122d284379898b3d86f5873c12247666592c153f81aa4",
+    "bytes": 1415
+  },
+  {
+    "path": "lean-checked/Benzel/SourceOwnershipExamples.lean",
+    "sha256": "b295d64c51579ade6c7fc9b40406bccff056a9f1e7ebac0c56bf3f2de34017ba",
+    "bytes": 1112
+  },
+  {
+    "path": "lean-checked/Benzel/Tiles.lean",
+    "sha256": "a5ac816144fba2beba42446fb08e1d3cf0901d3f3773e6c8b867a1ec60c87ab9",
+    "bytes": 2590
+  },
+  {
+    "path": "lean-checked/Benzel.lean",
+    "sha256": "ca5c1d866d80f502a65ce9bce98a5cbca445e24fbc67b0d0d5e4323f66f6fdd0",
+    "bytes": 120
+  },
+  {
+    "path": "lean-checked/BenzelChecked.lean",
+    "sha256": "ca5c1d866d80f502a65ce9bce98a5cbca445e24fbc67b0d0d5e4323f66f6fdd0",
+    "bytes": 120
+  },
+  {
+    "path": "lean-checked/lakefile.toml",
+    "sha256": "b7fa0ca860c3ba88853c78b82db6c8b221d1856a7efea83b556b234ea39f5a24",
+    "bytes": 293
+  },
+  {
+    "path": "lean-checked/lean-toolchain",
+    "sha256": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+    "bytes": 25
+  },
+  {
+    "path": "lean-checked/README.md",
+    "sha256": "d48cc6ace32ceeb3a3e07abcd7190075a0fcd24a1e7030594367c90d2ca08a0a",
+    "bytes": 3215
+  },
+  {
+    "path": "lean-checked/receipts/1789773640301774500-Benzel.Geometry.log",
+    "sha256": "6abdc2389f500072d8367fe1019d89de79219e456b8f441da9b683dd54113209",
+    "bytes": 182
+  },
+  {
+    "path": "lean-checked/receipts/1789773649023050800-Benzel.Tiles.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean-checked/receipts/1789773742944554200-Benzel.Incidence.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean-checked/receipts/1789773752930076400-Benzel.Parameters.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean-checked/receipts/1789773764964110400-Benzel.Comparison.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean-checked/receipts/1789773773652001500-Benzel.Generated.LocalPatches.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean-checked/receipts/1789773799286119200-Benzel.PatchHomotopy.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean-checked/receipts/1789773938106201600-Benzel.OneStone.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean-checked/receipts/1789773945230871200-Benzel.BandSlideProof.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean-checked/receipts/1789773955573252200-Benzel.SourceOwnershipExamples.log",
+    "sha256": "01685ee53a1a82cd81e5e3c7bb20cc11bf19fc99370100398070e135fe98ee4a",
+    "bytes": 460
+  },
+  {
+    "path": "lean-checked/receipts/1789773994596317600-Audit.log",
+    "sha256": "e6d55fd0d08ef61a3806b1a5a3207fb0f8814454ea2d0c08265fbfecb5d5d63a",
+    "bytes": 3217
+  },
+  {
+    "path": "lean-checked/receipts/KERNEL_CHECK.json",
+    "sha256": "bfd9b399a8ddfa5719684fd9d11c078664d450c07f31e9fb9a0df5aee910f3ff",
+    "bytes": 10421
+  },
+  {
+    "path": "lean-checked/replay/Audit.log",
+    "sha256": "e6d55fd0d08ef61a3806b1a5a3207fb0f8814454ea2d0c08265fbfecb5d5d63a",
+    "bytes": 3217
+  },
+  {
+    "path": "lean-checked/replay/Benzel.BandSlideProof.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean-checked/replay/Benzel.Comparison.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean-checked/replay/Benzel.Generated.LocalPatches.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean-checked/replay/Benzel.Geometry.log",
+    "sha256": "6abdc2389f500072d8367fe1019d89de79219e456b8f441da9b683dd54113209",
+    "bytes": 182
+  },
+  {
+    "path": "lean-checked/replay/Benzel.Incidence.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean-checked/replay/Benzel.OneStone.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean-checked/replay/Benzel.Parameters.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean-checked/replay/Benzel.PatchHomotopy.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean-checked/replay/Benzel.SourceOwnershipExamples.log",
+    "sha256": "01685ee53a1a82cd81e5e3c7bb20cc11bf19fc99370100398070e135fe98ee4a",
+    "bytes": 460
+  },
+  {
+    "path": "lean-checked/replay/Benzel.Tiles.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean-checked/replay/BenzelChecked.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "lean-checked/replay/LOG_PATH_REDACTIONS.json",
+    "sha256": "876c99756ed00cc89156da0e6c73975c1385e9d3eb6225dfd43f88e90faabe3f",
+    "bytes": 506
+  },
+  {
+    "path": "lean-checked/replay/receipt.json",
+    "sha256": "846ad97ac9414b9f0c66542f10597d9daaff2cea3b0b582c78d47c0653af1eea",
+    "bytes": 5779
+  },
+  {
+    "path": "lean-checked/verify.py",
+    "sha256": "08dc05ca1975a01ff4d75c9e697b911888a3bd6203d9e755c6b7cdd944166a4e",
+    "bytes": 4705
+  },
+  {
+    "path": "README.md",
+    "sha256": "ea9ee563565077a5755ce5b139f23ef425cbf5b3104ba566a140bc7ae43b4cd0",
+    "bytes": 4622
+  }
+]

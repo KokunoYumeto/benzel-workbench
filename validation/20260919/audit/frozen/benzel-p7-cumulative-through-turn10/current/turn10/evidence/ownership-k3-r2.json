@@ -1,0 +1,9 @@
+{
+  "original_generator_identities": 62,
+  "source_atoms": 62,
+  "source_distinctness_comparisons": 536,
+  "affine_certificates": 1178,
+  "status": "PASS",
+  "domain": "k=3, integers m>=13",
+  "optimizer_used_by_verifier": false
+}

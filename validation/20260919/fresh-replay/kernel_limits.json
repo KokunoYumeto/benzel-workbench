@@ -1,0 +1,13 @@
+{
+  "mechanism": "Windows kernel Job Object, verified before executing supplied code",
+  "process_memory_limit_bytes": 2147483648,
+  "job_memory_limit_bytes": 2147483648,
+  "active_process_limit": 1,
+  "limit_flags": 8968,
+  "cpu_affinity_mask": 1,
+  "logical_cores": 1,
+  "python_optimization_level": 0,
+  "pid": 3876,
+  "peak_process_commit_bytes": 118894592,
+  "peak_job_commit_bytes": 118894592
+}

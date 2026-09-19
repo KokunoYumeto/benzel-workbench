@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "scope": "Local export tests and bounded mathematical controls only; not Lean elaboration",
+  "lean_compilation": "NOT_RUN",
+  "python_optimized": false,
+  "roundtrip": {
+    "status": "PASS",
+    "typed_family_records_roundtripped": 110,
+    "owner_records_roundtripped": 274,
+    "local_patches_roundtripped": 5,
+    "lean_typechecking": "NOT_PERFORMED"
+  },
+  "patches": [
+    {
+      "name": "bridgeSix",
+      "cells": 27
+    },
+    {
+      "name": "terminalQ2",
+      "cells": 45
+    },
+    {
+      "name": "directQ2",
+      "cells": 54
+    },
+    {
+      "name": "terminalQ3",
+      "cells": 54
+    },
+    {
+      "name": "directQ3",
+      "cells": 66
+    }
+  ],
+  "one_stone_parameter_values": 10,
+  "one_stone_placements": 43141,
+  "band_homotopies": 165,
+  "rejected_bad_patches": 4,
+  "handwritten_coordinate_formula_checks": 968,
+  "candidate_formula_comparison": "Evaluated independently in Python, not by Lean"
+}

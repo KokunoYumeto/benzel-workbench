@@ -1,0 +1,29 @@
+{
+  "patch_check_returncode": 0,
+  "stderr": "",
+  "base": "20cb022dcfda7f37b3adec13b5619be8f13be3e8",
+  "additive_paths": [
+    "PROOF.md",
+    "PROOF.tex",
+    "README.md",
+    "SOURCES.json",
+    "STATE.json",
+    "build_tables.py",
+    "core.py",
+    "edits.json",
+    "evidence/final-small-replay.json",
+    "evidence/normal.json",
+    "evidence/optimized.json",
+    "evidence/ownership.json",
+    "evidence/symbolic.json",
+    "generate_ownership_certificates.py",
+    "ownership-certificates.json",
+    "ownership.py",
+    "recorded-checks.json",
+    "source_table.py",
+    "symbolic_certificate.py",
+    "verify.py"
+  ],
+  "remote_write_performed": false,
+  "applied_bytes_match": true
+}

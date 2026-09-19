@@ -1,0 +1,7 @@
+.lake/
+*.olean
+*.ilean
+*.trace
+Audit.Generated.lean
+Release.Generated.lean
+SplitZero*.lean

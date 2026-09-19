@@ -1,0 +1,156 @@
+{
+  "status": "HANDOFF_CHECKS_PASS",
+  "new_lean_status": "NOT_COMPILED",
+  "kernel_checked_new_declarations": 0,
+  "source_reading_and_compilation_are_distinct": true,
+  "generated_roundtrip": {
+    "status": "PASS",
+    "typed_family_records_roundtripped": 110,
+    "owner_records_roundtripped": 274,
+    "local_patches_roundtripped": 5,
+    "lean_typechecking": "NOT_PERFORMED"
+  },
+  "normal_and_optimized_local_replays": "PASS",
+  "gate_regressions_per_mode": 12,
+  "final_commands": [
+    {
+      "name": "data-export",
+      "command": [
+        "python",
+        "tools/generate_lean_data.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "meaning": "Check completed within its named scope"
+    },
+    {
+      "name": "data-roundtrip",
+      "command": [
+        "python",
+        "tools/check_generated_data.py"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "meaning": "Check completed within its named scope"
+    },
+    {
+      "name": "gates-normal",
+      "command": [
+        "python",
+        "tools/test_gates.py"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "meaning": "Check completed within its named scope"
+    },
+    {
+      "name": "gates-optimized",
+      "command": [
+        "python",
+        "-O",
+        "tools/test_gates.py"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "meaning": "Check completed within its named scope"
+    },
+    {
+      "name": "preflight",
+      "command": [
+        "python",
+        "tools/lean_check.py",
+        "--stage",
+        "preflight"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "meaning": "Check completed within its named scope"
+    },
+    {
+      "name": "starter-report",
+      "command": [
+        "python",
+        "tools/lean_check.py",
+        "--stage",
+        "starter"
+      ],
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "meaning": "Prerequisite absence correctly reported; NOT Lean success"
+    },
+    {
+      "name": "one-stone-report",
+      "command": [
+        "python",
+        "tools/lean_check.py",
+        "--stage",
+        "one-stone"
+      ],
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "meaning": "Prerequisite absence correctly reported; NOT Lean success"
+    },
+    {
+      "name": "full-report",
+      "command": [
+        "python",
+        "tools/lean_check.py",
+        "--stage",
+        "residue-zero"
+      ],
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "meaning": "Prerequisite absence correctly reported; NOT Lean success"
+    },
+    {
+      "name": "global-report",
+      "command": [
+        "python",
+        "tools/lean_check.py",
+        "--stage",
+        "global"
+      ],
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "meaning": "Prerequisite absence correctly reported; NOT Lean success"
+    },
+    {
+      "name": "reference-manifest",
+      "command": [
+        "python",
+        "reference/audit_snapshot/audit/verify_bundle.py"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "meaning": "Check completed within its named scope"
+    }
+  ],
+  "cold_copy_replay": [
+    {
+      "command": [
+        "python",
+        "tools/generate_lean_data.py",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "tools/test_gates.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "tools/check_handoff.py",
+        "--output",
+        "evidence/cold-local-checks.json"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "reference_payloads_preserved": 209
+}

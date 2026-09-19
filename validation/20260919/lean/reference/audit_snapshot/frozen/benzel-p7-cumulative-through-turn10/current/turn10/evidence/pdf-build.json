@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "pages": 17,
+  "renderer": "PyMuPDF",
+  "latex_engine": "pdfLaTeX",
+  "passes": 3,
+  "overfull_boxes": 0,
+  "unresolved_reference_warnings": 0,
+  "sha256_tex": "8d846cf6b5dd68ed47827006cb176b7633546997f83483686c471bba713b3e86",
+  "sha256_pdf": "39d5d3e7911145002e51e998839a59aed68cd93e9becbaf64a8a98ba91104ca9",
+  "rendered_pages": 17,
+  "source": "Editable standalone LaTeX, with included mathematical prerequisites supplied alongside.",
+  "visual_inspection": "All 17 final pages inspected in five rendered contact sheets; no clipping, overlapping text, broken math glyphs or overfull boxes found."
+}

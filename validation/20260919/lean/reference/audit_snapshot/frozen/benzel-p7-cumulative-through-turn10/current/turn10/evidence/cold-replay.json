@@ -1,0 +1,1409 @@
+{
+  "status": "PASS",
+  "date": "2026-09-18",
+  "python_optimized": false,
+  "seconds": 24.392,
+  "proved_construction_domain": "All integers d>=2 and 0<=h<=binom(d,2), on original W_h(d); parent residue-one construction also replayed.",
+  "finite_window": {
+    "all_h_d_min": 2,
+    "all_h_d_max": 12,
+    "new_k_min": 4,
+    "new_k_max": 9
+  },
+  "counts": {
+    "all_h_original_tilings": 297,
+    "all_h_placements": 849706,
+    "reflected_tilings": 297,
+    "reflected_placements": 849706,
+    "independent_regions": 41,
+    "new_unbounded_core_samples": 12,
+    "core_placements": 32988,
+    "unbounded_family_full_and_reflected": 48,
+    "unbounded_placements_with_reflection": 344208,
+    "receiving_generators": 58950,
+    "cohomology_kernel_rank": 804,
+    "cohomology_closed_components": 0,
+    "cohomology_integer_duals": 804,
+    "cohomology_vacancy_cells": 198,
+    "cohomology_augmented_checks": 32,
+    "cohomology_supported_zero_checks": 24,
+    "cohomology_homotopy_identity": 8,
+    "cohomology_complete_comparisons": 8,
+    "exception_core_samples": 12,
+    "exception_full_tilings": 24,
+    "exception_placements": 45818,
+    "original_residue_one_controls": 33,
+    "rejection_tests": 10,
+    "canonical_routing_checks": 10000
+  },
+  "routes_exercised": {
+    "triangular": 77,
+    "fixed-1": 55,
+    "fixed-2": 45,
+    "threefold": 54,
+    "fixed-4": 28,
+    "fixed-5": 21,
+    "exception-k2-r1": 10,
+    "exception-k2-r2": 6,
+    "exception-k3-r1": 1
+  },
+  "exact_parameter_proofs": {
+    "uniform_residue_two": {
+      "status": "PASS",
+      "domain": "integers k>=4,m>=3k+4",
+      "scaffold": {
+        "rational_terms": 273,
+        "denominator_factors": [
+          [
+            [
+              0,
+              3
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              -2
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              -4
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              -1
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            1
+          ],
+          [
+            [
+              3,
+              -3
+            ],
+            1
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              4,
+              -2
+            ],
+            1
+          ]
+        ],
+        "expanded_terms_before_addition": 32274,
+        "remaining_numerator_terms": 0
+      },
+      "transport": {
+        "rational_terms": 228,
+        "denominator_factors": [
+          [
+            [
+              0,
+              3
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              -1
+            ],
+            1
+          ],
+          [
+            [
+              3,
+              -3
+            ],
+            1
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            1
+          ]
+        ],
+        "expanded_terms_before_addition": 10512,
+        "remaining_numerator_terms": 0
+      },
+      "residual_cells": 27,
+      "groups": 22
+    },
+    "uniform_source_maps": {
+      "original_generator_identities": 71,
+      "source_atoms": 71,
+      "source_distinctness_comparisons": 733,
+      "affine_certificates": 1479,
+      "status": "PASS",
+      "domain": "integers k>=4,m>=3k+4",
+      "optimizer_used_by_verifier": false
+    },
+    "exceptional_residues": [
+      {
+        "status": "PASS",
+        "q": 7,
+        "k": 2,
+        "m_min": 9,
+        "m_unbounded": true,
+        "scaffold": {
+          "rational_terms": 259,
+          "denominator_factors": [
+            [
+              [
+                0,
+                3
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                -2
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                1
+              ],
+              1
+            ],
+            [
+              [
+                2,
+                -4
+              ],
+              1
+            ],
+            [
+              [
+                2,
+                -1
+              ],
+              1
+            ],
+            [
+              [
+                2,
+                2
+              ],
+              1
+            ],
+            [
+              [
+                3,
+                -3
+              ],
+              1
+            ],
+            [
+              [
+                3,
+                0
+              ],
+              1
+            ],
+            [
+              [
+                4,
+                -2
+              ],
+              1
+            ]
+          ],
+          "expanded_terms_before_addition": 31242,
+          "remaining_numerator_terms": 0
+        },
+        "endpoint": {
+          "rational_terms": 83,
+          "denominator_factors": [
+            [
+              [
+                1,
+                1
+              ],
+              1
+            ]
+          ],
+          "expanded_terms_before_addition": 378,
+          "remaining_numerator_terms": 0
+        },
+        "source_maps": {
+          "original_generator_identities": 25,
+          "source_atoms": 25,
+          "source_distinctness_comparisons": 154,
+          "affine_certificates": 407,
+          "status": "PASS",
+          "domain": "k=2, integers m>=9",
+          "optimizer_used_by_verifier": false
+        }
+      },
+      {
+        "status": "PASS",
+        "q": 8,
+        "k": 2,
+        "m_min": 10,
+        "m_unbounded": true,
+        "scaffold": {
+          "rational_terms": 273,
+          "denominator_factors": [
+            [
+              [
+                0,
+                3
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                -2
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                1
+              ],
+              1
+            ],
+            [
+              [
+                2,
+                -4
+              ],
+              1
+            ],
+            [
+              [
+                2,
+                -1
+              ],
+              1
+            ],
+            [
+              [
+                2,
+                2
+              ],
+              1
+            ],
+            [
+              [
+                3,
+                -3
+              ],
+              1
+            ],
+            [
+              [
+                3,
+                0
+              ],
+              1
+            ],
+            [
+              [
+                4,
+                -2
+              ],
+              1
+            ]
+          ],
+          "expanded_terms_before_addition": 32274,
+          "remaining_numerator_terms": 0
+        },
+        "endpoint": {
+          "rational_terms": 164,
+          "denominator_factors": [
+            [
+              [
+                1,
+                1
+              ],
+              1
+            ],
+            [
+              [
+                2,
+                -1
+              ],
+              1
+            ]
+          ],
+          "expanded_terms_before_addition": 1560,
+          "remaining_numerator_terms": 0
+        },
+        "source_maps": {
+          "original_generator_identities": 55,
+          "source_atoms": 55,
+          "source_distinctness_comparisons": 402,
+          "affine_certificates": 968,
+          "status": "PASS",
+          "domain": "k=2, integers m>=10",
+          "optimizer_used_by_verifier": false
+        }
+      },
+      {
+        "status": "PASS",
+        "q": 10,
+        "k": 3,
+        "m_min": 12,
+        "m_unbounded": true,
+        "scaffold": {
+          "rational_terms": 259,
+          "denominator_factors": [
+            [
+              [
+                0,
+                3
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                -2
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                1
+              ],
+              1
+            ],
+            [
+              [
+                2,
+                -4
+              ],
+              1
+            ],
+            [
+              [
+                2,
+                -1
+              ],
+              1
+            ],
+            [
+              [
+                2,
+                2
+              ],
+              1
+            ],
+            [
+              [
+                3,
+                -3
+              ],
+              1
+            ],
+            [
+              [
+                3,
+                0
+              ],
+              1
+            ],
+            [
+              [
+                4,
+                -2
+              ],
+              1
+            ]
+          ],
+          "expanded_terms_before_addition": 31242,
+          "remaining_numerator_terms": 0
+        },
+        "endpoint": {
+          "rational_terms": 101,
+          "denominator_factors": [
+            [
+              [
+                0,
+                3
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                1
+              ],
+              1
+            ],
+            [
+              [
+                3,
+                0
+              ],
+              1
+            ]
+          ],
+          "expanded_terms_before_addition": 1656,
+          "remaining_numerator_terms": 0
+        },
+        "source_maps": {
+          "original_generator_identities": 28,
+          "source_atoms": 28,
+          "source_distinctness_comparisons": 254,
+          "affine_certificates": 559,
+          "status": "PASS",
+          "domain": "k=3, integers m>=12",
+          "optimizer_used_by_verifier": false
+        }
+      },
+      {
+        "status": "PASS",
+        "q": 11,
+        "k": 3,
+        "m_min": 13,
+        "m_unbounded": true,
+        "scaffold": {
+          "rational_terms": 273,
+          "denominator_factors": [
+            [
+              [
+                0,
+                3
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                -2
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                1
+              ],
+              1
+            ],
+            [
+              [
+                2,
+                -4
+              ],
+              1
+            ],
+            [
+              [
+                2,
+                -1
+              ],
+              1
+            ],
+            [
+              [
+                2,
+                2
+              ],
+              1
+            ],
+            [
+              [
+                3,
+                -3
+              ],
+              1
+            ],
+            [
+              [
+                3,
+                0
+              ],
+              1
+            ],
+            [
+              [
+                4,
+                -2
+              ],
+              1
+            ]
+          ],
+          "expanded_terms_before_addition": 32274,
+          "remaining_numerator_terms": 0
+        },
+        "endpoint": {
+          "rational_terms": 202,
+          "denominator_factors": [
+            [
+              [
+                0,
+                3
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                1
+              ],
+              1
+            ],
+            [
+              [
+                2,
+                -1
+              ],
+              1
+            ],
+            [
+              [
+                3,
+                -3
+              ],
+              1
+            ],
+            [
+              [
+                3,
+                0
+              ],
+              1
+            ]
+          ],
+          "expanded_terms_before_addition": 9264,
+          "remaining_numerator_terms": 0
+        },
+        "source_maps": {
+          "original_generator_identities": 62,
+          "source_atoms": 62,
+          "source_distinctness_comparisons": 536,
+          "affine_certificates": 1178,
+          "status": "PASS",
+          "domain": "k=3, integers m>=13",
+          "optimizer_used_by_verifier": false
+        }
+      }
+    ],
+    "source_domain_bounds": {
+      "status": "PASS",
+      "exact_affine_certificates": 1291,
+      "source_table_rows": {
+        "kNone-r1": 16,
+        "kNone-r2": 18,
+        "k2-r1": 16,
+        "k2-r2": 18,
+        "k3-r1": 16,
+        "k3-r2": 18,
+        "legacy-q1": 3,
+        "legacy-q2": 3,
+        "legacy-q4": 5,
+        "legacy-q5": 8
+      },
+      "optimizer_used_by_verifier": false
+    },
+    "fixed_residue_identities": {
+      "1": {
+        "rational_terms": 24,
+        "common_denominator_factors": [
+          [
+            [
+              -2,
+              1,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              -1,
+              -1,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              -1,
+              2,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              -2,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              -1,
+              0,
+              0
+            ],
+            1
+          ]
+        ],
+        "expanded_numerator_term_count_before_sum": 1356,
+        "residual_numerator_terms": 0
+      },
+      "2": {
+        "rational_terms": 27,
+        "common_denominator_factors": [
+          [
+            [
+              -2,
+              1,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              -1,
+              -1,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              -1,
+              2,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              -2,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              -1,
+              0,
+              0
+            ],
+            1
+          ]
+        ],
+        "expanded_numerator_term_count_before_sum": 1442,
+        "residual_numerator_terms": 0
+      },
+      "4": {
+        "rational_terms": 56,
+        "common_denominator_factors": [
+          [
+            [
+              -2,
+              1,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              -1,
+              -1,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              -1,
+              2,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              -2,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              -1,
+              0,
+              0
+            ],
+            1
+          ]
+        ],
+        "expanded_numerator_term_count_before_sum": 2967,
+        "residual_numerator_terms": 0
+      },
+      "5": {
+        "rational_terms": 72,
+        "common_denominator_factors": [
+          [
+            [
+              -2,
+              1,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              -1,
+              -1,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              -1,
+              2,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              -2,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1,
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              -1,
+              0,
+              0
+            ],
+            1
+          ]
+        ],
+        "expanded_numerator_term_count_before_sum": 3759,
+        "residual_numerator_terms": 0
+      }
+    },
+    "retained_threefold": {
+      "status": "PASS",
+      "main": {
+        "rational_terms": 222,
+        "denominator_factors": [
+          [
+            [
+              0,
+              3
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              -2
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              -4
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              -1
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            1
+          ],
+          [
+            [
+              3,
+              -3
+            ],
+            1
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              4,
+              -2
+            ],
+            1
+          ]
+        ],
+        "expanded_terms_before_addition": 28128,
+        "remaining_numerator_terms": 0
+      },
+      "k1": {
+        "rational_terms": 39,
+        "denominator_factors": [
+          [
+            [
+              1,
+              -2
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              -1
+            ],
+            1
+          ]
+        ],
+        "expanded_terms_before_addition": 510,
+        "remaining_numerator_terms": 0
+      },
+      "exact_index_bounds": [
+        {
+          "group": "source",
+          "index": 0,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            1
+          ],
+          "J_lower_bound_in_M_K_constant": [
+            0,
+            2,
+            6
+          ]
+        },
+        {
+          "group": "source",
+          "index": 1,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            1
+          ],
+          "J_lower_bound_in_M_K_constant": [
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "group": "source",
+          "index": 2,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            1
+          ],
+          "J_lower_bound_in_M_K_constant": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "group": "source",
+          "index": 3,
+          "I_in_M_K_constant": [
+            0,
+            2,
+            5
+          ]
+        },
+        {
+          "group": "source",
+          "index": 4,
+          "I_in_M_K_constant": [
+            1,
+            3,
+            6
+          ]
+        },
+        {
+          "group": "source",
+          "index": 5,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            1
+          ],
+          "J_lower_bound_in_M_K_constant": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "group": "corner",
+          "index": 0,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "group": "corner",
+          "index": 1,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            0
+          ],
+          "J_lower_bound_in_M_K_constant": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "group": "corner",
+          "index": 2,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            1
+          ],
+          "J_lower_bound_in_M_K_constant": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "group": "corner",
+          "index": 3,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "group": "corner",
+          "index": 4,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            1
+          ],
+          "J_lower_bound_in_M_K_constant": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "group": "corner",
+          "index": 5,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            1
+          ],
+          "J_lower_bound_in_M_K_constant": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "group": "corner",
+          "index": 6,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            2
+          ],
+          "J_lower_bound_in_M_K_constant": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "group": "corner",
+          "index": 7,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "group": "corner",
+          "index": 8,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            1
+          ],
+          "J_lower_bound_in_M_K_constant": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "group": "corner",
+          "index": 9,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "group": "corner",
+          "index": 10,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "group": "corner",
+          "index": 11,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "group": "corner",
+          "index": 12,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            0
+          ],
+          "J_lower_bound_in_M_K_constant": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "group": "corner",
+          "index": 13,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            0
+          ],
+          "J_lower_bound_in_M_K_constant": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "group": "corner",
+          "index": 14,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "group": "long",
+          "index": 0,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            2
+          ],
+          "J_lower_bound_in_M_K_constant": [
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "group": "deleted",
+          "index": 0,
+          "I_in_M_K_constant": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    "retained_residue_one": {
+      "status": "PASS",
+      "domain": "All integers k>=4, m>=3k+3; no finite cutoff",
+      "scaffold_identity": {
+        "rational_terms": 259,
+        "denominator_factors": [
+          [
+            [
+              0,
+              3
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              -2
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              -4
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              -1
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            1
+          ],
+          [
+            [
+              3,
+              -3
+            ],
+            1
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              4,
+              -2
+            ],
+            1
+          ]
+        ],
+        "expanded_terms_before_addition": 31242,
+        "remaining_numerator_terms": 0
+      },
+      "endpoint_transport_identity": {
+        "rational_terms": 115,
+        "denominator_factors": [
+          [
+            [
+              0,
+              3
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            1
+          ]
+        ],
+        "expanded_terms_before_addition": 1896,
+        "remaining_numerator_terms": 0
+      },
+      "residual_cells": 18,
+      "edit_groups": 11,
+      "logical_receipt": "Original cell Laurent coefficients vanish before m or k is specialized. Exact affine source certificates supply positivity."
+    },
+    "retained_residue_one_owners": {
+      "original_generator_identities": 33,
+      "atomic_old_families": 33,
+      "obligations": 677,
+      "status": "PASS"
+    }
+  },
+  "source_sha256": {
+    "ownership.py": "bbecc1116114cbb5c51131936acaa02165a180817d4912e1f98b720d4eb5511c",
+    "source_domains.py": "b2f4ecf9853ef0559ec54b41f224307b0cf5be41112a20d157910d0a752b8f7a",
+    "small_symbolic.py": "04d9d5e50c53e996ab6440670ea09aa23d810d8ea94311a74a89d80e32747d47",
+    "small-direct-3.json": "a457e01156adf3030058ddcf0d6a01c0e769e864c6e0d2a813bfc9a617982aa7",
+    "split_complex.py": "193ec68419e4f511fbd5ace80c1ca405ececb056636a26061054aded70ae8f37",
+    "source-domain-certificates.json": "6f44005a684689c18642d018aca62e9c1c76c4167aaf14c80fb7d613072c0078",
+    "verify.py": "a03409ce9dc48fbc8a0bae554536227aa658e403f9e39619552a6ffc3acb07db",
+    "STATE.json": "f9f7431dd8856d3599ee7f6730b526e5f03eb76a60d6bf71b9f799377e69ce38",
+    "small-q1-3.json": "ad6c665eda1054b42c7c9f263b6a5d6ffa8243afc53f79f8cf15339de3b6ccaf",
+    "ownership-certificates-k2-r1.json": "56554eedba2b17bec4fd61e9297cfadf81114f4c574d7bd9f8798d8a9251ea01",
+    "ownership-certificates-k3-r2.json": "3e218088b3422823f0c8ce2060dda7cfb46fa4db58014fc31d49c0c47ff4f404",
+    "edits-k2-r1.json": "8037a803875f466accdf3194e92b14a92ba00321ad8ec3a62e4381140d420dc5",
+    "core10.py": "aa303fb085103dbe66490a2f92aedf1e1f768d5feb8443a9fc668c2b6bf8ece9",
+    "edits-k3-r2.json": "20207862007b1fa3b35f87dc95437e8c156eee5f01b479d30795e4e6c2943548",
+    "small-direct-2.json": "ac8374691bfe42644d0fff6db68746ac6027a5a788b2ad9ae50772d36103fbd4",
+    "build_edits.py": "277a098a51b4e995811ec84c113160d73f3911b19fac011bfc991b9e8ff5cb02",
+    "source10.py": "a45d4268a8f860a1730d126ca90bdc7bd960bcebdf9f068843cbf90ce70f9e62",
+    "complete_theorem.py": "98a4f876b93ab1b49062a18602a5456a3f0a0fdb88924555b1d878fc492f88dc",
+    "edits.json": "f5795633261efe717b154081fa79a9ab2e2700777d3bde136bd3d0c561214705",
+    "ownership-certificates-k2-r2.json": "eab3d5f5c172fd08b5e1b6e41e529d2bf8402c5ad0db62c3fc894e629baaa6a4",
+    "ownership-certificates-k3-r1.json": "ed63f893b25fb2a886e664345cd83d55af6ae699148af79625c59a1bd602a4b6",
+    "edits-k3-r1.json": "b03d038a5aacefdd46f7a6502f2be4bb70b49d07bb5172fd04867e21e5d09be2",
+    "symbolic_certificate.py": "9f3b21f57dadae76de557c2a594f349db2d28b3eb4a353952f3b4b63e47c227a",
+    "edits-k2-r2.json": "8641a900567a06ba510a296c6a45e770f6ccffa63c59a696671c5e462cef7bc5",
+    "build_small.py": "84aa315f2506324ab0504b3e6058c2bed1dc08f31b974287a1e2c6fcc7f720e8",
+    "small-q1-2.json": "17ecb78696ed2bca2ec70a19613a1d6822ef2d4dcd3e4367351c7d04de79549e",
+    "ownership-certificates.json": "91acd745eae6c5380944475e3053c91be38c1c73754f47b3d10038138a7d8b84"
+  },
+  "scope": "Exact parameter identities and affine certificates plus bounded original-cell replay. Not independent specialist acceptance, a Lean build, a priority claim or an audit of Sharma."
+}

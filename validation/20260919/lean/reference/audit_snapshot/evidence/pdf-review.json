@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "pages": 10,
+  "unhandled_glyph_markers": 0,
+  "overfull_box_messages": 0,
+  "latex_error": false,
+  "renderer": "PyMuPDF",
+  "visual_review": "All ten pages inspected in two contact sheets; revised dependency page inspected at full resolution. No clipped text or equations observed.",
+  "pdf_sha256": "88ebd49a27a4e92551f6271e41738ce7028f90b6f0fa7f71b26ee62c7a8ae17a"
+}

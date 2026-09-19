@@ -1,0 +1,4 @@
+source8 original (ell,y) indices equal JSON source families : PASS 288 expanded integer monomials
+source8 original long-strip indices equal JSON long families : PASS 48 expanded integer monomials
+source8 original corner deletion indices equal JSON deleted families : PASS 12 expanded integer monomials
+Exact generic finite-sum controls: 92

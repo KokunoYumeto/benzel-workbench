@@ -1,0 +1,1059 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  11pt,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=0.9in]{geometry}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\newenvironment{Shaded}{}{}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.50,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.50,0.00}{\textbf{#1}}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{needspace}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Completing the residual-and-repair construction for benzel tilings},
+  colorlinks=true,
+  linkcolor={Maroon},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Completing the residual-and-repair construction for benzel
+tilings}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{All deletion residues, the exceptional endpoints, and the
+original Split-Zero comparison}
+\author{}
+\date{18 September 2026}
+
+\begin{document}
+\maketitle
+
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+\section{1. Result, scope, and
+provenance}\label{result-scope-and-provenance}
+
+\textbf{Constructive residue-zero theorem.} For every pair of integers
+\[
+ d\ge2,\qquad 0\le h\le t_d,\qquad t_d=d(d-1)/2,
+\] the constructor in \texttt{complete\_theorem.py} produces an original
+type-103 tiling of \[
+ W_h(d)=V(d+3h,2d+3h).
+\] It contains exactly \[
+ \Delta=t_d-h\quad\text{right stones},\qquad 3h(h+d)\quad\text{bones}.
+\] Reflection produces the reversed parameter pair. Every coefficient in
+the output is a nonnegative integer; the original incidence vector is
+the all-ones vector of the original region. No search is called by the
+constructor. All canonical deletion counts are covered, including 7, 8,
+10, and 11.
+
+This is a complete, certificate-assisted research proof of this
+construction, not a declaration of independent specialist acceptance.
+Its prerequisites are the retained full stable-packing argument, the
+retained threefold construction, and the retained first nonzero residue
+construction. Their original source files are included unchanged and
+their exact verifiers are replayed. The present note supplies the
+previously missing second residue construction and the four exceptional
+endpoints, and proves that the parameter coverage is exhaustive.
+
+The original Problem 7 has two other residue families. Section 11 gives
+a direct construction for residue one and records the exact previously
+established compression-theorem input for residue two. Thus the hard
+residue-zero gap in the previously recorded route is closed. This
+package does not pretend to supply a new self-contained proof of that
+published compression theorem.
+
+\textbf{Provenance correction.} The owner supplied a report of Akshat
+Sharma's earlier full-solution claim, \emph{A Constructive Proof of
+Propp's Problem 7}, dated 8 September 2026, and the earlier published
+bone-homology calculation of Muzika Dizdarević, Timotijević, and
+Živaljević. Neither bare tiling existence nor the bone quotient is
+advertised here as new. This continuation uses the existing residual
+packing and original local repairs; it did not import Sharma's
+construction. It establishes our displayed argument, not a line-by-line
+audit of Sharma's manuscript. Independent review and a new Lean build
+have not been performed.
+
+\Needspace{20\baselineskip}
+
+\section{2. Original cells and inverse parameter
+maps}\label{original-cells-and-inverse-parameter-maps}
+
+The axial cell is \((x,y)\in\mathbb Z^2\), corresponding to the
+barycentric cell \((x,y,1-x-y)\); projection onto the first two
+coordinates is the inverse. Its differences are \[
+ u=y-x,\qquad v=1-x-2y,\qquad w=2x+y-1.
+\] The original benzel consists of cells with all three differences in
+\([1-a,b-1]\). The four original permitted tiles are
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Kind & Cell offsets at its original anchor \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Right stone \(R\) & \((0,0),(1,0),(0,1)\) \\
+Horizontal bone \(H\) & \((0,0),(1,0),(2,0)\) \\
+Vertical bone \(V\) & \((0,0),(0,1),(0,2)\) \\
+Diagonal bone \(D\) & \((0,0),(1,-1),(2,-2)\) \\
+\end{longtable}
+
+The differential \(\partial\) sends each placed tile generator to the
+sum of its three original cell generators. The same map on free
+nonnegative monoids sends actual tilings to their original coverage
+vectors. The inclusion of these monoids in their free integer group
+completions commutes with \(\partial\); no integer chain is called a
+tiling merely because it has the same image.
+
+Use the original affine rotation and reflection \[
+ \rho(x,y)=(y,1-x-y),\qquad F(x,y)=(x,1-x-y).
+\] Their inverses are \(\rho^2\) and \(F\). On the original differences,
+\[
+ (u,v,w)\circ\rho=(v,w,u),\qquad
+ (u,v,w)\circ F=(-w,-v,-u).
+\] Consequently \(\rho\) preserves the original benzel, and \(F\) maps
+\(V(a,b)\) bijectively to \(V(b,a)\). It preserves the right stone and
+permutes the three bones. Each induced tile map and cell map commutes
+with incidence by summing the same three cell images.
+
+For the residue-zero family the original parameter maps are \[
+ (d,h)\longmapsto(a,b)=(d+3h,2d+3h),\qquad
+ d=b-a,\quad h=(2a-b)/3.
+\] These are inverse on the stated integer lane. The right-minus-left
+stone invariant becomes \(\Delta=t_d-h\). The region contains \[
+ |W_h(d)|=3t_d+(9d-3)h+9h^2
+          =3\Delta+9h(h+d)
+\] original cells. The retained packing proof derives this count on the
+original carrier; the finite verifier also reconstructs regions through
+the integer inverse \[
+ x=(1-v-2u)/3,\qquad y=x+u,
+\] retaining its divisibility condition.
+
+\section{3. The canonical finite core and its receiving
+maps}\label{the-canonical-finite-core-and-its-receiving-maps}
+
+For \(\Delta>0\), let \(m\) be the unique integer with \[
+ t_{m-1}<\Delta\le t_m,
+\] and set \(q=t_m-\Delta\). Then \[
+ 0\le q\le m-2,\qquad m\le d,\qquad
+ h=t_d-t_m+q.
+\] Conversely, these equations recover the original \(\Delta\) and
+\(h\). Uniqueness follows from strict increase of the triangular numbers
+from \(t_1=0\). For \(\Delta=0\), use \(m=1,q=0\). These choices are
+implemented by an integer square-root inverse, with its defining
+inequalities checked.
+
+The full stable-packing proof is retained at
+\texttt{../turn8/sources/turn6-PROOF.md}. Its original rank
+representatives are \[
+ p_{r,s}=(r-s,-s),\quad 0\le s<r,\quad
+ \operatorname{rank}(p_{r,s})=t_r+s+1,
+\] with their three rotated copies. Locating the unique minimum among
+the three differences and then its negative value \(r\) and coordinate
+\(s\) gives the inverse cell map. The first \(\Delta\) rank orbits form
+the actual residual \(\Omega_\Delta\).
+
+The retained positive band family \(\Gamma_\Delta(d,h)\) obeys \[
+ \partial\Gamma_\Delta(d,h)+\mathbf1_{\Omega_\Delta}
+ =\mathbf1_{W_h(d)}.                                      \tag{1}
+\] Every band is made of original bones, and distinct bands and sectors
+are disjoint. Its exact coordinate proof is included, rather than only a
+reference to an unavailable construction. For triangular \(\Delta=t_m\),
+\[
+ \Omega_{t_m}=W_0(m),
+\] and the explicit all-stone base is \[
+ T_0(m)=\{R(m-2-2r-s,r-s):r,s\ge0,\ r+s\le m-2\}.          \tag{2}
+\] For \(m=1\), this is empty. Equations (1) and (2) prove the entire
+\(q=0\) family.
+
+For \(q\ge1\), retain the common original source bones \[
+ a_{p,y,\ell}=F\rho^pH(y-r_y-2-3\ell,y),
+\quad
+ r_y=\begin{cases}m-1&y\le q,\\m&y>q,\end{cases}            \tag{3}
+\] where \[
+ p\in\{0,1,2\},\quad1\le y\le m+q,\quad
+ 0\le\ell<\min(y,q).
+\] Call this complete matching \(A\). It is disjoint from
+\(\Omega_\Delta\).
+
+At \(d=m\), \(h=q\). A prefix bone has index \(j=y-1-\ell\). In a tail
+row, the original first anchor is \(y-3q-m+1\), and index \(j=q-1-\ell\)
+gives exactly \(y-m-2-3\ell\). The index maps are \[
+ j_{\rm tail}=j_{\rm stable}+q-y,
+ \qquad j_{\rm stable}=j_{\rm tail}+y-q.                    \tag{4}
+\] All original index bounds are retained. For \(d\ge m+1\),
+\(h\ge m+q\), so the same source bones all belong to the finite prefix.
+Equations (3) and (4) preserve the sector, anchor, orientation, and
+three cells; hence they commute with the original differential.
+
+A positive core tiling of \(\Omega_\Delta\sqcup\operatorname{cells}(A)\)
+extends to the original benzel by adjoining the actual frozen bones
+\(\Gamma_\Delta\setminus A\). Deleting those frozen bones is the inverse
+on tilings containing them. This is the positive-fibre map used below;
+the smallest exterior parameter has not been omitted.
+
+\section{4. The uniform second-residue
+scaffold}\label{the-uniform-second-residue-scaffold}
+
+In this section \[
+ k\ge4,\qquad m\ge3k+4,\qquad q=3k+2.
+\] The same scaffold also admits the fixed specializations \(k=2,3\) in
+Section 7.
+
+Let \(B_8(m,k)\) and \(S_8(m,k)\) be the exact replacement bones and
+retained base stones of the completed \(q=3k\) construction, whose full
+sources and symbolic verifier are preserved in \texttt{../turn8}. Remove
+from \(S_8\) the two original stones \[
+ R(m-2-k,-k),\qquad \rho^2R(m-2-k,-k),                     \tag{5}
+\] and translate the surviving stones and \(B_8\) by \((-1,-1)\). Denote
+the resulting families by \(S\) and \(B_0\).
+
+The two stones in (5) have base indices \((r,s)=(0,k)\) and
+\((m-k-2,0)\). The domain gives \(m-k-2\ge2k+2\); they are distinct and
+survive the earlier corner deletions. Their removal leaves exactly
+\(t_m-3k-2\) stones. This choice is essential: deleting the first and
+the once-rotated stone instead leaves the vacancy in the wrong place for
+the second channel.
+
+Define \(A_0\subset A\) by the following original band-label table. All
+endpoints are included. An empty depth interval contributes no
+generators.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Sector
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Inclusive depth interval
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Inclusive row interval
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+0 & \(0\) & \(1\le y\le m + 2k\) \\
+0 & \(1\le\ell\le k - 1\) & \(\ell + 1\le y\le m + 2k - 2\) \\
+0 & \(1\le\ell\le k - 1\) &
+\(m + 2k + \ell - 1\le y\le m + 2k + \ell\) \\
+0 & \(k\) & \(k + 1\le y\le m + 3k\) \\
+0 & \(k + 1\le\ell\le 2k - 1\) & \(\ell + 1\le y\le 2k + 2\) \\
+0 & \(2k\) & \(y=2k + 1\) \\
+1 & \(0\le\ell\le k - 2\) & \(\ell + 1\le y\le m + 2k - 5\) \\
+1 & \(0\le\ell\le k - 2\) &
+\(m + 2k + \ell - 3\le y\le m + 2k + \ell - 2\) \\
+1 & \(k - 1\) & \(k\le y\le m + 3k - 3\) \\
+1 & \(k\) & \(k + 1\le y\le 2k - 1\) \\
+1 & \(k\) & \(3k\le y\le 3k + 2\) \\
+1 & \(k + 1\le\ell\le 2k - 2\) & \(\ell + 1\le y\le 2k - 1\) \\
+2 & \(0\le\ell\le k - 3\) & \(\ell + 1\le y\le m + 2k - 5\) \\
+2 & \(0\le\ell\le k - 3\) &
+\(m + 2k + \ell - 2\le y\le m + 2k + \ell - 1\) \\
+2 & \(k - 2\) & \(k - 1\le y\le m + 3k - 3\) \\
+2 & \(k - 1\) & \(k\le y\le 2k - 1\) \\
+2 & \(k - 1\) & \(3k\le y\le 3k + 2\) \\
+2 & \(k\le\ell\le 2k - 3\) & \(\ell + 1\le y\le 2k - 1\) \\
+\end{longtable}
+
+The table is literal, with no chosen quotient coordinates replacing
+\((p,y,\ell)\). Within each sector its overlapping depth ranges have
+disjoint row intervals. All labels obey (3). \texttt{source\_domains.py}
+reconstructs and exactly verifies the nonnegative lengths, membership
+bounds, branch bounds, and pairwise distinctness over the complete
+parameter domains.
+
+Write the eighteen cells of the preceding first-residue scaffold as the
+disjoint union \[
+ Z_9=A_9\sqcup F_9\sqcup R_9\sqcup U_9,
+\] where \[
+ A_9=\alpha(2k-2,4-4k-m),\qquad
+ \alpha(x,y)=\{(x,y),(x,y+1),(x+1,y-1)\},
+\] \[
+\begin{split}
+ F_9=\{&(3k-1,1-m),(3k-1,2-m),(3k,2-m),\\
+       &(3k,3-m),(3k+1,3-m),(3k+1,4-m)\},
+\end{split}
+\] \[
+ R_9=R(m-k-4,1-k)
+\] as an original three-cell set, and \[
+ U_9=V(m+2k-5,2k-4)
+ \sqcup\{(m+2k-2,2k-1),(m+2k-2,2k),(m+2k-1,2k)\}.
+\] Here \(U_9\) has six cells. Define the actual affine maps \[
+ T_1(x,y)=(x+1,y-2),\qquad T_2(x,y)=\rho^2(x,y)+(-2,1).
+\] Their inverses are translation by \((-1,2)\) and
+\(z\mapsto\rho(z-(-2,1))\). Their action on placed tiles is obtained by
+applying the map to the three original cells.
+
+The new 27-cell residual is \[
+ Z_2=T_1(A_9\sqcup F_9\sqcup R_9)
+       \sqcup T_2(F_9\sqcup R_9\sqcup U_9).                \tag{6}
+\] The exact scaffold identity is \[
+ \partial(B_0+S)+\mathbf1_{Z_2}
+    =\mathbf1_{\Omega_\Delta}+\partial A_0.                \tag{7}
+\] \texttt{source10.py} expresses (7) in six independent Laurent
+variables. Its original integer numerator vanishes identically, as
+detailed in Section 8. The right side is the indicator of a disjoint
+union by (3); every term on the left is nonnegative. Thus the identity
+also proves that (6) is a disjoint 27-cell set and that \(B_0+S\) is a
+positive packing of exactly its stated complement. Adding
+\(A\setminus A_0\) gives the actual initial scaffold on the full common
+support.
+
+\section{5. The eight-bone bridge and the completed endpoint
+identity}\label{the-eight-bone-bridge-and-the-completed-endpoint-identity}
+
+The parent first-residue edit sequence is an explicit signed bone vector
+\(E_9\), with \[
+ \partial E_9=\mathbf1_{Z_9}.
+\] Its last upper patch, call it \(U\), has boundary \[
+ \partial U=\mathbf1_{U_9}+\mathbf1_{\beta(c-1,b')},
+ \quad c=m+2k-4,\quad b'=2k-5,
+\] where \[
+ \beta(x,y)=\{(x,y),(x+1,y),(x+1,y+1)\}.
+\] This equation is the original eighteen-cell terminal partition in
+\texttt{../turn9/PROOF.md}, not an abstract endpoint assertion.
+
+The new bridge has anchor \[
+ x=m+2k-4,\qquad y=2k-7.
+\] Its old and new bones, in coordinates relative to \((x,y)\), are:
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Old bones & New bones \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(H(0,4),H(0,5),H(0,6)\) & \(V(0,0),V(0,3),V(1,0)\) \\
+\(H(1,2),H(1,3),H(1,7)\) & \(V(1,3),V(2,2),V(2,5)\) \\
+\(V(0,1),V(3,4)\) & \(V(3,2),V(3,5)\) \\
+\end{longtable}
+
+Let \(B_6\) denote new minus old. Expanding the original offsets shows
+that both the old bones plus \(\beta(x,y)\), and the new bones plus
+\(\beta(x,y+6)\), partition the same 27 cells. Consequently \[
+ \partial B_6=\mathbf1_{\beta(x,y)}-
+                     \mathbf1_{\beta(x,y+6)}.             \tag{8}
+\] The relative coordinate map is translation by \((x,y)\), with
+translation by \((-x,-y)\) as inverse. The two positive partitions give
+inverse local replacement maps.
+
+The original endpoint coordinates satisfy \[
+ T_1\beta(c-1,b')=\beta(x,y),\qquad
+ T_2 A_9=\beta(x,y+6).                                    \tag{9}
+\] Define the complete second-residue edit chain \[
+ E_2=T_1(E_9-U)+B_6+T_2E_9.                               \tag{10}
+\] Substitute the three original boundaries and use (9): \[
+\begin{split}
+\partial E_2
+={}&\mathbf1_{T_1(A_9\sqcup F_9\sqcup R_9)}
+ -\mathbf1_{T_1\beta(c-1,b')}\\
+ &+\mathbf1_{\beta(x,y)}-\mathbf1_{T_2A_9}
+ +\mathbf1_{T_2Z_9}\\
+={}&\mathbf1_{Z_2}.
+\end{split}                                               \tag{11}
+\] This is the endpoint cancellation that the interrupted attempt
+lacked. Its two geometric changes are the eight-bone bridge and the
+second deleted stone in (5).
+
+The formula is also expanded independently by
+\texttt{symbolic\_certificate.py}. It releases \(4m+12k+1\) old scaffold
+bones and inserts \(4m+12k+10\) new bones, a gain of nine bones, exactly
+the 27 filled cells. These are counts of the displayed repair, not an
+optimality assertion.
+
+\section{6. Original source ownership and
+positivity}\label{original-source-ownership-and-positivity}
+
+A signed identity does not supply the old generators needed to execute a
+positive edit. For every negative generator in (10), \texttt{edits.json}
+records an original owner of one of two types:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  a common source label \((p,y,\ell)\) from (3), proved to lie outside
+  \(A_0\);
+\item
+  an exact family and index in the original parent \(B_8(m,k)\),
+  followed by its actual rotation and the initial translation
+  \((-1,-1)\).
+\end{enumerate}
+
+These are literal inverse index formulas. \texttt{ownership.py}
+substitutes them into all three original cell coordinates and verifies
+equality as an identity in \((m,k,i)\). Bounds are proved on the full
+parameter domain. Every distinct pair of atoms that could share an owner
+is checked against the two original label coordinates; their equality
+produces a rational contradiction. Within a family, a nonzero index
+coefficient proves injectivity.
+
+The verifier reconstructs 1,479 exact affine certificates for the
+uniform second residue, including 71 original generator identities and
+733 potential duplicate-source comparisons. It uses only Python integer
+and rational arithmetic. A certificate for a bound is a nonnegative
+rational combination of the domain inequalities equal to that bound. A
+contradiction certificate combines the domain and equality constraints
+into \(-1\ge0\). No floating-point feasibility status is accepted as a
+certificate.
+
+The initial scaffold is a matching by (7), and the source certificate
+proves that all negative edit generators are distinct members of that
+initial scaffold. Subtracting them therefore leaves nonnegative
+coefficients. Adding the positive edit generators leaves a nonnegative
+tile vector. Equations (7) and (11) give its original boundary: \[
+ \partial(B'+S)=\mathbf1_{\Omega_\Delta}+\partial A.        \tag{12}
+\] The target coefficients are all one, so every tile is contained, all
+tiles are disjoint, and every target cell is covered. This proves the
+positive core tiling throughout the unbounded domain. No step assumes a
+positive lifting theorem.
+
+The source-to-tail map (4) now returns the core to every original
+exterior benzel. Adjoining the frozen original bones gives \[
+ (\Gamma_\Delta(d,h)\setminus A)\cup B'\cup S,              \tag{13}
+\] and (1), (12) prove its positive partition. The counts are
+\(t_m-3k-2\) stones and \(3h(h+d)\) bones.
+
+\section{7. The four exceptional deletion
+counts}\label{the-four-exceptional-deletion-counts}
+
+The parent terminal prescription uses \(k-4\) vertical vacancy moves and
+must not be used as a negative-length formula at \(k=2,3\). The
+following exact constant patches replace it.
+
+Let \(P\) be the parent edit sequence stopped immediately before its
+\texttt{lower} group. Set \[
+ c=m+2k-4,\qquad b=1-k.
+\] For \(k=2,3\), the remaining twelve cells, relative to \((c,b)\), are
+\[
+\begin{split}
+ H_k={}&\alpha(0,-3)\sqcup R(-3,0)\sqcup V(-1,3k-5)\\
+ &\sqcup\{(2,3k-2),(2,3k-1),(3,3k-1)\}.
+\end{split}\tag{14}
+\] The fixed terminal vector \(Q_k\), printed in Appendix A, satisfies
+\[
+ \partial Q_k=\mathbf1_{H_k}.
+\] For \(k=2\), it releases 11 bones and inserts 15. For \(k=3\), it
+releases 14 and inserts 18. Every equality is proved by expanding the
+literal finite offsets. Thus \(P+Q_k\) completes the first residue for
+\[
+ (q,m)=(7,m\ge9),\qquad(10,m\ge12).
+\]
+
+For the second residue, apply \(T_1P\), then a fixed direct bridge
+\(D_k\), then \(T_2(P+Q_k)\). The direct bridge is anchored at \[
+ (c',b')=(m+2k-3,-k-1).
+\] In its relative coordinates it replaces \[
+ \alpha(0,-3)\sqcup R(-3,0)
+ \quad\text{by}\quad\beta(-1,3k).
+\] For \(k=2\), it releases 16 bones and inserts 17; for \(k=3\), it
+releases 20 and inserts 21. The complete tables are in Appendix A. The
+resulting vacancy is exactly \(T_2A_9\), because its anchor is \[
+ (m+2k-4,2k-1).
+\] The endpoint cancellation is therefore the same original cell
+cancellation as (11), with the direct bridge taking the place of the
+invalid short lower/beta prescription.
+
+This proves the second residue for \[
+ (q,m)=(8,m\ge10),\qquad(11,m\ge13).
+\] For these four branches, \(k\) is fixed but \(m\) is not bounded
+above. The exact symbolic verifier specializes only \(k\), leaving the
+original exterior parameter formal. Source ownership is proved by the
+same affine mechanism on the domains \(k=k_0\), \(m\ge3k_0+r+2\). It
+does not claim an identity for other \(k\)-values.
+
+The four source verifications have, respectively, 407, 968, 559, and
+1,178 exact certificates. The initial sources are retained and every old
+edit generator remains distinct. The positivity proof of Section 6
+applies to these literal tables. The smallest finite tail is included by
+(4).
+
+\section{8. Exact algebraic certificates and index
+domains}\label{exact-algebraic-certificates-and-index-domains}
+
+The cell-module map \[
+ \mathbb Z[\mathbb Z^2]\longrightarrow
+ \mathbb Z[X^{\pm1},Y^{\pm1}],\qquad[(x,y)]\mapsto X^xY^y
+\] has inverse coefficient extraction. The four tile boundaries are
+exactly \[
+ 1+X+Y,\quad1+X+X^2,\quad1+Y+Y^2,
+ \quad1+XY^{-1}+X^2Y^{-2}.
+\] Retain both independent parameters in \[
+ \mathcal L=\mathbb Z[X^{\pm1},Y^{\pm1},
+ M_x^{\pm1},M_y^{\pm1},K_x^{\pm1},K_y^{\pm1}].
+\] The original specialization is \[
+ M_x\mapsto X^m,\ M_y\mapsto Y^m,\
+ K_x\mapsto X^k,\ K_y\mapsto Y^k.
+\] Its kernel is generated by the four displayed parameter relations,
+and the quotient inverse is the inclusion of \(X,Y\). This identifies
+the exact relationship between formal parameter calculations and
+original cells.
+
+For an indexed anchor whose coordinates are affine in \(m,k,i\), the
+finite sum is represented by its actual geometric progression. The
+checker expands constant families directly. All denominators are nonzero
+Laurent polynomials in \(X,Y\) alone; specialization never changes them.
+The original Laurent rings are integral domains, so localization at
+their product is injective.
+
+For the new uniform branch, the scaffold numerator has 273 rational
+input terms, 32,274 expanded numerator terms, and no surviving
+coefficient. The endpoint identity has 228 rational input terms, 10,512
+expanded terms, and no surviving coefficient. The separate fixed-\(k\)
+expansions for the four exceptions also have zero numerator. These are
+exact integer polynomial identities before choosing \(m\); the uniform
+branch also retains \(k\).
+
+Positive source domains are checked separately.
+\texttt{source\_domains.py} covers both uniform scaffold tables, the
+four fixed specializations, and the four retained fixed-deletion tables
+\(q=1,2,4,5\). It verifies 1,291 exact affine bounds/contradictions:
+nonnegative family lengths, original row/depth bounds, each prefix/tail
+branch, and source distinctness. The four fixed-deletion polynomial
+identities are replayed as well. Their construction data are preserved
+in \texttt{../turn7}.
+
+This makes the proof's logical order explicit: the polynomial identity
+establishes original cell coefficients; the index certificates establish
+that the expressions enumerate actual nonnegative generators; the source
+owners establish that subtraction removes actual present tiles. Neither
+a rational-function identity alone nor a finite tiling sample is
+substituted for those three calculations.
+
+\Needspace{22\baselineskip}
+
+\section{9. Exhaustion of all canonical
+parameters}\label{exhaustion-of-all-canonical-parameters}
+
+Every \(q\in[0,m-2]\) has exactly one route in the following table.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Canonical deletion count
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Complete construction
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Original domain
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(q=0\) & Stable bands plus the all-stone core (2) & \(m\ge1\) \\
+\(q=1,2,4,5\) & Retained literal fixed-deletion tables & \(m\ge q+2\) \\
+\(q=3k,\ k\ge1\) & Retained threefold construction & \(m\ge3k+2\) \\
+\(q=3k+1,\ k\ge4\) & Retained asymmetric construction & \(m\ge3k+3\) \\
+\(q=3k+2,\ k\ge4\) & Sections 4--6 & \(m\ge3k+4\) \\
+\(q=7,10\) & Fixed \(k=2,3\), first-residue terminal & \(m\ge q+2\) \\
+\(q=8,11\) & Fixed \(k=2,3\), direct second-residue bridge &
+\(m\ge q+2\) \\
+\end{longtable}
+
+To verify exhaustiveness, divide \(q\) by three. For remainder zero,
+\(q=0\) or the threefold row applies. For remainder one, quotient
+\(k=0,1,2,3\) gives \(q=1,4,7,10\), and all larger quotients use the
+uniform first residue. For remainder two, quotients \(0,1,2,3\) give
+\(2,5,8,11\), and all larger quotients use the new uniform second
+residue. Every required lower bound on \(m\) is exactly the already
+proved canonical inequality \(q\le m-2\).
+
+Thus no canonical value is left to a search, unproved lifting statement,
+or future endpoint. The original receiving parameter is \(d\ge m\), so
+(13), or the corresponding retained literal construction, applies.
+
+The two small \(d=2\) cases are also explicit. For \(h=0\), \(V(2,4)\)
+is the central right stone. For \(h=1\), the same original three-sector
+band formula gives the following nine bones:
+
+\[
+\begin{gathered}
+D(-2,1),\quad D(-2,2),\quad D(-1,-1)\\
+H(-3,3),\quad H(-1,2),\quad H(0,1)\\
+V(1,-2),\quad V(2,-2),\quad V(3,-1)
+\end{gathered}
+\]
+
+Their cell sets partition the original \(V(5,7)\), as direct offset
+expansion shows. This completes the theorem in Section 1 for every
+\(d\ge2\).
+
+\section{10. Original Split-Zero complexes and their comparison
+kernels}\label{original-split-zero-complexes-and-their-comparison-kernels}
+
+This section records the concepts used in the construction, not a claim
+that adjoining a zero alone supplies positive tilings. The source is the
+retained Split-Zero reconstruction and internal-homology development at
+the exact mathematical pin listed in \texttt{PROVENANCE.md}.
+
+Fix one of the newly completed repair configurations. Let \(A^-\) be its
+matching of old edit bones and \(A^+\) its matching of new edit bones,
+and let \(Z\) be its actual initial vacancy. The proved endpoint
+identity is \[
+ \partial(A^+-A^-)=\mathbf1_Z.                            \tag{15}
+\] The supports \(Z\) and the old cells are disjoint. Take \[
+ L=\{\bot\}\sqcup\mathcal P(A^-),\qquad
+ \Lambda_E=Z\sqcup\operatorname{cells}(E).
+\] Bottom has empty physical support, whereas the nonbottom label
+\(E=\varnothing\) has physical support \(Z\). The join map to cell
+supports sends unions to unions and bottom to the empty set. Its inverse
+on the image identifies which disjoint old bone cells are included.
+
+At each supported label use the actual incidence complex of contained
+bone generators \[
+ C_E^0\xrightarrow{\partial_E}C_E^1\longrightarrow0,
+ \qquad C_E^1=\mathbb Z[\Lambda_E].
+\] The original inclusions intertwine differentials. Reconstruct the
+totals \(\mathcal T(C^i)=\coprod_E C_E^i\) over
+\(G(\mathbb Z)=\mathbb Z\sqcup\{\tau\}\). Their addition transports to
+the union support. The supported scalar zero \(e=0_{\mathbb Z}\) and
+absent zero act by \[
+ e(E,x)=(E,0),\qquad \tau(E,x)=(\bot,0).
+\] The differential square is the correctly typed map
+\((E,n)\mapsto(E,0)\). Projection to the support proves its relationship
+to the constant absent map; no label disappears when a boundary becomes
+zero.
+
+The internal homology projection \[
+ (E,p)\longmapsto(E,[p])
+\] coequalizes the actual incoming boundary and its supported-zero
+companion. Its universal property follows directly: a split-linear map
+equalizing those arrows takes two representatives differing by an
+original boundary to the same value, using fibre-zero absorption. It
+therefore descends uniquely; lifting representatives verifies addition,
+scalar action, and naturality. No cancellation in an arbitrary target
+semimodule is used.
+
+\subsection{10.1 The augmented positive
+fibre}\label{the-augmented-positive-fibre}
+
+Let \(v_E=\mathbf1_{\Lambda_E}\) and \[
+ \widehat C_E^0=\mathbb Z\oplus C_E^0,
+ \qquad\widehat d_E(r,n)=\partial n-rv_E.
+\] For \(E\subseteq E'\), let \(\eta_{EE'}\) be the sum of newly
+released original bones. The original partition gives \[
+ v_{E'}=jv_E+\partial\eta_{EE'}.
+\] The genuine linear transition \[
+ \widehat j_{EE'}(r,n)=(r,jn+r\eta_{EE'})
+\] therefore satisfies
+\(\widehat d_{E'}\widehat j_{EE'}=j\widehat d_E\). The identity
+\(\eta_{EE''}=j\eta_{EE'}+\eta_{E'E''}\) proves composition.
+
+Charge-one nonnegative integral cycles are exactly the original positive
+patch tilings: \(\partial n=v_E\) forces coefficient one at each cell.
+The inclusion into the full integral cycle module retains the same
+charge and every original tile coefficient. Equation (15) supplies the
+actual positive cycle \((1,A^+)\) at full support. The elementary
+positive partitions and their inverses supply the concrete local maps
+realizing that cycle.
+
+\subsection{10.2 The full integral matching-comparison
+kernel}\label{the-full-integral-matching-comparison-kernel}
+
+At the fixed full support, write \(C=\mathbb Z[\Lambda]\),
+\(B_-=\operatorname{im}\partial_{A^-}\), and
+\(B_+=\operatorname{im}\partial_{A^+}\). The comparison is the original
+representative map \[
+ C/B_-\longrightarrow C/(B_-+B_+),
+\] with kernel \[
+ K\cong B_+/(B_-\cap B_+).                                \tag{16}
+\] The map sends a new-boundary representative to its original class.
+Its inverse writes a killed representative as \(a+b\), with
+\(a\in B_-\), \(b\in B_+\), and sends it to \([b]\). Two decompositions
+differ precisely by \(B_-\cap B_+\), proving well-definedness and both
+inverse identities.
+
+For completeness, the entire kernel is computed integrally. Build the
+bipartite graph of actual old and new bones, with each shared original
+cell as an edge. A singly owned cell marks its owner. Equality of old
+and new boundary combinations forces coefficients equal along edges and
+zero at marked vertices. They vanish on open components and have one
+common integer value on each closed component. Conversely, a closed
+component gives the equality of the sums of its original old and new
+boundaries.
+
+Those intersection generators are primitive and have disjoint supports.
+Pick one new-bone pivot in each closed component. The remaining
+new-boundary classes form an integral basis of (16). The coordinate map
+subtracts the pivot coefficient on each closed component; the inverse
+inserts zero at pivots. Original-cell forest paths give integer duals:
+root each open component at ground and each closed component at its
+pivot, and assign oriented path coefficients \(0,1,-1\) to its cell
+edges. Summing at old vertices gives zero, and summing at new vertices
+gives the Kronecker evaluations of the displayed basis.
+
+Any chosen vacancy cell evaluates \([\mathbf1_Z]\) to one and
+annihilates every old boundary. It supplies a split copy of
+\(\mathbb Z\) before the comparison. Equation (15) kills that
+distinguished class at its own support. This one summand is retained
+alongside the full kernel, not substituted for it.
+
+The selected matching complexes also map into the complex of all
+contained bones by literal inclusion on tile generators and identity on
+cells. The further quotient kernel is \[
+ \operatorname{im}\partial_{\rm all}/(B_-+B_+).
+\] This records precisely the relationship with the unrestricted
+incidence complex; no vanishing of that additional kernel is assumed.
+None of these elementary matching calculations is claimed to be a new
+computation of the known global bone homology group.
+
+\section{11. Returning to the original Problem
+7}\label{returning-to-the-original-problem-7}
+
+The retained source-matching note \texttt{reference-earlier-proofs.md},
+Section 3, specifies the original admissible domain \(a,b\ge2\),
+\(a\le2b\), \(b\le2a\), and the three residue cases of the
+Conway--Lagarias invariant. That note is included unchanged and its
+historical status statements remain historical. Reflection permits
+\(a\le b\) through the exact involution in Section 2.
+
+For \(a+b\equiv0\pmod3\), the inverse parameters are \(d=b-a\),
+\(h=(2a-b)/3\), and \(\Delta=t_d-h\). Admissibility gives \(h\ge0\), and
+nonnegative invariant gives \(h\le t_d\). The possibilities \(d=0,1\)
+would force \(h=0\) and violate \(a\ge2\). Thus \(d\ge2\), and the
+completed constructor applies.
+
+For \(a+b\equiv1\pmod3\), there is a direct all-right-stone
+construction. Put \(A=1-a,B=b-1,r=2-a\pmod3\). For an original
+barycentric cell \(v\), consider the three sum-zero anchors \(u=v-e_j\)
+of containing right stones. Their first differences occupy all three
+residues; choose the unique anchor in residue \(r\). All differences of
+a sum-zero anchor are congruent modulo three. They lie initially in
+\([A-1,B+1]\), but the endpoints \(A+1,B-1\) both have residue \(r\),
+and none of \(A-1,A,B,B+1\) does. Hence the chosen anchor differences
+lie in \([A+1,B-1]\), and its three cells lie in the original benzel.
+Every cell of that stone selects the same anchor. The map from selected
+anchors and offset indices to original cells is therefore bijective,
+with the displayed selection as inverse. \texttt{residue\_one}
+implements this construction directly.
+
+For \(a+b\equiv2\pmod3\), the retained source-matching note invokes the
+already published generalized-compression Theorem 1.1 at
+arXiv:2403.07663v1, in the exact parameters \[
+ n=b+1-a,\qquad j=(2a-b-1)/3,
+ \qquad(a,b)=(n+3j,2n+3j-1).
+\] The inverse formulas are displayed and \(n\ge1,j\ge0\) follow from
+admissibility and the residue. That established result gives positive
+tiling counts using the original right stone and two original bone
+orientations. The literal inclusion of its tile set into the type-103
+set preserves each placement and its three cells; its induced incidence
+square commutes and its map on tilings is injective. This is the exact
+published input of the full-P7 assembly. The present package does not
+assert a self-contained new construction or independent proof audit of
+that compression result.
+
+Accordingly, the previously recorded route to the full existence
+statement now has its remaining residue-zero case supplied by a complete
+original-coordinate construction. This is independent of Sharma's
+reported manuscript in method and proof dependencies, while making no
+claim of first proof or novel bare existence.
+
+\section{12. Verification, limitations, and
+reproduction}\label{verification-limitations-and-reproduction}
+
+The mathematical proof uses parameter-preserving polynomial identities,
+exact affine certificates, the retained full packing proofs, and the
+positive incidence arguments above. Finite tests are additional checks
+of the implementation, not the source of an unbounded quantifier.
+
+Run from this directory:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{python}\NormalTok{ verify.py }\AttributeTok{{-}{-}max{-}d}\NormalTok{ 12 }\AttributeTok{{-}{-}max{-}k}\NormalTok{ 9 }\AttributeTok{{-}{-}output}\NormalTok{ evidence/normal.json}
+\ExtensionTok{python} \AttributeTok{{-}O}\NormalTok{ verify.py }\AttributeTok{{-}{-}max{-}d}\NormalTok{ 12 }\AttributeTok{{-}{-}max{-}k}\NormalTok{ 9 }\AttributeTok{{-}{-}output}\NormalTok{ evidence/optimized.json}
+\end{Highlighting}
+\end{Shaded}
+
+The verifier uses only the Python standard library. Optional scripts
+that discovered rational multipliers or fixed finite patches are not
+invoked. The source map, all small constant tables, old-generator
+inverse maps, exact certificates, and retained mathematical dependencies
+are included.
+
+A complete run checks every allowed \(h\) at \(d=2,\ldots,12\), its
+reflection, larger uniform second-residue cores at their smallest and
+larger \(m\), all four exceptional families at three \(m\)-values and
+two receiving values, all duals in eight original matching comparisons,
+actual augmented transitions, and deliberately corrupted inputs. Exact
+counts and file identities belong to the emitted receipts.
+
+There is no first-discovery claim, no new Lean build certificate, and no
+independent specialist acceptance. This manuscript closes the displayed
+construction and its canonical parameter coverage. The separate prior
+literature claims and the published residue-two input keep their own
+provenance and verification scopes.
+
+\section{Appendix A. The four constant terminal
+tables}\label{appendix-a.-the-four-constant-terminal-tables}
+
+All coordinates in these tables are relative to the anchors in Section
+7. The table entries are original placed bones, not quotient
+representatives. Old/new equalities follow by literal offset expansion;
+\texttt{small\_symbolic.py} verifies the aggregate unbounded-\(m\)
+identities and the ownership certificates supply the actual source
+indices.
+
+\Needspace{24\baselineskip}
+
+\subsection{\texorpdfstring{Terminal
+\(Q_2\)}{Terminal Q\_2}}\label{terminal-q_2}
+
+Original releases: 11 bones. Original insertions: 15 bones.
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Old placed bone & New placed bone \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(H(-1,0)\) & \(D(0,-3)\) \\
+\(H(0,1)\) & \(D(0,-2)\) \\
+\(H(0,2)\) & \(D(0,0)\) \\
+\(H(0,3)\) & \(D(0,1)\) \\
+\(V(-2,1)\) & \(D(1,-2)\) \\
+\(V(1,-3)\) & \(H(-3,0)\) \\
+\(V(2,-5)\) & \(H(-3,1)\) \\
+\(V(2,-2)\) & \(H(-2,2)\) \\
+\(V(3,-4)\) & \(H(-2,3)\) \\
+\(V(3,-1)\) & \(V(1,1)\) \\
+\(V(3,2)\) & \(V(2,0)\) \\
+& \(V(2,3)\) \\
+& \(V(3,-3)\) \\
+& \(V(3,0)\) \\
+& \(V(3,3)\) \\
+\end{longtable}
+
+\Needspace{26\baselineskip}
+
+\subsection{\texorpdfstring{Direct bridge
+\(D_2\)}{Direct bridge D\_2}}\label{direct-bridge-d_2}
+
+Original releases: 16 bones. Original insertions: 17 bones.
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Old placed bone & New placed bone \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(H(-1,0)\) & \(D(0,-3)\) \\
+\(H(-1,6)\) & \(D(0,-2)\) \\
+\(H(0,1)\) & \(D(0,0)\) \\
+\(H(0,2)\) & \(D(0,1)\) \\
+\(H(0,3)\) & \(D(1,-2)\) \\
+\(H(0,7)\) & \(H(-3,0)\) \\
+\(V(-2,1)\) & \(H(-3,1)\) \\
+\(V(-1,1)\) & \(H(-2,2)\) \\
+\(V(1,-3)\) & \(H(-2,3)\) \\
+\(V(2,-5)\) & \(H(1,6)\) \\
+\(V(2,-2)\) & \(H(1,7)\) \\
+\(V(2,4)\) & \(V(1,1)\) \\
+\(V(3,-4)\) & \(V(2,0)\) \\
+\(V(3,-1)\) & \(V(2,3)\) \\
+\(V(3,2)\) & \(V(3,-3)\) \\
+\(V(3,5)\) & \(V(3,0)\) \\
+& \(V(3,3)\) \\
+\end{longtable}
+
+\Needspace{27\baselineskip}
+
+\subsection{\texorpdfstring{Terminal
+\(Q_3\)}{Terminal Q\_3}}\label{terminal-q_3}
+
+Original releases: 14 bones. Original insertions: 18 bones.
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Old placed bone & New placed bone \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(H(-1,0)\) & \(D(0,-3)\) \\
+\(H(1,4)\) & \(D(0,-2)\) \\
+\(V(-2,1)\) & \(D(1,-2)\) \\
+\(V(-1,1)\) & \(D(1,-1)\) \\
+\(V(0,2)\) & \(D(2,-1)\) \\
+\(V(1,-3)\) & \(H(-3,0)\) \\
+\(V(2,-5)\) & \(H(-3,1)\) \\
+\(V(2,-2)\) & \(H(-2,2)\) \\
+\(V(3,-4)\) & \(H(-2,3)\) \\
+\(V(3,5)\) & \(H(0,0)\) \\
+\(V(4,-3)\) & \(H(0,4)\) \\
+\(V(4,0)\) & \(H(2,7)\) \\
+\(V(4,3)\) & \(H(2,8)\) \\
+\(V(4,6)\) & \(V(-1,4)\) \\
+& \(V(3,4)\) \\
+& \(V(4,-2)\) \\
+& \(V(4,1)\) \\
+& \(V(4,4)\) \\
+\end{longtable}
+
+\Needspace{30\baselineskip}
+
+\subsection{\texorpdfstring{Direct bridge
+\(D_3\)}{Direct bridge D\_3}}\label{direct-bridge-d_3}
+
+Original releases: 20 bones. Original insertions: 21 bones.
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Old placed bone & New placed bone \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(H(-1,0)\) & \(D(0,-3)\) \\
+\(H(-1,9)\) & \(D(0,-2)\) \\
+\(H(0,1)\) & \(D(0,0)\) \\
+\(H(0,5)\) & \(D(0,1)\) \\
+\(H(0,6)\) & \(D(1,-2)\) \\
+\(H(0,10)\) & \(H(-3,0)\) \\
+\(H(1,2)\) & \(H(-3,1)\) \\
+\(H(1,3)\) & \(H(-2,2)\) \\
+\(H(1,4)\) & \(H(-2,3)\) \\
+\(V(-2,1)\) & \(H(1,9)\) \\
+\(V(-1,1)\) & \(H(1,10)\) \\
+\(V(0,2)\) & \(V(0,4)\) \\
+\(V(1,-3)\) & \(V(1,1)\) \\
+\(V(2,-5)\) & \(V(1,4)\) \\
+\(V(2,-2)\) & \(V(2,0)\) \\
+\(V(2,7)\) & \(V(2,3)\) \\
+\(V(3,-4)\) & \(V(2,6)\) \\
+\(V(3,-1)\) & \(V(3,-3)\) \\
+\(V(3,5)\) & \(V(3,0)\) \\
+\(V(3,8)\) & \(V(3,3)\) \\
+& \(V(3,6)\) \\
+\end{longtable}
+
+\section{Appendix B. Literal indexed edit
+tables}\label{appendix-b.-literal-indexed-edit-tables}
+
+\texttt{edits.json} contains the complete uniform second-residue table.
+The four exceptional tables have filenames \texttt{edits-kK-rR.json},
+with \((K,R)=(2,1),(2,2),(3,1),(3,2)\). They retain all their original
+owner maps after fixing \(k\). No unspecified geometric pattern is
+called by the constructor.
+
+A row stores a kind and two vectors \([a,b,c,e]\); its anchor coordinate
+is exactly \(am+bk+ci+e\). A count vector \([a,b,e]\) means
+\(0\le i<am+bk+e\). Common owners store their original sector, row,
+depth, and triangular branch. Parent owners store the exact part,
+family, inverse indices, and rotation. Their equality is verified on all
+three original cell coordinates.
+
+The retained full first-residue edit table gives the literal meaning of
+\(E_9\) and \(U\) in (10). \texttt{build\_edits.py} records their exact
+affine transport; the final constructor reads the fully expanded table
+and calls no discovery script.
+
+\end{document}

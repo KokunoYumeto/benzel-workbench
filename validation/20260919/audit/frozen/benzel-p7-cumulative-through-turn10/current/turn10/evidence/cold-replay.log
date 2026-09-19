@@ -1,0 +1,55 @@
+START parameter identities
+PARAMETER IDENTITIES PASS
+ALL-H d 2 passed 3.6
+ALL-H d 3 passed 3.6
+ALL-H d 4 passed 3.6
+ALL-H d 5 passed 3.6
+ALL-H d 6 passed 3.7
+ALL-H d 7 passed 3.9
+ALL-H d 8 passed 4.3
+ALL-H d 9 passed 5.3
+ALL-H d 10 passed 7.4
+ALL-H d 11 passed 11.3
+ALL-H d 12 passed 18.6
+NEW CORE 4 16 18.6
+NEW CORE 4 19 18.8
+NEW CORE 5 19 19.0
+NEW CORE 5 22 19.2
+NEW CORE 6 22 19.5
+NEW CORE 6 25 19.8
+NEW CORE 7 25 20.1
+NEW CORE 7 28 20.5
+NEW CORE 8 28 21.0
+NEW CORE 8 31 21.6
+NEW CORE 9 31 22.2
+NEW CORE 9 34 22.8
+{
+  "status": "PASS",
+  "seconds": 24.392,
+  "counts": {
+    "all_h_original_tilings": 297,
+    "all_h_placements": 849706,
+    "reflected_tilings": 297,
+    "reflected_placements": 849706,
+    "independent_regions": 41,
+    "new_unbounded_core_samples": 12,
+    "core_placements": 32988,
+    "unbounded_family_full_and_reflected": 48,
+    "unbounded_placements_with_reflection": 344208,
+    "receiving_generators": 58950,
+    "cohomology_kernel_rank": 804,
+    "cohomology_closed_components": 0,
+    "cohomology_integer_duals": 804,
+    "cohomology_vacancy_cells": 198,
+    "cohomology_augmented_checks": 32,
+    "cohomology_supported_zero_checks": 24,
+    "cohomology_homotopy_identity": 8,
+    "cohomology_complete_comparisons": 8,
+    "exception_core_samples": 12,
+    "exception_full_tilings": 24,
+    "exception_placements": 45818,
+    "original_residue_one_controls": 33,
+    "rejection_tests": 10,
+    "canonical_routing_checks": 10000
+  }
+}

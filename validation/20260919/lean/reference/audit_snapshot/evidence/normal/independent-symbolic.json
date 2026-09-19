@@ -1,0 +1,892 @@
+{
+  "status": "PASS",
+  "engine": "independently assembled finite-sum rational expressions, SymPy integer PolyElement arithmetic",
+  "seconds": 0.405,
+  "identities": [
+    {
+      "identity": "threefold k>=2,m>=3k+2",
+      "status": "PASS",
+      "summands": 111,
+      "expanded_monomials": 28128,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -4
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            4,
+            -2
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "threefold k=1,m>=5",
+      "status": "PASS",
+      "summands": 27,
+      "expanded_monomials": 510,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "fixed q=1,m>=3",
+      "status": "PASS",
+      "summands": 24,
+      "expanded_monomials": 408,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "fixed q=2,m>=4",
+      "status": "PASS",
+      "summands": 24,
+      "expanded_monomials": 493,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "fixed q=4,m>=6",
+      "status": "PASS",
+      "summands": 47,
+      "expanded_monomials": 882,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "fixed q=5,m>=7",
+      "status": "PASS",
+      "summands": 60,
+      "expanded_monomials": 1116,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "scaffold r=1,k>=4",
+      "status": "PASS",
+      "summands": 150,
+      "expanded_monomials": 31242,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -4
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            4,
+            -2
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "endpoint r=1,k>=4",
+      "status": "PASS",
+      "summands": 91,
+      "expanded_monomials": 1896,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "scaffold k=2,r=1,m>=9",
+      "status": "PASS",
+      "summands": 124,
+      "expanded_monomials": 16974,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -4
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            4,
+            -2
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "endpoint k=2,r=1,m>=9",
+      "status": "PASS",
+      "summands": 75,
+      "expanded_monomials": 1512,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "scaffold k=3,r=1,m>=12",
+      "status": "PASS",
+      "summands": 150,
+      "expanded_monomials": 23946,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -4
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            4,
+            -2
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "endpoint k=3,r=1,m>=12",
+      "status": "PASS",
+      "summands": 81,
+      "expanded_monomials": 1656,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "scaffold r=2,k>=4",
+      "status": "PASS",
+      "summands": 164,
+      "expanded_monomials": 32274,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -4
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            4,
+            -2
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "endpoint r=2,k>=4",
+      "status": "PASS",
+      "summands": 180,
+      "expanded_monomials": 10512,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "scaffold k=2,r=2,m>=10",
+      "status": "PASS",
+      "summands": 136,
+      "expanded_monomials": 17754,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -4
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            4,
+            -2
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "endpoint k=2,r=2,m>=10",
+      "status": "PASS",
+      "summands": 148,
+      "expanded_monomials": 7896,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "scaffold k=3,r=2,m>=13",
+      "status": "PASS",
+      "summands": 164,
+      "expanded_monomials": 24846,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -4
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            4,
+            -2
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "endpoint k=3,r=2,m>=13",
+      "status": "PASS",
+      "summands": 162,
+      "expanded_monomials": 9120,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ]
+      ]
+    }
+  ],
+  "mutation": "PASS: nonzero original cell rejected",
+  "producer_symbolic_modules_imported": false
+}

@@ -1,0 +1,196 @@
+{
+  "schema": 1,
+  "tasks": [
+    {
+      "id": "L00",
+      "depends_on": [],
+      "title": "Compile starter and verify statements",
+      "status": "OPEN",
+      "source": "formal/Benzel.lean",
+      "acceptance": "All starter scripts actually elaborate with pinned dependencies",
+      "instruction": "Produce checked Lean terms for this actual target. Do not add mathematical assumptions or change source semantics."
+    },
+    {
+      "id": "L01",
+      "depends_on": [
+        "L00"
+      ],
+      "title": "Original geometry, tile maps and incidence",
+      "status": "OPEN",
+      "source": "turn10/PROOF.md \u00a7\u00a72,10",
+      "acceptance": "Original tile/list-to-chain equivalence and rotation/reflection maps",
+      "instruction": "Produce checked Lean terms for this actual target. Do not add mathematical assumptions or change source semantics."
+    },
+    {
+      "id": "L02",
+      "depends_on": [
+        "L00"
+      ],
+      "title": "Kernel-check five exact patch partitions",
+      "status": "OPEN",
+      "source": "turn10/small-*.json and eight-bone bridge",
+      "acceptance": "Twenty constant/translated patch declarations with axiom reports",
+      "instruction": "Produce checked Lean terms for this actual target. Do not add mathematical assumptions or change source semantics."
+    },
+    {
+      "id": "L03",
+      "depends_on": [
+        "L01"
+      ],
+      "title": "Affine certificate soundness and reification",
+      "status": "OPEN",
+      "source": "audit/independent_sources.py; turn9/turn10 owner receipts",
+      "acceptance": "All 6559 original affine targets are reconstructed and proved, not assumed",
+      "instruction": "Produce checked Lean terms for this actual target. Do not add mathematical assumptions or change source semantics."
+    },
+    {
+      "id": "L04",
+      "depends_on": [
+        "L01"
+      ],
+      "title": "Laurent certificate soundness and semantics",
+      "status": "OPEN",
+      "source": "audit/independent_symbolic.py; turn8/turn9/turn10 source tables",
+      "acceptance": "All 18 identities plus formula/table identifications and injective specialization steps",
+      "instruction": "Produce checked Lean terms for this actual target. Do not add mathematical assumptions or change source semantics."
+    },
+    {
+      "id": "L05",
+      "depends_on": [
+        "L01"
+      ],
+      "title": "Rank inverse and full shifted band packing",
+      "status": "OPEN",
+      "source": "turn8/sources/turn6-PROOF.md",
+      "acceptance": "Original Gamma/Omega partition for every admissible parameter",
+      "instruction": "Produce checked Lean terms for this actual target. Do not add mathematical assumptions or change source semantics."
+    },
+    {
+      "id": "L06",
+      "depends_on": [
+        "L05"
+      ],
+      "title": "Standalone centered-one-stone theorem",
+      "status": "OPEN",
+      "source": "turn8/packing.py: one_stone_bands and one_stone_transport",
+      "acceptance": "Benzel.oneStone_correct : Benzel.OneStoneGoal",
+      "instruction": "Produce checked Lean terms for this actual target. Do not add mathematical assumptions or change source semantics."
+    },
+    {
+      "id": "L07",
+      "depends_on": [
+        "L03",
+        "L04",
+        "L05"
+      ],
+      "title": "All q=3k and fixed q=1,2,4,5",
+      "status": "OPEN",
+      "source": "turn8/*; turn7/templates.json",
+      "acceptance": "Correct original core, source membership and all exterior d>=m",
+      "instruction": "Produce checked Lean terms for this actual target. Do not add mathematical assumptions or change source semantics."
+    },
+    {
+      "id": "L08",
+      "depends_on": [
+        "L02",
+        "L03",
+        "L04",
+        "L07"
+      ],
+      "title": "Asymmetric q=3k+1",
+      "status": "OPEN",
+      "source": "turn9/*",
+      "acceptance": "All k>=4,m>=3k+3 with finite-tail endpoint",
+      "instruction": "Produce checked Lean terms for this actual target. Do not add mathematical assumptions or change source semantics."
+    },
+    {
+      "id": "L09",
+      "depends_on": [
+        "L02",
+        "L03",
+        "L04",
+        "L08"
+      ],
+      "title": "q=3k+2 and four exceptional counts",
+      "status": "OPEN",
+      "source": "turn10/*",
+      "acceptance": "Every uniform and exceptional original positive core",
+      "instruction": "Produce checked Lean terms for this actual target. Do not add mathematical assumptions or change source semantics."
+    },
+    {
+      "id": "L10",
+      "depends_on": [
+        "L05",
+        "L07",
+        "L08",
+        "L09"
+      ],
+      "title": "Canonical arithmetic and total constructor",
+      "status": "OPEN",
+      "source": "turn10/complete_theorem.py",
+      "acceptance": "Benzel.construct_correct : Benzel.ConstructionCorrect Benzel.construct",
+      "instruction": "Produce checked Lean terms for this actual target. Do not add mathematical assumptions or change source semantics."
+    },
+    {
+      "id": "L11",
+      "depends_on": [
+        "L01"
+      ],
+      "title": "Direct residue-one construction",
+      "status": "OPEN",
+      "source": "turn10/complete_theorem.py: residue_one",
+      "acceptance": "Original residue-one region tiling with no imported conclusion",
+      "instruction": "Produce checked Lean terms for this actual target. Do not add mathematical assumptions or change source semantics."
+    },
+    {
+      "id": "L12",
+      "depends_on": [
+        "L01"
+      ],
+      "title": "Published generalized-compression dependency",
+      "status": "OPEN",
+      "source": "turn10/PROVENANCE.md and audit report",
+      "acceptance": "A proved term of the original ResidueTwoGoal; no new axiom",
+      "instruction": "Produce checked Lean terms for this actual target. Do not add mathematical assumptions or change source semantics."
+    },
+    {
+      "id": "L13",
+      "depends_on": [
+        "L01",
+        "L02"
+      ],
+      "title": "Actual SplitZero support and positive diagram",
+      "status": "OPEN",
+      "source": "Optional/SplitZeroAdapter.lean; original D1--D8",
+      "acceptance": "Concrete diagrams, universal maps, whole integral kernel and positive fibre",
+      "instruction": "Produce checked Lean terms for this actual target. Do not add mathematical assumptions or change source semantics."
+    },
+    {
+      "id": "L14",
+      "depends_on": [
+        "L10",
+        "L11",
+        "L12"
+      ],
+      "title": "Global assembly and statement audit",
+      "status": "OPEN",
+      "source": "formal/Benzel/Specification.lean",
+      "acceptance": "Benzel.fullP7 : Benzel.FullP7Goal, including all original admissible a,b",
+      "instruction": "Produce checked Lean terms for this actual target. Do not add mathematical assumptions or change source semantics."
+    },
+    {
+      "id": "L15",
+      "depends_on": [
+        "L06",
+        "L10",
+        "L13"
+      ],
+      "title": "Cold replay, statement/axiom audit and package",
+      "status": "OPEN",
+      "source": "tools/lean_check.py",
+      "acceptance": "Closed achieved scopes only, exact source identities and final logs",
+      "instruction": "Produce checked Lean terms for this actual target. Do not add mathematical assumptions or change source semantics."
+    }
+  ],
+  "agents_launched": 0
+}

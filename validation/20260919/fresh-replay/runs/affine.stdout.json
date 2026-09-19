@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "exact_affine_identities": 6559,
+  "mutation_rejections": 3,
+  "external_libraries": false
+}

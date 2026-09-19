@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "identities": 18,
+  "mutations_rejected": 2,
+  "engine": "Python integer exponent dictionaries only",
+  "seconds": 0.514,
+  "input_sha256": "11b103eab740e05bb522c0c299089f53a4cec1b0b4901dd8f128d53835c25f80",
+  "results": [
+    {
+      "identity": "threefold k>=2,m>=3k+2",
+      "integer_terms_after_expansion": 28128,
+      "remaining_coefficients": 0
+    },
+    {
+      "identity": "threefold k=1,m>=5",
+      "integer_terms_after_expansion": 510,
+      "remaining_coefficients": 0
+    },
+    {
+      "identity": "fixed q=1,m>=3",
+      "integer_terms_after_expansion": 408,
+      "remaining_coefficients": 0
+    },
+    {
+      "identity": "fixed q=2,m>=4",
+      "integer_terms_after_expansion": 493,
+      "remaining_coefficients": 0
+    },
+    {
+      "identity": "fixed q=4,m>=6",
+      "integer_terms_after_expansion": 882,
+      "remaining_coefficients": 0
+    },
+    {
+      "identity": "fixed q=5,m>=7",
+      "integer_terms_after_expansion": 1116,
+      "remaining_coefficients": 0
+    },
+    {
+      "identity": "scaffold r=1,k>=4",
+      "integer_terms_after_expansion": 31242,
+      "remaining_coefficients": 0
+    },
+    {
+      "identity": "endpoint r=1,k>=4",
+      "integer_terms_after_expansion": 1896,
+      "remaining_coefficients": 0
+    },
+    {
+      "identity": "scaffold k=2,r=1,m>=9",
+      "integer_terms_after_expansion": 16974,
+      "remaining_coefficients": 0
+    },
+    {
+      "identity": "endpoint k=2,r=1,m>=9",
+      "integer_terms_after_expansion": 1512,
+      "remaining_coefficients": 0
+    },
+    {
+      "identity": "scaffold k=3,r=1,m>=12",
+      "integer_terms_after_expansion": 23946,
+      "remaining_coefficients": 0
+    },
+    {
+      "identity": "endpoint k=3,r=1,m>=12",
+      "integer_terms_after_expansion": 1656,
+      "remaining_coefficients": 0
+    },
+    {
+      "identity": "scaffold r=2,k>=4",
+      "integer_terms_after_expansion": 32274,
+      "remaining_coefficients": 0
+    },
+    {
+      "identity": "endpoint r=2,k>=4",
+      "integer_terms_after_expansion": 10512,
+      "remaining_coefficients": 0
+    },
+    {
+      "identity": "scaffold k=2,r=2,m>=10",
+      "integer_terms_after_expansion": 17754,
+      "remaining_coefficients": 0
+    },
+    {
+      "identity": "endpoint k=2,r=2,m>=10",
+      "integer_terms_after_expansion": 7896,
+      "remaining_coefficients": 0
+    },
+    {
+      "identity": "scaffold k=3,r=2,m>=13",
+      "integer_terms_after_expansion": 24846,
+      "remaining_coefficients": 0
+    },
+    {
+      "identity": "endpoint k=3,r=2,m>=13",
+      "integer_terms_after_expansion": 9120,
+      "remaining_coefficients": 0
+    }
+  ]
+}

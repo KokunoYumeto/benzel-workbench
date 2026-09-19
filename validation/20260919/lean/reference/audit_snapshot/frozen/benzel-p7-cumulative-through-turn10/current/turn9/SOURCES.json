@@ -1,0 +1,28 @@
+{
+  "method_repository": "KokunoYumeto/zeta-function-research-reader",
+  "method_commit": "1c8ec52c85c173adc9f8403a8a26914955e2f5a9",
+  "source_sections": [
+    "workbenches/splitzero-tandem/tex/support_diagrams.tex D1-D8",
+    "formal/splitzero/SplitZeroComplex.lean"
+  ],
+  "parent_repository": "KokunoYumeto/mathematics-commons-pilot",
+  "parent_commit": "20cb022dcfda7f37b3adec13b5619be8f13be3e8",
+  "parent_materialization": "Preserved turn-8 handback; no current remote mutation claimed.",
+  "parent_sha256": {
+    "PROOF.md": "f8662d8f26971accf8c27e377b2ba77b72a25018402ba70f52703869158d6ed9",
+    "geometry.py": "3db084d34b97704f9c45cb4193137d127f8f0399345e19e5411af7afc0fe6eed",
+    "families.json": "7032c6fc5e4e3be9542f5b5712d5eb071f452d5348d5b045597c24bae806488a",
+    "families.py": "7b224c838997d1aaf78505e51a132249f1dddc699a6149ebe122a96ae7dd793f",
+    "recorded-checks.json": "35e49b9ed60597542a37b50634c3857be88b49ee08b95bb1c5df2c2f745ddc0a",
+    "construction.py": "58c2260a2e96690e58eb3ded86251158329160514ca17ee664c6390d3969d7e4",
+    "transports.py": "be770ea9228df54b2e0b8e7e576d31ae29901a4281d55315aefe6de8b66405ae",
+    "SOURCES.json": "610ae993d876b8722c2138d8aa252b77bc61a2b649be4574bc1e5484d5c6ead1",
+    "cohomology.py": "023b155faa886bfcd794864da1e8bc51ff1c77455f020c63a322366dadac94db",
+    "verify.py": "c49b48a7c72276d8002663243aec9f4f1d6d556fda76ab7cf5efaa2ff627d8e4",
+    "packing.py": "d02b67bb20dac716b2d134978e3b0283a0d72613c32324eef3cced4da0063458",
+    "README.md": "88b69a4ac99d5e36f6cbc013353e30c2b50f33ffbcbec473c18ce4a67bbfb377",
+    "bivariate_certificate.py": "d4582ca9bd261e30d77a199c59c19b20161c0c619c21aaf1e5bb16523955fb72",
+    "STATE.json": "842c4ba6943db7cf210c6a283369daaf2e25238a1c7c007ae775ae78fce8f4a6",
+    "sources/turn6-PROOF.md": "271a3bc14d627c37f5d8e7933f6d6c13a757bcc22b6b3e0913d8078232228a8c"
+  }
+}

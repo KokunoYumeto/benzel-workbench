@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "created": "2026-09-18",
+  "artifact_type": "Lean formalization scaffold and Codex handoff",
+  "new_lean_status": "SOURCE_SCRIPTS_NOT_COMPILED",
+  "lean_available_in_runtime": false,
+  "new_kernel_checked_declarations": 0,
+  "residue_zero_formalization": "OPEN",
+  "global_formalization": "OPEN",
+  "historical_mathematical_audit": "Retained unchanged; separately implemented audit reported PASS",
+  "new_python_checks": "PASS_NORMAL_AND_OPTIMIZED",
+  "generated_typed_edit_groups": 87,
+  "generated_double_indexed_families": 23,
+  "generated_owner_records": 274,
+  "constant_patches": 5,
+  "runtime_compilation_boundary": "No Lean or lake binary found; public binary retrieval did not produce a usable compiler",
+  "remote_writes": false,
+  "agents_launched": 0,
+  "first_priority_claim": false,
+  "first_complete_formal_target": "Benzel.OneStoneGoal",
+  "next_complete_formal_target": "Benzel.ConstructionCorrect Benzel.construct"
+}

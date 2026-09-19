@@ -1,0 +1,8 @@
+{
+  "formal/Benzel/Geometry.lean": "a754a5375a85aba1eb9a6a6dee5973ee3db8c3c9a9cae2f0ec06bd4bfcc11a80",
+  "formal/Benzel/Tiles.lean": "2ae27d72b3f9bb9c2f4312b724dbb4f11231a9fb457bec46f5bcc41d0001d910",
+  "formal/Benzel/Incidence.lean": "1ad390c5daa3a564e0749b694b1dcbc516b2a519a4147f1c07a3bd4cee65776c",
+  "formal/Benzel/Specification.lean": "52cc577b3faf51d44c541aedd5e64096d14f5680b34f5f31427d5b363470810d",
+  "formal/Benzel/OneStone.lean": "c1917236f7c5606a36fd067d338b204d02b17aed008ebc4987e987ab71e92e4e",
+  "formal/Benzel/Parameters.lean": "38fa602aa84478458611c6bf5228b299ec3032a4f92d68737942cdf1c7eb323b"
+}

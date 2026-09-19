@@ -1,0 +1,120 @@
+{
+  "status": "PASS",
+  "domain": "integers k>=4,m>=3k+4",
+  "scaffold": {
+    "rational_terms": 273,
+    "denominator_factors": [
+      [
+        [
+          0,
+          3
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          -2
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          -4
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          -1
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          2
+        ],
+        1
+      ],
+      [
+        [
+          3,
+          -3
+        ],
+        1
+      ],
+      [
+        [
+          3,
+          0
+        ],
+        1
+      ],
+      [
+        [
+          4,
+          -2
+        ],
+        1
+      ]
+    ],
+    "expanded_terms_before_addition": 32274,
+    "remaining_numerator_terms": 0,
+    "proof_domain": "k>=2, m>=3*k+2, both integers; formal identity verified before specialization"
+  },
+  "transport": {
+    "rational_terms": 228,
+    "denominator_factors": [
+      [
+        [
+          0,
+          3
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          -1
+        ],
+        1
+      ],
+      [
+        [
+          3,
+          -3
+        ],
+        1
+      ],
+      [
+        [
+          3,
+          0
+        ],
+        1
+      ]
+    ],
+    "expanded_terms_before_addition": 10512,
+    "remaining_numerator_terms": 0,
+    "proof_domain": "k>=2, m>=3*k+2, both integers; formal identity verified before specialization"
+  },
+  "residual_cells": 27,
+  "groups": 22
+}

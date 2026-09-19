@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "status": "DATA_EXPORTED_NOT_LEAN_CHECKED",
+  "source_records": [
+    {
+      "path": "turn9/edits.json",
+      "sha256": "2094b76eb6cf9a52a9d7ddd5b34810dafc579bf11cd9613e220a563eb027c1cc",
+      "groups": 11,
+      "old_rows": 33,
+      "new_rows": 40,
+      "lean": "formal/Benzel/Generated/ResidueOne.lean"
+    },
+    {
+      "path": "turn10/edits.json",
+      "sha256": "f5795633261efe717b154081fa79a9ab2e2700777d3bde136bd3d0c561214705",
+      "groups": 22,
+      "old_rows": 71,
+      "new_rows": 82,
+      "lean": "formal/Benzel/Generated/ResidueTwo.lean"
+    },
+    {
+      "path": "turn10/edits-k2-r1.json",
+      "sha256": "8037a803875f466accdf3194e92b14a92ba00321ad8ec3a62e4381140d420dc5",
+      "groups": 9,
+      "old_rows": 25,
+      "new_rows": 32,
+      "lean": "formal/Benzel/Generated/ExceptionK2R1.lean"
+    },
+    {
+      "path": "turn10/edits-k2-r2.json",
+      "sha256": "8641a900567a06ba510a296c6a45e770f6ccffa63c59a696671c5e462cef7bc5",
+      "groups": 18,
+      "old_rows": 55,
+      "new_rows": 66,
+      "lean": "formal/Benzel/Generated/ExceptionK2R2.lean"
+    },
+    {
+      "path": "turn10/edits-k3-r1.json",
+      "sha256": "b03d038a5aacefdd46f7a6502f2be4bb70b49d07bb5172fd04867e21e5d09be2",
+      "groups": 9,
+      "old_rows": 28,
+      "new_rows": 35,
+      "lean": "formal/Benzel/Generated/ExceptionK3R1.lean"
+    },
+    {
+      "path": "turn10/edits-k3-r2.json",
+      "sha256": "20207862007b1fa3b35f87dc95437e8c156eee5f01b479d30795e4e6c2943548",
+      "groups": 18,
+      "old_rows": 62,
+      "new_rows": 73,
+      "lean": "formal/Benzel/Generated/ExceptionK3R2.lean"
+    },
+    {
+      "path": "turn8/families.json",
+      "sha256": "7032c6fc5e4e3be9542f5b5712d5eb071f452d5348d5b045597c24bae806488a",
+      "groups": 23,
+      "lean": "formal/Benzel/Generated/Threefold.lean"
+    }
+  ],
+  "generated_sha256": {
+    "ResidueOne": "a7e7c3258d6d792c0a05ef518ec4f608dce39f417f2f559e1b476d39a61db981",
+    "ResidueTwo": "32bf4e28963f4558aab7d1f39303083ca179a7f0d684be0bee61e15c119f284f",
+    "ExceptionK2R1": "dbbb586c6fef89193b6ffd298f424f9680bab3b75c7993777e072bdc75ec133f",
+    "ExceptionK2R2": "cc080c695958315aab43adb9295746db4da226dbc026309f78a8e5eba05ced93",
+    "ExceptionK3R1": "d7f9a8acbab1a58ee52a85be9fc4912d55e1105a3a10d21b35d61cbc5819339f",
+    "ExceptionK3R2": "13fcf8a738ab329f943e48db61fdc32ac973ef04a6bf1143cbf12c2d49445728",
+    "Threefold": "3b3f4494d7198af3b735c86abf07db8e1faf0696f4d9bf148e049829e9c78777",
+    "LocalPatches": "caef31897a6859623666533958864f485ff714a0f06487b0629f61e99fe7f289"
+  },
+  "local_patch_targets": [
+    "Benzel.Generated.bridgeSix_partition",
+    "Benzel.Generated.bridgeSix_old_nodup",
+    "Benzel.Generated.bridgeSix_new_nodup",
+    "Benzel.Generated.bridgeSix_translated",
+    "Benzel.Generated.terminalQ2_partition",
+    "Benzel.Generated.terminalQ2_old_nodup",
+    "Benzel.Generated.terminalQ2_new_nodup",
+    "Benzel.Generated.terminalQ2_translated",
+    "Benzel.Generated.directQ2_partition",
+    "Benzel.Generated.directQ2_old_nodup",
+    "Benzel.Generated.directQ2_new_nodup",
+    "Benzel.Generated.directQ2_translated",
+    "Benzel.Generated.terminalQ3_partition",
+    "Benzel.Generated.terminalQ3_old_nodup",
+    "Benzel.Generated.terminalQ3_new_nodup",
+    "Benzel.Generated.terminalQ3_translated",
+    "Benzel.Generated.directQ3_partition",
+    "Benzel.Generated.directQ3_old_nodup",
+    "Benzel.Generated.directQ3_new_nodup",
+    "Benzel.Generated.directQ3_translated"
+  ],
+  "local_patch_count": 5
+}

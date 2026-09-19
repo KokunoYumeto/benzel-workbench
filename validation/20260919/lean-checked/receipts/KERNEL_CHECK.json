@@ -1,0 +1,324 @@
+{
+  "status": "PASS",
+  "modules": [
+    {
+      "module": "Benzel.Geometry",
+      "source_sha256": "3bd37aba82f56ad5d3910156e727243c458d10b72433a4fc7ce2a972b7f07314",
+      "exit_code": 0,
+      "seconds": 8.719,
+      "peak_tree_rss_bytes": 914501632,
+      "killed": null,
+      "log": "1789773640301774500-Benzel.Geometry.log",
+      "lean": "4.32.0",
+      "mathlib": "81a5d257c8e410db227a6665ed08f64fea08e997",
+      "job_cap_bytes": 2147483648,
+      "lean_threads": 1,
+      "lean_memory_mib": 1600,
+      "olean_sha256": "8f4d181d42ae011f59a19bbedc1a615e70e0e49738d889c00147a0d20e6c422a"
+    },
+    {
+      "module": "Benzel.Tiles",
+      "source_sha256": "a5ac816144fba2beba42446fb08e1d3cf0901d3f3773e6c8b867a1ec60c87ab9",
+      "exit_code": 0,
+      "seconds": 9.193,
+      "peak_tree_rss_bytes": 911810560,
+      "killed": null,
+      "log": "1789773649023050800-Benzel.Tiles.log",
+      "lean": "4.32.0",
+      "mathlib": "81a5d257c8e410db227a6665ed08f64fea08e997",
+      "job_cap_bytes": 2147483648,
+      "lean_threads": 1,
+      "lean_memory_mib": 1600,
+      "olean_sha256": "cf35271675b147251fd7a13793cc202254b1b4d81bbcc1e9813b21f357aa0cab"
+    },
+    {
+      "module": "Benzel.Incidence",
+      "source_sha256": "26427d11cbe5b3c9a77cd2ef4cd1ec13a37e557fd0c43ec46f5f1ac1d2141443",
+      "exit_code": 0,
+      "seconds": 9.98,
+      "peak_tree_rss_bytes": 1037111296,
+      "killed": null,
+      "log": "1789773742944554200-Benzel.Incidence.log",
+      "lean": "4.32.0",
+      "mathlib": "81a5d257c8e410db227a6665ed08f64fea08e997",
+      "job_cap_bytes": 4294967296,
+      "lean_threads": 1,
+      "lean_memory_mib": 3000,
+      "olean_sha256": "89ee2101ce75bcf38eddd0f87cb241901dc2591eb8af31f4067ca965ef4aaed1"
+    },
+    {
+      "module": "Benzel.Parameters",
+      "source_sha256": "37f45601b19250cf448e65b26b4fcafc53737cad2aca85c1afb9b310323c4236",
+      "exit_code": 0,
+      "seconds": 12.032,
+      "peak_tree_rss_bytes": 943333376,
+      "killed": null,
+      "log": "1789773752930076400-Benzel.Parameters.log",
+      "lean": "4.32.0",
+      "mathlib": "81a5d257c8e410db227a6665ed08f64fea08e997",
+      "job_cap_bytes": 4294967296,
+      "lean_threads": 1,
+      "lean_memory_mib": 3000,
+      "olean_sha256": "ff734b96bfbc6460a7cb41283b4ed055f2050137d3dccec92e1301481a6052f3"
+    },
+    {
+      "module": "Benzel.Comparison",
+      "source_sha256": "ecb2d096bf3d0bd25367800aa01f9dac863edf6ff6924443acac7bd7c052644d",
+      "exit_code": 0,
+      "seconds": 8.686,
+      "peak_tree_rss_bytes": 908951552,
+      "killed": null,
+      "log": "1789773764964110400-Benzel.Comparison.log",
+      "lean": "4.32.0",
+      "mathlib": "81a5d257c8e410db227a6665ed08f64fea08e997",
+      "job_cap_bytes": 4294967296,
+      "lean_threads": 1,
+      "lean_memory_mib": 3000,
+      "olean_sha256": "0111a22eab5ac80dd90627b3e65f9a7cdfa8217fed292cbe4534234102b62b6f"
+    },
+    {
+      "module": "Benzel.Generated.LocalPatches",
+      "source_sha256": "caef31897a6859623666533958864f485ff714a0f06487b0629f61e99fe7f289",
+      "exit_code": 0,
+      "seconds": 25.632,
+      "peak_tree_rss_bytes": 1017925632,
+      "killed": null,
+      "log": "1789773773652001500-Benzel.Generated.LocalPatches.log",
+      "lean": "4.32.0",
+      "mathlib": "81a5d257c8e410db227a6665ed08f64fea08e997",
+      "job_cap_bytes": 4294967296,
+      "lean_threads": 1,
+      "lean_memory_mib": 3000,
+      "olean_sha256": "2fb78f82f3037fefe45922ce02403452e60de927da53fd05d8138f0c76cf93ed"
+    },
+    {
+      "module": "Benzel.PatchHomotopy",
+      "source_sha256": "ee756e531d739829af6122d284379898b3d86f5873c12247666592c153f81aa4",
+      "exit_code": 0,
+      "seconds": 10.326,
+      "peak_tree_rss_bytes": 1042845696,
+      "killed": null,
+      "log": "1789773799286119200-Benzel.PatchHomotopy.log",
+      "lean": "4.32.0",
+      "mathlib": "81a5d257c8e410db227a6665ed08f64fea08e997",
+      "job_cap_bytes": 4294967296,
+      "lean_threads": 1,
+      "lean_memory_mib": 3000,
+      "olean_sha256": "504dffe3f5adc06a17db363b3d0a30d81778bfac647d541f2f36023ca2057cd9"
+    },
+    {
+      "module": "Benzel.OneStone",
+      "source_sha256": "1278d12442329399a65a54ea46a8e3e48e47bf44b66a279f96b7e50fdfc4c910",
+      "exit_code": 0,
+      "seconds": 7.123,
+      "peak_tree_rss_bytes": 1033089024,
+      "killed": null,
+      "log": "1789773938106201600-Benzel.OneStone.log",
+      "lean": "4.32.0",
+      "mathlib": "81a5d257c8e410db227a6665ed08f64fea08e997",
+      "job_cap_bytes": 4294967296,
+      "lean_threads": 1,
+      "lean_memory_mib": 3000,
+      "olean_sha256": "0623bcf18424852462a982d0bb562d8a31ce0db15dfa5c2a747b230636190a10"
+    },
+    {
+      "module": "Benzel.BandSlideProof",
+      "source_sha256": "17d5906ccd61ee942ab92e92e338ec3b839d160a5bf64ddd5a3c17d7f4a28a42",
+      "exit_code": 0,
+      "seconds": 10.341,
+      "peak_tree_rss_bytes": 1050042368,
+      "killed": null,
+      "log": "1789773945230871200-Benzel.BandSlideProof.log",
+      "lean": "4.32.0",
+      "mathlib": "81a5d257c8e410db227a6665ed08f64fea08e997",
+      "job_cap_bytes": 4294967296,
+      "lean_threads": 1,
+      "lean_memory_mib": 3000,
+      "olean_sha256": "2c0209d453b53127e34a68dfd1ef484528fd16bfab1dbd402c8a5052e7a1829a"
+    },
+    {
+      "module": "Benzel.SourceOwnershipExamples",
+      "source_sha256": "b295d64c51579ade6c7fc9b40406bccff056a9f1e7ebac0c56bf3f2de34017ba",
+      "exit_code": 0,
+      "seconds": 8.474,
+      "peak_tree_rss_bytes": 901206016,
+      "killed": null,
+      "log": "1789773955573252200-Benzel.SourceOwnershipExamples.log",
+      "lean": "4.32.0",
+      "mathlib": "81a5d257c8e410db227a6665ed08f64fea08e997",
+      "job_cap_bytes": 4294967296,
+      "lean_threads": 1,
+      "lean_memory_mib": 3000,
+      "olean_sha256": "a0332f4201cbd6040b409e4426df23a1e75c4eb63ea5dfb7b958b5378cbdfa49"
+    },
+    {
+      "module": "Audit",
+      "source_sha256": "096f310ff20c137dc2f54b5f2b43c95a808ea8dd5f6345e7c7fb3b4125abc581",
+      "exit_code": 0,
+      "seconds": 9.494,
+      "peak_tree_rss_bytes": 1022398464,
+      "killed": null,
+      "log": "1789773994596317600-Audit.log",
+      "lean": "4.32.0",
+      "mathlib": "81a5d257c8e410db227a6665ed08f64fea08e997",
+      "job_cap_bytes": 4294967296,
+      "lean_threads": 1,
+      "lean_memory_mib": 3000,
+      "olean_sha256": "4b6e0eacdc4d4247d4af9cf6721484176d99cb04e72a9f4cc7cf039d3940dbbc"
+    }
+  ],
+  "axiom_reports": {
+    "Benzel.from_toBary": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Benzel.to_fromBary": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Benzel.reflect_mem_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.rotate_mem_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.twice_triangular": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.boundary_listChain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.charge_one_cycle": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.patch_homotopy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.bridgeSix_boundary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.bridgeSix_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.bridgeSix_old_nodup": [],
+    "Benzel.Generated.bridgeSix_new_nodup": [],
+    "Benzel.Generated.bridgeSix_translated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.terminalQ2_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.terminalQ2_old_nodup": [],
+    "Benzel.Generated.terminalQ2_new_nodup": [],
+    "Benzel.Generated.terminalQ2_translated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.directQ2_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.directQ2_old_nodup": [],
+    "Benzel.Generated.directQ2_new_nodup": [],
+    "Benzel.Generated.directQ2_translated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.terminalQ3_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.terminalQ3_old_nodup": [],
+    "Benzel.Generated.terminalQ3_new_nodup": [],
+    "Benzel.Generated.terminalQ3_translated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.directQ3_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.directQ3_old_nodup": [],
+    "Benzel.Generated.directQ3_new_nodup": [],
+    "Benzel.Generated.directQ3_translated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.horizontal_shift_boundary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.rowBand_boundary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.bandSlide_correct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.last_staircase_anchor": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Benzel.center_not_last_staircase": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Benzel.center_mem_our_stone": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Benzel.fixed_right_anchor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.channel_low_original_owner": [
+      "propext"
+    ],
+    "Benzel.channel_low_domain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.receiving_index_inverse": [
+      "propext"
+    ]
+  },
+  "exact_goal_checked": "example : Benzel.BandSlideGoal := Benzel.bandSlide_correct",
+  "full_p7_formalized": false,
+  "centered_tiling_formalized": false,
+  "original_scaffold_toolchain": "4.31.0",
+  "tested_toolchain": "4.32.0",
+  "reason_for_port": "Reuse existing pinned local cache; no dependency build required."
+}

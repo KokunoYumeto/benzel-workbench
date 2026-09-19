@@ -1,0 +1,12 @@
+[
+  {
+    "path": "lean-checked/replay/Benzel.Geometry.log",
+    "old_sha256": "817c062d9582723d48147629455e6edeb690dd562310136bc3333feed04e1e70",
+    "public_sha256": "6abdc2389f500072d8367fe1019d89de79219e456b8f441da9b683dd54113209"
+  },
+  {
+    "path": "lean-checked/replay/Benzel.SourceOwnershipExamples.log",
+    "old_sha256": "5bd9a61e8f2710e4ef389265e2c22d961e1c95a86452586e339eddbdcf654abd",
+    "public_sha256": "01685ee53a1a82cd81e5e3c7bb20cc11bf19fc99370100398070e135fe98ee4a"
+  }
+]

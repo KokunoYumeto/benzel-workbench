@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "mode": "normal",
+  "python": "3.13.5",
+  "runs": [
+    {
+      "script": "independent_symbolic.py",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 1.344,
+      "script_sha256": "453e3b11a96f8760682fee1862c0fce876fc5aba5370e7eaf2d4b9137d65a150",
+      "receipt": "evidence/normal/independent-symbolic.json",
+      "receipt_sha256": "a41cc1f4ec5e40066bae5fa674dc31fdd99d8cd7e2b0a31898a1266f3583514f"
+    },
+    {
+      "script": "check_polynomial_receipts.py",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 1.084,
+      "script_sha256": "e437cd7a49dba566ed5b0a5bad7fa2377a9019dbdb0b707f5a6d9037413f6cc5",
+      "receipt": "evidence/normal/polynomial-receipt-check.json",
+      "receipt_sha256": "e5803ebbf7d14323c1f7a73a2f778e58cff15675efd6ab897d289213854ba91b"
+    },
+    {
+      "script": "table_semantics.py",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.878,
+      "script_sha256": "d09172a84b9468a71c6c1816c6b004d3437cf38552b14814691e25c0a25a45b4",
+      "receipt": "evidence/normal/table-semantics.json",
+      "receipt_sha256": "8e9c07440197d76e1ab81a6ab70b84817cac29eb46471d8f32d694be90513863"
+    },
+    {
+      "script": "independent_sources.py",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 9.452,
+      "script_sha256": "ab89b79ddcb9a30aab588fda90c2b9dc6021383adb668cf3ff2f37972069648d",
+      "receipt": "evidence/normal/independent-sources.json",
+      "receipt_sha256": "44a0cbec003b912d6981b0a295b71668183a1edbedc5c51d27cb95690b521a3e"
+    },
+    {
+      "script": "check_linear_receipts.py",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 1.172,
+      "script_sha256": "dd65e37259a3c04d06f36a3e20499f6b9d3244a0958ec36ae3affeedfc931c4f",
+      "receipt": "evidence/normal/linear-receipt-check.json",
+      "receipt_sha256": "a7e57ec446b84fd3a55d6871bd0f3288aef25a2f375bea8d42c070482c55112e"
+    },
+    {
+      "script": "independent_kernel.py",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.952,
+      "script_sha256": "5e70dbdba2db16c180814c7fff2371163bcff2240e05b251745d7b92864442f2",
+      "receipt": "evidence/normal/independent-kernel.json",
+      "receipt_sha256": "414aa2f6ce65b88fa8bd069bd37793697568daf1dde4ef579b3491d402e7d1b7"
+    },
+    {
+      "script": "local_and_parameters.py",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.92,
+      "script_sha256": "973b93163578e7a9a0cadae5dab1150993beca65ce97283e7528ee2e41277291",
+      "receipt": "evidence/normal/local-and-parameters.json",
+      "receipt_sha256": "cd76771418d48f8e72bab5978526ca28e99d5419b2cf0dea45d8409f0c181463"
+    }
+  ]
+}

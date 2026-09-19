@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "original_positive_patch_identities": [
+    {
+      "patch": "eight-bone bridge",
+      "cells": 27
+    },
+    {
+      "patch": "q1, k=2",
+      "cells": 45
+    },
+    {
+      "patch": "q2, k=2",
+      "cells": 54
+    },
+    {
+      "patch": "q1, k=3",
+      "cells": 54
+    },
+    {
+      "patch": "q2, k=3",
+      "cells": 66
+    }
+  ],
+  "integer_inverse_controls": 100021,
+  "dispatcher_controls": 100001,
+  "invalid_inputs_rejected": 10,
+  "independence": "Partition and inverse checker written independently; literal patch tables are frozen source data. The producer is only the object of comparison.",
+  "scope": "Exact local identities and finite implementation controls; general exhaustion is proved in the audit report."
+}

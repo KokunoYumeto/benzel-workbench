@@ -1,0 +1,11 @@
+{
+  "stage": "preflight",
+  "lean_checked": false,
+  "full_p7_formalized": false,
+  "static": {
+    "status": "PASS",
+    "meaning": "Specification hashes and source-policy scan only"
+  },
+  "status": "PREFLIGHT_PASS_ONLY",
+  "reason": "No Lean invocation requested; not a proof certificate"
+}

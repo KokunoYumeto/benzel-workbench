@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "preserved_inputs": [
+    {
+      "input": "benzel-audit-20260918",
+      "files": 210,
+      "all_hashes_equal": true
+    },
+    {
+      "input": "benzel-lean-codex",
+      "files": 281,
+      "all_hashes_equal": true
+    }
+  ],
+  "public_link_checks": 30,
+  "compiled_modules": 12,
+  "axiom_reports": 39,
+  "files": 560,
+  "reader_pdf_sha256": "f9bec49eda96954d31b5d97e789bbc3a8f08f8881ab47ec1dbfe0f8bfd9faa62",
+  "full_p7_formalized": false,
+  "centered_tiling_formalized": false
+}

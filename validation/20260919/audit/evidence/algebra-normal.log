@@ -1,0 +1,7 @@
+normal independent_symbolic.py PASS
+normal check_polynomial_receipts.py PASS
+normal table_semantics.py PASS
+normal independent_sources.py PASS
+normal check_linear_receipts.py PASS
+normal independent_kernel.py PASS
+normal local_and_parameters.py PASS

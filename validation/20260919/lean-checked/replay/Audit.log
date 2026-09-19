@@ -1,0 +1,39 @@
+'Benzel.from_toBary' depends on axioms: [propext, Quot.sound]
+'Benzel.to_fromBary' depends on axioms: [propext, Quot.sound]
+'Benzel.reflect_mem_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.rotate_mem_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.twice_triangular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.boundary_listChain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.charge_one_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.patch_homotopy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.bridgeSix_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.Generated.bridgeSix_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.Generated.bridgeSix_old_nodup' does not depend on any axioms
+'Benzel.Generated.bridgeSix_new_nodup' does not depend on any axioms
+'Benzel.Generated.bridgeSix_translated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.Generated.terminalQ2_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.Generated.terminalQ2_old_nodup' does not depend on any axioms
+'Benzel.Generated.terminalQ2_new_nodup' does not depend on any axioms
+'Benzel.Generated.terminalQ2_translated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.Generated.directQ2_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.Generated.directQ2_old_nodup' does not depend on any axioms
+'Benzel.Generated.directQ2_new_nodup' does not depend on any axioms
+'Benzel.Generated.directQ2_translated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.Generated.terminalQ3_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.Generated.terminalQ3_old_nodup' does not depend on any axioms
+'Benzel.Generated.terminalQ3_new_nodup' does not depend on any axioms
+'Benzel.Generated.terminalQ3_translated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.Generated.directQ3_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.Generated.directQ3_old_nodup' does not depend on any axioms
+'Benzel.Generated.directQ3_new_nodup' does not depend on any axioms
+'Benzel.Generated.directQ3_translated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.horizontal_shift_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.rowBand_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.bandSlide_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.last_staircase_anchor' depends on axioms: [propext, Quot.sound]
+'Benzel.center_not_last_staircase' depends on axioms: [propext, Quot.sound]
+'Benzel.center_mem_our_stone' depends on axioms: [propext, Quot.sound]
+'Benzel.fixed_right_anchor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.channel_low_original_owner' depends on axioms: [propext]
+'Benzel.channel_low_domain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Benzel.receiving_index_inverse' depends on axioms: [propext]

@@ -1,0 +1,7 @@
+optimized independent_symbolic.py PASS
+optimized check_polynomial_receipts.py PASS
+optimized table_semantics.py PASS
+optimized independent_sources.py PASS
+optimized check_linear_receipts.py PASS
+optimized independent_kernel.py PASS
+optimized local_and_parameters.py PASS

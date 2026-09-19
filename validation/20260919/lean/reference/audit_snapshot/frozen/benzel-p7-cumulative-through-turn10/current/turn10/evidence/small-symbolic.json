@@ -1,0 +1,415 @@
+[
+  {
+    "status": "PASS",
+    "q": 7,
+    "k": 2,
+    "m_min": 9,
+    "m_unbounded": true,
+    "scaffold": {
+      "rational_terms": 259,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -4
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            4,
+            -2
+          ],
+          1
+        ]
+      ],
+      "expanded_terms_before_addition": 31242,
+      "remaining_numerator_terms": 0
+    },
+    "endpoint": {
+      "rational_terms": 83,
+      "denominator_factors": [
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ]
+      ],
+      "expanded_terms_before_addition": 378,
+      "remaining_numerator_terms": 0
+    }
+  },
+  {
+    "status": "PASS",
+    "q": 8,
+    "k": 2,
+    "m_min": 10,
+    "m_unbounded": true,
+    "scaffold": {
+      "rational_terms": 273,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -4
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            4,
+            -2
+          ],
+          1
+        ]
+      ],
+      "expanded_terms_before_addition": 32274,
+      "remaining_numerator_terms": 0
+    },
+    "endpoint": {
+      "rational_terms": 164,
+      "denominator_factors": [
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ]
+      ],
+      "expanded_terms_before_addition": 1560,
+      "remaining_numerator_terms": 0
+    }
+  },
+  {
+    "status": "PASS",
+    "q": 10,
+    "k": 3,
+    "m_min": 12,
+    "m_unbounded": true,
+    "scaffold": {
+      "rational_terms": 259,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -4
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            4,
+            -2
+          ],
+          1
+        ]
+      ],
+      "expanded_terms_before_addition": 31242,
+      "remaining_numerator_terms": 0
+    },
+    "endpoint": {
+      "rational_terms": 101,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ]
+      ],
+      "expanded_terms_before_addition": 1656,
+      "remaining_numerator_terms": 0
+    }
+  },
+  {
+    "status": "PASS",
+    "q": 11,
+    "k": 3,
+    "m_min": 13,
+    "m_unbounded": true,
+    "scaffold": {
+      "rational_terms": 273,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -4
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            4,
+            -2
+          ],
+          1
+        ]
+      ],
+      "expanded_terms_before_addition": 32274,
+      "remaining_numerator_terms": 0
+    },
+    "endpoint": {
+      "rational_terms": 202,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ]
+      ],
+      "expanded_terms_before_addition": 9264,
+      "remaining_numerator_terms": 0
+    }
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "typed_family_records_roundtripped": 110,
+  "owner_records_roundtripped": 274,
+  "local_patches_roundtripped": 5,
+  "lean_typechecking": "NOT_PERFORMED"
+}

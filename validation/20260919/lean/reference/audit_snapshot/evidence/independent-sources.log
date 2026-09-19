@@ -1,0 +1,7 @@
+{'fixed_k': None, 'residue': 1, 'original_tile_map_identities': 33, 'affine_certificates': 677, 'status': 'PASS'}
+{'fixed_k': None, 'residue': 2, 'original_tile_map_identities': 71, 'affine_certificates': 1479, 'status': 'PASS'}
+{'fixed_k': 2, 'residue': 1, 'original_tile_map_identities': 25, 'affine_certificates': 407, 'status': 'PASS'}
+{'fixed_k': 2, 'residue': 2, 'original_tile_map_identities': 55, 'affine_certificates': 968, 'status': 'PASS'}
+{'fixed_k': 3, 'residue': 1, 'original_tile_map_identities': 28, 'affine_certificates': 559, 'status': 'PASS'}
+{'fixed_k': 3, 'residue': 2, 'original_tile_map_identities': 62, 'affine_certificates': 1178, 'status': 'PASS'}
+PASS total exact rational certificates 6559

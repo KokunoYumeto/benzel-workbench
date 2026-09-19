@@ -1,0 +1,217 @@
+{
+  "status": "PASS",
+  "version": "Lean (version 4.32.0, x86_64-w64-windows-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)",
+  "mathlib": "81a5d257c8e410db227a6665ed08f64fea08e997",
+  "modules": [
+    {
+      "module": "Benzel.Geometry",
+      "sha256": "3bd37aba82f56ad5d3910156e727243c458d10b72433a4fc7ce2a972b7f07314",
+      "exit_code": 0
+    },
+    {
+      "module": "Benzel.Tiles",
+      "sha256": "a5ac816144fba2beba42446fb08e1d3cf0901d3f3773e6c8b867a1ec60c87ab9",
+      "exit_code": 0
+    },
+    {
+      "module": "Benzel.Incidence",
+      "sha256": "26427d11cbe5b3c9a77cd2ef4cd1ec13a37e557fd0c43ec46f5f1ac1d2141443",
+      "exit_code": 0
+    },
+    {
+      "module": "Benzel.Parameters",
+      "sha256": "37f45601b19250cf448e65b26b4fcafc53737cad2aca85c1afb9b310323c4236",
+      "exit_code": 0
+    },
+    {
+      "module": "Benzel.Comparison",
+      "sha256": "ecb2d096bf3d0bd25367800aa01f9dac863edf6ff6924443acac7bd7c052644d",
+      "exit_code": 0
+    },
+    {
+      "module": "Benzel.Generated.LocalPatches",
+      "sha256": "caef31897a6859623666533958864f485ff714a0f06487b0629f61e99fe7f289",
+      "exit_code": 0
+    },
+    {
+      "module": "Benzel.PatchHomotopy",
+      "sha256": "ee756e531d739829af6122d284379898b3d86f5873c12247666592c153f81aa4",
+      "exit_code": 0
+    },
+    {
+      "module": "Benzel.OneStone",
+      "sha256": "1278d12442329399a65a54ea46a8e3e48e47bf44b66a279f96b7e50fdfc4c910",
+      "exit_code": 0
+    },
+    {
+      "module": "Benzel.BandSlideProof",
+      "sha256": "17d5906ccd61ee942ab92e92e338ec3b839d160a5bf64ddd5a3c17d7f4a28a42",
+      "exit_code": 0
+    },
+    {
+      "module": "Benzel.SourceOwnershipExamples",
+      "sha256": "b295d64c51579ade6c7fc9b40406bccff056a9f1e7ebac0c56bf3f2de34017ba",
+      "exit_code": 0
+    },
+    {
+      "module": "BenzelChecked",
+      "sha256": "ca5c1d866d80f502a65ce9bce98a5cbca445e24fbc67b0d0d5e4323f66f6fdd0",
+      "exit_code": 0
+    },
+    {
+      "module": "Audit",
+      "sha256": "096f310ff20c137dc2f54b5f2b43c95a808ea8dd5f6345e7c7fb3b4125abc581",
+      "exit_code": 0
+    }
+  ],
+  "axioms": {
+    "Benzel.from_toBary": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Benzel.to_fromBary": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Benzel.reflect_mem_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.rotate_mem_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.twice_triangular": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.boundary_listChain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.charge_one_cycle": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.patch_homotopy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.bridgeSix_boundary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.bridgeSix_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.bridgeSix_old_nodup": [],
+    "Benzel.Generated.bridgeSix_new_nodup": [],
+    "Benzel.Generated.bridgeSix_translated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.terminalQ2_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.terminalQ2_old_nodup": [],
+    "Benzel.Generated.terminalQ2_new_nodup": [],
+    "Benzel.Generated.terminalQ2_translated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.directQ2_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.directQ2_old_nodup": [],
+    "Benzel.Generated.directQ2_new_nodup": [],
+    "Benzel.Generated.directQ2_translated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.terminalQ3_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.terminalQ3_old_nodup": [],
+    "Benzel.Generated.terminalQ3_new_nodup": [],
+    "Benzel.Generated.terminalQ3_translated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.directQ3_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.Generated.directQ3_old_nodup": [],
+    "Benzel.Generated.directQ3_new_nodup": [],
+    "Benzel.Generated.directQ3_translated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.horizontal_shift_boundary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.rowBand_boundary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.bandSlide_correct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.last_staircase_anchor": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Benzel.center_not_last_staircase": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Benzel.center_mem_our_stone": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Benzel.fixed_right_anchor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.channel_low_original_owner": [
+      "propext"
+    ],
+    "Benzel.channel_low_domain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Benzel.receiving_index_inverse": [
+      "propext"
+    ]
+  },
+  "full_P7_formalized": false,
+  "centered_tiling_formalized": false
+}

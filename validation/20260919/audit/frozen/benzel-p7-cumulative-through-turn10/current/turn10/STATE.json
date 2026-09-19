@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-18",
+  "sprint_turn": 10,
+  "construction_status": "COMPLETE_FOR_ALL_ORIGINAL_RESIDUE_ZERO_PARAMETERS",
+  "domain": "integers d>=2, 0<=h<=binom(d,2)",
+  "canonical_deletion_gaps": [],
+  "new_branches": [
+    "q=3k+2, k>=4, m>=3k+4, d>=m",
+    "q=7,8,10,11; m>=q+2,d>=m"
+  ],
+  "full_P7_assembly": "Completed residue-zero construction + direct residue-one construction + explicitly retained published generalized-compression residue-two input.",
+  "external_review_status": "CLAIMED_UNVERIFIED",
+  "novelty_claim": false,
+  "prior_full_claim": "Reported by owner; not imported or independently audited in this continuation. See PROVENANCE.md.",
+  "new_Lean_build": false,
+  "new_remote_write": false,
+  "next_step": "Independent proof and implementation review, with a separate audit of the published residue-two dependency and side-by-side comparison to the previously claimed complete solution."
+}

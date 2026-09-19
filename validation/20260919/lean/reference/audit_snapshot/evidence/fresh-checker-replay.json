@@ -1,0 +1,191 @@
+{
+  "status": "PASS",
+  "audit_source_byte_identity": {
+    "run_algebra_checks.py": true,
+    "original_cell_check.py": true,
+    "check_polynomial_receipts.py": true,
+    "quick_output_check.py": true,
+    "independent_kernel.py": true,
+    "independent_sources.py": true,
+    "table_semantics.py": true,
+    "check_linear_receipts.py": true,
+    "independent_symbolic.py": true,
+    "local_and_parameters.py": true
+  },
+  "clean_copy_algebra": {
+    "status": "PASS",
+    "mode": "normal",
+    "python": "3.13.5",
+    "runs": [
+      {
+        "script": "independent_symbolic.py",
+        "optimized": false,
+        "returncode": 0,
+        "seconds": 1.255,
+        "script_sha256": "453e3b11a96f8760682fee1862c0fce876fc5aba5370e7eaf2d4b9137d65a150",
+        "receipt": "evidence/normal/independent-symbolic.json",
+        "receipt_sha256": "adabbec1ac543272f57fafec0e74009e1f56436e354eefacaf9210c44f27600e"
+      },
+      {
+        "script": "check_polynomial_receipts.py",
+        "optimized": false,
+        "returncode": 0,
+        "seconds": 1.1,
+        "script_sha256": "e437cd7a49dba566ed5b0a5bad7fa2377a9019dbdb0b707f5a6d9037413f6cc5",
+        "receipt": "evidence/normal/polynomial-receipt-check.json",
+        "receipt_sha256": "b2fb68489c0622c32e5436b04f30d56854d0428e6c36e16c866941743dcd69b7"
+      },
+      {
+        "script": "table_semantics.py",
+        "optimized": false,
+        "returncode": 0,
+        "seconds": 0.86,
+        "script_sha256": "d09172a84b9468a71c6c1816c6b004d3437cf38552b14814691e25c0a25a45b4",
+        "receipt": "evidence/normal/table-semantics.json",
+        "receipt_sha256": "8e9c07440197d76e1ab81a6ab70b84817cac29eb46471d8f32d694be90513863"
+      },
+      {
+        "script": "independent_sources.py",
+        "optimized": false,
+        "returncode": 0,
+        "seconds": 9.294,
+        "script_sha256": "ab89b79ddcb9a30aab588fda90c2b9dc6021383adb668cf3ff2f37972069648d",
+        "receipt": "evidence/normal/independent-sources.json",
+        "receipt_sha256": "c449d6f787a526fa607b9fd4c7b310ecd5371c5ff0c4be6df6549e5ea83ba75f"
+      },
+      {
+        "script": "check_linear_receipts.py",
+        "optimized": false,
+        "returncode": 0,
+        "seconds": 1.112,
+        "script_sha256": "dd65e37259a3c04d06f36a3e20499f6b9d3244a0958ec36ae3affeedfc931c4f",
+        "receipt": "evidence/normal/linear-receipt-check.json",
+        "receipt_sha256": "a7e57ec446b84fd3a55d6871bd0f3288aef25a2f375bea8d42c070482c55112e"
+      },
+      {
+        "script": "independent_kernel.py",
+        "optimized": false,
+        "returncode": 0,
+        "seconds": 0.941,
+        "script_sha256": "5e70dbdba2db16c180814c7fff2371163bcff2240e05b251745d7b92864442f2",
+        "receipt": "evidence/normal/independent-kernel.json",
+        "receipt_sha256": "210b3ef70dc01042df2eaffd604cf76261af22f28990158e91dc35fb055dc3db"
+      },
+      {
+        "script": "local_and_parameters.py",
+        "optimized": false,
+        "returncode": 0,
+        "seconds": 0.881,
+        "script_sha256": "973b93163578e7a9a0cadae5dab1150993beca65ce97283e7528ee2e41277291",
+        "receipt": "evidence/normal/local-and-parameters.json",
+        "receipt_sha256": "cd76771418d48f8e72bab5978526ca28e99d5419b2cf0dea45d8409f0c181463"
+      }
+    ]
+  },
+  "clean_copy_output": {
+    "status": "PASS",
+    "original_parameter_pairs": 12,
+    "tiling_certificates_with_reflections": 24,
+    "placements": 269470,
+    "records": [
+      {
+        "d": 2,
+        "h": 0,
+        "tiles": 1,
+        "cells": 3,
+        "stones": 1,
+        "bones": 0
+      },
+      {
+        "d": 2,
+        "h": 1,
+        "tiles": 9,
+        "cells": 27,
+        "stones": 0,
+        "bones": 9
+      },
+      {
+        "d": 9,
+        "h": 7,
+        "tiles": 365,
+        "cells": 1095,
+        "stones": 29,
+        "bones": 336
+      },
+      {
+        "d": 10,
+        "h": 8,
+        "tiles": 469,
+        "cells": 1407,
+        "stones": 37,
+        "bones": 432
+      },
+      {
+        "d": 12,
+        "h": 10,
+        "tiles": 716,
+        "cells": 2148,
+        "stones": 56,
+        "bones": 660
+      },
+      {
+        "d": 13,
+        "h": 11,
+        "tiles": 859,
+        "cells": 2577,
+        "stones": 67,
+        "bones": 792
+      },
+      {
+        "d": 14,
+        "h": 12,
+        "tiles": 1015,
+        "cells": 3045,
+        "stones": 79,
+        "bones": 936
+      },
+      {
+        "d": 15,
+        "h": 13,
+        "tiles": 1184,
+        "cells": 3552,
+        "stones": 92,
+        "bones": 1092
+      },
+      {
+        "d": 16,
+        "h": 14,
+        "tiles": 1366,
+        "cells": 4098,
+        "stones": 106,
+        "bones": 1260
+      },
+      {
+        "d": 17,
+        "h": 15,
+        "tiles": 1561,
+        "cells": 4683,
+        "stones": 121,
+        "bones": 1440
+      },
+      {
+        "d": 20,
+        "h": 190,
+        "tiles": 119700,
+        "cells": 359100,
+        "stones": 0,
+        "bones": 119700
+      },
+      {
+        "d": 21,
+        "h": 40,
+        "tiles": 7490,
+        "cells": 22470,
+        "stones": 170,
+        "bones": 7320
+      }
+    ],
+    "seconds": 3.1
+  },
+  "scope": "Fresh separate directory with unchanged candidate sources and newly copied audit checkers; seven algebra/source scripts and a 24-certificate original output sample. Not a second full 3372-certificate sweep."
+}

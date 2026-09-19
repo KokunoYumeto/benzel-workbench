@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "patch": "benzel-p7-turn10.patch",
+  "patch_sha256": "1cd7ce8baa627d30303791b3e484d2bc6feb435f11390e9f410472fb3a0d72c0",
+  "patch_bytes": 2369472,
+  "added_files": 129,
+  "modified_preexisting_files": 0,
+  "target": "workbenches/splitzero-nonzeta/sprints/benzel-p7/completion-20260918",
+  "validation": "git apply --check and git apply in a new local repository, followed by byte-for-byte equality of every added file.",
+  "current_remote_checked": false,
+  "remote_write": false,
+  "cold_full_replay": "PASS; exact parameter proofs and the same finite counts as the normal and optimized source runs."
+}

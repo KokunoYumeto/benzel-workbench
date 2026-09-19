@@ -1,0 +1,724 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  11pt,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=0.82in]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{amsmath,amssymb,booktabs,longtable,array}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{xurl}
+\definecolor{ink}{HTML}{18364A}
+\definecolor{linkink}{HTML}{234F67}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\sffamily BENZEL P7\quad /\quad REIMPLEMENTATION AUDIT}
+\fancyhead[R]{\small\sffamily 18 SEPTEMBER 2026}
+\fancyfoot[C]{\small\thepage}
+\setlength{\headheight}{15pt}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\setlength{\emergencystretch}{3em}
+\usepackage{needspace}
+\preto\section{\Needspace{6\baselineskip}}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Benzel P7: reimplementation audit},
+  pdfauthor={Research audit prepared with ChatGPT},
+  colorlinks=true,
+  linkcolor={linkink},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={linkink},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Benzel P7: reimplementation audit}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Original-cell verification, unbounded identities, and
+dependency matching}
+\author{Research audit prepared with ChatGPT}
+\date{18 September 2026}
+
+\begin{document}
+\maketitle
+
+\section{1. Verdict and scope}\label{verdict-and-scope}
+
+\textbf{The frozen turn-10 construction passes this audit.} No
+counterexample, failed coefficient identity, invalid source-index
+certificate, or omitted canonical parameter was found. The residue-zero
+construction is complete at the level of the supplied written,
+exact-certificate-assisted argument. The full original Problem 7
+assembly uses the explicitly matched generalized-compression theorem for
+the residue-two class.
+
+This conclusion is based on a newly written original-cell checker,
+separately assembled symbolic expressions, reconstructed source
+constraints, exact arithmetic replays, and a fresh review of the
+universal mathematical deductions. It is not based on accepting the
+producer's recorded \texttt{PASS} values.
+
+The checking implementations are independent of the producer's
+verification code. The research and this audit were nevertheless
+performed by the same assistant. This is \textbf{not external specialist
+acceptance, a Lean kernel certificate, or an independent audit of
+Sharma's manuscript}. The audit supplies inspectable evidence for a
+subsequent reviewer rather than silently changing a canonical
+publication status.
+
+The frozen claim is the existence of original type-103 tilings of \[
+W_h(d)=V(d+3h,2d+3h),\qquad d\ge2,\quad 0\le h\le t_d,
+\qquad t_d=\frac{d(d-1)}2.
+\] The claimed counts are \(t_d-h\) right stones and \(3h(h+d)\) bones.
+The supplied code additionally constructs the all-right-stone congruence
+class. Its full-P7 statement invokes an external theorem for the
+remaining congruence class; this audit retains that dependency.
+
+The audited input is the \texttt{current/} subtree of the cumulative
+turn-10 archive, including its turn-7, turn-8, turn-9 and turn-10
+mathematical dependencies. All \textbf{131 entries} of its source
+manifest matched, with no missing files and no hash mismatches. No
+mathematical source was repaired during this audit.
+
+The input archive has SHA-256:
+
+\begin{verbatim}
+467427065b6d2612e105511b5350b6b6c15e7639dafda45e468c8670a3ae6e1f
+\end{verbatim}
+
+The precise file identities are in
+\texttt{evidence/frozen-source-identity.json}. The candidate proof is a
+proof \emph{package}: its 17-page PDF refers to full parent proofs,
+literal tile tables and rational certificates. The PDF alone is not its
+entire dependency closure.
+
+\section{2. What was rebuilt}\label{what-was-rebuilt}
+
+The candidate constructors were treated as generators of objects to
+test, not as their own validity oracle. The new scripts live in
+\texttt{audit/}; unchanged candidate code and data live in
+\texttt{frozen/}.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Layer
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+New verification
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Result
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Original geometry & Reconstruct barycentric cells, allowed shapes and
+row intervals without the producer's geometry or coverage checker &
+PASS \\
+Unbounded coefficient equations & Reassemble 18 identities in six formal
+variables using a separate symbolic implementation & PASS \\
+Symbolic arithmetic & Replay the 18 exported identities again using only
+Python integer exponent dictionaries & PASS \\
+Table semantics & Three formal equalities link source, strip and
+deletion parametrizations to their literal tables & PASS \\
+Source ownership & Reconstruct 274 tile-owner identities and 6,559 exact
+affine certificates without importing the producer's constraint builder
+& PASS \\
+Positive endpoint patches & Expand the bridge and all four exceptional
+patches as literal cell partitions & PASS \\
+Integer kernel & Independently reconstruct matching-component relations
+and original-cell forest duals & PASS \\
+Published input & Match the original cells, allowed tiles, parameters
+and positivity domain to compression Theorem 1.1 & Exact dependency
+match \\
+\end{longtable}
+
+The algebra/source pipeline was run in normal and optimized Python. Both
+runs passed; their commands, source hashes and receipt hashes are
+recorded separately. The enlarged full-tiling sweep was run once. No
+claim is made that it was repeated in both modes.
+
+\section{3. Independent check on the original
+objects}\label{independent-check-on-the-original-objects}
+
+\subsection{3.1 Cells, tiles and an inverse coordinate
+map}\label{cells-tiles-and-an-inverse-coordinate-map}
+
+The checker's original cell is a triple \((i,j,k)\in\mathbb Z^3\) with
+\(i+j+k=1\). It reads a candidate pair \((x,y)\) through \[
+(x,y)\longmapsto (x,y,1-x-y),
+\] whose inverse is projection onto the first two coordinates. These are
+Propp's barycentric cell coordinates {[}P{]}.
+
+For a candidate right stone, the new checker obtains the coordinatewise
+minimum \(p\) of the three triples and verifies \[
+\sum p_i=0,\qquad \text{cells}=\{p+e_1,p+e_2,p+e_3\}.
+\] It does not infer the orientation from a supplied label alone. For a
+bone, it computes the exact integer center and requires the three cells
+to be that center and its two adjacent translates in one of the original
+directions. The axial labels are checked against \[
+H:(-1,0,1),\quad V:(0,1,-1),\quad D:(1,-1,0),
+\] with both signs permitted along each centered bone. Floating-point
+coordinates, Boolean coordinates, repeated cells and wrong labels are
+rejected.
+
+\subsection{3.2 Region equality without using the producer's
+area}\label{region-equality-without-using-the-producers-area}
+
+Write \(L=1-a\), \(U=b-1\). For a fixed first coordinate \(i\), the six
+original inequalities give the exact row \[
+\begin{split}
+j_{\min}&=\max\left(i+L,\left\lceil\frac{1-i-U}{2}\right\rceil,L+1-2i\right),\\
+j_{\max}&=\min\left(i+U,\left\lfloor\frac{1-i-L}{2}\right\rfloor,U+1-2i\right).
+\end{split}
+\] The first coordinate ranges from \[
+\left\lceil\frac{1+L-U}{3}\right\rceil
+\quad\text{to}\quad
+\left\lfloor\frac{1+U-L}{3}\right\rfloor.
+\] This follows from \(i=(1-(j-i)+(i-k))/3\). Rows with
+\(j_{\min}>j_{\max}\) are empty.
+
+For each row, the checker sorts \emph{every cell occurrence} in the
+candidate and compares the sequence with every integer in this interval.
+It therefore detects holes and overlapping cells even when they cancel
+in a mere area count. It also tests the original inequalities on every
+cell directly.
+
+Reflection is applied independently as the barycentric transposition
+\((i,j,k)\mapsto(i,k,j)\). It negates and reverses the three
+differences, carries \(V(a,b)\) to \(V(b,a)\), preserves right stones
+and exchanges the two appropriate bone labels. Its square is the
+identity.
+
+\subsection{3.3 Executed finite scope}\label{executed-finite-scope}
+
+The sweep checks every allowed \(h\) for \(d=2,\ldots,20\):
+\textbf{1,349 original parameter pairs} and their reflections. Larger
+tests cover each deletion residue at \(k=4,5,6,9,13,20,31\), two core
+sizes and the smallest and next exterior parameter; duplicates with the
+first sweep are removed. There are 64 additional original cases and 128
+certificates including reflections. The all-stone class contributes 546
+certificates for \(2\le a\le40\), \(a\le b\le2a\), and their
+reflections.
+
+In total:
+
+\begin{longtable}[]{@{}lr@{}}
+\toprule\noalign{}
+Quantity & Executed count \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Complete original/reflected tiling certificates & 3,372 \\
+Placed tiles checked & 59,403,188 \\
+Original cell occurrences checked & 178,209,564 \\
+Deliberately invalid tiling certificates rejected & 8 \\
+\end{longtable}
+
+These are certificate counts, not a claim that all regions or reflected
+tilings are distinct. The finite sweep is implementation evidence; it
+does not establish an unbounded theorem by extrapolation.
+
+\section{4. The unbounded packing
+argument}\label{the-unbounded-packing-argument}
+
+The audit rechecked the retained turn-6 packing proof on its original
+cell carrier rather than replacing it by the finite sweep.
+
+For the reflected first sector, put \(\Delta=t_d-h\). Its prefix cells
+are \[
+x=1-2y-r+z,\quad 1\le y\le h,\quad 0\le z\le3y-1,
+\qquad r=r(y+\Delta),
+\] where \(t_r<y+\Delta\le t_{r+1}\). Since \(y+\Delta\le t_d\), one has
+\(1\le r\le d-1\). The three original differences are \[
+3y+r-1-z,\qquad r-z,\qquad1-3y-2r+2z.
+\] Their actual endpoint bounds establish containment in the reflected
+benzel. For a tail row \(y=h+\ell\), the prefix is replaced by \[
+x=\ell-2h-d+1+z,\qquad 0\le z<3q_\ell,
+\quad q_\ell=\min(h,h+d-\ell).
+\] Substitution gives \[
+3h+d-1-z,\quad d-3\ell-z,\quad
+3\ell-3h-2d+1+2z.
+\] The inequalities \(q_\ell\le h\), \(\ell+q_\ell\le h+d\) give every
+original bound. Empty rows at \(h=0\) are retained as empty ranges.
+
+Within a sector, different rows are disjoint. A putative overlap with a
+rotated sector has \(1\le x<y\). In the prefix/prefix case, the two band
+inequalities force equal triangular-block index \(r\) and \(y-x=r\); two
+values in one such block differ by at most \(r-1\). The tail/prefix case
+forces \(d\le y-x\le d-1\). The tail/tail case forces both
+\(2x+y\le3h+d\) and \(2x+y\ge3h+d+3\). The original rotations transfer
+these exclusions to every sector pair.
+
+The rank map has a literal inverse. The three differences sum to zero
+and are pairwise unequal, because their cyclic differences are congruent
+to two modulo three. Rotate the cell so that its unique minimum is the
+first difference, \(-r\). The cell is uniquely \[
+p_{r,s}=(r-s,-s),\qquad0\le s<r,
+\] and its rank is \(t_r+s+1\). Three rotations give exactly three cells
+per rank.
+
+The first \(\Delta\) ranks form \(\Omega_\Delta\). To check band
+ownership, write \(B=r-s\) and \(c=1-2r+3s\). Of the three
+pre-reflection positions, the only possible owners give the
+complementary conditions \[
+c\le r(B+\Delta)\le r,
+\quad\text{or}\quad c\ge1\ \text{and}\ B+\Delta\le t_c.
+\] Together these are exactly \(\Delta< t_r+s+1\). The finite tail
+misses \(\Omega_\Delta\); its relevant difference is at least \(d\),
+whereas a residual cell has differences at most \(d-1\). This checks the
+claimed stable complement, not just its cardinality.
+
+The three phase domains give the original area independently as three
+copies of a triangle with three disjoint corner triangles removed. Per
+phase the count is \[
+\binom{d+3h}{2}-2\binom h2-\binom{h+1}{2}.
+\] The resulting packing identity is \[
+\partial\Gamma_\Delta(d,h)+\mathbf1_{\Omega_\Delta}
+=\mathbf1_{W_h(d)}.
+\] For triangular \(\Delta=t_m\), the rank inequalities give
+\(\Omega_{t_m}=W_0(m)\). The explicit base stones then tile the entire
+residual.
+
+\section{5. Exact symbolic equations and their positive
+meaning}\label{exact-symbolic-equations-and-their-positive-meaning}
+
+\subsection{5.1 Separate coefficient
+engine}\label{separate-coefficient-engine}
+
+The new symbolic program imports no producer symbolic module. It
+reconstructs the expression from the frozen literal tables, the original
+offsets, and finite geometric sums. Both size parameters remain formal
+in \[
+\mathbb Z[X^{\pm1},Y^{\pm1},M_x^{\pm1},M_y^{\pm1},K_x^{\pm1},K_y^{\pm1}].
+\] Specialization sends \(M_x,M_y,K_x,K_y\) respectively to
+\(X^m,Y^m,X^k,Y^k\). Its kernel is generated by these four defining
+relations, with quotient inverse induced by the original cell variables.
+
+For a nested family with monomial steps \(u,v\), outer length \(I\), and
+inner length \(A+bi\), the exact identity is \[
+\sum_{i=0}^{I-1}u^i\sum_{j=0}^{A+bi-1}v^j
+=\frac{\displaystyle\sum_{i=0}^{I-1}u^i
+-v^A\displaystyle\sum_{i=0}^{I-1}(uv^b)^i}{1-v}.
+\] Its derivation is the finite geometric identity in the inner sum. All
+actual lengths are checked to be nonnegative in the original domains;
+zero length is not replaced by a negative formal range. Direction-zero
+constant sums receive a separate literal treatment.
+
+The affine cell rotation induces the linear map \[
+\rho_*P(X,Y)=Y\,P(Y^{-1},XY^{-1}),
+\] and reflection induces \(F_*P=Y\,P(XY^{-1},Y^{-1})\). These are the
+cell-module maps, not unital ring homomorphisms. The underlying
+substitutions and the displayed translation monomial account for their
+exact effect on every tile boundary.
+
+All denominator factors use only original cell directions and remain
+nonzero under parameter specialization. Clearing them takes place in an
+injective localization of an integer Laurent domain. Consequently a zero
+numerator gives the claimed original finite cell equation after
+specialization. The exact relation \(1/(1-z^{-1})=-z/(1-z)\) is used
+when choosing a common denominator; no parameter or tile coefficient is
+discarded.
+
+\subsection{5.2 What passed before
+specialization}\label{what-passed-before-specialization}
+
+The independent engine verifies 18 identities: the threefold family and
+its \(k=1\) endpoint; fixed \(q=1,2,4,5\); and scaffold/endpoint pairs
+for the two uniform residues and all four exceptional cases. Every
+remaining numerator coefficient is zero. Three additional formal
+identities check that the parent source, long strip and corner-deletion
+tables agree with their written parametrizations.
+
+The 18 complete rational expressions are exported, then replayed by a
+second small checker using only integer exponent dictionaries from the
+Python standard library. That replay also gives zero for every
+coefficient. This allows inspection of the entire arithmetic calculation
+without trusting SymPy's symbolic expression machinery. The
+geometric-sum interpretation and source-domain deductions remain the
+stated mathematical interpretation of those arithmetic receipts.
+
+\subsection{5.3 Positivity is an additional checked
+step}\label{positivity-is-an-additional-checked-step}
+
+A signed identity alone would not prove a tiling. The audit separately
+reconstructs each negative generator's original owner and verifies its
+original index bounds, exclusion from the already removed source, and
+distinctness from the other negative generators.
+
+There are \textbf{274 original affine tile-owner identities} and
+\textbf{6,559 exact nonnegative rational certificates}. The latter are
+equations between independently reconstructed integer affine vectors;
+each coefficient is checked with \texttt{Fraction}. For a desired bound,
+the receipt is an exact nonnegative combination of domain inequalities.
+For a forbidden overlap, it yields a negative constant from nonnegative
+constraints. A second standard-library checker replays all reconstructed
+linear receipts. No numerical optimization status is accepted.
+
+The parent family lengths have 36 further bounds proved by nonnegative
+coefficients after the invertible domain map \[
+k=v+2,\qquad m=u+3v+8,
+\qquad v=k-2\ge0,\quad u=m-3k-2\ge0.
+\] The actual source incidence identity shows the initial scaffold is a
+positive packing. Distinct negative generators are present in that
+scaffold. Removing them once leaves a nonnegative integer vector;
+inserting the positive generators preserves nonnegativity. The final
+cell identity has coefficient one at each target cell and zero
+elsewhere, which proves containment, disjointness and full coverage.
+
+\section{6. The fragile endpoints and complete parameter
+coverage}\label{the-fragile-endpoints-and-complete-parameter-coverage}
+
+Five local positive partition identities were re-expanded without the
+producer's tile or incidence functions: the eight-bone bridge and the
+four exceptional patches. Their common cell counts are respectively 27,
+45, 54, 54 and 66. Both sides of every identity cover the same cells
+with coefficient one.
+
+The zero-length first-residue channel at \(m=3k+3\) still releases one
+old vertical bone. Its new-bone list is empty. That release is present
+in the formulas and certificates. The uniform beta-move range is empty,
+not negative, at \(k=4\). The \(k=2,3\) cases have separate original
+constant patches; the uniform negative range is never used there.
+
+The common source at the smallest exterior parameter \(d=m\), \(h=q\),
+maps to the finite tail using \[
+j_{\mathrm{tail}}=q-1-\ell,
+\qquad
+j_{\mathrm{tail}}=j_{\mathrm{stable}}+q-y.
+\] The inverse is \(j_{\mathrm{stable}}=j_{\mathrm{tail}}+y-q\).
+Substitution into the original tail anchor gives the same three cells.
+At \(d\ge m+1\), \(h\ge m+q\), so the identical generators lie in the
+original prefix. No smallest exterior case is omitted.
+
+For \(\Delta>0\), choose the unique \(m\) with \[
+t_{m-1}<\Delta\le t_m,
+\qquad q=t_m-\Delta.
+\] Then \(0\le q\le m-2\) and \(m\le d\). Conversely the equations
+recover \(\Delta\) and \(h=t_d-t_m+q\). For zero invariant use the
+explicit bone-only construction.
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Canonical deletion case & Implemented construction \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(q=0\) & Stable packing and triangular all-stone core \\
+\(q=1,2,4,5\) & Four fixed-deletion tables \\
+\(q=3k\), \(k\ge1\) & Threefold family \\
+\(q=3k+1\), \(k\ge4\) & First asymmetric family \\
+\(q=3k+2\), \(k\ge4\) & Second asymmetric family \\
+\(q=7,8,10,11\) & Four exceptional patches \\
+\end{longtable}
+
+Division of \(q\) by three exhausts this table. The only quotients below
+four in residues one and two give precisely the fixed and exceptional
+entries. All their core lower bounds are the canonical bound
+\(m\ge q+2\). The two \(d=2\) cases have their own explicit partitions.
+This is a logical exhaustion proof, not the finite dispatch sweep.
+
+As implementation controls, a separately written binary-search inverse
+was compared with the producer on 100,021 nonnegative integers,
+including triangular boundaries with core sizes up to \(10^{100}\). The
+dispatcher was checked at 100,001 deletion counts. Ten malformed or
+out-of-domain constructor inputs were rejected.
+
+\section{7. Integral comparison kernels and Split-Zero
+support}\label{integral-comparison-kernels-and-split-zero-support}
+
+The audit independently reconstructs the graph attached to two actual
+disjoint bone matchings. The columns of \([\partial_-,-\partial_+]\)
+give, at each original cell, the difference of its old and new owners. A
+singly owned cell is attached to a ground vertex. Thus the signed
+incidence matrix is the transpose of an oriented graph incidence matrix
+after the explicit old/new sign convention; it is not merely compared by
+rank.
+
+An equality between old and new boundaries forces equal coefficients
+along each shared-cell edge and zero at each grounded vertex. Its
+solutions are exactly constants on closed components, zero on all other
+components. This gives the primitive original integer generators of
+\(B_-\cap B_+\).
+
+Choose one new-bone pivot in each closed component. The quotient \[
+K=B_+/(B_-\cap B_+)
+\] has basis the remaining new-bone classes. Its coordinate map
+subtracts the pivot coefficient on each closed component; its inverse
+puts zero at pivots. Each forest path supplies an integer original-cell
+dual. Direct evaluation on every old and new column verifies the
+annihilation and Kronecker identities.
+
+The new implementation checked ten actual repair comparisons and two
+closed-component controls, producing \textbf{1,026 integer duals}. The
+closed controls include a single identical old/new bone and a
+three-horizontal-versus-three-vertical tiling of a \(3\times3\) cell
+array; they exercise the primitive-relation quotient rather than only
+open graphs.
+
+For the full support diagram, a nonbottom empty-release label still
+carries the original vacancy support. The scalar actions are \[
+e(E,x)=(E,0),\qquad \tau(E,x)=(\bot,0).
+\] The incoming boundary and its supported-zero companion have the same
+original source and target labels. The fibre quotient descends against
+an arbitrary split-linear target because \(f(E,y)+f(E,0)=f(E,y)\); no
+cancellation assumption on that target is introduced.
+
+The augmented differential and its actual transitions are \[
+\widehat d_E(r,n)=\partial n-rv_E,
+\qquad
+\widehat j_{EE'}(r,n)=(r,jn+r\eta_{EE'}).
+\] The original identity \(v_{E'}=jv_E+\partial\eta_{EE'}\) proves the
+cochain square, and addition of the disjoint released-bone sets proves
+composition. Charge-one nonnegative integral cycles identify exactly
+with original positive patch tilings. Their inclusion into integral
+cycles retains every coefficient.
+
+The reconstructed matching quotient maps to the quotient allowing all
+contained bones. Its further kernel is
+\(\operatorname{im}\partial_{\mathrm{all}}/(B_-+B_+)\). Neither that
+object nor the whole comparison kernel is replaced by the distinguished
+class. The cohomological deductions agree with the specified positive
+cell constructions; they are not used to manufacture a positive lift
+from a signed solution alone.
+
+\section{8. The full original problem and the published
+dependency}\label{the-full-original-problem-and-the-published-dependency}
+
+Propp's Problem 7 asks for type-103 tileability at nonnegative
+Conway--Lagarias invariant {[}P{]}. The audit checked the original
+statement and its cell convention rather than relying on the title of a
+later manuscript.
+
+In the residue-zero class, after the explicit reflection if needed, \[
+d=b-a,\qquad h=(2a-b)/3
+\] are integers. The original invariant in stone-cell units is
+\(CL=3(t_d-h)\). Admissibility gives \(h\ge0\); nonnegativity gives
+\(h\le t_d\). The values \(d=0,1\) would force the invalid parameter
+pairs \((0,0)\), \((1,2)\), so every valid pair lands in the audited
+\(d\ge2\) construction.
+
+\subsection{8.1 Direct residue-one
+construction}\label{direct-residue-one-construction}
+
+For \(a+b\equiv1\pmod3\), take any original cell \(c\), and choose its
+unique candidate anchor \(p=c-e_s\) whose difference residue is
+\(2-a\pmod3\). The three choices give all three residues; \(p\) has
+coordinate sum zero, so its three differences have that same residue.
+
+The cell bounds put those anchor differences in \([-a,b]\). The least
+integer of the selected residue in that interval is \(2-a\), and the
+greatest is \(b-2\), because \(a+b\equiv1\pmod3\). Hence every cell of
+\(\{p+e_1,p+e_2,p+e_3\}\) lies in the original benzel. Every one of
+those three cells selects the same anchor. The map from cells to the
+unique anchor and offset therefore partitions the region into original
+right stones, with the inverse \((p,e_s)\mapsto p+e_s\). This
+establishes the full class directly.
+
+\subsection{8.2 Exact residue-two dependency
+match}\label{exact-residue-two-dependency-match}
+
+Theorem 1.1 of Defant--Foster--Li--Propp--Young {[}C{]} applies to
+\(2\le a\le b\le2a\), \(a+b\equiv2\pmod3\), and gives a count of tilings
+using right, rising and falling tiles. Its parameters in this report are
+\[
+n=b+1-a\ge1,\qquad j=(2a-b-1)/3\ge0,
+\] with inverse \((a,b)=(n+3j,2n+3j-1)\). The actual count is \[
+\prod_{\ell=1}^{j}
+\frac{(2\ell)!(2\ell+2n-2)!}
+{(\ell+n-1)!(\ell+n+j-1)!}.
+\] Every factorial argument is nonnegative and every factor is positive;
+the empty product at \(j=0\) is one. The congruence gives
+\(2a-b\equiv1\pmod3\), so \(b\le2a\) really does imply \(j\ge0\). Thus
+the theorem provides existence throughout the required domain.
+
+The geometric identification is explicit. With \(\omega=e^{2\pi i/3}\),
+send the barycentric cell to \(z=i+j\omega+k\omega^2\). For \(z=x+iy\),
+the difference forms are \[
+u=-x+y/\sqrt3,\quad v=-2y/\sqrt3,\quad w=x+y/\sqrt3.
+\] The unit hexagon offsets \(\pm1,\pm\omega,\pm\omega^2\) change each
+form by at most one. Therefore the center bounds \([1-a,b-1]\) are
+exactly full-cell containment in the published enclosing hexagon. Its
+vertices are the stated \(\omega^r(a\omega+b)\) and
+\(-\omega^r(a+b\omega)\). The original bone directions become rising,
+vertical and falling directions. The inclusion of the published
+right/rising/falling tiles into the four permitted types preserves every
+original cell and commutes with incidence.
+
+This is an exact theorem-interface audit. It is \textbf{not a fresh
+proof audit of every lemma of the compression paper}. Taking that
+published theorem as a cited input, the three congruence classes exhaust
+the full original P7 statement.
+
+\section{9. Findings, limits and
+provenance}\label{findings-limits-and-provenance}
+
+\textbf{No mathematical repair was required.} The audit did not find a
+false universal identity, invalid released source, forgotten zero-length
+term, omitted residue, or invalid full tiling. The claimed residue-zero
+construction is supported by the rebuilt unbounded identities and source
+certificates together with the checked geometric and exhaustion
+arguments.
+
+Two reporting limits must remain visible. First, the full-P7 result
+includes the published residue-two theorem as a dependency; the new
+constructor is not an independent implementation of generalized
+compression. Second, the unchanged prior manuscript claim and older
+algebra attribution are not displaced by a successful audit of this
+construction. No first-discovery conclusion follows from this report.
+
+This audit did not validate the complete 90-page Sharma proof. Its
+method-specific claims, seed tables and layer recursion would require
+their own audit. The supplied parameter translation is consistent with
+the result checked here, but agreement on the theorem statement does not
+identify the two constructions.
+
+The numerical search used during discovery is not part of the acceptance
+calculation. The current trust base consists of the audited finite-sum
+and geometry deductions, the original tables, exact Python integer and
+rational arithmetic, an independently used integer polynomial
+implementation, and the matched published theorem. The second arithmetic
+replay does not require a computer algebra system. A fresh
+copied-directory run also passed all seven algebra/source checks and 24
+additional original/reflected certificate checks (269,470 placements).
+This was a smaller portability replay, not a second full sweep. A
+proof-assistant kernel has not checked the complete argument.
+
+The development log includes one corrected bug in the \emph{new audit
+harness}: a loop initially treated metadata in \texttt{families.json} as
+a tile-family list. The harness was restricted to the explicit
+source/corner/long/deleted collections and rerun. This did not change or
+repair a candidate source or a mathematical identity. The completed
+normal and optimized runs are recorded after the correction.
+
+A suitable result label is \textbf{passed reimplementation audit;
+external review not completed}. No remote repository was changed in this
+review. The frozen earlier research statuses are preserved rather than
+rewritten.
+
+\section{10. Reproduction}\label{reproduction}
+
+From the unpacked audit directory, use Python 3.13 and SymPy 1.14.0 for
+the recorded environment. No internet connection or optimizer is needed
+for the mathematical replays.
+
+\begin{verbatim}
+python audit/run_algebra_checks.py
+python audit/run_algebra_checks.py --optimized
+python audit/original_cell_check.py --max-d 20
+\end{verbatim}
+
+The first two commands reconstruct the expressions and constraints, then
+replay the exact arithmetic and local checks. The last command performs
+the large original-cell sweep. It took approximately 12.4 minutes in the
+audit environment; runtime and memory vary by machine.
+
+To replay the exported arithmetic receipts using only the standard
+library:
+
+\begin{verbatim}
+python audit/check_polynomial_receipts.py
+python audit/check_linear_receipts.py
+\end{verbatim}
+
+Those commands verify the exported identities themselves. The
+reconstruction scripts and the written interpretation establish how the
+receipt vectors arise from the original tile tables.
+
+The bundle includes the unchanged candidate \texttt{current/} source
+subtree, all new checkers, command ledgers, detailed receipts, an
+editable LaTeX report and a compiled PDF. Source files from external
+literature and the supplied Sharma PDF are not redistributed.
+
+\section{References and evidence
+locators}\label{references-and-evidence-locators}
+
+\textbf{{[}P{]}} James Propp, \emph{Trimer covers in the triangular
+grid: twenty mostly open problems}, Problem 7; original barycentric
+conventions and stone/bone figures. The linked author-hosted manuscript
+was inspected on 18 September 2026, including the pages defining the
+cell carrier and stating Problem 7. Source:
+\texttt{https://www.samuelfhopkins.com/OPAC/files/proceedings/propp.pdf}.
+
+\textbf{{[}C{]}} Colin Defant, Leigh Foster, Rupert Li, James Propp and
+Benjamin Young, \emph{Tilings of Benzels via Generalized Compression},
+Theorem 1.1, arXiv:2403.07663v1. The theorem statement, parameter domain
+and original geometric conventions were checked on 18 September 2026.
+The arXiv abstract record identifies the journal publication as SIAM
+Journal on Discrete Mathematics 39(1), 146--162 (2025), DOI
+10.1137/24M1648247. The publisher DOI page was not accessible in this
+session; the mathematical statement was read in the author version.
+Source: \texttt{https://arxiv.org/html/2403.07663v1}.
+
+\textbf{{[}F{]}} Frozen turn-10 package and its retained mathematical
+sources, identified by the source archive hash in Section 1. Exact
+paths, hashes, independent results and run modes are recorded in the
+accompanying JSON ledger. This report does not treat the frozen producer
+receipts as new verification.
+
+\end{document}

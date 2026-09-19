@@ -1,0 +1,17 @@
+test_complete_allowed_report (__main__.GateTests.test_complete_allowed_report) ... ok
+test_current_scaffold_state (__main__.GateTests.test_current_scaffold_state) ... ok
+test_nested_comments (__main__.GateTests.test_nested_comments) ... ok
+test_no_axioms_report (__main__.GateTests.test_no_axioms_report) ... ok
+test_original_literal (__main__.GateTests.test_original_literal) ... ok
+test_reject_bad_literal (__main__.GateTests.test_reject_bad_literal) ... ok
+test_reject_duplicate (__main__.GateTests.test_reject_duplicate) ... ok
+test_reject_extra_target (__main__.GateTests.test_reject_extra_target) ... ok
+test_reject_missing_target (__main__.GateTests.test_reject_missing_target) ... ok
+test_reject_proof_escape (__main__.GateTests.test_reject_proof_escape) ... ok
+test_specification_lock (__main__.GateTests.test_specification_lock) ... ok
+test_task_graph (__main__.GateTests.test_task_graph) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.032s
+
+OK

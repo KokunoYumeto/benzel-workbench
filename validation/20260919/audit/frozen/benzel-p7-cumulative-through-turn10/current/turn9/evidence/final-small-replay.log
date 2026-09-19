@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "python_optimized": false,
+  "domain": "k>=4,m>=3k+3,d>=m; q=3k+1",
+  "symbolic": {
+    "status": "PASS",
+    "domain": "All integers k>=4, m>=3k+3; no finite cutoff",
+    "scaffold_identity": {
+      "rational_terms": 259,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -4
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            4,
+            -2
+          ],
+          1
+        ]
+      ],
+      "expanded_terms_before_addition": 31242,
+      "remaining_numerator_terms": 0,
+      "proof_domain": "k>=2, m>=3*k+2, both integers; formal identity verified before specialization"
+    },
+    "endpoint_transport_identity": {
+      "rational_terms": 115,
+      "denominator_factors": [
+        [
+          [
+            0,
+            3
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ]
+      ],
+      "expanded_terms_before_addition": 1896,
+      "remaining_numerator_terms": 0,
+      "proof_domain": "k>=2, m>=3*k+2, both integers; formal identity verified before specialization"
+    },
+    "residual_cells": 18,
+    "edit_groups": 11,
+    "logical_receipt": "Original cell Laurent coefficients vanish before m or k is specialized. Exact affine source certificates supply positivity."
+  },
+  "source_ownership": {
+    "original_generator_identities": 33,
+    "atomic_old_families": 33,
+    "obligations": 677,
+    "status": "PASS"
+  },
+  "seconds": 0.565,
+  "counts": {
+    "positive_cores": 3,
+    "old_generator_receivers": 174,
+    "edit_groups_expanded": 57,
+    "full_tilings_with_reflections": 12,
+    "full_tile_placements_with_reflections": 37366,
+    "local_homotopy_identities": 12,
+    "rejection_tests": 4
+  },
+  "finite_k_range": [
+    4,
+    4
+  ],
+  "mathematical_scope": "Unbounded Laurent and affine-certificate proof plus separately bounded original-cell replay. Not a full P7 resolution or an independent specialist/Lean certificate."
+}

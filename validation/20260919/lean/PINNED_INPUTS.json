@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "mathlib": {
+    "revision": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+    "provenance": "Pinned upstream formal/splitzero/lakefile.toml, blob 5b7815c62c2384d1e3b76a5c9ab0f9e05014f21c"
+  },
+  "lean": {
+    "toolchain": "leanprover/lean4:v4.31.0",
+    "source_blob": "18640c8b066b182147f324d3aefd8ee48ee45238",
+    "local_build": "NOT_RUN"
+  },
+  "upstream_splitzero": {
+    "repository": "KokunoYumeto/zeta-function-research-reader",
+    "commit": "1c8ec52c85c173adc9f8403a8a26914955e2f5a9",
+    "bootstrap": "tools/fetch_splitzero.py",
+    "source_only_api_inspection": true
+  },
+  "audit_snapshot": {
+    "original_archive": "benzel-p7-independent-audit-20260918.zip",
+    "sha256": "8e6b421ca2171194104156a559d0845fedff560a7a460a9061ba948ad5a654af",
+    "manifest": "reference/audit_snapshot/MANIFEST.sha256",
+    "preserved_payload_entries": 209
+  },
+  "sharma_source": {
+    "supplied_sha256": "3b2a36d9ce12d7e2caa7d4da5d0960af854c972763563330b78b487deae2a5c0",
+    "sections_used": "1.4-1.5: original staircase anchors and shaving order",
+    "manuscript_redistributed": false,
+    "full_proof_audited_here": false
+  }
+}

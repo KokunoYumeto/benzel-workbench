@@ -1,0 +1,11 @@
+{
+  "stage": "starter",
+  "lean_checked": false,
+  "full_p7_formalized": false,
+  "static": {
+    "status": "PASS",
+    "meaning": "Specification hashes and source-policy scan only"
+  },
+  "status": "NOT_RUN",
+  "reason": "Lean/lake executables are not installed in this runtime"
+}

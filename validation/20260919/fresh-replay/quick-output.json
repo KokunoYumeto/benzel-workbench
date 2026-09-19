@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "original_parameter_pairs": 12,
+  "tiling_certificates_with_reflections": 24,
+  "placements": 269470,
+  "records": [
+    {
+      "d": 2,
+      "h": 0,
+      "tiles": 1,
+      "cells": 3,
+      "stones": 1,
+      "bones": 0
+    },
+    {
+      "d": 2,
+      "h": 1,
+      "tiles": 9,
+      "cells": 27,
+      "stones": 0,
+      "bones": 9
+    },
+    {
+      "d": 9,
+      "h": 7,
+      "tiles": 365,
+      "cells": 1095,
+      "stones": 29,
+      "bones": 336
+    },
+    {
+      "d": 10,
+      "h": 8,
+      "tiles": 469,
+      "cells": 1407,
+      "stones": 37,
+      "bones": 432
+    },
+    {
+      "d": 12,
+      "h": 10,
+      "tiles": 716,
+      "cells": 2148,
+      "stones": 56,
+      "bones": 660
+    },
+    {
+      "d": 13,
+      "h": 11,
+      "tiles": 859,
+      "cells": 2577,
+      "stones": 67,
+      "bones": 792
+    },
+    {
+      "d": 14,
+      "h": 12,
+      "tiles": 1015,
+      "cells": 3045,
+      "stones": 79,
+      "bones": 936
+    },
+    {
+      "d": 15,
+      "h": 13,
+      "tiles": 1184,
+      "cells": 3552,
+      "stones": 92,
+      "bones": 1092
+    },
+    {
+      "d": 16,
+      "h": 14,
+      "tiles": 1366,
+      "cells": 4098,
+      "stones": 106,
+      "bones": 1260
+    },
+    {
+      "d": 17,
+      "h": 15,
+      "tiles": 1561,
+      "cells": 4683,
+      "stones": 121,
+      "bones": 1440
+    },
+    {
+      "d": 20,
+      "h": 190,
+      "tiles": 119700,
+      "cells": 359100,
+      "stones": 0,
+      "bones": 119700
+    },
+    {
+      "d": 21,
+      "h": 40,
+      "tiles": 7490,
+      "cells": 22470,
+      "stones": 170,
+      "bones": 7320
+    }
+  ],
+  "seconds": 13.584
+}

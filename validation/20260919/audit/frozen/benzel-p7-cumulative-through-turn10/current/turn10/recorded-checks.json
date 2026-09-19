@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-18",
+  "status": "PASS",
+  "normal_seconds": 24.283,
+  "optimized_seconds": 26.532,
+  "counts_per_run": {
+    "all_h_original_tilings": 297,
+    "all_h_placements": 849706,
+    "reflected_tilings": 297,
+    "reflected_placements": 849706,
+    "independent_regions": 41,
+    "new_unbounded_core_samples": 12,
+    "core_placements": 32988,
+    "unbounded_family_full_and_reflected": 48,
+    "unbounded_placements_with_reflection": 344208,
+    "receiving_generators": 58950,
+    "cohomology_kernel_rank": 804,
+    "cohomology_closed_components": 0,
+    "cohomology_integer_duals": 804,
+    "cohomology_vacancy_cells": 198,
+    "cohomology_augmented_checks": 32,
+    "cohomology_supported_zero_checks": 24,
+    "cohomology_homotopy_identity": 8,
+    "cohomology_complete_comparisons": 8,
+    "exception_core_samples": 12,
+    "exception_full_tilings": 24,
+    "exception_placements": 45818,
+    "original_residue_one_controls": 33,
+    "rejection_tests": 10,
+    "canonical_routing_checks": 10000
+  },
+  "finite_window": {
+    "all_h_d_min": 2,
+    "all_h_d_max": 12,
+    "new_k_min": 4,
+    "new_k_max": 9
+  },
+  "proof_domain": "All integers d>=2 and 0<=h<=binom(d,2), on original W_h(d); parent residue-one construction also replayed.",
+  "proof_status": "Complete written constructive argument with exact parameter certificates; external independent review pending.",
+  "full_P7_dependency": "Published generalized-compression residue-two theorem retained explicitly; not re-audited here.",
+  "prior_claim": "Owner-reported earlier full claim acknowledged; no priority assertion and no audit of that manuscript.",
+  "receipt_sha256": {
+    "normal.json": "b31205ad1e8d5d02f965de0c548e134f14c7b4f61b0881897ff45b89bc083060",
+    "optimized.json": "02574d07fb678b825f98b1acbc1c5826eaff376eaac0b7a6d02222ceaf2bfed2"
+  }
+}

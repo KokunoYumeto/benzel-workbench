@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "formal_generator_map_comparisons": [
+    {
+      "identity": "source8 original (ell,y) indices equal JSON source families",
+      "status": "PASS",
+      "summands": 22,
+      "expanded_monomials": 288,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "source8 original long-strip indices equal JSON long families",
+      "status": "PASS",
+      "summands": 4,
+      "expanded_monomials": 48,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "identity": "source8 original corner deletion indices equal JSON deleted families",
+      "status": "PASS",
+      "summands": 2,
+      "expanded_monomials": 12,
+      "nonzero_result_coefficients": 0,
+      "denominator_factors": [
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ]
+      ]
+    }
+  ],
+  "exact_fraction_finite_sum_controls": 92,
+  "producer_symbolic_code_imported": false
+}

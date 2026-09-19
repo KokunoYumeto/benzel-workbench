@@ -1,0 +1,242 @@
+{
+  "status": "PASS",
+  "seconds": 8.555,
+  "owners": [
+    {
+      "fixed_k": null,
+      "residue": 1,
+      "original_tile_map_identities": 33,
+      "affine_certificates": 677,
+      "status": "PASS"
+    },
+    {
+      "fixed_k": null,
+      "residue": 2,
+      "original_tile_map_identities": 71,
+      "affine_certificates": 1479,
+      "status": "PASS"
+    },
+    {
+      "fixed_k": 2,
+      "residue": 1,
+      "original_tile_map_identities": 25,
+      "affine_certificates": 407,
+      "status": "PASS"
+    },
+    {
+      "fixed_k": 2,
+      "residue": 2,
+      "original_tile_map_identities": 55,
+      "affine_certificates": 968,
+      "status": "PASS"
+    },
+    {
+      "fixed_k": 3,
+      "residue": 1,
+      "original_tile_map_identities": 28,
+      "affine_certificates": 559,
+      "status": "PASS"
+    },
+    {
+      "fixed_k": 3,
+      "residue": 2,
+      "original_tile_map_identities": 62,
+      "affine_certificates": 1178,
+      "status": "PASS"
+    }
+  ],
+  "source_domains": {
+    "status": "PASS",
+    "affine_certificates": 1291
+  },
+  "parent_index_ranges": {
+    "status": "PASS",
+    "bounds": 36,
+    "coordinate_map": "k=v+2, m=u+3v+8; inverse v=k-2,u=m-3k-2",
+    "checks": [
+      {
+        "part": "source",
+        "family": 0,
+        "nonnegative_polynomial": "v + 1"
+      },
+      {
+        "part": "source",
+        "family": 0,
+        "nonnegative_polynomial": "2*v + 6"
+      },
+      {
+        "part": "source",
+        "family": 1,
+        "nonnegative_polynomial": "v + 1"
+      },
+      {
+        "part": "source",
+        "family": 1,
+        "nonnegative_polynomial": "u + 2*v + 2"
+      },
+      {
+        "part": "source",
+        "family": 2,
+        "nonnegative_polynomial": "v + 1"
+      },
+      {
+        "part": "source",
+        "family": 2,
+        "nonnegative_polynomial": "2"
+      },
+      {
+        "part": "source",
+        "family": 3,
+        "nonnegative_polynomial": "2*v + 5"
+      },
+      {
+        "part": "source",
+        "family": 4,
+        "nonnegative_polynomial": "u + 3*v + 6"
+      },
+      {
+        "part": "source",
+        "family": 5,
+        "nonnegative_polynomial": "v + 1"
+      },
+      {
+        "part": "source",
+        "family": 5,
+        "nonnegative_polynomial": "2"
+      },
+      {
+        "part": "corner",
+        "family": 0,
+        "nonnegative_polynomial": "v + 1"
+      },
+      {
+        "part": "corner",
+        "family": 1,
+        "nonnegative_polynomial": "v"
+      },
+      {
+        "part": "corner",
+        "family": 1,
+        "nonnegative_polynomial": "1"
+      },
+      {
+        "part": "corner",
+        "family": 2,
+        "nonnegative_polynomial": "v + 1"
+      },
+      {
+        "part": "corner",
+        "family": 2,
+        "nonnegative_polynomial": "1"
+      },
+      {
+        "part": "corner",
+        "family": 3,
+        "nonnegative_polynomial": "v + 2"
+      },
+      {
+        "part": "corner",
+        "family": 4,
+        "nonnegative_polynomial": "v + 1"
+      },
+      {
+        "part": "corner",
+        "family": 4,
+        "nonnegative_polynomial": "1"
+      },
+      {
+        "part": "corner",
+        "family": 5,
+        "nonnegative_polynomial": "v + 1"
+      },
+      {
+        "part": "corner",
+        "family": 5,
+        "nonnegative_polynomial": "1"
+      },
+      {
+        "part": "corner",
+        "family": 6,
+        "nonnegative_polynomial": "v + 2"
+      },
+      {
+        "part": "corner",
+        "family": 6,
+        "nonnegative_polynomial": "v + 2"
+      },
+      {
+        "part": "corner",
+        "family": 7,
+        "nonnegative_polynomial": "v + 1"
+      },
+      {
+        "part": "corner",
+        "family": 8,
+        "nonnegative_polynomial": "v + 1"
+      },
+      {
+        "part": "corner",
+        "family": 8,
+        "nonnegative_polynomial": "1"
+      },
+      {
+        "part": "corner",
+        "family": 9,
+        "nonnegative_polynomial": "v + 1"
+      },
+      {
+        "part": "corner",
+        "family": 10,
+        "nonnegative_polynomial": "v + 2"
+      },
+      {
+        "part": "corner",
+        "family": 11,
+        "nonnegative_polynomial": "v + 2"
+      },
+      {
+        "part": "corner",
+        "family": 12,
+        "nonnegative_polynomial": "v"
+      },
+      {
+        "part": "corner",
+        "family": 12,
+        "nonnegative_polynomial": "1"
+      },
+      {
+        "part": "corner",
+        "family": 13,
+        "nonnegative_polynomial": "v"
+      },
+      {
+        "part": "corner",
+        "family": 13,
+        "nonnegative_polynomial": "1"
+      },
+      {
+        "part": "corner",
+        "family": 14,
+        "nonnegative_polynomial": "v + 1"
+      },
+      {
+        "part": "long",
+        "family": 0,
+        "nonnegative_polynomial": "v + 2"
+      },
+      {
+        "part": "long",
+        "family": 0,
+        "nonnegative_polynomial": "u + 2"
+      },
+      {
+        "part": "deleted",
+        "family": 0,
+        "nonnegative_polynomial": "v + 2"
+      }
+    ]
+  },
+  "total_exact_affine_receipts": 6559,
+  "all_constraints_reconstructed_without_producer_modules": true,
+  "linear_receipts_sha256": "52c97d21f9e77a6c7bed80b7da734099123b4dade1efb26bc089b2527e377021"
+}

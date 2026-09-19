@@ -1,0 +1,331 @@
+# An asymmetric positive completion for the unbounded deletion family q = 3k + 1
+
+**Benzel P7 continuation, 17 September 2026.** This note gives an original-coordinate, certificate-assisted construction for every integer $k\ge4$, $m\ge3k+3$, and $d\ge m$. It does not declare the full Propp Problem 7 resolved. Independent specialist review, a Lean reconstruction, and a novelty determination have not been completed. The exact turn-8 source remains unchanged alongside this continuation.
+
+## 1. The completed scope and original objects
+
+Put $t_n=n(n-1)/2$ and
+$$
+q=3k+1,\qquad \Delta=t_m-q,\qquad h=t_d-\Delta.
+$$
+For all the parameters above, the construction in this note tiles
+$$
+W_h(d)=V(d+3h,2d+3h)
+$$
+with exactly $\Delta$ original right stones and $3h(h+d)$ original bones. Reflection supplies the reversed parameter pair. Thus $q=13,16,19,\ldots$ is treated without an upper bound on $q$. The cases $k=1,2,3$ are not included in this new theorem; earlier fixed-deletion constructions retain their own scope.
+
+The original axial cell $(x,y)$ has differences
+$$
+(y-x,\;1-x-2y,\;2x+y-1).
+$$
+The benzel $V(a,b)$ requires all three differences to lie in $[1-a,b-1]$. Its barycentric cell is $(x,y,1-x-y)$, with projection onto the first two coordinates as inverse. The original region-parameter inverse is $d=b-a$, $h=(2a-b)/3$ on this integer lane.
+
+The permitted tiles and their original cell offsets are
+
+| Tile | Offsets |
+|---|---|
+| $R$ | $(0,0),(1,0),(0,1)$ |
+| $H$ | $(0,0),(1,0),(2,0)$ |
+| $V$ | $(0,0),(0,1),(0,2)$ |
+| $D$ | $(0,0),(1,-1),(2,-2)$ |
+
+The incidence map $\partial$ sends each placed tile to the sum of its three original cell generators. Rotation and reflection are
+$$
+\rho(x,y)=(y,1-x-y),\qquad F(x,y)=(x,1-x-y).
+$$
+Their inverses are $\rho^2$ and $F$. A tiling is the nonnegative integral fibre of $\partial$ over the original all-ones region vector, not an arbitrary signed chain with the same image.
+
+## 2. The parent packing and the exact old support
+
+We use the complete stable-packing proof retained in `../turn8/sources/turn6-PROOF.md`. Its actual incidence identity is
+$$
+\partial\Gamma_\Delta(d,h)+\mathbf1_{\Omega_\Delta}
+ =\mathbf1_{W_h(d)}.
+$$
+Here $\Omega_\Delta$ consists of the first $\Delta$ original rank orbits. The rank representative is
+$$
+p_{r,s}=(r-s,-s),\quad 0\le s<r,\quad
+\operatorname{rank}(p_{r,s})=t_r+s+1,
+$$
+with its two rotations. Selecting the position of the minimum difference, its negative value $r$, and $s$ gives the inverse map on the original cells.
+
+The common old bone family $A$ is indexed by $p\in\{0,1,2\}$, $1\le y\le m+q$, and $0\le\ell<\min(y,q)$. Its actual generator is
+$$
+a_{p,y,\ell}=F\rho^p H(y-r_y-2-3\ell,y),
+\qquad
+r_y=\begin{cases}m-1&y\le q,\\m&y>q.\end{cases}
+$$
+These are disjoint original bones outside $\Omega_\Delta$. This entire finite family is retained; the new proof does not claim that its release count is minimal.
+
+### 2.1 The source-to-tail receiving maps
+
+At $d=m$, $h=q$. Prefix rows use index $j=y-1-\ell$. In a tail row $q<y\le m+q$, the original first anchor is $y-3q-m+1$ and the receiving index is
+$$
+j_{\rm tail}=q-1-\ell.
+$$
+Its anchor is $y-m-2-3\ell$, exactly the common source anchor. Equivalently,
+$$
+j_{\rm tail}=j_{\rm stable}+q-y,
+\qquad j_{\rm stable}=j_{\rm tail}+y-q.
+$$
+The displayed bounds prove both indices valid. At $d\ge m+1$, $h\ge m+q$, so every common row is an actual prefix row with index $y-1-\ell$. The maps retain sector, orientation, anchor and all three cells, and consequently intertwine the original incidence maps. They include the smallest exterior parameter, not only an eventual range.
+
+## 3. An exact eighteen-cell scaffold
+
+Start from the completed turn-8 $q=3k$ replacement $B_{m,k}$ and its base stones. Translate them by $(-2,1)$ and delete one additional original right stone before that translation, namely $R(m-2-k,-k)$. Denote the surviving translated stone family by $S$. It has $t_m-3k-1$ members. The additional stone has base indices $(r,s)=(0,k)$; it is distinct from the preceding three corner chains because $m\ge3k+3$.
+
+The following table defines an original source subfamily $A_0\subset A$. Every entry uses the literal labels $(p,y,\ell)$ above. Both endpoints of each range are included.
+
+| Sector $p$ | Depth $\ell$ | Rows $y$ |
+|---|---|---|
+| 0 | 0 | $1,\ldots,m+2k-1$ |
+| 0 | $1,\ldots,k-1$ | $\ell+1,\ldots,m+2k-3$ and $m+2k-2+\ell,m+2k-1+\ell$ |
+| 0 | $k$ | $k+1,\ldots,m+3k-1$ |
+| 0 | $k+1,\ldots,2k-1$ | $\ell+1,\ldots,2k+1$ |
+| 1 | $0,\ldots,k-3$ | $\ell+1,\ldots,m+2k-6$ and $m+2k-3+\ell,m+2k-2+\ell$ |
+| 1 | $k-2$ | $k-1,\ldots,m+3k-4$ |
+| 1 | $k-1$ | $k,\ldots,2k-2$ and $3k-1,3k,3k+1$ |
+| 1 | $k,\ldots,2k-3$ | $\ell+1,\ldots,2k-2$ |
+| 2 | $0,\ldots,k-2$ | $\ell+1,\ldots,m+2k-3$ and $m+2k-1+\ell,m+2k+\ell$ |
+| 2 | $k-1$ | $k,\ldots,m+3k-1$ |
+| 2 | $k,\ldots,2k-2$ | $\ell+1,\ldots,2k+1$ |
+| 2 | $2k-1$ | $2k$ |
+
+The depth ranges in each sector are disjoint except for the two explicitly separated row intervals. Their separation follows respectively from the strict gaps between $m+2k-3$ and $m+2k-2+\ell$, between $m+2k-6$ and $m+2k-3+\ell$, and between $m+2k-3$ and $m+2k-1+\ell$. The two ranges at sector 1, depth $k-1$, satisfy $2k-2<3k-1$. All labels obey $1\le y\le m+q$ and $0\le\ell<\min(y,q)$. Thus no old generator is repeated.
+
+Define
+$$
+\alpha(x,y)=\{(x,y),(x,y+1),(x+1,y-1)\}.
+$$
+The eighteen residual cells $Z$ are the following disjoint sets:
+
+- $\alpha(2k-2,4-4k-m)$;
+- $(3k-1,1-m),(3k-1,2-m),(3k,2-m),(3k,3-m),(3k+1,3-m),(3k+1,4-m)$;
+- the original right-stone cell set $R(m-k-4,1-k)$;
+- the vertical triple $V(m+2k-5,2k-4)$;
+- $(m+2k-2,2k-1),(m+2k-2,2k),(m+2k-1,2k)$.
+
+The exact coefficient identity is
+$$
+\partial\bigl((B_{m,k}+(-2,1))+S\bigr)+\mathbf1_Z
+ =\mathbf1_{\Omega_\Delta}+\partial A_0.\tag{1}
+$$
+Here $B+(-2,1)$ means translation of every original tile, not addition of a scalar. `source_table.py` writes this identity in six independent Laurent variables. Its integer numerator cancels before either parameter is specialized; Section 7 describes the complete certificate mechanism.
+
+The right side of (1) is the indicator of a disjoint union of original cells. Every term on the left has nonnegative coefficient. Equation (1) therefore proves the complete positive scaffold, including distinctness of the residual cells. Adding the actual frozen family $A\setminus A_0$ gives a packing of $\Omega_\Delta\cup\operatorname{cells}(A)$ whose uncovered set is exactly $Z$.
+
+## 4. Original local homotopies and positive patch identities
+
+In addition to $\alpha$, put
+$$
+\beta(x,y)=\{(x,y),(x+1,y),(x+1,y+1)\}.
+$$
+The following table states equalities of original cell partitions. The old tiles together with the old holes partition exactly the same support as the new tiles together with the new holes.
+
+The **D move** replaces $V(x+1,y),V(x+2,y-2)$ by $D(x,y),D(x,y+1)$ and sends $\alpha(x,y)$ to $\alpha(x+1,y+1)$.
+
+The **U move** replaces $V(x,y+2),V(x+1,y)$ by $V(x,y),V(x+1,y-1)$ and sends $\alpha(x,y)$ to $\alpha(x,y+3)$.
+
+The **R move** replaces $H(x+2,y),H(x+1,y+1)$ by $H(x,y),H(x,y+1)$ and sends $R(x,y)$ to $R(x+3,y)$.
+
+The **B move** replaces $V(x,y+1),V(x+1,y+2)$ by $V(x,y),V(x+1,y)$ and sends $\beta(x,y)$ to $\beta(x,y+3)$.
+
+Each move is checked by expanding its two original three-cell generators. If $\kappa$ is new minus old, then $\partial\kappa$ is old-hole indicator minus new-hole indicator. Reversing the signed vector and exchanging the two displayed positive partitions gives the inverse local map. No division, averaged orbit or relaxed coefficient is used.
+
+### 4.1 The original intercorner channel, including zero length
+
+Set $L=m-3k-3\ge0$. Release
+$$
+\begin{aligned}
+O_L={}&\{V(3k+2+j,j-m):0\le j\le L\}\\
+ &\cup\{V(3k+2+j,j+3-m):0\le j<L\},
+\end{aligned}
+$$
+and insert
+$$
+N_L=\{D(3k+1+i,3-m+i+b):0\le i<L,\ b=0,1\}.
+$$
+Their cell identity replaces the two holes $(3k+1,3-m),(3k+1,4-m)$ by $(3k+2,-m),(3k+2,1-m)$ and $\alpha(m-2,-3k)$. There are $2L+1$ released bones and $2L$ inserted bones.
+
+At $L=0$, one original vertical bone is still released. The two old holes are also two of the written new holes and cancel in the incidence equation. The remaining three new holes are precisely that released bone. Omitting this generator would incorrectly exclude the smallest exterior parameter. The formula above retains it.
+
+### 4.2 Completion of the first nine-cell endpoint
+
+Apply $k-1$ D moves beginning at
+$$
+(x_i,y_i)=(2k-2+i,4-4k-m+i),\quad 0\le i<k-1.
+$$
+Then apply $k-1$ U moves beginning at
+$$
+(3k-3,3-3k-m+3j),\quad0\le j<k-1.
+$$
+The moving vacancy reaches $\alpha(x,y)$ with $(x,y)=(3k-3,-m)$. Together with it are the six fixed holes
+$$
+(x+2,y+1),(x+2,y+2),(x+3,y+2),(x+3,y+3),(x+5,y),(x+5,y+1).
+$$
+Release $V(x+1,y),V(x+2,y-2),V(x+3,y-1),V(x+4,y)$. Insert
+$$
+\begin{gathered}
+D(x,y),D(x,y+1),D(x+1,y+1),D(x+3,y+3),\\
+H(x+1,y+2),H(x+2,y+1),H(x+3,y).
+\end{gathered}
+$$
+The old four bones plus these nine holes and the new seven bones have the same cell indicator. Expanding the offsets proves the identity. The complete first-endpoint packet releases $4k$ original vertical bones and inserts $4k+3$ bones.
+
+### 4.3 Transport and completion at the other endpoint
+
+Move $\alpha(m-2,-3k)$ by $2k-2$ D moves. Move the right-stone vacancy $R(m-k-4,1-k)$ by $k-1$ R moves. With
+$$
+c=m+2k-4,\qquad b=1-k,
+$$
+the lower six vacancies are now
+$$
+\alpha(c,b-3)\cup R(c-3,b).
+$$
+The following constant replacement, in coordinates relative to $(c,b)$, replaces those six holes by $\beta(-1,6)$.
+
+Release the following fourteen original bones:
+$$
+\begin{gathered}
+H(-1,0),\ H(2,3),\\
+V(-2,1),\ V(-1,1),\ V(-1,4),\ V(0,2),\ V(0,5),\\
+V(1,-3),\ V(1,3),\ V(2,-5),\ V(2,-2),\\
+V(3,-4),\ V(4,-3),\ V(4,0).
+\end{gathered}
+$$
+Insert the following fifteen original bones:
+$$
+\begin{gathered}
+D(0,-3),\ D(0,-2),\ D(1,-2),\ D(1,-1),\ D(2,-1),\\
+H(-3,0),\ H(-3,1),\ H(-2,2),\ H(-2,3),\\
+H(-1,4),\ H(-1,5),\ H(0,0),\ H(1,3),\\
+V(4,-2),\ V(4,1).
+\end{gathered}
+$$
+
+Thus fourteen old bones plus six holes equal fifteen new bones plus three holes. The full relative translation and its inverse are $(u,v)\mapsto(c+u,b+v)$ and $(x,y)\mapsto(x-c,y-b)$.
+
+Apply $k-4$ B moves at
+$$
+(c-1,b+6+3j),\quad0\le j<k-4.
+$$
+For $k=4$ this is the empty sequence, not a negative-length family. At the upper endpoint put $b'=2k-5$. Relative to $(c,b')$, the nine holes are
+$$
+\beta(-1,0)\cup V(-1,1)\cup\{(2,4),(2,5),(3,5)\}.
+$$
+Release $H(0,2),H(0,3),V(3,2)$ and insert
+$$
+H(-1,3),H(1,2),V(-1,0),V(0,0),V(2,3),V(3,3).
+$$
+The corresponding eighteen-cell identity completes the patch.
+
+The complete edit sequence releases $2m+6k-2$ old scaffold bones and inserts $2m+6k+4$ bones. Its aggregate incidence difference is exactly $\mathbf1_Z$. All edit formulas, including the empty channel and empty B-move range, appear in the shared literal `edits.json`.
+
+## 5. Why the original sources of every move exist
+
+A formal vacancy identity alone is insufficient to establish that a proposed edit can be made in this benzel. The source maps are therefore part of this proof.
+
+Every released generator is identified either with an actual common source label outside $A_0$, or with a specified generator of the translated turn-8 corner table. These inverse index formulas are stored beside each old tile in `edits.json`. For example, the first two D-move source families at the first endpoint have common labels
+$$
+(p,y,\ell)=(1,2k-1+i,2k-2),\quad(1,2k+i,2k-1),
+\quad0\le i<k-1.
+$$
+Their original tiles are exactly the two displayed vertical bones, because
+$$
+F\rho H(x,y)=V(y,x).
+$$
+The channel uses labels $(1,3k+2+j,k)$ and $(1,3k+2+j,k-1)$ in the two stated ranges. The latter range stops one row earlier. This retains the different endpoint roles.
+
+The two sources of each R move at the other endpoint are original corner families 6 and 7 (zero-based indices in the retained parent `families.json`), sector 2, with respective indices
+$$
+(i_6,j_6)=(k-1,k-1-n),\qquad i_7=k-2-n,
+\quad0\le n<k-1.
+$$
+The fixed lower patch uses the complementary family-6 index $j_6=0$. Its other exceptional corner indices and both upper-patch indices are printed explicitly in the same table. All remaining sources are common sector-1 vertical bones.
+
+`ownership.py` substitutes every inverse index into the actual original source cell formulas and checks equality of the three affine cell coordinates. This is an identity in $(m,k,n)$, not a test at one parameter. It also checks the domain of every inverse index and proves that every common source used is outside $A_0$.
+
+The domain proof uses exact certificates. An inequality is represented as an integer affine vector $a$ with $a\cdot(m,k,i,j,1)\ge0$. For a required bound $g\ge0$, the receipt expresses $g$ as a nonnegative rational combination of the exact domain inequalities and $1\ge0$. For an alleged intersection with $A_0$ or a repeated original generator, the receipt combines the stated domain and equality constraints into $0\ge1$. The verifier reconstructs the constraints and checks every coefficient exactly using rational arithmetic. A numerical optimizer was used only to discover multipliers; its status is not a proof certificate.
+
+For distinct atomic source families, both original row and depth, or both parent corner indices, are included in this test. Within one indexed family, a nonzero integer index coefficient proves injectivity. The only shared parent family between the R-move source and the fixed lower source has disjoint ranges $j_6\ge1$ and $j_6=0$.
+
+Consequently every old generator occurs exactly once and is present in the initial scaffold. Subtracting them leaves a nonnegative integral tile vector. Inserting the listed positive new generators produces a nonnegative vector. Section 7 proves its exact original cell boundary; coefficient one at each target cell then proves a tiling. The proof does not require an unconstructed positive lift.
+
+## 6. Return to the original full benzel
+
+Let $B'$ be the final bone vector after all the edits. Combining their incidence identity with (1) and the unchanged old common bones gives
+$$
+\partial(B'+S)=\mathbf1_{\Omega_\Delta}+\partial A.\tag{2}
+$$
+The source maps in Section 2 place every member of $A$ in $\Gamma_\Delta(d,h)$. Thus
+$$
+T(d,m,k)=\bigl(\Gamma_\Delta(d,h)\setminus A\bigr)\cup B'\cup S
+$$
+is an original full tiling. The old frozen complement is disjoint from the patch. Equation (2) proves the claimed counts: the patch has $\Delta$ stones, and its number of bones equals $|A|$. The full bone count is therefore unchanged from the parent packing, namely $3h(h+d)$.
+
+This is a direct positive construction on the full displayed parameter domain. No conditional theorem asserting that a future endpoint solution would suffice is used.
+
+## 7. Exact parameter-preserving coefficient proof
+
+The original cell-module isomorphism is $[(x,y)]\mapsto X^xY^y$ in $\mathbb Z[X^{\pm1},Y^{\pm1}]$, with coefficient extraction as inverse. The original tile polynomials are
+$$
+R=1+X+Y,\quad H=1+X+X^2,\quad V=1+Y+Y^2,\quad D=1+XY^{-1}+X^2Y^{-2}.
+$$
+Both parameters are retained first in the six-variable Laurent ring
+$$
+\mathbb Z[X^{\pm1},Y^{\pm1},M_x^{\pm1},M_y^{\pm1},K_x^{\pm1},K_y^{\pm1}].
+$$
+Specialization sends $M_x,M_y,K_x,K_y$ to $X^m,Y^m,X^k,Y^k$. Its kernel consists of the four corresponding parameter relations. The inverse of the induced quotient isomorphism is the inclusion of $X,Y$.
+
+An original indexed segment whose step is $(a,b)$ has its finite geometric numerator divided by $1-X^aY^b$. The source-table branch at $y=q$ is split explicitly: the prefix uses $r_y=m-1$ and the tail uses $r_y=m$. No source mass, endpoint or multiplicity is inferred from an eventual regime.
+
+Two identities are evaluated independently: (1), and the aggregate edit boundary equal to $\mathbf1_Z$. `symbolic_certificate.py` expands their integer Laurent numerators using the exact shared source and edit tables. Every coefficient is zero before parameter specialization. All denominators use original $X,Y$ only and are nonzero. Localization is injective because the Laurent ring is an integral domain; specialization therefore returns the exact finite cell equations. All index lengths are nonnegative on the parameter domain, with length zero retained literally.
+
+Together with Section 5, these evaluated identities supply the complete positive partition proof. The finite tiling replay is an additional check, not the source of the unbounded quantifiers.
+
+## 8. Actual Split-Zero complexes and homotopies
+
+For the fixed $(d,m,k)$, index released original source subsets by $E\subseteq A$, with a separate bottom for empty physical support. Define
+$$
+\Lambda_E=\Omega_\Delta\cup\operatorname{cells}(E),\qquad
+C_E^0=\mathbb Z[\text{original contained tiles}],\quad C_E^1=\mathbb Z[\Lambda_E],\quad C_E^2=0.
+$$
+The maps are the original incidence and generator inclusions. The reconstruction over $G(\mathbb Z)$ retains
+$$
+e\cdot(E,x)=(E,0),\qquad \tau\cdot(E,x)=(\bot,0).
+$$
+Its differential square is the supported-zero map in the actual target degree. The internal quotient coequalizes the original boundary and its supported-zero companion. The proof of descent uses equality modulo the original boundary submodule and absorption at the original fibre zero, exactly as in the retained D1--D8 source.
+
+For old and new bone boundaries $B_A,B_{B'}\subset\mathbb Z[\Lambda_A]$, the original representative map gives
+$$
+\ker\bigl(\mathbb Z[\Lambda_A]/B_A\to\mathbb Z[\Lambda_A]/(B_A+B_{B'})\bigr)
+\cong B_{B'}/(B_A\cap B_{B'}).
+$$
+Its inverse sends a killed representative $a+b$ to $[b]$; two decompositions differ precisely by the displayed intersection. Both original bone families are matchings. The parent matching-graph calculation consequently gives all primitive closed-component relations, integral coordinate inverses and original-cell forest duals. No single distinguished class is substituted for this full kernel.
+
+The repaired representative is
+$$
+z=\mathbf1_{\Omega_\Delta}-\partial S=\partial(B'-A).
+$$
+Coefficient evaluation at the original cell $(m-2,0)$ annihilates $B_A$ and sends $z$ to one. Indeed that cell has rank below the deleted last shell and lies in $\Omega_\Delta$, whereas its first coordinate exceeds the maximum first coordinate of the translated all-stone tiling. It is therefore a split integral class in the old quotient before being killed by the displayed original new boundaries. Its image is its own supported zero, not absence.
+
+The local D, U, R and B moves give explicit degree-minus-one cochain homotopies: if $f,g$ mark their old and new hole cells, then $\partial H=f-g$, where $H$ is the actual new-minus-old bone vector. Their sums telescope through both endpoints. On finite collections of the actual path generators these identities commute with the inclusion maps, and hence reconstruct over $G(\mathbb Z)$ with the support labels unchanged.
+
+Finally, set $v_E=\mathbf1_{\Lambda_E}$ and
+$$
+\widehat d_E(r,n)=\partial n-rv_E.
+$$
+For $E\subseteq E'$, let $\eta_{EE'}$ be the newly released original bones. Then
+$$
+\widehat j_{EE'}(r,n)=(r,jn+r\eta_{EE'}),\qquad
+v_{E'}=jv_E+\partial\eta_{EE'}.
+$$
+Expanding proves the cochain identity and composition. Charge-one nonnegative integral cycles are exactly the positive tiling fibre. Adjoining the frozen outer source bones gives the linear augmented map into the full benzel complex; deleting those same frozen bones is its inverse on the specified containing-tiling fibre. Thus the signed homotopies, actual support comparisons and positive completion are related by displayed morphisms.
+
+## 9. Scope, provenance and continuation
+
+The parent mathematical input is the preserved turn-8 source at Commons commit `20cb022dcfda7f37b3adec13b5619be8f13be3e8`, and its complete stable-packing source. The Split-Zero source remains `zeta-function-research-reader@1c8ec52c85c173adc9f8403a8a26914955e2f5a9`, especially `support_diagrams.tex` D1--D8 and `SplitZeroComplex.lean`. These are dependencies, not claimed new constructions of general homological algebra.
+
+This continuation supplies $q=3k+1$ for $k\ge4$, all $m\ge3k+3$ and all $d\ge m$. It does not supply the unbounded $q=3k+2$ positive endpoint, nor does it replace the earlier separate proofs for small deletion values. Those remain the next original positive-source calculations. No independent acceptance, Lean certificate or full P7 resolution is asserted.
+
+The archive retains exact integer coefficient and affine source certificates, original-coordinate code, normal/optimized replay receipts, and the unchanged earlier source editions. Discovery searches and their numerical statuses are not dependencies of the final constructor.

@@ -1,0 +1,365 @@
+{
+  "scope": "Formula comparison and finite replay; no audit of the other author's full proof",
+  "cases": [
+    {
+      "d": 3,
+      "h": 2,
+      "a": 9,
+      "b": 12,
+      "our_stone_anchor_barycentric": [
+        0,
+        0,
+        0
+      ],
+      "sharma_last_stone_anchor_barycentric": [
+        -4,
+        1,
+        3
+      ],
+      "sharma_stone_cells_barycentric": [
+        [
+          -3,
+          1,
+          3
+        ],
+        [
+          -4,
+          2,
+          3
+        ],
+        [
+          -4,
+          1,
+          4
+        ]
+      ],
+      "same_original_region": true,
+      "our_rotational_symmetry_checked": true,
+      "tile_count": 31
+    },
+    {
+      "d": 4,
+      "h": 5,
+      "a": 19,
+      "b": 23,
+      "our_stone_anchor_barycentric": [
+        0,
+        0,
+        0
+      ],
+      "sharma_last_stone_anchor_barycentric": [
+        -10,
+        3,
+        7
+      ],
+      "sharma_stone_cells_barycentric": [
+        [
+          -9,
+          3,
+          7
+        ],
+        [
+          -10,
+          4,
+          7
+        ],
+        [
+          -10,
+          3,
+          8
+        ]
+      ],
+      "same_original_region": true,
+      "our_rotational_symmetry_checked": true,
+      "tile_count": 136
+    },
+    {
+      "d": 5,
+      "h": 9,
+      "a": 32,
+      "b": 37,
+      "our_stone_anchor_barycentric": [
+        0,
+        0,
+        0
+      ],
+      "sharma_last_stone_anchor_barycentric": [
+        -18,
+        6,
+        12
+      ],
+      "sharma_stone_cells_barycentric": [
+        [
+          -17,
+          6,
+          12
+        ],
+        [
+          -18,
+          7,
+          12
+        ],
+        [
+          -18,
+          6,
+          13
+        ]
+      ],
+      "same_original_region": true,
+      "our_rotational_symmetry_checked": true,
+      "tile_count": 379
+    },
+    {
+      "d": 6,
+      "h": 14,
+      "a": 48,
+      "b": 54,
+      "our_stone_anchor_barycentric": [
+        0,
+        0,
+        0
+      ],
+      "sharma_last_stone_anchor_barycentric": [
+        -28,
+        10,
+        18
+      ],
+      "sharma_stone_cells_barycentric": [
+        [
+          -27,
+          10,
+          18
+        ],
+        [
+          -28,
+          11,
+          18
+        ],
+        [
+          -28,
+          10,
+          19
+        ]
+      ],
+      "same_original_region": true,
+      "our_rotational_symmetry_checked": true,
+      "tile_count": 841
+    },
+    {
+      "d": 7,
+      "h": 20,
+      "a": 67,
+      "b": 74,
+      "our_stone_anchor_barycentric": [
+        0,
+        0,
+        0
+      ],
+      "sharma_last_stone_anchor_barycentric": [
+        -40,
+        15,
+        25
+      ],
+      "sharma_stone_cells_barycentric": [
+        [
+          -39,
+          15,
+          25
+        ],
+        [
+          -40,
+          16,
+          25
+        ],
+        [
+          -40,
+          15,
+          26
+        ]
+      ],
+      "same_original_region": true,
+      "our_rotational_symmetry_checked": true,
+      "tile_count": 1621
+    },
+    {
+      "d": 8,
+      "h": 27,
+      "a": 89,
+      "b": 97,
+      "our_stone_anchor_barycentric": [
+        0,
+        0,
+        0
+      ],
+      "sharma_last_stone_anchor_barycentric": [
+        -54,
+        21,
+        33
+      ],
+      "sharma_stone_cells_barycentric": [
+        [
+          -53,
+          21,
+          33
+        ],
+        [
+          -54,
+          22,
+          33
+        ],
+        [
+          -54,
+          21,
+          34
+        ]
+      ],
+      "same_original_region": true,
+      "our_rotational_symmetry_checked": true,
+      "tile_count": 2836
+    },
+    {
+      "d": 9,
+      "h": 35,
+      "a": 114,
+      "b": 123,
+      "our_stone_anchor_barycentric": [
+        0,
+        0,
+        0
+      ],
+      "sharma_last_stone_anchor_barycentric": [
+        -70,
+        28,
+        42
+      ],
+      "sharma_stone_cells_barycentric": [
+        [
+          -69,
+          28,
+          42
+        ],
+        [
+          -70,
+          29,
+          42
+        ],
+        [
+          -70,
+          28,
+          43
+        ]
+      ],
+      "same_original_region": true,
+      "our_rotational_symmetry_checked": true,
+      "tile_count": 4621
+    },
+    {
+      "d": 10,
+      "h": 44,
+      "a": 142,
+      "b": 152,
+      "our_stone_anchor_barycentric": [
+        0,
+        0,
+        0
+      ],
+      "sharma_last_stone_anchor_barycentric": [
+        -88,
+        36,
+        52
+      ],
+      "sharma_stone_cells_barycentric": [
+        [
+          -87,
+          36,
+          52
+        ],
+        [
+          -88,
+          37,
+          52
+        ],
+        [
+          -88,
+          36,
+          53
+        ]
+      ],
+      "same_original_region": true,
+      "our_rotational_symmetry_checked": true,
+      "tile_count": 7129
+    },
+    {
+      "d": 11,
+      "h": 54,
+      "a": 173,
+      "b": 184,
+      "our_stone_anchor_barycentric": [
+        0,
+        0,
+        0
+      ],
+      "sharma_last_stone_anchor_barycentric": [
+        -108,
+        45,
+        63
+      ],
+      "sharma_stone_cells_barycentric": [
+        [
+          -107,
+          45,
+          63
+        ],
+        [
+          -108,
+          46,
+          63
+        ],
+        [
+          -108,
+          45,
+          64
+        ]
+      ],
+      "same_original_region": true,
+      "our_rotational_symmetry_checked": true,
+      "tile_count": 10531
+    },
+    {
+      "d": 12,
+      "h": 65,
+      "a": 207,
+      "b": 219,
+      "our_stone_anchor_barycentric": [
+        0,
+        0,
+        0
+      ],
+      "sharma_last_stone_anchor_barycentric": [
+        -130,
+        55,
+        75
+      ],
+      "sharma_stone_cells_barycentric": [
+        [
+          -129,
+          55,
+          75
+        ],
+        [
+          -130,
+          56,
+          75
+        ],
+        [
+          -130,
+          55,
+          76
+        ]
+      ],
+      "same_original_region": true,
+      "our_rotational_symmetry_checked": true,
+      "tile_count": 15016
+    }
+  ]
+}

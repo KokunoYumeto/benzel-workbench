@@ -1,0 +1,34 @@
+{
+  "audit_date": "2026-09-18",
+  "scope": "Original problem statement and exact literature dependency match; not a general novelty or live-claim-status search.",
+  "sources": [
+    {
+      "id": "P",
+      "author": "James Propp",
+      "title": "Trimer covers in the triangular grid: twenty mostly open problems",
+      "url": "https://www.samuelfhopkins.com/OPAC/files/proceedings/propp.pdf",
+      "read_scope": "Original barycentric and physical-cell definitions; tile terminology; Problem 7 statement. PDF pages 2,3 and9 visually checked; additional source parsing consulted.",
+      "use": "Original problem semantics, not a claimed solution."
+    },
+    {
+      "id": "C",
+      "authors": [
+        "Colin Defant",
+        "Leigh Foster",
+        "Rupert Li",
+        "James Propp",
+        "Benjamin Young"
+      ],
+      "title": "Tilings of Benzels via Generalized Compression",
+      "version": "arXiv:2403.07663v1",
+      "url": "https://arxiv.org/html/2403.07663v1",
+      "read_scope": "Theorem1.1, its full a,b domain, parameter inverse, positive factorial count, original physical grid and tile conventions.",
+      "publication_metadata_source": "https://arxiv.org/abs/2403.07663",
+      "journal_reference": "SIAM J. Discrete Math. 39(1):146-162 (2025)",
+      "doi": "10.1137/24M1648247",
+      "publisher_doi_fetch": "Unavailable via browsing tool; mathematical statement read in the author version.",
+      "full_proof_reaudited": false
+    }
+  ],
+  "prior_claim": "Sharma manuscript provenance retained from the user-supplied record and frozen PROVENANCE.md. No new status or novelty verdict; no full proof audit of that manuscript."
+}
